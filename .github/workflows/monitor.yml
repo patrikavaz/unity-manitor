@@ -1,0 +1,44 @@
+name: Monitor Unity Cloud JS Changes
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare folders
+        run: mkdir -p chunks
+
+      - name: Fetch all JS URLs from main page
+        run: |
+          curl -s https://dashboard.unity.com | grep -o 'https://cdn.cloud.unity.com/dist/udash/app/assets/[^"]*\.js' | sort -u > js_list.txt
+          cat js_list.txt
+
+      - name: Download JS files
+        run: |
+          while read url; do
+            file="${url#https://cdn.cloud.unity.com/dist/udash/app/assets}"
+            out="chunks${file}"
+            mkdir -p "$(dirname "$out")"
+            echo "↓ $url"
+            curl -f -L "$url" -o "$out" && echo "✓ $file"
+          done < js_list.txt
+
+      - name: Beautify JS
+        run: |
+          npm install -g js-beautify
+          find chunks -name "*.js" -exec js-beautify -r {} \;
+
+      - name: Commit if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Unity Cloud JS updated $(date +'%Y-%m-%d %H:%M')"
+          file_pattern: chunks
