@@ -1,7 +1,7 @@
 try {
     let e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof globalThis ? globalThis : "undefined" != typeof self ? self : {},
         t = (new e.Error).stack;
-    t && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[t] = "123f5861-6f83-4f4c-abf6-2680045b2473", e._sentryDebugIdIdentifier = "sentry-dbid-123f5861-6f83-4f4c-abf6-2680045b2473")
+    t && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[t] = "7e73c017-d5b4-4926-95ea-ea0bf1739c71", e._sentryDebugIdIdentifier = "sentry-dbid-7e73c017-d5b4-4926-95ea-ea0bf1739c71")
 } catch (e) {} {
     let e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof globalThis ? globalThis : "undefined" != typeof self ? self : {};
     e._sentryModuleMetadata = e._sentryModuleMetadata || {}, e._sentryModuleMetadata[new e.Error().stack] = Object.assign({}, e._sentryModuleMetadata[new e.Error().stack], {
@@ -1928,7 +1928,7 @@ try {
                                 [o.ACTION_HEADER]: p,
                                 [o.NEXT_ROUTER_STATE_TREE_HEADER]: (0, b.prepareFlightRouterStateForRequest)(e.tree),
                                 ...{
-                                    "x-deployment-id": "dpl_7cCNH9NNjbDfUcKNx9RQWjgLPQvb"
+                                    "x-deployment-id": "dpl_Ghe9tKHmsumH2Bhn8DcmyBY9LVpU"
                                 },
                                 ...t ? {
                                     [o.NEXT_URL]: t
@@ -2264,7 +2264,7 @@ try {
                 "use strict";
 
                 function r() {
-                    return "?dpl=dpl_7cCNH9NNjbDfUcKNx9RQWjgLPQvb"
+                    return "?dpl=dpl_Ghe9tKHmsumH2Bhn8DcmyBY9LVpU"
                 }
                 Object.defineProperty(t, "__esModule", {
                     value: !0
@@ -2495,7 +2495,7 @@ try {
                         return p
                     },
                     SERVER_PROPS_EXPORT_ERROR: function() {
-                        return q
+                        return W
                     },
                     SERVER_PROPS_GET_INIT_PROPS_CONFLICT: function() {
                         return z
@@ -2513,7 +2513,7 @@ try {
                         return X
                     },
                     STATIC_STATUS_PAGE_GET_INITIAL_PROPS_ERROR: function() {
-                        return W
+                        return q
                     },
                     TEXT_PLAIN_CONTENT_TYPE_HEADER: function() {
                         return r
@@ -2572,8 +2572,8 @@ try {
                     X = "You can not use getInitialProps with getStaticProps. To use SSG, please remove your getInitialProps",
                     z = "You can not use getInitialProps with getServerSideProps. Please remove getInitialProps.",
                     K = "You can not use getStaticProps or getStaticPaths with getServerSideProps. To use SSG, please remove getServerSideProps",
-                    W = "can not have getInitialProps/getServerSideProps, https://nextjs.org/docs/messages/404-get-initial-props",
-                    q = "pages with `getServerSideProps` can not be exported. See more info here: https://nextjs.org/docs/messages/gssp-export",
+                    q = "can not have getInitialProps/getServerSideProps, https://nextjs.org/docs/messages/404-get-initial-props",
+                    W = "pages with `getServerSideProps` can not be exported. See more info here: https://nextjs.org/docs/messages/gssp-export",
                     G = "Your `getStaticProps` function did not return an object. Did you forget to add a `return`?",
                     V = "Your `getServerSideProps` function did not return an object. Did you forget to add a `return`?",
                     J = "The `unstable_revalidate` property is available for general use.\nPlease use `revalidate` instead.",
@@ -3911,11 +3911,11 @@ try {
                     return new Map(t)
                 }
 
-                function W(e, t) {
+                function q(e, t) {
                     return new Set(t)
                 }
 
-                function q(e, t) {
+                function W(e, t) {
                     return new Blob(t.slice(1), {
                         type: t[0]
                     })
@@ -3973,9 +3973,9 @@ try {
                                     case "Q":
                                         return z(r, o = o.slice(2), n, a, K);
                                     case "W":
-                                        return z(r, o = o.slice(2), n, a, W);
-                                    case "B":
                                         return z(r, o = o.slice(2), n, a, q);
+                                    case "B":
+                                        return z(r, o = o.slice(2), n, a, W);
                                     case "K":
                                         return z(r, o = o.slice(2), n, a, G);
                                     case "Z":
@@ -5262,7 +5262,7 @@ try {
                     }
                 }
                 async function m(e, t, r, n) {
-                    t["x-deployment-id"] = "dpl_7cCNH9NNjbDfUcKNx9RQWjgLPQvb";
+                    t["x-deployment-id"] = "dpl_Ghe9tKHmsumH2Bhn8DcmyBY9LVpU";
                     let o = new URL(e);
                     (0, c.setCacheBustingSearchParam)(o, t);
                     let i = await fetch(o, {
@@ -10071,7 +10071,7 @@ Error:`, t)
                         }
                     }, [t, e]), [...L].map((e, t) => (0, o.jsx)("link", {
                         rel: "stylesheet",
-                        href: "" + e + "?dpl=dpl_7cCNH9NNjbDfUcKNx9RQWjgLPQvb",
+                        href: "" + e + "?dpl=dpl_Ghe9tKHmsumH2Bhn8DcmyBY9LVpU",
                         precedence: "next"
                     }, t))
                 }
@@ -10508,7 +10508,7 @@ Error:`, t)
                         return z
                     },
                     default: function() {
-                        return q
+                        return W
                     },
                     matchesMiddleware: function() {
                         return D
@@ -10592,7 +10592,6 @@ Error:`, t)
                     if (!await D(e) || !e.fetchData) return null;
                     let t = await e.fetchData(),
                         r = await
-
                     function(e, t, r) {
                         let n = {
                                 basePath: r.router.basePath,
@@ -10727,7 +10726,7 @@ Error:`, t)
                             } : {}, n && a ? {
                                 "x-middleware-prefetch": "1"
                             } : {}, {
-                                "x-deployment-id": "dpl_7cCNH9NNjbDfUcKNx9RQWjgLPQvb"
+                                "x-deployment-id": "dpl_Ghe9tKHmsumH2Bhn8DcmyBY9LVpU"
                             }),
                             method: null != (u = null == e ? void 0 : e.method) ? u : "GET"
                         }).then(r => r.ok && (null == e ? void 0 : e.method) === "HEAD" ? {
@@ -10796,7 +10795,7 @@ Error:`, t)
                     });
                     window.location.href = t
                 }
-                let W = e => {
+                let q = e => {
                     let {
                         route: t,
                         router: r
@@ -10815,7 +10814,7 @@ Error:`, t)
                         a === r.clc && (r.clc = null)
                     }
                 };
-                class q {
+                class W {
                     reload() {
                         window.location.reload()
                     }
@@ -10909,7 +10908,7 @@ Error:`, t)
                             },
                             z = !0 !== this.isReady;
                         this.isReady = !0;
-                        let W = this.isSsr;
+                        let q = this.isSsr;
                         if (H || (this.isSsr = !1), H && this.clc) return !1;
                         let G = X.locale;
                         d.ST && performance.mark("routeChange");
@@ -10919,21 +10918,21 @@ Error:`, t)
                         } = n, Y = {
                             shallow: V
                         };
-                        this._inFlightRoute && this.clc && (W || q.events.emit("routeChangeError", I(), this._inFlightRoute, Y), this.clc(), this.clc = null), r = (0, R.addBasePath)((0, v.addLocale)((0, P.hasBasePath)(r) ? (0, E.removeBasePath)(r) : r, n.locale, this.defaultLocale));
+                        this._inFlightRoute && this.clc && (q || W.events.emit("routeChangeError", I(), this._inFlightRoute, Y), this.clc(), this.clc = null), r = (0, R.addBasePath)((0, v.addLocale)((0, P.hasBasePath)(r) ? (0, E.removeBasePath)(r) : r, n.locale, this.defaultLocale));
                         let Q = (0, b.removeLocale)((0, P.hasBasePath)(r) ? (0, E.removeBasePath)(r) : r, X.locale);
                         this._inFlightRoute = r;
                         let Z = G !== X.locale;
                         if (!H && this.onlyAHashChange(Q) && !Z) {
-                            X.asPath = Q, q.events.emit("hashChangeStart", r, Y), this.changeState(e, t, r, {
+                            X.asPath = Q, W.events.emit("hashChangeStart", r, Y), this.changeState(e, t, r, {
                                 ...n,
                                 scroll: !1
                             }), J && this.scrollToHash(Q);
                             try {
                                 await this.set(X, this.components[X.route], null)
                             } catch (e) {
-                                throw (0, s.default)(e) && e.cancelled && q.events.emit("routeChangeError", e, Q, Y), e
+                                throw (0, s.default)(e) && e.cancelled && W.events.emit("routeChangeError", e, Q, Y), e
                             }
-                            return q.events.emit("hashChangeComplete", r, Y), !0
+                            return W.events.emit("hashChangeComplete", r, Y), !0
                         }
                         let ee = (0, h.parseRelativeUrl)(t),
                             {
@@ -10991,7 +10990,7 @@ Error:`, t)
                                 })
                             }
                         }
-                        H || q.events.emit("routeChangeStart", r, Y);
+                        H || W.events.emit("routeChangeStart", r, Y);
                         let eu = "/404" === this.pathname || "/_error" === this.pathname;
                         try {
                             let o = await this.getRouteInfo({
@@ -11111,19 +11110,19 @@ Error:`, t)
                                 try {
                                     await this.set(y, o, g)
                                 } catch (e) {
-                                    throw (0, s.default)(e) && e.cancelled && q.events.emit("routeChangeError", e, Q, Y), e
+                                    throw (0, s.default)(e) && e.cancelled && W.events.emit("routeChangeError", e, Q, Y), e
                                 }
                                 return !0
                             }
-                            if (q.events.emit("beforeHistoryChange", r, Y), this.changeState(e, t, r, n), !(H && !g && !z && !Z && (0, w.compareRouterStates)(y, this.state))) {
+                            if (W.events.emit("beforeHistoryChange", r, Y), this.changeState(e, t, r, n), !(H && !g && !z && !Z && (0, w.compareRouterStates)(y, this.state))) {
                                 try {
                                     await this.set(y, o, g)
                                 } catch (e) {
                                     if (e.cancelled) o.error = o.error || e;
                                     else throw e
                                 }
-                                if (o.error) throw H || q.events.emit("routeChangeError", o.error, Q, Y), o.error;
-                                H || q.events.emit("routeChangeComplete", r, Y), d && /#.+$/.test(r) && this.scrollToHash(r)
+                                if (o.error) throw H || W.events.emit("routeChangeError", o.error, Q, Y), o.error;
+                                H || W.events.emit("routeChangeComplete", r, Y), d && /#.+$/.test(r) && this.scrollToHash(r)
                             }
                             return !0
                         } catch (e) {
@@ -11142,7 +11141,7 @@ Error:`, t)
                     }
                     async handleRouteInfoError(e, t, r, n, a, o) {
                         if (e.cancelled) throw e;
-                        if ((0, i.isAssetError)(e) || o) throw q.events.emit("routeChangeError", e, n, a), K({
+                        if ((0, i.isAssetError)(e) || o) throw W.events.emit("routeChangeError", e, n, a), K({
                             url: n,
                             router: this
                         }), I();
@@ -11197,7 +11196,7 @@ Error:`, t)
                             var v, b, R, P;
                             let e = this.components[y];
                             if (l.shallow && e && this.route === y) return e;
-                            let t = W({
+                            let t = q({
                                 route: y,
                                 router: this
                             });
@@ -11399,7 +11398,7 @@ Error:`, t)
                         }).then(() => !1).catch(() => !1)), this.pageLoader[r.priority ? "loadPage" : "prefetch"](b)])
                     }
                     async fetchComponent(e) {
-                        let t = W({
+                        let t = q({
                             route: e,
                             router: this
                         });
@@ -11520,7 +11519,7 @@ Error:`, t)
                         }), this.components["/_app"] = {
                             Component: i,
                             styleSheets: []
-                        }, this.events = q.events, this.pageLoader = a;
+                        }, this.events = W.events, this.pageLoader = a;
                         let P = (0, p.isDynamicRoute)(e) && self.__NEXT_DATA__.autoExport;
                         if (this.basePath = "", this.sub = c, this.clc = null, this._wrapApp = l, this.isSsr = !0, this.isLocaleDomain = !1, this.isReady = !!(self.__NEXT_DATA__.gssp || self.__NEXT_DATA__.gip || self.__NEXT_DATA__.isExperimentalCompile || self.__NEXT_DATA__.appGip && !self.__NEXT_DATA__.gsp || !P && !self.location.search), this.state = {
                                 route: E,
@@ -11547,7 +11546,7 @@ Error:`, t)
                         window.addEventListener("popstate", this.onPopState)
                     }
                 }
-                q.events = (0, f.default)()
+                W.events = (0, f.default)()
             },
             68606: (e, t, r) => {
                 "use strict";
@@ -11991,14 +11990,14 @@ Url: ${E(e)}`), !0
                     X = r(53059),
                     z = r(31157);
                 let K = "Not capturing exception because it's already been captured.",
-                    W = "Discarded session because of missing or non-string release",
-                    q = Symbol.for("SentryInternalError"),
+                    q = "Discarded session because of missing or non-string release",
+                    W = Symbol.for("SentryInternalError"),
                     G = Symbol.for("SentryDoNotSendEventError");
 
                 function V(e) {
                     return {
                         message: e,
-                        [q]: !0
+                        [W]: !0
                     }
                 }
 
@@ -12010,7 +12009,7 @@ Url: ${E(e)}`), !0
                 }
 
                 function Y(e) {
-                    return !!e && "object" == typeof e && q in e
+                    return !!e && "object" == typeof e && W in e
                 }
 
                 function Q(e) {
@@ -12024,7 +12023,7 @@ Url: ${E(e)}`), !0
                                 $ {
                                     t.name
                                 }
-                                /${t.version}`),new URLSearchParams(r).toString()}(e,r)}`}(this._dsn,e.tunnel,e._metadata?e._metadata.sdk:void 0);this._transport=e.transport({tunnel:this._options.tunnel,recordDroppedEvent:this.recordDroppedEvent.bind(this),...e.transportOptions,url:t})}}captureException(e,t,r){let n=(0,_.eJ)();if((0,_.GR)(e))return d.T&&s.vF.log(K),n;let a={event_id:n,...t};return this._process(this.eventFromException(e,a).then(e=>this._captureEvent(e,a,r))),a.event_id}captureMessage(e,t,r,n){let a={event_id:(0,_.eJ)(),...r},o=(0,X.NF)(e)?e:String(e),i=(0,X.sO)(e)?this.eventFromMessage(o,t,a):this.eventFromException(e,a);return this._process(i.then(e=>this._captureEvent(e,a,n))),a.event_id}captureEvent(e,t,r){let n=(0,_.eJ)();if(t?.originalException&&(0,_.GR)(t.originalException))return d.T&&s.vF.log(K),n;let a={event_id:n,...t},o=e.sdkProcessingMetadata||{},i=o.capturedSpanScope,l=o.capturedSpanIsolationScope;return this._process(this._captureEvent(e,a,i||r,l)),a.event_id}captureSession(e){this.sendSession(e),(0,N.qO)(e,{init:!1})}getDsn(){return this._dsn}getOptions(){return this._options}getSdkMetadata(){return this._options._metadata}getTransport(){return this._transport}flush(e){let t=this._transport;return t?(this.emit("flush"),this._isClientDoneProcessing(e).then(r=>t.flush(e).then(e=>r&&e))):(0,z.XW)(!0)}close(e){return this.flush(e).then(e=>(this.getOptions().enabled=!1,this.emit("close"),e))}getEventProcessors(){return this._eventProcessors}addEventProcessor(e){this._eventProcessors.push(e)}init(){(this._isEnabled()||this._options.integrations.some(({name:e})=>e.startsWith("Spotlight")))&&this._setupIntegrations()}getIntegrationByName(e){return this._integrations[e]}addIntegration(e){let t=this._integrations[e.name];(0,p.qm)(this,e,this._integrations),t||(0,p.lc)(this,[e])}sendEvent(e,t={}){this.emit("beforeSendEvent",e,t);let r=(0,M.V7)(e,this._dsn,this._options._metadata,this._options.tunnel);for(let e of t.attachments||[])r=(0,H.W3)(r,(0,H.bm)(e));let n=this.sendEnvelope(r);n&&n.then(t=>this.emit("afterSendEvent",e,t),null)}sendSession(e){let{release:t,environment:r=C.U}=this._options;if("aggregates"in e){let n=e.attrs||{};if(!n.release&&!t){d.T&&s.vF.warn(W);return}n.release=n.release||t,n.environment=n.environment||r,e.attrs=n}else{if(!e.release&&!t){d.T&&s.vF.warn(W);return}e.release=e.release||t,e.environment=e.environment||r}this.emit("beforeSendSession",e);let n=(0,M.LE)(e,this._dsn,this._options._metadata,this._options.tunnel);this.sendEnvelope(n)}recordDroppedEvent(e,t,r=1){if(this._options.sendClientReports){let n=`${e}:${t}`;d.T&&s.vF.log(`Recording outcome: "${n}"${r>1?` (${r} times)`:""}`),this._outcomes[n]=(this._outcomes[n]||0)+r}}on(e,t){let r=this._hooks[e]=this._hooks[e]||[];return r.push(t),()=>{let e=r.indexOf(t);e>-1&&r.splice(e,1)}}emit(e,...t){let r=this._hooks[e];r&&r.forEach(e=>e(...t))}sendEnvelope(e){return(this.emit("beforeEnvelope",e),this._isEnabled()&&this._transport)?this._transport.send(e).then(null,e=>(d.T&&s.vF.error("Error while sending envelope:",e),e)):(d.T&&s.vF.error("Transport disabled"),(0,z.XW)({}))}_setupIntegrations(){let{integrations:e}=this._options;this._integrations=(0,p.P$)(this,e),(0,p.lc)(this,e)}_updateSessionFromEvent(e,t){let r="fatal"===t.level,n=!1,a=t.exception?.values;if(a)for(let e of(n=!0,a)){let t=e.mechanism;if(t?.handled===!1){r=!0;break}}let o="ok"===e.status;(o&&0===e.errors||o&&r)&&((0,N.qO)(e,{...r&&{status:"crashed"},errors:e.errors||Number(n||r)}),this.captureSession(e))}_isClientDoneProcessing(e){return new z.T2(t=>{let r=0,n=setInterval(()=>{0==this._numProcessing?(clearInterval(n),t(!0)):(r+=1,e&&r>=e&&(clearInterval(n),t(!1)))},1)})}_isEnabled(){return!1!==this.getOptions().enabled&&void 0!==this._transport}_prepareEvent(e,t,r,n){let a=this.getOptions(),o=Object.keys(this._integrations);return!t.integrations&&o?.length&&(t.integrations=o),this.emit("preprocessEvent",e,t),e.type||n.setLastEventId(e.event_id||t.event_id),(0,L.mG)(a,e,t,r,this,n).then(e=>(null===e||(this.emit("postprocessEvent",e,t),e.contexts={trace:(0,R.vn)(r),...e.contexts},e.sdkProcessingMetadata={dynamicSamplingContext:(0,k.ao)(this,r),...e.sdkProcessingMetadata}),e))}_captureEvent(e,t={},r=(0,R.o5)(),n=(0,R.rm)()){return d.T&&ee(e)&&s.vF.log(`Captured error event \`${h(e)[0]||"<unknown>"}\``),this._processEvent(e,t,r,n).then(e=>e.event_id,e=>{d.T&&(Q(e)?s.vF.log(e.message):Y(e)?s.vF.warn(e.message):s.vF.warn(e))})}_processEvent(e,t,r,n){let a=this.getOptions(),{sampleRate:o}=a,i=et(e),l=ee(e),s=e.type||"error",u=`before send for type \`${s}\``,c=void 0===o?void 0:(0,D.i)(o);if(l&&"number"==typeof c&&Math.random()>c)return this.recordDroppedEvent("sample_rate","error"),(0,z.xg)(J(`Discarding event because it's not included in the random sample (sampling rate = ${o})`));let f="replay_event"===s?"replay":s;return this._prepareEvent(e,t,r,n).then(e=>{if(null===e)throw this.recordDroppedEvent("event_processor",f),J("An event processor returned `null`, will not send event.");return t.data&&!0===t.data.__sentry__?e:function(e,t){let r=`${t} must return \`null\` or a valid event.`;if((0,X.Qg)(e))return e.then(e=>{if(!(0,X.Qd)(e)&&null!==e)throw V(r);return e},e=>{throw V(`${t} rejected with ${e}`)});if(!(0,X.Qd)(e)&&null!==e)throw V(r);return e}(function(e,t,r,n){let{beforeSend:a,beforeSendTransaction:o,beforeSendSpan:i}=t,l=r;if(ee(l)&&a)return a(l,n);if(et(l)){if(i){let e=i(function(e){let{trace_id:t,parent_span_id:r,span_id:n,status:a,origin:o,data:i,op:l}=e.contexts?.trace??{};return{data:i??{},description:e.transaction,op:l,parent_span_id:r,span_id:n??"",start_timestamp:e.start_timestamp??0,status:a,timestamp:e.timestamp,trace_id:t??"",origin:o,profile_id:i?.[F.E1],exclusive_time:i?.[F.jG],measurements:e.measurements,is_segment:!0}}(l));if(e)l=(0,I.h)(r,{type:"transaction",timestamp:e.timestamp,start_timestamp:e.start_timestamp,transaction:e.description,contexts:{trace:{trace_id:e.trace_id,span_id:e.span_id,parent_span_id:e.parent_span_id,op:e.op,status:e.status,origin:e.origin,data:{...e.data,...e.profile_id&&{[F.E1]:e.profile_id},...e.exclusive_time&&{[F.jG]:e.exclusive_time}}}},measurements:e.measurements});else(0,U.xl)();if(l.spans){let e=[];for(let t of l.spans){let r=i(t);r?e.push(r):((0,U.xl)(),e.push(t))}l.spans=e}}if(o){if(l.spans){let e=l.spans.length;l.sdkProcessingMetadata={...r.sdkProcessingMetadata,spanCountBeforeProcessing:e}}return o(l,n)}}return l}(0,a,e,t),u)}).then(a=>{if(null===a){if(this.recordDroppedEvent("before_send",f),i){let t=1+(e.spans||[]).length;this.recordDroppedEvent("before_send","span",t)}throw J(`${u} returned \`null\`, will not send event.`)}let o=r.getSession()||n.getSession();if(l&&o&&this._updateSessionFromEvent(o,a),i){let e=(a.sdkProcessingMetadata?.spanCountBeforeProcessing||0)-(a.spans?a.spans.length:0);e>0&&this.recordDroppedEvent("before_send","span",e)}let s=a.transaction_info;return i&&s&&a.transaction!==e.transaction&&(a.transaction_info={...s,source:"custom"}),this.sendEvent(a,t),a}).then(null,e=>{if(Q(e)||Y(e))throw e;throw this.captureException(e,{data:{__sentry__:!0},originalException:e}),V(`Event processing pipeline threw an error, original event will not be sent. Details have been sent as a new event.
+                                /${t.version}`),new URLSearchParams(r).toString()}(e,r)}`}(this._dsn,e.tunnel,e._metadata?e._metadata.sdk:void 0);this._transport=e.transport({tunnel:this._options.tunnel,recordDroppedEvent:this.recordDroppedEvent.bind(this),...e.transportOptions,url:t})}}captureException(e,t,r){let n=(0,_.eJ)();if((0,_.GR)(e))return d.T&&s.vF.log(K),n;let a={event_id:n,...t};return this._process(this.eventFromException(e,a).then(e=>this._captureEvent(e,a,r))),a.event_id}captureMessage(e,t,r,n){let a={event_id:(0,_.eJ)(),...r},o=(0,X.NF)(e)?e:String(e),i=(0,X.sO)(e)?this.eventFromMessage(o,t,a):this.eventFromException(e,a);return this._process(i.then(e=>this._captureEvent(e,a,n))),a.event_id}captureEvent(e,t,r){let n=(0,_.eJ)();if(t?.originalException&&(0,_.GR)(t.originalException))return d.T&&s.vF.log(K),n;let a={event_id:n,...t},o=e.sdkProcessingMetadata||{},i=o.capturedSpanScope,l=o.capturedSpanIsolationScope;return this._process(this._captureEvent(e,a,i||r,l)),a.event_id}captureSession(e){this.sendSession(e),(0,N.qO)(e,{init:!1})}getDsn(){return this._dsn}getOptions(){return this._options}getSdkMetadata(){return this._options._metadata}getTransport(){return this._transport}flush(e){let t=this._transport;return t?(this.emit("flush"),this._isClientDoneProcessing(e).then(r=>t.flush(e).then(e=>r&&e))):(0,z.XW)(!0)}close(e){return this.flush(e).then(e=>(this.getOptions().enabled=!1,this.emit("close"),e))}getEventProcessors(){return this._eventProcessors}addEventProcessor(e){this._eventProcessors.push(e)}init(){(this._isEnabled()||this._options.integrations.some(({name:e})=>e.startsWith("Spotlight")))&&this._setupIntegrations()}getIntegrationByName(e){return this._integrations[e]}addIntegration(e){let t=this._integrations[e.name];(0,p.qm)(this,e,this._integrations),t||(0,p.lc)(this,[e])}sendEvent(e,t={}){this.emit("beforeSendEvent",e,t);let r=(0,M.V7)(e,this._dsn,this._options._metadata,this._options.tunnel);for(let e of t.attachments||[])r=(0,H.W3)(r,(0,H.bm)(e));let n=this.sendEnvelope(r);n&&n.then(t=>this.emit("afterSendEvent",e,t),null)}sendSession(e){let{release:t,environment:r=C.U}=this._options;if("aggregates"in e){let n=e.attrs||{};if(!n.release&&!t){d.T&&s.vF.warn(q);return}n.release=n.release||t,n.environment=n.environment||r,e.attrs=n}else{if(!e.release&&!t){d.T&&s.vF.warn(q);return}e.release=e.release||t,e.environment=e.environment||r}this.emit("beforeSendSession",e);let n=(0,M.LE)(e,this._dsn,this._options._metadata,this._options.tunnel);this.sendEnvelope(n)}recordDroppedEvent(e,t,r=1){if(this._options.sendClientReports){let n=`${e}:${t}`;d.T&&s.vF.log(`Recording outcome: "${n}"${r>1?` (${r} times)`:""}`),this._outcomes[n]=(this._outcomes[n]||0)+r}}on(e,t){let r=this._hooks[e]=this._hooks[e]||[];return r.push(t),()=>{let e=r.indexOf(t);e>-1&&r.splice(e,1)}}emit(e,...t){let r=this._hooks[e];r&&r.forEach(e=>e(...t))}sendEnvelope(e){return(this.emit("beforeEnvelope",e),this._isEnabled()&&this._transport)?this._transport.send(e).then(null,e=>(d.T&&s.vF.error("Error while sending envelope:",e),e)):(d.T&&s.vF.error("Transport disabled"),(0,z.XW)({}))}_setupIntegrations(){let{integrations:e}=this._options;this._integrations=(0,p.P$)(this,e),(0,p.lc)(this,e)}_updateSessionFromEvent(e,t){let r="fatal"===t.level,n=!1,a=t.exception?.values;if(a)for(let e of(n=!0,a)){let t=e.mechanism;if(t?.handled===!1){r=!0;break}}let o="ok"===e.status;(o&&0===e.errors||o&&r)&&((0,N.qO)(e,{...r&&{status:"crashed"},errors:e.errors||Number(n||r)}),this.captureSession(e))}_isClientDoneProcessing(e){return new z.T2(t=>{let r=0,n=setInterval(()=>{0==this._numProcessing?(clearInterval(n),t(!0)):(r+=1,e&&r>=e&&(clearInterval(n),t(!1)))},1)})}_isEnabled(){return!1!==this.getOptions().enabled&&void 0!==this._transport}_prepareEvent(e,t,r,n){let a=this.getOptions(),o=Object.keys(this._integrations);return!t.integrations&&o?.length&&(t.integrations=o),this.emit("preprocessEvent",e,t),e.type||n.setLastEventId(e.event_id||t.event_id),(0,L.mG)(a,e,t,r,this,n).then(e=>(null===e||(this.emit("postprocessEvent",e,t),e.contexts={trace:(0,R.vn)(r),...e.contexts},e.sdkProcessingMetadata={dynamicSamplingContext:(0,k.ao)(this,r),...e.sdkProcessingMetadata}),e))}_captureEvent(e,t={},r=(0,R.o5)(),n=(0,R.rm)()){return d.T&&ee(e)&&s.vF.log(`Captured error event \`${h(e)[0]||"<unknown>"}\``),this._processEvent(e,t,r,n).then(e=>e.event_id,e=>{d.T&&(Q(e)?s.vF.log(e.message):Y(e)?s.vF.warn(e.message):s.vF.warn(e))})}_processEvent(e,t,r,n){let a=this.getOptions(),{sampleRate:o}=a,i=et(e),l=ee(e),s=e.type||"error",u=`before send for type \`${s}\``,c=void 0===o?void 0:(0,D.i)(o);if(l&&"number"==typeof c&&Math.random()>c)return this.recordDroppedEvent("sample_rate","error"),(0,z.xg)(J(`Discarding event because it's not included in the random sample (sampling rate = ${o})`));let f="replay_event"===s?"replay":s;return this._prepareEvent(e,t,r,n).then(e=>{if(null===e)throw this.recordDroppedEvent("event_processor",f),J("An event processor returned `null`, will not send event.");return t.data&&!0===t.data.__sentry__?e:function(e,t){let r=`${t} must return \`null\` or a valid event.`;if((0,X.Qg)(e))return e.then(e=>{if(!(0,X.Qd)(e)&&null!==e)throw V(r);return e},e=>{throw V(`${t} rejected with ${e}`)});if(!(0,X.Qd)(e)&&null!==e)throw V(r);return e}(function(e,t,r,n){let{beforeSend:a,beforeSendTransaction:o,beforeSendSpan:i}=t,l=r;if(ee(l)&&a)return a(l,n);if(et(l)){if(i){let e=i(function(e){let{trace_id:t,parent_span_id:r,span_id:n,status:a,origin:o,data:i,op:l}=e.contexts?.trace??{};return{data:i??{},description:e.transaction,op:l,parent_span_id:r,span_id:n??"",start_timestamp:e.start_timestamp??0,status:a,timestamp:e.timestamp,trace_id:t??"",origin:o,profile_id:i?.[F.E1],exclusive_time:i?.[F.jG],measurements:e.measurements,is_segment:!0}}(l));if(e)l=(0,I.h)(r,{type:"transaction",timestamp:e.timestamp,start_timestamp:e.start_timestamp,transaction:e.description,contexts:{trace:{trace_id:e.trace_id,span_id:e.span_id,parent_span_id:e.parent_span_id,op:e.op,status:e.status,origin:e.origin,data:{...e.data,...e.profile_id&&{[F.E1]:e.profile_id},...e.exclusive_time&&{[F.jG]:e.exclusive_time}}}},measurements:e.measurements});else(0,U.xl)();if(l.spans){let e=[];for(let t of l.spans){let r=i(t);r?e.push(r):((0,U.xl)(),e.push(t))}l.spans=e}}if(o){if(l.spans){let e=l.spans.length;l.sdkProcessingMetadata={...r.sdkProcessingMetadata,spanCountBeforeProcessing:e}}return o(l,n)}}return l}(0,a,e,t),u)}).then(a=>{if(null===a){if(this.recordDroppedEvent("before_send",f),i){let t=1+(e.spans||[]).length;this.recordDroppedEvent("before_send","span",t)}throw J(`${u} returned \`null\`, will not send event.`)}let o=r.getSession()||n.getSession();if(l&&o&&this._updateSessionFromEvent(o,a),i){let e=(a.sdkProcessingMetadata?.spanCountBeforeProcessing||0)-(a.spans?a.spans.length:0);e>0&&this.recordDroppedEvent("before_send","span",e)}let s=a.transaction_info;return i&&s&&a.transaction!==e.transaction&&(a.transaction_info={...s,source:"custom"}),this.sendEvent(a,t),a}).then(null,e=>{if(Q(e)||Y(e))throw e;throw this.captureException(e,{data:{__sentry__:!0},originalException:e}),V(`Event processing pipeline threw an error, original event will not be sent. Details have been sent as a new event.
                                 Reason: $ {
                                     e
                                 }
@@ -12718,18 +12717,18 @@ function ez(e, t, r, n) {
     return void 0 !== r && (a.lineno = r), void 0 !== n && (a.colno = n), a
 }
 let eK = /^\s*at (\S+?)(?::(\d+))(?::(\d+))\s*$/i,
-    eW = /^\s*at (?:(.+?\)(?: \[.+\])?|.*?) ?\((?:address at )?)?(?:async )?((?:<anonymous>|[-a-z]+:|.*bundle|\/)?.*?)(?::(\d+))?(?::(\d+))?\)?\s*$/i,
-    eq = /\((\S*)(?::(\d+))(?::(\d+))\)/,
+    eq = /^\s*at (?:(.+?\)(?: \[.+\])?|.*?) ?\((?:address at )?)?(?:async )?((?:<anonymous>|[-a-z]+:|.*bundle|\/)?.*?)(?::(\d+))?(?::(\d+))?\)?\s*$/i,
+    eW = /\((\S*)(?::(\d+))(?::(\d+))\)/,
     eG = [30, e => {
         let t = eK.exec(e);
         if (t) {
             let [, e, r, n] = t;
             return ez(e, T.yF, +r, +n)
         }
-        let r = eW.exec(e);
+        let r = eq.exec(e);
         if (r) {
             if (r[2] && 0 === r[2].indexOf("eval")) {
-                let e = eq.exec(r[2]);
+                let e = eW.exec(r[2]);
                 e && (r[2] = e[1], r[3] = e[2], r[4] = e[3])
             }
             let [e, t] = eZ(r[1] || T.yF, r[2]);
@@ -12883,10 +12882,10 @@ function e2(e, t = function(e) {
     })
 }
 
-function e6(e) {
+function e9(e) {
     return [v(), S(), eA(), ew(), eL(), eX(), j(), eH(), ek()]
 }
-var e9 = r(53163),
+var e6 = r(53163),
     e5 = r(37811),
     e8 = r(84439),
     e7 = r(53924),
@@ -13046,7 +13045,7 @@ function t_(e) {
             return t ? `vercel-${t}` : void 0
         }(!0) || "production",
         defaultIntegrations: function(e) {
-            let t = e6(e);
+            let t = e9(e);
             ("undefined" == typeof __SENTRY_TRACING__ || __SENTRY_TRACING__) && t.push(function(e = {}) {
                 let t = (0, e8.dp)({
                         ...e,
@@ -13168,7 +13167,7 @@ function t_(e) {
                 ...e
             };
             return c(t, "react"), (0, f.o)("react", {
-                    version: e9.version
+                    version: e6.version
                 }),
                 function(e = {}) {
                     var t;
@@ -13189,7 +13188,7 @@ function t_(e) {
                             stackParser: (0, T.vk)(e.stackParser || eQ),
                             integrations: (0, p.mH)({
                                 integrations: e.integrations,
-                                defaultIntegrations: null == e.defaultIntegrations ? e6() : e.defaultIntegrations
+                                defaultIntegrations: null == e.defaultIntegrations ? e9() : e.defaultIntegrations
                             }),
                             transport: e.transport || e2
                         };
@@ -15704,8 +15703,8 @@ B.tag = "sentry_tracingErrorCallback";
 var X = r(33342),
 z = r(9423),
 K = r(66105),
-W = r(62140),
-q = r(34064),
+q = r(62140),
+W = r(34064),
 G = r(36494),
 V = r(62113),
 J = r(54070);
@@ -16102,9 +16101,9 @@ return n === e && (t = n), {
 }
 }
 let eK = 0,
-eW = {};
+eq = {};
 
-function eq(e, t, r, n, a = r) {
+function eW(e, t, r, n, a = r) {
 var o;
 let i = t["secureConnection" === (o = r) ? "connectEnd" : "fetch" === o ? "domainLookupStart" : `${o}End`],
     l = t[`${r}Start`];
@@ -16164,12 +16163,12 @@ return 1 === e.traceFlags
 }
 var e4 = r(70133),
 e2 = r(53059),
-e6 = r(4067),
-e9 = r(62050);
+e9 = r(4067),
+e6 = r(62050);
 
 function e5(e = {}) {
 let t = (0, f.KU)();
-if (!(0, e9.Ol)() || !t) return {};
+if (!(0, e6.Ol)() || !t) return {};
 let r = (0, O.EU)(),
     n = (0, P.h)(r);
 if (n.getTraceData) return n.getTraceData(e);
@@ -16184,7 +16183,7 @@ let a = (0, f.o5)(),
         return (0, z.TC)(t, n, r)
     }(a),
     l = o ? (0, v.k1)(o) : (0, v.ao)(t, a),
-    s = (0, e6.De)(l);
+    s = (0, e9.De)(l);
 return z.MI.test(i) ? {
     "sentry-trace": i,
     baggage: s
@@ -16192,7 +16191,7 @@ return z.MI.test(i) ? {
 }
 
 function e8(e) {
-return e.split(",").some(e => e.trim().startsWith(e6.sv))
+return e.split(",").some(e => e.trim().startsWith(e9.sv))
 }
 var e7 = r(11866),
 te = r(90441);
@@ -16326,8 +16325,8 @@ ts = (e = {}) => {
                                     case "navigation":
                                         var s, u, c;
                                         s = e, u = r, c = a, ["unloadEvent", "redirect", "domContentLoadedEvent", "loadEvent", "connect"].forEach(e => {
-                                                eq(s, u, e, c)
-                                            }), eq(s, u, "secureConnection", c, "TLS/SSL"), eq(s, u, "fetch", c, "cache"), eq(s, u, "domainLookup", c, "DNS"),
+                                                eW(s, u, e, c)
+                                            }), eW(s, u, "secureConnection", c, "TLS/SSL"), eW(s, u, "fetch", c, "cache"), eW(s, u, "domainLookup", c, "DNS"),
                                             function(e, t, r) {
                                                 let n = r + eX(t.requestStart),
                                                     a = r + eX(t.responseEnd),
@@ -16366,10 +16365,10 @@ ts = (e = {}) => {
                                         }(e, r, n, o, a);
                                         let t = el(),
                                             i = r.startTime < t.firstHiddenTime;
-                                        "first-paint" === r.name && i && (eW.fp = {
+                                        "first-paint" === r.name && i && (eq.fp = {
                                             value: r.startTime,
                                             unit: "millisecond"
-                                        }), "first-contentful-paint" === r.name && i && (eW.fcp = {
+                                        }), "first-contentful-paint" === r.name && i && (eq.fcp = {
                                             value: r.startTime,
                                             unit: "millisecond"
                                         });
@@ -16380,7 +16379,7 @@ ts = (e = {}) => {
                                             if ("xmlhttprequest" === t.initiatorType || "fetch" === t.initiatorType) return;
                                             let l = t.initiatorType ? `resource.${t.initiatorType}` : "resource.other";
                                             if (i?.includes(l)) return;
-                                            let s = (0, W.Dl)(r),
+                                            let s = (0, q.Dl)(r),
                                                 u = {
                                                     [p.JD]: "auto.resource.browser.metrics"
                                                 };
@@ -16406,7 +16405,7 @@ ts = (e = {}) => {
                                 let t = G.j.navigator;
                                 if (!t) return;
                                 let r = t.connection;
-                                r && (r.effectiveType && e.setAttribute("effectiveConnectionType", r.effectiveType), r.type && e.setAttribute("connectionType", r.type), eF(r.rtt) && (eW["connection.rtt"] = {
+                                r && (r.effectiveType && e.setAttribute("effectiveConnectionType", r.effectiveType), r.type && e.setAttribute("connectionType", r.type), eF(r.rtt) && (eq["connection.rtt"] = {
                                     value: r.rtt,
                                     unit: "millisecond"
                                 })), eF(t.deviceMemory) && e.setAttribute("deviceMemory", `${t.deviceMemory} GB`), eF(t.hardwareConcurrency) && e.setAttribute("hardwareConcurrency", String(t.hardwareConcurrency))
@@ -16423,15 +16422,15 @@ ts = (e = {}) => {
                                     value: r - n,
                                     unit: "millisecond"
                                 })
-                            }(eW);
-                            let r = eW["mark.fid"];
-                            r && eW.fid && (eH(e, r.value, r.value + eX(eW.fid.value), {
+                            }(eq);
+                            let r = eq["mark.fid"];
+                            r && eq.fid && (eH(e, r.value, r.value + eX(eq.fid.value), {
                                 name: "first input delay",
                                 op: "ui.action",
                                 attributes: {
                                     [p.JD]: "auto.ui.browser.metrics"
                                 }
-                            }), delete eW["mark.fid"]), "fcp" in eW && t.recordClsOnPageloadSpan || delete eW.cls, Object.entries(eW).forEach(([e, t]) => {
+                            }), delete eq["mark.fid"]), "fcp" in eq && t.recordClsOnPageloadSpan || delete eq.cls, Object.entries(eq).forEach(([e, t]) => {
                                 ! function(e, t, r, n = (0, m.Bk)()) {
                                     let a = n && (0, m.zU)(n);
                                     a && (d.T && g.vF.log(`[Measurement] Setting measurement on root span: ${e} = ${t} ${r}`), a.addEvent(e, {
@@ -16441,11 +16440,11 @@ ts = (e = {}) => {
                                 }(e, t.value, t.unit)
                             }), e.setAttribute("performance.timeOrigin", a), e.setAttribute("performance.activationStart", Z()), s = e, u && (u.element && s.setAttribute("lcp.element", (0, K.Hd)(u.element)), u.id && s.setAttribute("lcp.id", u.id), u.url && s.setAttribute("lcp.url", u.url.trim().slice(0, 200)), null != u.loadTime && s.setAttribute("lcp.loadTime", u.loadTime), null != u.renderTime && s.setAttribute("lcp.renderTime", u.renderTime), s.setAttribute("lcp.size", u.size)), c?.sources && c.sources.forEach((e, t) => s.setAttribute(`cls.source.${t+1}`, (0, K.Hd)(e.node)))
                         }
-                        u = void 0, c = void 0, eW = {}
+                        u = void 0, c = void 0, eq = {}
                     }(r, {
                         recordClsOnPageloadSpan: !S,
                         ignoreResourceSpans: L
-                    }), n = e, a = void 0, (0, q.my)(n, td, a);
+                    }), n = e, a = void 0, (0, W.my)(n, td, a);
                 let o = (0, f.o5)(),
                     i = o.getPropagationContext();
                 o.setPropagationContext({
@@ -16460,7 +16459,7 @@ ts = (e = {}) => {
         function b() {
             n && ["interactive", "complete"].includes(n.readyState) && e.emit("idleSpanEnableAutoFinish", _)
         }
-        o = e, i = _, (0, q.my)(o, td, i), l && n && (n.addEventListener("readystatechange", () => {
+        o = e, i = _, (0, W.my)(o, td, i), l && n && (n.addEventListener("readystatechange", () => {
             b()
         }), b())
     }
@@ -16484,10 +16483,10 @@ ts = (e = {}) => {
                             if (!t) return;
                             let r = eX((0, y.k3)()),
                                 n = eX(t.startTime);
-                            eW.fid = {
+                            eq.fid = {
                                 value: e.value,
                                 unit: "millisecond"
-                            }, eW["mark.fid"] = {
+                            }, eq["mark.fid"] = {
                                 value: r + n,
                                 unit: "second"
                             }
@@ -16498,7 +16497,7 @@ ts = (e = {}) => {
                             metric: e
                         }) => {
                             let t = e.entries[e.entries.length - 1];
-                            t && (eW.lcp = {
+                            t && (eq.lcp = {
                                 value: e.value,
                                 unit: "millisecond"
                             }, u = t)
@@ -16506,7 +16505,7 @@ ts = (e = {}) => {
                         a = eD("ttfb", ({
                             metric: e
                         }) => {
-                            e.entries[e.entries.length - 1] && (eW.ttfb = {
+                            e.entries[e.entries.length - 1] && (eq.ttfb = {
                                 value: e.value,
                                 unit: "millisecond"
                             })
@@ -16568,7 +16567,7 @@ ts = (e = {}) => {
                             metric: e
                         }) => {
                             let t = e.entries[e.entries.length - 1];
-                            t && (eW.cls = {
+                            t && (eq.cls = {
                                 value: e.value,
                                 unit: ""
                             }, c = t)
@@ -16807,7 +16806,7 @@ ts = (e = {}) => {
                         return
                     }
                     u = void 0;
-                    let n = (0, W.kg)(t);
+                    let n = (0, q.kg)(t);
                     tc(e, {
                         name: n?.pathname || e0.jf.location.pathname,
                         attributes: {
@@ -16951,9 +16950,9 @@ ts = (e = {}) => {
                             }
                             let s = !!(0, m.Bk)(),
                                 u = l && s ? N(function(e, t, r) {
-                                    let n = (0, W.kg)(e);
+                                    let n = (0, q.kg)(e);
                                     return {
-                                        name: n ? `${t} ${(0,W.CH)(n)}` : t,
+                                        name: n ? `${t} ${(0,q.CH)(n)}` : t,
                                         attributes: function(e, t, r, n) {
                                             let a = {
                                                 url: e,
@@ -16962,7 +16961,7 @@ ts = (e = {}) => {
                                                 [p.JD]: n,
                                                 [p.uT]: "http.client"
                                             };
-                                            return t && ((0, W.nt)(t) || (a["http.url"] = t.href, a["server.address"] = t.host), t.search && (a["http.query"] = t.search), t.hash && (a["http.fragment"] = t.hash)), a
+                                            return t && ((0, q.nt)(t) || (a["http.url"] = t.href, a["server.address"] = t.host), t.search && (a["http.query"] = t.search), t.hash && (a["http.fragment"] = t.hash)), a
                                         }(e, n, t, r)
                                     }
                                 }(i, o, a)) : new E;
@@ -17022,7 +17021,7 @@ ts = (e = {}) => {
                         }(e, u, c, d);
                         if (e.response && e.fetchData.__span && tt.set(e.response, e.fetchData.__span), t) {
                             let r = ti(e.fetchData.url),
-                                n = r ? (0, W.Dl)(r).host : void 0;
+                                n = r ? (0, q.Dl)(r).host : void 0;
                             t.setAttributes({
                                 "http.url": r,
                                 "server.address": n
@@ -17047,8 +17046,8 @@ ts = (e = {}) => {
                                 return
                             }
                             let u = ti(i),
-                                c = u ? (0, W.Dl)(u) : (0, W.Dl)(i),
-                                d = (0, W.f)(i),
+                                c = u ? (0, q.Dl)(u) : (0, q.Dl)(i),
+                                d = (0, q.f)(i),
                                 _ = !!(0, m.Bk)(),
                                 g = s && _ ? N({
                                     name: `${l} ${d}`,
