@@ -1,7 +1,7 @@
 try {
     let e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof globalThis ? globalThis : "undefined" != typeof self ? self : {},
         t = (new e.Error).stack;
-    t && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[t] = "2710164a-3a67-40a3-989a-6cd4f7b26d79", e._sentryDebugIdIdentifier = "sentry-dbid-2710164a-3a67-40a3-989a-6cd4f7b26d79")
+    t && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[t] = "e2c4a978-18c5-4c8b-a998-a16d893453b4", e._sentryDebugIdIdentifier = "sentry-dbid-e2c4a978-18c5-4c8b-a998-a16d893453b4")
 } catch (e) {} {
     let e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof globalThis ? globalThis : "undefined" != typeof self ? self : {};
     e._sentryModuleMetadata = e._sentryModuleMetadata || {}, e._sentryModuleMetadata[new e.Error().stack] = Object.assign({}, e._sentryModuleMetadata[new e.Error().stack], {
@@ -1928,7 +1928,7 @@ try {
                                 [o.ACTION_HEADER]: p,
                                 [o.NEXT_ROUTER_STATE_TREE_HEADER]: (0, b.prepareFlightRouterStateForRequest)(e.tree),
                                 ...{
-                                    "x-deployment-id": "dpl_EtCgMy2zEJXtud7YkNrUj81HoKTa"
+                                    "x-deployment-id": "dpl_87E8EiPtKfNDLgTmbcrcJD29vc1e"
                                 },
                                 ...t ? {
                                     [o.NEXT_URL]: t
@@ -2264,7 +2264,7 @@ try {
                 "use strict";
 
                 function r() {
-                    return "?dpl=dpl_EtCgMy2zEJXtud7YkNrUj81HoKTa"
+                    return "?dpl=dpl_87E8EiPtKfNDLgTmbcrcJD29vc1e"
                 }
                 Object.defineProperty(t, "__esModule", {
                     value: !0
@@ -5262,7 +5262,7 @@ try {
                     }
                 }
                 async function m(e, t, r, n) {
-                    t["x-deployment-id"] = "dpl_EtCgMy2zEJXtud7YkNrUj81HoKTa";
+                    t["x-deployment-id"] = "dpl_87E8EiPtKfNDLgTmbcrcJD29vc1e";
                     let o = new URL(e);
                     (0, c.setCacheBustingSearchParam)(o, t);
                     let i = await fetch(o, {
@@ -10071,7 +10071,7 @@ Error:`, t)
                         }
                     }, [t, e]), [...L].map((e, t) => (0, o.jsx)("link", {
                         rel: "stylesheet",
-                        href: "" + e + "?dpl=dpl_EtCgMy2zEJXtud7YkNrUj81HoKTa",
+                        href: "" + e + "?dpl=dpl_87E8EiPtKfNDLgTmbcrcJD29vc1e",
                         precedence: "next"
                     }, t))
                 }
@@ -10592,7 +10592,6 @@ Error:`, t)
                     if (!await D(e) || !e.fetchData) return null;
                     let t = await e.fetchData(),
                         r = await
-
                     function(e, t, r) {
                         let n = {
                                 basePath: r.router.basePath,
@@ -10727,7 +10726,7 @@ Error:`, t)
                             } : {}, n && a ? {
                                 "x-middleware-prefetch": "1"
                             } : {}, {
-                                "x-deployment-id": "dpl_EtCgMy2zEJXtud7YkNrUj81HoKTa"
+                                "x-deployment-id": "dpl_87E8EiPtKfNDLgTmbcrcJD29vc1e"
                             }),
                             method: null != (u = null == e ? void 0 : e.method) ? u : "GET"
                         }).then(r => r.ok && (null == e ? void 0 : e.method) === "HEAD" ? {
@@ -12883,10 +12882,10 @@ function e2(e, t = function(e) {
     })
 }
 
-function e6(e) {
+function e9(e) {
     return [v(), S(), eA(), ew(), eL(), eX(), j(), eH(), ek()]
 }
-var e9 = r(53163),
+var e6 = r(53163),
     e5 = r(37811),
     e8 = r(84439),
     e7 = r(53924),
@@ -13046,7 +13045,7 @@ function t_(e) {
             return t ? `vercel-${t}` : void 0
         }(!0) || "production",
         defaultIntegrations: function(e) {
-            let t = e6(e);
+            let t = e9(e);
             ("undefined" == typeof __SENTRY_TRACING__ || __SENTRY_TRACING__) && t.push(function(e = {}) {
                 let t = (0, e8.dp)({
                         ...e,
@@ -13146,7 +13145,7 @@ function t_(e) {
                 experimentalThirdPartyOriginStackFrames: o
             })), t
         }(e),
-        release: "b5cba8849c8ee380725fc2b0bddd789154a8e4f7",
+        release: "79e4889720d4b4a564c3a798b8f0bfe018bbbdc2",
         ...e
     };
     ! function(e) {
@@ -13168,7 +13167,7 @@ function t_(e) {
                 ...e
             };
             return c(t, "react"), (0, f.o)("react", {
-                    version: e9.version
+                    version: e6.version
                 }),
                 function(e = {}) {
                     var t;
@@ -13189,7 +13188,7 @@ function t_(e) {
                             stackParser: (0, T.vk)(e.stackParser || eQ),
                             integrations: (0, p.mH)({
                                 integrations: e.integrations,
-                                defaultIntegrations: null == e.defaultIntegrations ? e6() : e.defaultIntegrations
+                                defaultIntegrations: null == e.defaultIntegrations ? e9() : e.defaultIntegrations
                             }),
                             transport: e.transport || e2
                         };
@@ -16164,12 +16163,12 @@ return 1 === e.traceFlags
 }
 var e4 = r(70133),
 e2 = r(53059),
-e6 = r(4067),
-e9 = r(62050);
+e9 = r(4067),
+e6 = r(62050);
 
 function e5(e = {}) {
 let t = (0, f.KU)();
-if (!(0, e9.Ol)() || !t) return {};
+if (!(0, e6.Ol)() || !t) return {};
 let r = (0, O.EU)(),
     n = (0, P.h)(r);
 if (n.getTraceData) return n.getTraceData(e);
@@ -16184,7 +16183,7 @@ let a = (0, f.o5)(),
         return (0, z.TC)(t, n, r)
     }(a),
     l = o ? (0, v.k1)(o) : (0, v.ao)(t, a),
-    s = (0, e6.De)(l);
+    s = (0, e9.De)(l);
 return z.MI.test(i) ? {
     "sentry-trace": i,
     baggage: s
@@ -16192,7 +16191,7 @@ return z.MI.test(i) ? {
 }
 
 function e8(e) {
-return e.split(",").some(e => e.trim().startsWith(e6.sv))
+return e.split(",").some(e => e.trim().startsWith(e9.sv))
 }
 var e7 = r(11866),
 te = r(90441);
