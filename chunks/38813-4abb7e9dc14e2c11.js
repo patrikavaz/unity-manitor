@@ -11866,6 +11866,7 @@ async function H(e) {
 if (!await D(e) || !e.fetchData) return null;
 let t = await e.fetchData(),
     r = await
+
 function(e, t, r) {
     let n = {
             basePath: r.router.basePath,
