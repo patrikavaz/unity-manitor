@@ -2,7 +2,7 @@ try {
     ! function() {
         var e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof globalThis ? globalThis : "undefined" != typeof self ? self : {},
             t = (new e.Error).stack;
-        t && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[t] = "95c27a7d-b32f-4d23-8525-70bf8ada82b4", e._sentryDebugIdIdentifier = "sentry-dbid-95c27a7d-b32f-4d23-8525-70bf8ada82b4")
+        t && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[t] = "257621c4-fceb-4c70-af01-e0e603061440", e._sentryDebugIdIdentifier = "sentry-dbid-257621c4-fceb-4c70-af01-e0e603061440")
     }()
 } catch (e) {}! function() {
     try {
@@ -1624,7 +1624,7 @@ try {
                                 [o.ACTION_HEADER]: p,
                                 [o.NEXT_ROUTER_STATE_TREE_HEADER]: (0, b.prepareFlightRouterStateForRequest)(e.tree),
                                 ...{
-                                    "x-deployment-id": "dpl_5B2zD2RJKkEzABMNqYaYxVwGFt88"
+                                    "x-deployment-id": "dpl_Byzjrs5nKMAq9rzsyUqM2XUPc1bL"
                                 },
                                 ...t ? {
                                     [o.NEXT_URL]: t
@@ -2931,8 +2931,8 @@ Error:`, t)
                 var e2 = r(97669),
                     e4 = r(37811);
                 let e8 = [],
-                    e7 = new Map,
                     e6 = new Map,
+                    e7 = new Map,
                     e5 = {
                         click: "click",
                         pointerdown: "click",
@@ -2971,7 +2971,7 @@ Error:`, t)
                         if (!r) return;
                         let {
                             interactionId: n
-                        } = r, a = e5[r.name], o = eG((0, y.k3)() + r.startTime), i = (0, _.Bk)(), s = i ? (0, _.zU)(i) : void 0, l = null != n ? e7.get(n) : void 0, u = l?.span || s, f = u ? (0, _.et)(u).description : (0, c.o5)().getScopeData().transactionName, p = eX({
+                        } = r, a = e5[r.name], o = eG((0, y.k3)() + r.startTime), i = (0, _.Bk)(), s = i ? (0, _.zU)(i) : void 0, l = null != n ? e6.get(n) : void 0, u = l?.span || s, f = u ? (0, _.et)(u).description : (0, c.o5)().getScopeData().transactionName, p = eX({
                             name: l?.elementName || (0, K.Hd)(r.target),
                             transaction: f,
                             attributes: {
@@ -3853,9 +3853,9 @@ Error:`, t)
                                             if (!t) return;
                                             let r = (0, K.Hd)(t),
                                                 n = Math.round(e.timeStamp);
-                                            if (e6.set(n, r), e6.size > 50) {
-                                                let e = e6.keys().next().value;
-                                                void 0 !== e && e6.delete(e)
+                                            if (e7.set(n, r), e7.size > 50) {
+                                                let e = e7.keys().next().value;
+                                                void 0 !== e && e7.delete(e)
                                             }
                                         }
                                         "undefined" != typeof window && (!(!(0, e2.Z)() && "[object process]" === Object.prototype.toString.call(void 0 !== e4 ? e4 : 0)) || function() {
@@ -3875,13 +3875,13 @@ Error:`, t)
                                             e.forEach(e => {
                                                 if (!("duration" in e)) return;
                                                 let t = e.interactionId;
-                                                if (null == t || e7.has(t)) return;
+                                                if (null == t || e6.has(t)) return;
                                                 let n = e.target ? (0, K.Hd)(e.target) : function(e) {
                                                     let t = Math.round(e.startTime),
-                                                        r = e6.get(t);
+                                                        r = e7.get(t);
                                                     if (!r)
                                                         for (let e = -5; e <= 5; e++) {
-                                                            let n = e6.get(t + e);
+                                                            let n = e7.get(t + e);
                                                             if (n) {
                                                                 r = n;
                                                                 break
@@ -3891,9 +3891,9 @@ Error:`, t)
                                                 }(e);
                                                 if (e8.length > 10) {
                                                     let e = e8.shift();
-                                                    e7.delete(e)
+                                                    e6.delete(e)
                                                 }
-                                                e8.push(t), e7.set(t, {
+                                                e8.push(t), e6.set(t, {
                                                     span: r,
                                                     elementName: n
                                                 })
@@ -4348,7 +4348,7 @@ Error:`, t)
                 "use strict";
 
                 function r() {
-                    return "?dpl=dpl_5B2zD2RJKkEzABMNqYaYxVwGFt88"
+                    return "?dpl=dpl_Byzjrs5nKMAq9rzsyUqM2XUPc1bL"
                 }
                 Object.defineProperty(t, "__esModule", {
                     value: !0
@@ -7453,7 +7453,7 @@ Error:`, t)
                     }
                 }
                 async function m(e, t, r, n) {
-                    t["x-deployment-id"] = "dpl_5B2zD2RJKkEzABMNqYaYxVwGFt88";
+                    t["x-deployment-id"] = "dpl_Byzjrs5nKMAq9rzsyUqM2XUPc1bL";
                     let o = new URL(e);
                     (0, c.setCacheBustingSearchParam)(o, t);
                     let i = await fetch(o, {
@@ -10766,8 +10766,8 @@ function e8(e, t, r, n) {
     };
     return void 0 !== r && (a.lineno = r), void 0 !== n && (a.colno = n), a
 }
-let e7 = /^\s*at (\S+?)(?::(\d+))(?::(\d+))\s*$/i,
-    e6 = /^\s*at (?:(.+?\)(?: \[.+\])?|.*?) ?\((?:address at )?)?(?:async )?((?:<anonymous>|[-a-z]+:|.*bundle|\/)?.*?)(?::(\d+))?(?::(\d+))?\)?\s*$/i,
+let e6 = /^\s*at (\S+?)(?::(\d+))(?::(\d+))\s*$/i,
+    e7 = /^\s*at (?:(.+?\)(?: \[.+\])?|.*?) ?\((?:address at )?)?(?:async )?((?:<anonymous>|[-a-z]+:|.*bundle|\/)?.*?)(?::(\d+))?(?::(\d+))?\)?\s*$/i,
     e5 = /\((\S*)(?::(\d+))(?::(\d+))\)/,
     e9 = /at (.+?) ?\(data:(.+?),/,
     te = [30, e => {
@@ -10776,12 +10776,12 @@ let e7 = /^\s*at (\S+?)(?::(\d+))(?::(\d+))\s*$/i,
             filename: `<data:${t[2]}>`,
             function: t[1]
         };
-        let r = e7.exec(e);
+        let r = e6.exec(e);
         if (r) {
             let [, e, t, n] = r;
             return e8(e, T.yF, +t, +n)
         }
-        let n = e6.exec(e);
+        let n = e7.exec(e);
         if (n) {
             if (n[2] && 0 === n[2].indexOf("eval")) {
                 let e = e5.exec(n[2]);
@@ -11235,7 +11235,7 @@ function tk(e) {
                 experimentalThirdPartyOriginStackFrames: o
             })), t
         }(e),
-        release: "95492e179b993d334c986cd05919fa5d139f1d96",
+        release: "7155bdb6e13f1ee843d80566b55419e67c5a254a",
         ...e
     };
     ! function(e) {
@@ -13777,7 +13777,7 @@ return (0, i.useEffect)(() => {
     }
 }, [t, e]), [...L].map((e, t) => (0, o.jsx)("link", {
     rel: "stylesheet",
-    href: "" + e + "?dpl=dpl_5B2zD2RJKkEzABMNqYaYxVwGFt88",
+    href: "" + e + "?dpl=dpl_Byzjrs5nKMAq9rzsyUqM2XUPc1bL",
     precedence: "next"
 }, t))
 }
@@ -14257,7 +14257,6 @@ async function H(e) {
 if (!await D(e) || !e.fetchData) return null;
 let t = await e.fetchData(),
     r = await
-
 function(e, t, r) {
     let n = {
             basePath: r.router.basePath,
@@ -14392,7 +14391,7 @@ let {
         } : {}, n && a ? {
             "x-middleware-prefetch": "1"
         } : {}, {
-            "x-deployment-id": "dpl_5B2zD2RJKkEzABMNqYaYxVwGFt88"
+            "x-deployment-id": "dpl_Byzjrs5nKMAq9rzsyUqM2XUPc1bL"
         }),
         method: null != (u = null == e ? void 0 : e.method) ? u : "GET"
     }).then(r => r.ok && (null == e ? void 0 : e.method) === "HEAD" ? {
@@ -16087,7 +16086,7 @@ error: function(...e) {
 }, 73830: (e, t, r) => {
 "use strict";
 globalThis._sentryRewritesTunnelPath = void 0, globalThis.SENTRY_RELEASE = {
-id: "95492e179b993d334c986cd05919fa5d139f1d96"
+id: "7155bdb6e13f1ee843d80566b55419e67c5a254a"
 }, globalThis._sentryBasePath = void 0, globalThis._sentryNextJsVersion = "15.5.9", globalThis._sentryRewriteFramesAssetPrefixPath = "", globalThis._sentryAssetPrefix = void 0, globalThis._sentryExperimentalThirdPartyOriginStackFrames = void 0, globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":"^/([^/]+)$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/2d-solution-guide/:slug*?","regex":"^/([^/]+)/2d-solution-guide(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/:rest*","regex":"^/([^/]+)/(.+)$","paramNames":["locale","rest"],"hasOptionalPrefix":true},{"path":"/:locale/addresses/:slug*?","regex":"^/([^/]+)/addresses(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/affiliates/:slug*?","regex":"^/([^/]+)/affiliates(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/archive/blog/:slug*?","regex":"^/([^/]+)/archive/blog(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/archive/news/:slug*","regex":"^/([^/]+)/archive/news/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/archive/resources/:slug*","regex":"^/([^/]+)/archive/resources/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/awards/:slug*?","regex":"^/([^/]+)/awards(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/blog/:slug*","regex":"^/([^/]+)/blog/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/campaign/:slug*?","regex":"^/([^/]+)/campaign(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/careers","regex":"^/([^/]+)/careers$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/careers/positions","regex":"^/([^/]+)/careers/positions$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/careers/positions/:id","regex":"^/([^/]+)/careers/positions/([^/]+)$","paramNames":["locale","id"],"hasOptionalPrefix":true},{"path":"/:locale/case-study/:slug*?","regex":"^/([^/]+)/case-study(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/coe/:slug*?","regex":"^/([^/]+)/coe(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/community","regex":"^/([^/]+)/community$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/contact-us","regex":"^/([^/]+)/contact-us$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/core-standards","regex":"^/([^/]+)/core-standards$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/data-request","regex":"^/([^/]+)/data-request$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/demos/:slug*?","regex":"^/([^/]+)/demos(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/developer-tools/:slug*?","regex":"^/([^/]+)/developer-tools(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/dots/:slug*?","regex":"^/([^/]+)/dots(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/download/:slug*?","regex":"^/([^/]+)/download(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/ecs","regex":"^/([^/]+)/ecs$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/esg/:slug*?","regex":"^/([^/]+)/esg(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/events/:slug*?","regex":"^/([^/]+)/events(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/events-hub","regex":"^/([^/]+)/events-hub$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/faq/:slug*?","regex":"^/([^/]+)/faq(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/features/:slug*?","regex":"^/([^/]+)/features(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/games","regex":"^/([^/]+)/games$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/games/:slug*","regex":"^/([^/]+)/games/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/glossary","regex":"^/([^/]+)/glossary$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/glossary/:slug*","regex":"^/([^/]+)/glossary/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/grow","regex":"^/([^/]+)/grow$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/home-experiment/:slug*","regex":"^/([^/]+)/home-experiment/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/home-landing","regex":"^/([^/]+)/home-landing$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/how-to/:slug*?","regex":"^/([^/]+)/how-to(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/humanity/:slug*?","regex":"^/([^/]+)/humanity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/impact/:slug*?","regex":"^/([^/]+)/impact(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/inclusion-diversity/:slug*?","regex":"^/([^/]+)/inclusion-diversity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/industry","regex":"^/([^/]+)/industry$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/industry/:slug*","regex":"^/([^/]+)/industry/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/labs/:slug*?","regex":"^/([^/]+)/labs(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/leadership","regex":"^/([^/]+)/leadership$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/leadership/matthew-bromberg","regex":"^/([^/]+)/leadership/matthew-bromberg$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/learn/:slug*?","regex":"^/([^/]+)/learn(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/legal/:slug*?","regex":"^/([^/]+)/legal(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/made-unity/:slug*?","regex":"^/([^/]+)/made-unity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/made-with-unity/:slug*?","regex":"^/([^/]+)/made-with-unity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/news","regex":"^/([^/]+)/news$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/news/:slug*","regex":"^/([^/]+)/news/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/oauth","regex":"^/([^/]+)/oauth$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/onboardingsuccess/:slug*?","regex":"^/([^/]+)/onboardingsuccess(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/our-company","regex":"^/([^/]+)/our-company$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/pages/:slug*?","regex":"^/([^/]+)/pages(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/partners/:slug*?","regex":"^/([^/]+)/partners(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/platform-installation","regex":"^/([^/]+)/platform-installation$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/products","regex":"^/([^/]+)/products$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/products/:slug*","regex":"^/([^/]+)/products/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/products/experiment/:slug*","regex":"^/([^/]+)/products/experiment/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/publications/:slug*?","regex":"^/([^/]+)/publications(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/ray-tracing","regex":"^/([^/]+)/ray-tracing$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/ray-tracing/:slug*","regex":"^/([^/]+)/ray-tracing/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/releases/:slug*?","regex":"^/([^/]+)/releases(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor","regex":"^/([^/]+)/releases/editor$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/alpha","regex":"^/([^/]+)/releases/editor/alpha$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/alpha/:version","regex":"^/([^/]+)/releases/editor/alpha/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/archive","regex":"^/([^/]+)/releases/editor/archive$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta","regex":"^/([^/]+)/releases/editor/beta$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta/:version","regex":"^/([^/]+)/releases/editor/beta/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta/guide-beta-testing","regex":"^/([^/]+)/releases/editor/beta/guide-beta-testing$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/latest","regex":"^/([^/]+)/releases/editor/latest$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/whats-new","regex":"^/([^/]+)/releases/editor/whats-new$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/whats-new/:version","regex":"^/([^/]+)/releases/editor/whats-new/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/resources/:slug*","regex":"^/([^/]+)/resources/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/roadmap","regex":"^/([^/]+)/roadmap$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/roadmap/detail","regex":"^/([^/]+)/roadmap/detail$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/search","regex":"^/([^/]+)/search$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/security/:slug*?","regex":"^/([^/]+)/security(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/simulation/:slug*?","regex":"^/([^/]+)/simulation(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/social-impact/:slug*?","regex":"^/([^/]+)/social-impact(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/solutions/:slug*?","regex":"^/([^/]+)/solutions(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/srp/:slug*?","regex":"^/([^/]+)/srp(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/students/:slug*?","regex":"^/([^/]+)/students(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/success-plans/:slug*?","regex":"^/([^/]+)/success-plans(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/support-services/:slug*?","regex":"^/([^/]+)/support-services(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/the-heretic/:slug*?","regex":"^/([^/]+)/the-heretic(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/topics/:slug*?","regex":"^/([^/]+)/topics(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unitenow/:slug*?","regex":"^/([^/]+)/unitenow(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity/:slug*?","regex":"^/([^/]+)/unity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-hub/:slug*?","regex":"^/([^/]+)/unity-hub(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-humanity-summit/:slug*?","regex":"^/([^/]+)/unity-humanity-summit(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-insiders/:slug*?","regex":"^/([^/]+)/unity-insiders(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-pulse/:slug*?","regex":"^/([^/]+)/unity-pulse(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-release/latest","regex":"^/([^/]+)/unity-release/latest$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/unreal-engine/:slug*?","regex":"^/([^/]+)/unreal-engine(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/use-cases/:slug*?","regex":"^/([^/]+)/use-cases(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/visual-effect-graph/:slug*?","regex":"^/([^/]+)/visual-effect-graph(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true}],"staticRoutes":[],"isrRoutes":["/:locale/:rest*","/:locale/addresses/:slug*?","/:locale/affiliates/:slug*?","/:locale/archive/resources/:slug*","/:locale/awards/:slug*?","/:locale/blog/:slug*","/:locale/campaign/:slug*?","/:locale/case-study/:slug*?","/:locale/coe/:slug*?","/:locale/demos/:slug*?","/:locale/developer-tools/:slug*?","/:locale/dots/:slug*?","/:locale/download/:slug*?","/:locale/esg/:slug*?","/:locale/events/:slug*?","/:locale/faq/:slug*?","/:locale/features/:slug*?","/:locale/glossary/:slug*","/:locale/home-experiment/:slug*","/:locale/how-to/:slug*?","/:locale/humanity/:slug*?","/:locale/impact/:slug*?","/:locale/inclusion-diversity/:slug*?","/:locale/labs/:slug*?","/:locale/learn/:slug*?","/:locale/legal/:slug*?","/:locale/made-unity/:slug*?","/:locale/made-with-unity/:slug*?","/:locale/onboardingsuccess/:slug*?","/:locale/pages/:slug*?","/:locale/partners/:slug*?","/:locale/products/:slug*","/:locale/products/experiment/:slug*","/:locale/publications/:slug*?","/:locale/releases/editor/whats-new/:version","/:locale/resources/:slug*","/:locale/security/:slug*?","/:locale/simulation/:slug*?","/:locale/social-impact/:slug*?","/:locale/solutions/:slug*?","/:locale/srp/:slug*?","/:locale/students/:slug*?","/:locale/success-plans/:slug*?","/:locale/support-services/:slug*?","/:locale/the-heretic/:slug*?","/:locale/topics/:slug*?","/:locale/unitenow/:slug*?","/:locale/unity/:slug*?","/:locale/unity-hub/:slug*?","/:locale/unity-humanity-summit/:slug*?","/:locale/unity-insiders/:slug*?","/:locale/unity-pulse/:slug*?","/:locale/unreal-engine/:slug*?","/:locale/use-cases/:slug*?","/:locale/visual-effect-graph/:slug*?"]}', e.exports = r(82154)
 }, 73881: (e, t, r) => {
 "use strict";
