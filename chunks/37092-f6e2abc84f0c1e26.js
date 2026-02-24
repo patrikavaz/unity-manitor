@@ -13,7 +13,7 @@
         })
     } catch (e) {}
 }(), (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
-        [91669], {
+        [37092], {
             1172: (e, t, r) => {
                 "use strict";
                 r.d(t, {
@@ -72,6 +72,13 @@
             1632: (e, t, r) => {
                 "use strict";
                 e.exports = r(46101)
+            },
+            1647: (e, t, r) => {
+                "use strict";
+                r.d(t, {
+                    T: () => n
+                });
+                let n = !1
             },
             3601: (e, t, r) => {
                 "use strict";
@@ -1934,7 +1941,787 @@
                     })
                 }
             },
-            15524: (e, t, r) => {
+            15595: (e, t) => {
+                "use strict";
+                Object.defineProperty(t, "__esModule", {
+                    value: !0
+                }), Object.defineProperty(t, "escapeStringRegexp", {
+                    enumerable: !0,
+                    get: function() {
+                        return a
+                    }
+                });
+                let r = /[|\\{}()[\]^$+*?.-]/,
+                    n = /[|\\{}()[\]^$+*?.-]/g;
+
+                function a(e) {
+                    return r.test(e) ? e.replace(n, "\\$&") : e
+                }
+            },
+            16085: (e, t, r) => {
+                "use strict";
+                r.d(t, {
+                    S8: () => i,
+                    cd: () => function e(t, r = 3, n = 102400) {
+                        let a = i(t, r);
+                        return ~-encodeURI(JSON.stringify(a)).split(/%..|./).length > n ? e(t, r - 1, n) : a
+                    }
+                });
+                var n = r(31530),
+                    a = r(36929),
+                    o = r(48375);
+
+                function i(e, t = 100, r = Infinity) {
+                    try {
+                        return function e(t, r, i = Infinity, s = Infinity, l = function() {
+                            let e = new WeakSet;
+                            return [function(t) {
+                                return !!e.has(t) || (e.add(t), !1)
+                            }, function(t) {
+                                e.delete(t)
+                            }]
+                        }()) {
+                            let [u, c] = l;
+                            if (null == r || ["boolean", "string"].includes(typeof r) || "number" == typeof r && Number.isFinite(r)) return r;
+                            let f = function(e, t) {
+                                try {
+                                    if ("domain" === e && t && "object" == typeof t && t._events) return "[Domain]";
+                                    if ("domainEmitter" === e) return "[DomainEmitter]";
+                                    if ("undefined" != typeof global && t === global) return "[Global]";
+                                    if ("undefined" != typeof window && t === window) return "[Window]";
+                                    if ("undefined" != typeof document && t === document) return "[Document]";
+                                    if ((0, n.L2)(t)) return (0, o.nY)(t);
+                                    if ((0, n.mE)(t)) return "[SyntheticEvent]";
+                                    if ("number" == typeof t && !Number.isFinite(t)) return `[${t}]`;
+                                    if ("function" == typeof t) return `[Function: ${(0,o.qQ)(t)}]`;
+                                    if ("symbol" == typeof t) return `[${String(t)}]`;
+                                    if ("bigint" == typeof t) return `[BigInt: ${String(t)}]`;
+                                    let r = function(e) {
+                                        let t = Object.getPrototypeOf(e);
+                                        return t?.constructor ? t.constructor.name : "null prototype"
+                                    }(t);
+                                    if (/^HTML(\w*)Element$/.test(r)) return `[HTMLElement: ${r}]`;
+                                    return `[object ${r}]`
+                                } catch (e) {
+                                    return `**non-serializable** (${e})`
+                                }
+                            }(t, r);
+                            if (!f.startsWith("[object ")) return f;
+                            if (r.__sentry_skip_normalization__) return r;
+                            let d = "number" == typeof r.__sentry_override_normalization_depth__ ? r.__sentry_override_normalization_depth__ : i;
+                            if (0 === d) return f.replace("object ", "");
+                            if (u(r)) return "[Circular ~]";
+                            if (r && "function" == typeof r.toJSON) try {
+                                let t = r.toJSON();
+                                return e("", t, d - 1, s, l)
+                            } catch {}
+                            let p = Array.isArray(r) ? [] : {},
+                                h = 0,
+                                g = (0, a.W4)(r);
+                            for (let t in g) {
+                                if (!Object.prototype.hasOwnProperty.call(g, t)) continue;
+                                if (h >= s) {
+                                    p[t] = "[MaxProperties ~]";
+                                    break
+                                }
+                                let r = g[t];
+                                p[t] = e(t, r, d - 1, s, l), h++
+                            }
+                            return c(r), p
+                        }("", e, t, r)
+                    } catch (e) {
+                        return {
+                            ERROR: `**non-serializable** (${e})`
+                        }
+                    }
+                }
+            },
+            16976: (e, t) => {
+                "use strict";
+                Object.defineProperty(t, "__esModule", {
+                    value: !0
+                }), Object.defineProperty(t, "setAttributesFromProps", {
+                    enumerable: !0,
+                    get: function() {
+                        return o
+                    }
+                });
+                let r = {
+                        acceptCharset: "accept-charset",
+                        className: "class",
+                        htmlFor: "for",
+                        httpEquiv: "http-equiv",
+                        noModule: "noModule"
+                    },
+                    n = ["onLoad", "onReady", "dangerouslySetInnerHTML", "children", "onError", "strategy", "stylesheets"];
+
+                function a(e) {
+                    return ["async", "defer", "noModule"].includes(e)
+                }
+
+                function o(e, t) {
+                    for (let [o, i] of Object.entries(t)) {
+                        if (!t.hasOwnProperty(o) || n.includes(o) || void 0 === i) continue;
+                        let s = r[o] || o.toLowerCase();
+                        "SCRIPT" === e.tagName && a(s) ? e[s] = !!i : e.setAttribute(s, String(i)), (!1 === i || "SCRIPT" === e.tagName && a(s) && (!i || "false" === i)) && (e.setAttribute(s, ""), e.removeAttribute(s))
+                    }
+                }("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+                    value: !0
+                }), Object.assign(t.default, t), e.exports = t.default)
+            },
+            17518: (e, t) => {
+                "use strict";
+                Object.defineProperty(t, "__esModule", {
+                    value: !0
+                }), Object.defineProperty(t, "HTML_LIMITED_BOT_UA_RE", {
+                    enumerable: !0,
+                    get: function() {
+                        return r
+                    }
+                });
+                let r = /[\w-]+-Google|Google-[\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight/i
+            },
+            17752: (e, t, r) => {
+                "use strict";
+                Object.defineProperty(t, "__esModule", {
+                    value: !0
+                }), ! function(e, t) {
+                    for (var r in t) Object.defineProperty(e, r, {
+                        enumerable: !0,
+                        get: t[r]
+                    })
+                }(t, {
+                    generateSegmentsFromPatch: function() {
+                        return b
+                    },
+                    handleExternalUrl: function() {
+                        return v
+                    },
+                    navigateReducer: function() {
+                        return function e(t, r) {
+                            let {
+                                url: E,
+                                isExternalUrl: P,
+                                navigateType: R,
+                                shouldScroll: O,
+                                allowAliasing: S
+                            } = r, T = {}, {
+                                hash: x
+                            } = E, w = (0, a.createHrefFromUrl)(E), j = "push" === R;
+                            if ((0, m.prunePrefetchCache)(t.prefetchCache), T.preserveCustomHistoryState = !1, T.pendingPush = j, P) return v(t, T, E.toString(), j);
+                            if (document.getElementById("__next-page-redirect")) return v(t, T, w, j);
+                            let A = (0, m.getOrCreatePrefetchCacheEntry)({
+                                    url: E,
+                                    nextUrl: t.nextUrl,
+                                    tree: t.tree,
+                                    prefetchCache: t.prefetchCache,
+                                    allowAliasing: S
+                                }),
+                                {
+                                    treeAtTimeOfPrefetch: C,
+                                    data: N
+                                } = A;
+                            return d.prefetchQueue.bump(N), N.then(d => {
+                                let {
+                                    flightData: m,
+                                    canonicalUrl: P,
+                                    postponed: R
+                                } = d, S = Date.now(), N = !1;
+                                if (A.lastUsedTime || (A.lastUsedTime = S, N = !0), A.aliased) {
+                                    let n = new URL(E.href);
+                                    P && (n.pathname = P.pathname);
+                                    let a = (0, y.handleAliasedPrefetchEntry)(S, t, m, n, T);
+                                    return !1 === a ? e(t, {
+                                        ...r,
+                                        allowAliasing: !1
+                                    }) : a
+                                }
+                                if ("string" == typeof m) return v(t, T, m, j);
+                                let M = P ? (0, a.createHrefFromUrl)(P) : w;
+                                if (x && t.canonicalUrl.split("#", 1)[0] === M.split("#", 1)[0]) return T.onlyHashChange = !0, T.canonicalUrl = M, T.shouldScroll = O, T.hashFragment = x, T.scrollableSegments = [], (0, c.handleMutable)(t, T);
+                                let k = t.tree,
+                                    I = t.cache,
+                                    D = [];
+                                for (let e of m) {
+                                    let {
+                                        pathToSegment: r,
+                                        seedData: a,
+                                        head: c,
+                                        isHeadPartial: d,
+                                        isRootRender: m
+                                    } = e, y = e.tree, P = ["", ...r], O = (0, i.applyRouterStatePatchToTree)(P, k, y, w);
+                                    if (null === O && (O = (0, i.applyRouterStatePatchToTree)(P, C, y, w)), null !== O) {
+                                        if (a && m && R) {
+                                            let e = (0, g.startPPRNavigation)(S, I, k, y, a, c, d, !1, D);
+                                            if (null !== e) {
+                                                if (null === e.route) return v(t, T, w, j);
+                                                O = e.route;
+                                                let r = e.node;
+                                                null !== r && (T.cache = r);
+                                                let a = e.dynamicRequestTree;
+                                                if (null !== a) {
+                                                    let r = (0, n.fetchServerResponse)(new URL(M, E.origin), {
+                                                        flightRouterState: a,
+                                                        nextUrl: t.nextUrl
+                                                    });
+                                                    (0, g.listenForDynamicRequest)(e, r)
+                                                }
+                                            } else O = y
+                                        } else {
+                                            if ((0, l.isNavigatingToNewRootLayout)(k, O)) return v(t, T, w, j);
+                                            let n = (0, p.createEmptyCacheNode)(),
+                                                a = !1;
+                                            for (let t of (A.status !== u.PrefetchCacheEntryStatus.stale || N ? a = (0, f.applyFlightData)(S, I, n, e, A) : (a = function(e, t, r, n) {
+                                                    let a = !1;
+                                                    for (let o of (e.rsc = t.rsc, e.prefetchRsc = t.prefetchRsc, e.loading = t.loading, e.parallelRoutes = new Map(t.parallelRoutes), b(n).map(e => [...r, ...e])))(0, _.clearCacheNodeDataForSegmentPath)(e, t, o), a = !0;
+                                                    return a
+                                                }(n, I, r, y), A.lastUsedTime = S), (0, s.shouldHardNavigate)(P, k) ? (n.rsc = I.rsc, n.prefetchRsc = I.prefetchRsc, (0, o.invalidateCacheBelowFlightSegmentPath)(n, I, r), T.cache = n) : a && (T.cache = n, I = n), b(y))) {
+                                                let e = [...r, ...t];
+                                                e[e.length - 1] !== h.DEFAULT_SEGMENT_KEY && D.push(e)
+                                            }
+                                        }
+                                        k = O
+                                    }
+                                }
+                                return T.patchedTree = k, T.canonicalUrl = M, T.scrollableSegments = D, T.hashFragment = x, T.shouldScroll = O, (0, c.handleMutable)(t, T)
+                            }, () => t)
+                        }
+                    }
+                });
+                let n = r(90252),
+                    a = r(54013),
+                    o = r(73040),
+                    i = r(79728),
+                    s = r(68369),
+                    l = r(20968),
+                    u = r(58664),
+                    c = r(83589),
+                    f = r(89692),
+                    d = r(62332),
+                    p = r(44836),
+                    h = r(55565),
+                    g = r(4056),
+                    m = r(8512),
+                    _ = r(12090),
+                    y = r(86949);
+
+                function v(e, t, r, n) {
+                    return t.mpaNavigation = !0, t.canonicalUrl = r, t.pendingPush = n, t.scrollableSegments = void 0, (0, c.handleMutable)(e, t)
+                }
+
+                function b(e) {
+                    let t = [],
+                        [r, n] = e;
+                    if (0 === Object.keys(n).length) return [
+                        [r]
+                    ];
+                    for (let [e, a] of Object.entries(n))
+                        for (let n of b(a)) "" === r ? t.push([e, ...n]) : t.push([r, e, ...n]);
+                    return t
+                }
+                r(69055), ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+                    value: !0
+                }), Object.assign(t.default, t), e.exports = t.default)
+            },
+            17815: (e, t, r) => {
+                "use strict";
+
+                function n(e) {
+                    return "isRelative" in e
+                }
+
+                function a(e, t) {
+                    let r = 0 >= e.indexOf("://") && 0 !== e.indexOf("//"),
+                        n = t ?? (r ? "thismessage:/" : void 0);
+                    try {
+                        if ("canParse" in URL && !URL.canParse(e, n)) return;
+                        let t = new URL(e, n);
+                        if (r) return {
+                            isRelative: r,
+                            pathname: t.pathname,
+                            search: t.search,
+                            hash: t.hash
+                        };
+                        return t
+                    } catch {}
+                }
+
+                function o(e) {
+                    if (n(e)) return e.pathname;
+                    let t = new URL(e);
+                    return t.search = "", t.hash = "", ["80", "443"].includes(t.port) && (t.port = ""), t.password && (t.password = "%filtered%"), t.username && (t.username = "%filtered%"), t.toString()
+                }
+
+                function i(e) {
+                    if (!e) return {};
+                    let t = e.match(/^(([^:/?#]+):)?(\/\/([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?$/);
+                    if (!t) return {};
+                    let r = t[6] || "",
+                        n = t[8] || "";
+                    return {
+                        host: t[4],
+                        path: t[5],
+                        protocol: t[2],
+                        search: r,
+                        hash: n,
+                        relative: t[5] + r + n
+                    }
+                }
+
+                function s(e) {
+                    return e.split(/[?#]/, 1)[0]
+                }
+                r.d(t, {
+                    CH: () => o,
+                    Dl: () => i,
+                    f: () => s,
+                    kg: () => a,
+                    nt: () => n
+                })
+            },
+            17887: (e, t, r) => {
+                "use strict";
+                r.d(t, {
+                    Xr: () => l,
+                    _c: () => s,
+                    gt: () => i,
+                    xv: () => o
+                });
+                var n = r(31530),
+                    a = r(48375);
+
+                function o(e, t = 0) {
+                    return "string" != typeof e || 0 === t || e.length <= t ? e : `${e.slice(0,t)}...`
+                }
+
+                function i(e, t) {
+                    if (!Array.isArray(e)) return "";
+                    let r = [];
+                    for (let t = 0; t < e.length; t++) {
+                        let o = e[t];
+                        try {
+                            (0, n.L2)(o) ? r.push((0, a.nY)(o)): r.push(String(o))
+                        } catch {
+                            r.push("[value cannot be serialized]")
+                        }
+                    }
+                    return r.join(t)
+                }
+
+                function s(e, t, r = !1) {
+                    return !!(0, n.Kg)(e) && ((0, n.gd)(t) ? t.test(e) : !!(0, n.Kg)(t) && (r ? e === t : e.includes(t)))
+                }
+
+                function l(e, t = [], r = !1) {
+                    return t.some(t => s(e, t, r))
+                }
+            },
+            18801: (e, t, r) => {
+                "use strict";
+                r.d(t, {
+                    E1: () => d,
+                    Ef: () => o,
+                    JD: () => s,
+                    Lc: () => h,
+                    Le: () => f,
+                    Sn: () => u,
+                    fs: () => l,
+                    i_: () => n,
+                    jG: () => p,
+                    sy: () => a,
+                    uT: () => i,
+                    xc: () => c
+                });
+                let n = "sentry.source",
+                    a = "sentry.sample_rate",
+                    o = "sentry.previous_trace_sample_rate",
+                    i = "sentry.op",
+                    s = "sentry.origin",
+                    l = "sentry.idle_span_finish_reason",
+                    u = "sentry.measurement_unit",
+                    c = "sentry.measurement_value",
+                    f = "sentry.custom_span_name",
+                    d = "sentry.profile_id",
+                    p = "sentry.exclusive_time",
+                    h = "sentry.link.type"
+            },
+            19871: (e, t, r) => {
+                "use strict";
+                r.d(t, {
+                    AD: () => f,
+                    SB: () => s,
+                    hH: () => l,
+                    ul: () => c
+                });
+                var n = r(91810),
+                    a = r(42792);
+                let o = /^o(\d+)\./,
+                    i = /^(?:(\w+):)\/\/(?:(\w+)(?::(\w+)?)?@)((?:\[[:.%\w]+\]|[\w.-]+))(?::(\d+))?\/(.+)/;
+
+                function s(e, t = !1) {
+                    let {
+                        host: r,
+                        path: n,
+                        pass: a,
+                        port: o,
+                        projectId: i,
+                        protocol: l,
+                        publicKey: u
+                    } = e;
+                    return `${l}://${u}${t&&a?`:${a}`:""}@${r}${o?`:${o}`:""}/${n?`${n}/`:n}${i}`
+                }
+
+                function l(e) {
+                    let t = i.exec(e);
+                    if (!t) return void(0, a.pq)(() => {
+                        console.error(`Invalid Sentry Dsn: ${e}`)
+                    });
+                    let [r, n, o = "", s = "", l = "", c = ""] = t.slice(1), f = "", d = c, p = d.split("/");
+                    if (p.length > 1 && (f = p.slice(0, -1).join("/"), d = p.pop()), d) {
+                        let e = d.match(/^\d+/);
+                        e && (d = e[0])
+                    }
+                    return u({
+                        host: s,
+                        pass: o,
+                        path: f,
+                        projectId: d,
+                        port: l,
+                        protocol: r,
+                        publicKey: n
+                    })
+                }
+
+                function u(e) {
+                    return {
+                        protocol: e.protocol,
+                        publicKey: e.publicKey || "",
+                        pass: e.pass || "",
+                        host: e.host,
+                        port: e.port || "",
+                        path: e.path || "",
+                        projectId: e.projectId
+                    }
+                }
+
+                function c(e) {
+                    let t, r = e.getOptions(),
+                        {
+                            host: n
+                        } = e.getDsn() || {};
+                    return r.orgId ? t = String(r.orgId) : n && (t = function(e) {
+                        let t = e.match(o);
+                        return t?.[1]
+                    }(n)), t
+                }
+
+                function f(e) {
+                    let t = "string" == typeof e ? l(e) : u(e);
+                    if (t && function(e) {
+                            if (!n.T) return !0;
+                            let {
+                                port: t,
+                                projectId: r,
+                                protocol: o
+                            } = e;
+                            return !["protocol", "publicKey", "host", "projectId"].find(t => !e[t] && (a.Yz.error(`Invalid Sentry Dsn: ${t} missing`), !0)) && (r.match(/^\d+$/) ? "http" !== o && "https" !== o ? (a.Yz.error(`Invalid Sentry Dsn: Invalid protocol ${o}`), !1) : !(t && isNaN(parseInt(t, 10))) || (a.Yz.error(`Invalid Sentry Dsn: Invalid port ${t}`), !1) : (a.Yz.error(`Invalid Sentry Dsn: Invalid projectId ${r}`), !1))
+                        }(t)) return t
+                }
+            },
+            20968: (e, t) => {
+                "use strict";
+                Object.defineProperty(t, "__esModule", {
+                    value: !0
+                }), Object.defineProperty(t, "isNavigatingToNewRootLayout", {
+                    enumerable: !0,
+                    get: function() {
+                        return function e(t, r) {
+                            let n = t[0],
+                                a = r[0];
+                            if (Array.isArray(n) && Array.isArray(a)) {
+                                if (n[0] !== a[0] || n[2] !== a[2]) return !0
+                            } else if (n !== a) return !0;
+                            if (t[4]) return !r[4];
+                            if (r[4]) return !0;
+                            let o = Object.values(t[1])[0],
+                                i = Object.values(r[1])[0];
+                            return !o || !i || e(o, i)
+                        }
+                    }
+                }), ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+                    value: !0
+                }), Object.assign(t.default, t), e.exports = t.default)
+            },
+            21321: (e, t, r) => {
+                "use strict";
+                Object.defineProperty(t, "__esModule", {
+                    value: !0
+                }), Object.defineProperty(t, "notFound", {
+                    enumerable: !0,
+                    get: function() {
+                        return a
+                    }
+                });
+                let n = "" + r(57016).HTTP_ERROR_FALLBACK_ERROR_CODE + ";404";
+
+                function a() {
+                    let e = Object.defineProperty(Error(n), "__NEXT_ERROR_CODE", {
+                        value: "E394",
+                        enumerable: !1,
+                        configurable: !0
+                    });
+                    throw e.digest = n, e
+                }("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+                    value: !0
+                }), Object.assign(t.default, t), e.exports = t.default)
+            },
+            21408: (e, t, r) => {
+                "use strict";
+                Object.defineProperty(t, "__esModule", {
+                    value: !0
+                }), Object.defineProperty(t, "fillLazyItemsTillLeafWithHead", {
+                    enumerable: !0,
+                    get: function() {
+                        return function e(t, r, o, i, s, l, u) {
+                            if (0 === Object.keys(i[1]).length) {
+                                r.head = l;
+                                return
+                            }
+                            for (let c in i[1]) {
+                                let f, d = i[1][c],
+                                    p = d[0],
+                                    h = (0, n.createRouterCacheKey)(p),
+                                    g = null !== s && void 0 !== s[2][c] ? s[2][c] : null;
+                                if (o) {
+                                    let n = o.parallelRoutes.get(c);
+                                    if (n) {
+                                        let o, i = (null == u ? void 0 : u.kind) === "auto" && u.status === a.PrefetchCacheEntryStatus.reusable,
+                                            s = new Map(n),
+                                            f = s.get(h);
+                                        o = null !== g ? {
+                                            lazyData: null,
+                                            rsc: g[1],
+                                            prefetchRsc: null,
+                                            head: null,
+                                            prefetchHead: null,
+                                            loading: g[3],
+                                            parallelRoutes: new Map(null == f ? void 0 : f.parallelRoutes),
+                                            navigatedAt: t
+                                        } : i && f ? {
+                                            lazyData: f.lazyData,
+                                            rsc: f.rsc,
+                                            prefetchRsc: f.prefetchRsc,
+                                            head: f.head,
+                                            prefetchHead: f.prefetchHead,
+                                            parallelRoutes: new Map(f.parallelRoutes),
+                                            loading: f.loading
+                                        } : {
+                                            lazyData: null,
+                                            rsc: null,
+                                            prefetchRsc: null,
+                                            head: null,
+                                            prefetchHead: null,
+                                            parallelRoutes: new Map(null == f ? void 0 : f.parallelRoutes),
+                                            loading: null,
+                                            navigatedAt: t
+                                        }, s.set(h, o), e(t, o, f, d, g || null, l, u), r.parallelRoutes.set(c, s);
+                                        continue
+                                    }
+                                }
+                                if (null !== g) {
+                                    let e = g[1],
+                                        r = g[3];
+                                    f = {
+                                        lazyData: null,
+                                        rsc: e,
+                                        prefetchRsc: null,
+                                        head: null,
+                                        prefetchHead: null,
+                                        parallelRoutes: new Map,
+                                        loading: r,
+                                        navigatedAt: t
+                                    }
+                                } else f = {
+                                    lazyData: null,
+                                    rsc: null,
+                                    prefetchRsc: null,
+                                    head: null,
+                                    prefetchHead: null,
+                                    parallelRoutes: new Map,
+                                    loading: null,
+                                    navigatedAt: t
+                                };
+                                let m = r.parallelRoutes.get(c);
+                                m ? m.set(h, f) : r.parallelRoutes.set(c, new Map([
+                                    [h, f]
+                                ])), e(t, f, void 0, d, g, l, u)
+                            }
+                        }
+                    }
+                });
+                let n = r(27507),
+                    a = r(58664);
+                ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+                    value: !0
+                }), Object.assign(t.default, t), e.exports = t.default)
+            },
+            21720: (e, t, r) => {
+                "use strict";
+                Object.defineProperty(t, "__esModule", {
+                    value: !0
+                }), ! function(e, t) {
+                    for (var r in t) Object.defineProperty(e, r, {
+                        enumerable: !0,
+                        get: t[r]
+                    })
+                }(t, {
+                    RedirectBoundary: function() {
+                        return f
+                    },
+                    RedirectErrorBoundary: function() {
+                        return c
+                    }
+                });
+                let n = r(5831),
+                    a = r(80475),
+                    o = n._(r(88491)),
+                    i = r(43397),
+                    s = r(30759),
+                    l = r(99528);
+
+                function u(e) {
+                    let {
+                        redirect: t,
+                        reset: r,
+                        redirectType: n
+                    } = e, a = (0, i.useRouter)();
+                    return (0, o.useEffect)(() => {
+                        o.default.startTransition(() => {
+                            n === l.RedirectType.push ? a.push(t, {}) : a.replace(t, {}), r()
+                        })
+                    }, [t, n, r, a]), null
+                }
+                class c extends o.default.Component {
+                    static getDerivedStateFromError(e) {
+                        if ((0, l.isRedirectError)(e)) return {
+                            redirect: (0, s.getURLFromRedirectError)(e),
+                            redirectType: (0, s.getRedirectTypeFromError)(e)
+                        };
+                        throw e
+                    }
+                    render() {
+                        let {
+                            redirect: e,
+                            redirectType: t
+                        } = this.state;
+                        return null !== e && null !== t ? (0, a.jsx)(u, {
+                            redirect: e,
+                            redirectType: t,
+                            reset: () => this.setState({
+                                redirect: null
+                            })
+                        }) : this.props.children
+                    }
+                    constructor(e) {
+                        super(e), this.state = {
+                            redirect: null,
+                            redirectType: null
+                        }
+                    }
+                }
+
+                function f(e) {
+                    let {
+                        children: t
+                    } = e, r = (0, i.useRouter)();
+                    return (0, a.jsx)(c, {
+                        router: r,
+                        children: t
+                    })
+                }("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+                    value: !0
+                }), Object.assign(t.default, t), e.exports = t.default)
+            },
+            22917: (e, t) => {
+                "use strict";
+                Object.defineProperty(t, "__esModule", {
+                    value: !0
+                }), Object.defineProperty(t, "matchSegment", {
+                    enumerable: !0,
+                    get: function() {
+                        return r
+                    }
+                });
+                let r = (e, t) => "string" == typeof e ? "string" == typeof t && e === t : "string" != typeof t && e[0] === t[0] && e[1] === t[1];
+                ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+                    value: !0
+                }), Object.assign(t.default, t), e.exports = t.default)
+            },
+            23102: (e, t, r) => {
+                "use strict";
+                Object.defineProperty(t, "__esModule", {
+                    value: !0
+                }), Object.defineProperty(t, "AppRouterAnnouncer", {
+                    enumerable: !0,
+                    get: function() {
+                        return i
+                    }
+                });
+                let n = r(88491),
+                    a = r(95082),
+                    o = "next-route-announcer";
+
+                function i(e) {
+                    let {
+                        tree: t
+                    } = e, [r, i] = (0, n.useState)(null);
+                    (0, n.useEffect)(() => (i(function() {
+                        var e;
+                        let t = document.getElementsByName(o)[0];
+                        if (null == t || null == (e = t.shadowRoot) ? void 0 : e.childNodes[0]) return t.shadowRoot.childNodes[0];
+                        {
+                            let e = document.createElement(o);
+                            e.style.cssText = "position:absolute";
+                            let t = document.createElement("div");
+                            return t.ariaLive = "assertive", t.id = "__next-route-announcer__", t.role = "alert", t.style.cssText = "position:absolute;border:0;height:1px;margin:-1px;padding:0;width:1px;clip:rect(0 0 0 0);overflow:hidden;white-space:nowrap;word-wrap:normal", e.attachShadow({
+                                mode: "open"
+                            }).appendChild(t), document.body.appendChild(e), t
+                        }
+                    }()), () => {
+                        let e = document.getElementsByTagName(o)[0];
+                        (null == e ? void 0 : e.isConnected) && document.body.removeChild(e)
+                    }), []);
+                    let [s, l] = (0, n.useState)(""), u = (0, n.useRef)(void 0);
+                    return (0, n.useEffect)(() => {
+                        let e = "";
+                        if (document.title) e = document.title;
+                        else {
+                            let t = document.querySelector("h1");
+                            t && (e = t.innerText || t.textContent || "")
+                        }
+                        void 0 !== u.current && u.current !== e && l(e), u.current = e
+                    }, [t]), r ? (0, a.createPortal)(s, r) : null
+                }("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+                    value: !0
+                }), Object.assign(t.default, t), e.exports = t.default)
+            },
+            23557: (e, t, r) => {
+                "use strict";
+                Object.defineProperty(t, "__esModule", {
+                    value: !0
+                }), r(10527);
+                let n = r(24734),
+                    a = r(97459);
+                (0, n.appBootstrap)(() => {
+                    let {
+                        hydrate: e
+                    } = r(44776);
+                    r(44836), r(63185), e(a)
+                }), ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+                    value: !0
+                }), Object.assign(t.default, t), e.exports = t.default)
+            },
+            23633: (e, t, r) => {
                 "use strict";
                 let n, a, o, i;
                 r.d(t, {
@@ -3104,10 +3891,10 @@ function tc(e) {
     return [v(), S(), eW(), eB(), eQ(), e5(), x(), e1(), eG()]
 }
 var tf = r(88491),
-    td = r(45688),
+    td = r(1647),
     tp = r(37811),
     th = r(38922),
-    tg = r(83407),
+    tg = r(27260),
     tm = r(53088),
     t_ = r(94151),
     ty = r.n(t_);
@@ -3281,7 +4068,7 @@ class tT {
         return this._cache.forEach(t => e.push(t)), e
     }
 }
-var tx = r(25310);
+var tx = r(35655);
 let tw = new tT(100);
 var tj = r(37811);
 let tA = s.O;
@@ -3420,7 +4207,7 @@ function tk(e) {
                 experimentalThirdPartyOriginStackFrames: o
             })), t
         }(e),
-        release: "9957c0836ace44ecf938590ecf317cadc9883751",
+        release: "cb2e4ab745ae889f5a85a6471a85144e981a8efa",
         ...e
     };
     ! function(e) {
@@ -3485,770 +4272,6 @@ function tk(e) {
     };
     return o.id = "NextRedirectErrorFilter", (0, f.SA)(o), r
 }
-}, 15595: (e, t) => {
-"use strict";
-Object.defineProperty(t, "__esModule", {
-value: !0
-}), Object.defineProperty(t, "escapeStringRegexp", {
-enumerable: !0,
-get: function() {
-    return a
-}
-});
-let r = /[|\\{}()[\]^$+*?.-]/,
-n = /[|\\{}()[\]^$+*?.-]/g;
-
-function a(e) {
-return r.test(e) ? e.replace(n, "\\$&") : e
-}
-}, 16085: (e, t, r) => {
-"use strict";
-r.d(t, {
-S8: () => i,
-cd: () => function e(t, r = 3, n = 102400) {
-    let a = i(t, r);
-    return ~-encodeURI(JSON.stringify(a)).split(/%..|./).length > n ? e(t, r - 1, n) : a
-}
-});
-var n = r(31530),
-a = r(36929),
-o = r(48375);
-
-function i(e, t = 100, r = Infinity) {
-try {
-    return function e(t, r, i = Infinity, s = Infinity, l = function() {
-        let e = new WeakSet;
-        return [function(t) {
-            return !!e.has(t) || (e.add(t), !1)
-        }, function(t) {
-            e.delete(t)
-        }]
-    }()) {
-        let [u, c] = l;
-        if (null == r || ["boolean", "string"].includes(typeof r) || "number" == typeof r && Number.isFinite(r)) return r;
-        let f = function(e, t) {
-            try {
-                if ("domain" === e && t && "object" == typeof t && t._events) return "[Domain]";
-                if ("domainEmitter" === e) return "[DomainEmitter]";
-                if ("undefined" != typeof global && t === global) return "[Global]";
-                if ("undefined" != typeof window && t === window) return "[Window]";
-                if ("undefined" != typeof document && t === document) return "[Document]";
-                if ((0, n.L2)(t)) return (0, o.nY)(t);
-                if ((0, n.mE)(t)) return "[SyntheticEvent]";
-                if ("number" == typeof t && !Number.isFinite(t)) return `[${t}]`;
-                if ("function" == typeof t) return `[Function: ${(0,o.qQ)(t)}]`;
-                if ("symbol" == typeof t) return `[${String(t)}]`;
-                if ("bigint" == typeof t) return `[BigInt: ${String(t)}]`;
-                let r = function(e) {
-                    let t = Object.getPrototypeOf(e);
-                    return t?.constructor ? t.constructor.name : "null prototype"
-                }(t);
-                if (/^HTML(\w*)Element$/.test(r)) return `[HTMLElement: ${r}]`;
-                return `[object ${r}]`
-            } catch (e) {
-                return `**non-serializable** (${e})`
-            }
-        }(t, r);
-        if (!f.startsWith("[object ")) return f;
-        if (r.__sentry_skip_normalization__) return r;
-        let d = "number" == typeof r.__sentry_override_normalization_depth__ ? r.__sentry_override_normalization_depth__ : i;
-        if (0 === d) return f.replace("object ", "");
-        if (u(r)) return "[Circular ~]";
-        if (r && "function" == typeof r.toJSON) try {
-            let t = r.toJSON();
-            return e("", t, d - 1, s, l)
-        } catch {}
-        let p = Array.isArray(r) ? [] : {},
-            h = 0,
-            g = (0, a.W4)(r);
-        for (let t in g) {
-            if (!Object.prototype.hasOwnProperty.call(g, t)) continue;
-            if (h >= s) {
-                p[t] = "[MaxProperties ~]";
-                break
-            }
-            let r = g[t];
-            p[t] = e(t, r, d - 1, s, l), h++
-        }
-        return c(r), p
-    }("", e, t, r)
-} catch (e) {
-    return {
-        ERROR: `**non-serializable** (${e})`
-    }
-}
-}
-}, 16976: (e, t) => {
-"use strict";
-Object.defineProperty(t, "__esModule", {
-value: !0
-}), Object.defineProperty(t, "setAttributesFromProps", {
-enumerable: !0,
-get: function() {
-    return o
-}
-});
-let r = {
-    acceptCharset: "accept-charset",
-    className: "class",
-    htmlFor: "for",
-    httpEquiv: "http-equiv",
-    noModule: "noModule"
-},
-n = ["onLoad", "onReady", "dangerouslySetInnerHTML", "children", "onError", "strategy", "stylesheets"];
-
-function a(e) {
-return ["async", "defer", "noModule"].includes(e)
-}
-
-function o(e, t) {
-for (let [o, i] of Object.entries(t)) {
-    if (!t.hasOwnProperty(o) || n.includes(o) || void 0 === i) continue;
-    let s = r[o] || o.toLowerCase();
-    "SCRIPT" === e.tagName && a(s) ? e[s] = !!i : e.setAttribute(s, String(i)), (!1 === i || "SCRIPT" === e.tagName && a(s) && (!i || "false" === i)) && (e.setAttribute(s, ""), e.removeAttribute(s))
-}
-}("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
-value: !0
-}), Object.assign(t.default, t), e.exports = t.default)
-}, 17518: (e, t) => {
-"use strict";
-Object.defineProperty(t, "__esModule", {
-value: !0
-}), Object.defineProperty(t, "HTML_LIMITED_BOT_UA_RE", {
-enumerable: !0,
-get: function() {
-    return r
-}
-});
-let r = /[\w-]+-Google|Google-[\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight/i
-}, 17752: (e, t, r) => {
-"use strict";
-Object.defineProperty(t, "__esModule", {
-value: !0
-}), ! function(e, t) {
-for (var r in t) Object.defineProperty(e, r, {
-    enumerable: !0,
-    get: t[r]
-})
-}(t, {
-generateSegmentsFromPatch: function() {
-    return b
-},
-handleExternalUrl: function() {
-    return v
-},
-navigateReducer: function() {
-    return function e(t, r) {
-        let {
-            url: E,
-            isExternalUrl: P,
-            navigateType: R,
-            shouldScroll: O,
-            allowAliasing: S
-        } = r, T = {}, {
-            hash: x
-        } = E, w = (0, a.createHrefFromUrl)(E), j = "push" === R;
-        if ((0, m.prunePrefetchCache)(t.prefetchCache), T.preserveCustomHistoryState = !1, T.pendingPush = j, P) return v(t, T, E.toString(), j);
-        if (document.getElementById("__next-page-redirect")) return v(t, T, w, j);
-        let A = (0, m.getOrCreatePrefetchCacheEntry)({
-                url: E,
-                nextUrl: t.nextUrl,
-                tree: t.tree,
-                prefetchCache: t.prefetchCache,
-                allowAliasing: S
-            }),
-            {
-                treeAtTimeOfPrefetch: C,
-                data: N
-            } = A;
-        return d.prefetchQueue.bump(N), N.then(d => {
-            let {
-                flightData: m,
-                canonicalUrl: P,
-                postponed: R
-            } = d, S = Date.now(), N = !1;
-            if (A.lastUsedTime || (A.lastUsedTime = S, N = !0), A.aliased) {
-                let n = new URL(E.href);
-                P && (n.pathname = P.pathname);
-                let a = (0, y.handleAliasedPrefetchEntry)(S, t, m, n, T);
-                return !1 === a ? e(t, {
-                    ...r,
-                    allowAliasing: !1
-                }) : a
-            }
-            if ("string" == typeof m) return v(t, T, m, j);
-            let M = P ? (0, a.createHrefFromUrl)(P) : w;
-            if (x && t.canonicalUrl.split("#", 1)[0] === M.split("#", 1)[0]) return T.onlyHashChange = !0, T.canonicalUrl = M, T.shouldScroll = O, T.hashFragment = x, T.scrollableSegments = [], (0, c.handleMutable)(t, T);
-            let k = t.tree,
-                I = t.cache,
-                D = [];
-            for (let e of m) {
-                let {
-                    pathToSegment: r,
-                    seedData: a,
-                    head: c,
-                    isHeadPartial: d,
-                    isRootRender: m
-                } = e, y = e.tree, P = ["", ...r], O = (0, i.applyRouterStatePatchToTree)(P, k, y, w);
-                if (null === O && (O = (0, i.applyRouterStatePatchToTree)(P, C, y, w)), null !== O) {
-                    if (a && m && R) {
-                        let e = (0, g.startPPRNavigation)(S, I, k, y, a, c, d, !1, D);
-                        if (null !== e) {
-                            if (null === e.route) return v(t, T, w, j);
-                            O = e.route;
-                            let r = e.node;
-                            null !== r && (T.cache = r);
-                            let a = e.dynamicRequestTree;
-                            if (null !== a) {
-                                let r = (0, n.fetchServerResponse)(new URL(M, E.origin), {
-                                    flightRouterState: a,
-                                    nextUrl: t.nextUrl
-                                });
-                                (0, g.listenForDynamicRequest)(e, r)
-                            }
-                        } else O = y
-                    } else {
-                        if ((0, l.isNavigatingToNewRootLayout)(k, O)) return v(t, T, w, j);
-                        let n = (0, p.createEmptyCacheNode)(),
-                            a = !1;
-                        for (let t of (A.status !== u.PrefetchCacheEntryStatus.stale || N ? a = (0, f.applyFlightData)(S, I, n, e, A) : (a = function(e, t, r, n) {
-                                let a = !1;
-                                for (let o of (e.rsc = t.rsc, e.prefetchRsc = t.prefetchRsc, e.loading = t.loading, e.parallelRoutes = new Map(t.parallelRoutes), b(n).map(e => [...r, ...e])))(0, _.clearCacheNodeDataForSegmentPath)(e, t, o), a = !0;
-                                return a
-                            }(n, I, r, y), A.lastUsedTime = S), (0, s.shouldHardNavigate)(P, k) ? (n.rsc = I.rsc, n.prefetchRsc = I.prefetchRsc, (0, o.invalidateCacheBelowFlightSegmentPath)(n, I, r), T.cache = n) : a && (T.cache = n, I = n), b(y))) {
-                            let e = [...r, ...t];
-                            e[e.length - 1] !== h.DEFAULT_SEGMENT_KEY && D.push(e)
-                        }
-                    }
-                    k = O
-                }
-            }
-            return T.patchedTree = k, T.canonicalUrl = M, T.scrollableSegments = D, T.hashFragment = x, T.shouldScroll = O, (0, c.handleMutable)(t, T)
-        }, () => t)
-    }
-}
-});
-let n = r(90252),
-a = r(54013),
-o = r(73040),
-i = r(79728),
-s = r(68369),
-l = r(20968),
-u = r(58664),
-c = r(83589),
-f = r(89692),
-d = r(62332),
-p = r(44836),
-h = r(55565),
-g = r(4056),
-m = r(8512),
-_ = r(12090),
-y = r(86949);
-
-function v(e, t, r, n) {
-return t.mpaNavigation = !0, t.canonicalUrl = r, t.pendingPush = n, t.scrollableSegments = void 0, (0, c.handleMutable)(e, t)
-}
-
-function b(e) {
-let t = [],
-    [r, n] = e;
-if (0 === Object.keys(n).length) return [
-    [r]
-];
-for (let [e, a] of Object.entries(n))
-    for (let n of b(a)) "" === r ? t.push([e, ...n]) : t.push([r, e, ...n]);
-return t
-}
-r(69055), ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
-value: !0
-}), Object.assign(t.default, t), e.exports = t.default)
-}, 17815: (e, t, r) => {
-"use strict";
-
-function n(e) {
-return "isRelative" in e
-}
-
-function a(e, t) {
-let r = 0 >= e.indexOf("://") && 0 !== e.indexOf("//"),
-    n = t ?? (r ? "thismessage:/" : void 0);
-try {
-    if ("canParse" in URL && !URL.canParse(e, n)) return;
-    let t = new URL(e, n);
-    if (r) return {
-        isRelative: r,
-        pathname: t.pathname,
-        search: t.search,
-        hash: t.hash
-    };
-    return t
-} catch {}
-}
-
-function o(e) {
-if (n(e)) return e.pathname;
-let t = new URL(e);
-return t.search = "", t.hash = "", ["80", "443"].includes(t.port) && (t.port = ""), t.password && (t.password = "%filtered%"), t.username && (t.username = "%filtered%"), t.toString()
-}
-
-function i(e) {
-if (!e) return {};
-let t = e.match(/^(([^:/?#]+):)?(\/\/([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?$/);
-if (!t) return {};
-let r = t[6] || "",
-    n = t[8] || "";
-return {
-    host: t[4],
-    path: t[5],
-    protocol: t[2],
-    search: r,
-    hash: n,
-    relative: t[5] + r + n
-}
-}
-
-function s(e) {
-return e.split(/[?#]/, 1)[0]
-}
-r.d(t, {
-CH: () => o,
-Dl: () => i,
-f: () => s,
-kg: () => a,
-nt: () => n
-})
-}, 17887: (e, t, r) => {
-"use strict";
-r.d(t, {
-Xr: () => l,
-_c: () => s,
-gt: () => i,
-xv: () => o
-});
-var n = r(31530),
-a = r(48375);
-
-function o(e, t = 0) {
-return "string" != typeof e || 0 === t || e.length <= t ? e : `${e.slice(0,t)}...`
-}
-
-function i(e, t) {
-if (!Array.isArray(e)) return "";
-let r = [];
-for (let t = 0; t < e.length; t++) {
-    let o = e[t];
-    try {
-        (0, n.L2)(o) ? r.push((0, a.nY)(o)): r.push(String(o))
-    } catch {
-        r.push("[value cannot be serialized]")
-    }
-}
-return r.join(t)
-}
-
-function s(e, t, r = !1) {
-return !!(0, n.Kg)(e) && ((0, n.gd)(t) ? t.test(e) : !!(0, n.Kg)(t) && (r ? e === t : e.includes(t)))
-}
-
-function l(e, t = [], r = !1) {
-return t.some(t => s(e, t, r))
-}
-}, 18801: (e, t, r) => {
-"use strict";
-r.d(t, {
-E1: () => d,
-Ef: () => o,
-JD: () => s,
-Lc: () => h,
-Le: () => f,
-Sn: () => u,
-fs: () => l,
-i_: () => n,
-jG: () => p,
-sy: () => a,
-uT: () => i,
-xc: () => c
-});
-let n = "sentry.source",
-a = "sentry.sample_rate",
-o = "sentry.previous_trace_sample_rate",
-i = "sentry.op",
-s = "sentry.origin",
-l = "sentry.idle_span_finish_reason",
-u = "sentry.measurement_unit",
-c = "sentry.measurement_value",
-f = "sentry.custom_span_name",
-d = "sentry.profile_id",
-p = "sentry.exclusive_time",
-h = "sentry.link.type"
-}, 19871: (e, t, r) => {
-"use strict";
-r.d(t, {
-AD: () => f,
-SB: () => s,
-hH: () => l,
-ul: () => c
-});
-var n = r(91810),
-a = r(42792);
-let o = /^o(\d+)\./,
-i = /^(?:(\w+):)\/\/(?:(\w+)(?::(\w+)?)?@)((?:\[[:.%\w]+\]|[\w.-]+))(?::(\d+))?\/(.+)/;
-
-function s(e, t = !1) {
-let {
-    host: r,
-    path: n,
-    pass: a,
-    port: o,
-    projectId: i,
-    protocol: l,
-    publicKey: u
-} = e;
-return `${l}://${u}${t&&a?`:${a}`:""}@${r}${o?`:${o}`:""}/${n?`${n}/`:n}${i}`
-}
-
-function l(e) {
-let t = i.exec(e);
-if (!t) return void(0, a.pq)(() => {
-    console.error(`Invalid Sentry Dsn: ${e}`)
-});
-let [r, n, o = "", s = "", l = "", c = ""] = t.slice(1), f = "", d = c, p = d.split("/");
-if (p.length > 1 && (f = p.slice(0, -1).join("/"), d = p.pop()), d) {
-    let e = d.match(/^\d+/);
-    e && (d = e[0])
-}
-return u({
-    host: s,
-    pass: o,
-    path: f,
-    projectId: d,
-    port: l,
-    protocol: r,
-    publicKey: n
-})
-}
-
-function u(e) {
-return {
-    protocol: e.protocol,
-    publicKey: e.publicKey || "",
-    pass: e.pass || "",
-    host: e.host,
-    port: e.port || "",
-    path: e.path || "",
-    projectId: e.projectId
-}
-}
-
-function c(e) {
-let t, r = e.getOptions(),
-    {
-        host: n
-    } = e.getDsn() || {};
-return r.orgId ? t = String(r.orgId) : n && (t = function(e) {
-    let t = e.match(o);
-    return t?.[1]
-}(n)), t
-}
-
-function f(e) {
-let t = "string" == typeof e ? l(e) : u(e);
-if (t && function(e) {
-        if (!n.T) return !0;
-        let {
-            port: t,
-            projectId: r,
-            protocol: o
-        } = e;
-        return !["protocol", "publicKey", "host", "projectId"].find(t => !e[t] && (a.Yz.error(`Invalid Sentry Dsn: ${t} missing`), !0)) && (r.match(/^\d+$/) ? "http" !== o && "https" !== o ? (a.Yz.error(`Invalid Sentry Dsn: Invalid protocol ${o}`), !1) : !(t && isNaN(parseInt(t, 10))) || (a.Yz.error(`Invalid Sentry Dsn: Invalid port ${t}`), !1) : (a.Yz.error(`Invalid Sentry Dsn: Invalid projectId ${r}`), !1))
-    }(t)) return t
-}
-}, 20968: (e, t) => {
-"use strict";
-Object.defineProperty(t, "__esModule", {
-value: !0
-}), Object.defineProperty(t, "isNavigatingToNewRootLayout", {
-enumerable: !0,
-get: function() {
-    return function e(t, r) {
-        let n = t[0],
-            a = r[0];
-        if (Array.isArray(n) && Array.isArray(a)) {
-            if (n[0] !== a[0] || n[2] !== a[2]) return !0
-        } else if (n !== a) return !0;
-        if (t[4]) return !r[4];
-        if (r[4]) return !0;
-        let o = Object.values(t[1])[0],
-            i = Object.values(r[1])[0];
-        return !o || !i || e(o, i)
-    }
-}
-}), ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
-value: !0
-}), Object.assign(t.default, t), e.exports = t.default)
-}, 21321: (e, t, r) => {
-"use strict";
-Object.defineProperty(t, "__esModule", {
-value: !0
-}), Object.defineProperty(t, "notFound", {
-enumerable: !0,
-get: function() {
-    return a
-}
-});
-let n = "" + r(57016).HTTP_ERROR_FALLBACK_ERROR_CODE + ";404";
-
-function a() {
-let e = Object.defineProperty(Error(n), "__NEXT_ERROR_CODE", {
-    value: "E394",
-    enumerable: !1,
-    configurable: !0
-});
-throw e.digest = n, e
-}("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
-value: !0
-}), Object.assign(t.default, t), e.exports = t.default)
-}, 21408: (e, t, r) => {
-"use strict";
-Object.defineProperty(t, "__esModule", {
-value: !0
-}), Object.defineProperty(t, "fillLazyItemsTillLeafWithHead", {
-enumerable: !0,
-get: function() {
-    return function e(t, r, o, i, s, l, u) {
-        if (0 === Object.keys(i[1]).length) {
-            r.head = l;
-            return
-        }
-        for (let c in i[1]) {
-            let f, d = i[1][c],
-                p = d[0],
-                h = (0, n.createRouterCacheKey)(p),
-                g = null !== s && void 0 !== s[2][c] ? s[2][c] : null;
-            if (o) {
-                let n = o.parallelRoutes.get(c);
-                if (n) {
-                    let o, i = (null == u ? void 0 : u.kind) === "auto" && u.status === a.PrefetchCacheEntryStatus.reusable,
-                        s = new Map(n),
-                        f = s.get(h);
-                    o = null !== g ? {
-                        lazyData: null,
-                        rsc: g[1],
-                        prefetchRsc: null,
-                        head: null,
-                        prefetchHead: null,
-                        loading: g[3],
-                        parallelRoutes: new Map(null == f ? void 0 : f.parallelRoutes),
-                        navigatedAt: t
-                    } : i && f ? {
-                        lazyData: f.lazyData,
-                        rsc: f.rsc,
-                        prefetchRsc: f.prefetchRsc,
-                        head: f.head,
-                        prefetchHead: f.prefetchHead,
-                        parallelRoutes: new Map(f.parallelRoutes),
-                        loading: f.loading
-                    } : {
-                        lazyData: null,
-                        rsc: null,
-                        prefetchRsc: null,
-                        head: null,
-                        prefetchHead: null,
-                        parallelRoutes: new Map(null == f ? void 0 : f.parallelRoutes),
-                        loading: null,
-                        navigatedAt: t
-                    }, s.set(h, o), e(t, o, f, d, g || null, l, u), r.parallelRoutes.set(c, s);
-                    continue
-                }
-            }
-            if (null !== g) {
-                let e = g[1],
-                    r = g[3];
-                f = {
-                    lazyData: null,
-                    rsc: e,
-                    prefetchRsc: null,
-                    head: null,
-                    prefetchHead: null,
-                    parallelRoutes: new Map,
-                    loading: r,
-                    navigatedAt: t
-                }
-            } else f = {
-                lazyData: null,
-                rsc: null,
-                prefetchRsc: null,
-                head: null,
-                prefetchHead: null,
-                parallelRoutes: new Map,
-                loading: null,
-                navigatedAt: t
-            };
-            let m = r.parallelRoutes.get(c);
-            m ? m.set(h, f) : r.parallelRoutes.set(c, new Map([
-                [h, f]
-            ])), e(t, f, void 0, d, g, l, u)
-        }
-    }
-}
-});
-let n = r(27507),
-a = r(58664);
-("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
-value: !0
-}), Object.assign(t.default, t), e.exports = t.default)
-}, 21720: (e, t, r) => {
-"use strict";
-Object.defineProperty(t, "__esModule", {
-value: !0
-}), ! function(e, t) {
-for (var r in t) Object.defineProperty(e, r, {
-    enumerable: !0,
-    get: t[r]
-})
-}(t, {
-RedirectBoundary: function() {
-    return f
-},
-RedirectErrorBoundary: function() {
-    return c
-}
-});
-let n = r(5831),
-a = r(80475),
-o = n._(r(88491)),
-i = r(43397),
-s = r(30759),
-l = r(99528);
-
-function u(e) {
-let {
-    redirect: t,
-    reset: r,
-    redirectType: n
-} = e, a = (0, i.useRouter)();
-return (0, o.useEffect)(() => {
-    o.default.startTransition(() => {
-        n === l.RedirectType.push ? a.push(t, {}) : a.replace(t, {}), r()
-    })
-}, [t, n, r, a]), null
-}
-class c extends o.default.Component {
-static getDerivedStateFromError(e) {
-    if ((0, l.isRedirectError)(e)) return {
-        redirect: (0, s.getURLFromRedirectError)(e),
-        redirectType: (0, s.getRedirectTypeFromError)(e)
-    };
-    throw e
-}
-render() {
-    let {
-        redirect: e,
-        redirectType: t
-    } = this.state;
-    return null !== e && null !== t ? (0, a.jsx)(u, {
-        redirect: e,
-        redirectType: t,
-        reset: () => this.setState({
-            redirect: null
-        })
-    }) : this.props.children
-}
-constructor(e) {
-    super(e), this.state = {
-        redirect: null,
-        redirectType: null
-    }
-}
-}
-
-function f(e) {
-let {
-    children: t
-} = e, r = (0, i.useRouter)();
-return (0, a.jsx)(c, {
-    router: r,
-    children: t
-})
-}("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
-value: !0
-}), Object.assign(t.default, t), e.exports = t.default)
-}, 22917: (e, t) => {
-"use strict";
-Object.defineProperty(t, "__esModule", {
-value: !0
-}), Object.defineProperty(t, "matchSegment", {
-enumerable: !0,
-get: function() {
-    return r
-}
-});
-let r = (e, t) => "string" == typeof e ? "string" == typeof t && e === t : "string" != typeof t && e[0] === t[0] && e[1] === t[1];
-("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
-value: !0
-}), Object.assign(t.default, t), e.exports = t.default)
-}, 23102: (e, t, r) => {
-"use strict";
-Object.defineProperty(t, "__esModule", {
-value: !0
-}), Object.defineProperty(t, "AppRouterAnnouncer", {
-enumerable: !0,
-get: function() {
-    return i
-}
-});
-let n = r(88491),
-a = r(95082),
-o = "next-route-announcer";
-
-function i(e) {
-let {
-    tree: t
-} = e, [r, i] = (0, n.useState)(null);
-(0, n.useEffect)(() => (i(function() {
-    var e;
-    let t = document.getElementsByName(o)[0];
-    if (null == t || null == (e = t.shadowRoot) ? void 0 : e.childNodes[0]) return t.shadowRoot.childNodes[0];
-    {
-        let e = document.createElement(o);
-        e.style.cssText = "position:absolute";
-        let t = document.createElement("div");
-        return t.ariaLive = "assertive", t.id = "__next-route-announcer__", t.role = "alert", t.style.cssText = "position:absolute;border:0;height:1px;margin:-1px;padding:0;width:1px;clip:rect(0 0 0 0);overflow:hidden;white-space:nowrap;word-wrap:normal", e.attachShadow({
-            mode: "open"
-        }).appendChild(t), document.body.appendChild(e), t
-    }
-}()), () => {
-    let e = document.getElementsByTagName(o)[0];
-    (null == e ? void 0 : e.isConnected) && document.body.removeChild(e)
-}), []);
-let [s, l] = (0, n.useState)(""), u = (0, n.useRef)(void 0);
-return (0, n.useEffect)(() => {
-    let e = "";
-    if (document.title) e = document.title;
-    else {
-        let t = document.querySelector("h1");
-        t && (e = t.innerText || t.textContent || "")
-    }
-    void 0 !== u.current && u.current !== e && l(e), u.current = e
-}, [t]), r ? (0, a.createPortal)(s, r) : null
-}("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
-value: !0
-}), Object.assign(t.default, t), e.exports = t.default)
-}, 23557: (e, t, r) => {
-"use strict";
-Object.defineProperty(t, "__esModule", {
-value: !0
-}), r(10527);
-let n = r(24734),
-a = r(56018);
-(0, n.appBootstrap)(() => {
-let {
-    hydrate: e
-} = r(44776);
-r(44836), r(63185), e(a)
-}), ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
-value: !0
-}), Object.assign(t.default, t), e.exports = t.default)
 }, 24066: (e, t) => {
 "use strict";
 
@@ -4548,89 +4571,6 @@ if (void 0 === e && (e = !1), (n._(this, i)[i] < n._(this, o)[o] || e) && n._(th
 }("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
 value: !0
 }), Object.assign(t.default, t), e.exports = t.default)
-}, 25310: (e, t, r) => {
-"use strict";
-let n;
-r.d(t, {
-D: () => h,
-c: () => p
-});
-var a = r(70181),
-o = r(42792),
-i = r(45688);
-let s = a.O,
-l = null,
-u = new Map,
-c = new Map;
-
-function f(e) {
-let t = e.split("/").filter(Boolean),
-    r = 0;
-for (let e of t)
-    if (e.startsWith(":")) {
-        let t = e.substring(1);
-        t.endsWith("*?") ? r += 1e3 : t.endsWith("*") ? r += 100 : r += 10
-    } return t.length > 0 && (r += 1 / t.length), r
-}
-
-function d(e) {
-if (u.has(e)) return u.get(e) ?? null;
-try {
-    let t = new RegExp(e);
-    return u.set(e, t), t
-} catch (t) {
-    return i.T && o.Yz.warn("Could not compile regex", {
-        regexString: e,
-        error: t
-    }), null
-}
-}
-
-function p() {
-if (!s?._sentryRouteManifest || "string" != typeof s._sentryRouteManifest) return null;
-let e = s._sentryRouteManifest;
-if (l && n === e) return l;
-u.clear(), c.clear();
-let t = {
-    staticRoutes: [],
-    dynamicRoutes: [],
-    isrRoutes: []
-};
-try {
-    if (t = JSON.parse(e), !Array.isArray(t.staticRoutes) || !Array.isArray(t.dynamicRoutes)) return null;
-    return l = t, n = e, t
-} catch {
-    return i.T && o.Yz.warn("Could not extract route manifest"), null
-}
-}
-let h = e => {
-let t = p();
-if (!t) return;
-if (c.has(e)) return c.get(e);
-let {
-    staticRoutes: r,
-    dynamicRoutes: n
-} = t;
-if (!Array.isArray(r) || !Array.isArray(n)) return;
-let a = (function(e, t, r) {
-    let n = [];
-    if (t.some(t => t.path === e)) return n;
-    for (let t of r)
-        if (t.regex) {
-            let r = d(t.regex);
-            r?.test(e) && n.push(t.path)
-        } if (!e.startsWith("/:")) {
-        for (let t of r)
-            if (t.hasOptionalPrefix && t.regex) {
-                let r = "/" === e ? "/SENTRY_OPTIONAL_PREFIX" : `/SENTRY_OPTIONAL_PREFIX${e}`,
-                    a = d(t.regex);
-                a?.test(r) && n.push(t.path)
-            }
-    }
-    return n
-})(e, r, n).sort((e, t) => f(e) - f(t))[0];
-return c.set(e, a), a
-}
 }, 25700: (e, t, r) => {
 "use strict";
 Object.defineProperty(t, "__esModule", {
@@ -4653,6 +4593,129 @@ isDynamicRoute: function() {
 });
 let n = r(77754),
 a = r(75888)
+}, 27260: (e, t, r) => {
+"use strict";
+let n;
+r.d(t, {
+NI: () => f,
+Nc: () => E,
+jw: () => h,
+q3: () => _
+});
+var a = r(94399),
+o = r(18801),
+i = r(70181),
+s = r(36353),
+l = r(38922),
+u = r(35655),
+c = r(37811);
+let f = "incomplete-app-router-transaction",
+d = "router-patch",
+p = {
+    current: void 0
+};
+
+function h(e) {
+let t = (0, u.D)(s.jf.location.pathname),
+    r = (0, a.k3)();
+(0, l.Sx)(e, {
+    name: t ?? s.jf.location.pathname,
+    startTime: r ? r / 1e3 : void 0,
+    attributes: {
+        [o.uT]: "pageload",
+        [o.JD]: "auto.pageload.nextjs.app_router_instrumentation",
+        [o.i_]: t ? "route" : "url"
+    }
+})
+}
+let g = i.O,
+m = i.O;
+
+function _(e) {
+n = (t, r) => {
+    let n = c.env._sentryBasePath ?? m._sentryBasePath,
+        a = new URL(n && !t.startsWith(n) ? `${n}${t}` : t, s.jf.location.href).pathname,
+        i = (0, u.D)(a),
+        f = i ?? a;
+    "router-patch" === d && (d = "transition-start-hook");
+    let h = p.current;
+    h ? (h.updateName(f), h.setAttributes({
+        "navigation.type": `router.${r}`,
+        [o.i_]: i ? "route" : "url"
+    }), p.current = void 0) : (0, l.Nt)(e, {
+        name: f,
+        attributes: {
+            [o.uT]: "navigation",
+            [o.JD]: "auto.navigation.nextjs.app_router_instrumentation",
+            [o.i_]: i ? "route" : "url",
+            "navigation.type": `router.${r}`
+        }
+    })
+}, s.jf.addEventListener("popstate", () => {
+    let t = (0, u.D)(s.jf.location.pathname);
+    p.current?.isRecording() ? (p.current.updateName(t ?? s.jf.location.pathname), p.current.setAttribute(o.i_, t ? "route" : "url")) : p.current = (0, l.Nt)(e, {
+        name: t ?? s.jf.location.pathname,
+        attributes: {
+            [o.JD]: "auto.navigation.nextjs.app_router_instrumentation",
+            [o.i_]: t ? "route" : "url",
+            "navigation.type": "browser.popstate"
+        }
+    })
+});
+let t = !1,
+    r = 0,
+    a = setInterval(() => {
+        r++;
+        let n = g?.next?.router ?? g?.nd?.router;
+        t || r > 500 ? clearInterval(a) : n && (clearInterval(a), t = !0, b(e, n, p), ["nd", "next"].forEach(t => {
+            let r = g[t];
+            r && (g[t] = new Proxy(r, {
+                set: (t, r, n) => ("router" === r && "object" == typeof n && null !== n && b(e, n, p), t[r] = n, !0)
+            }))
+        }))
+    }, 20)
+}
+
+function y(e) {
+try {
+    return new URL(e, "http://example.com/").pathname
+} catch {
+    return "/"
+}
+}
+let v = new WeakSet;
+
+function b(e, t, r) {
+v.has(t) || (v.add(t), ["back", "forward", "push", "replace"].forEach(n => {
+    t?.[n] && (t[n] = new Proxy(t[n], {
+        apply(t, a, i) {
+            if ("router-patch" !== d) return t.apply(a, i);
+            let s = f,
+                p = {
+                    [o.uT]: "navigation",
+                    [o.JD]: "auto.navigation.nextjs.app_router_instrumentation",
+                    [o.i_]: "url"
+                },
+                h = i[0],
+                g = c.env._sentryBasePath ?? m._sentryBasePath,
+                _ = g && "string" == typeof h && !h.startsWith(g) ? `${g}${h}` : h;
+            "push" === n ? (s = y(_), p["navigation.type"] = "router.push") : "replace" === n ? (s = y(_), p["navigation.type"] = "router.replace") : "back" === n ? p["navigation.type"] = "router.back" : "forward" === n && (p["navigation.type"] = "router.forward");
+            let v = (0, u.D)(s);
+            return r.current = (0, l.Nt)(e, {
+                name: v ?? s,
+                attributes: {
+                    ...p,
+                    [o.i_]: v ? "route" : "url"
+                }
+            }), t.apply(a, i)
+        }
+    }))
+}))
+}
+
+function E(e, t) {
+n && n(e, t)
+}
 }, 27387: (e, t, r) => {
 "use strict";
 r.d(t, {
@@ -5823,6 +5886,89 @@ let v = h(e.spanContext().traceId, t),
     b = s[o.i_],
     E = n.description;
 return "url" !== b && E && (v.transaction = E), (0, l.f)() && (v.sampled = String((0, c.pK)(r)), v.sample_rand = u?.get("sentry.sample_rand") ?? (0, f.L)(r).scope?.getPropagationContext().sampleRand.toString()), g(v), t.emit("createDsc", v, r), v
+}
+}, 35655: (e, t, r) => {
+"use strict";
+let n;
+r.d(t, {
+D: () => h,
+c: () => p
+});
+var a = r(70181),
+o = r(42792),
+i = r(1647);
+let s = a.O,
+l = null,
+u = new Map,
+c = new Map;
+
+function f(e) {
+let t = e.split("/").filter(Boolean),
+    r = 0;
+for (let e of t)
+    if (e.startsWith(":")) {
+        let t = e.substring(1);
+        t.endsWith("*?") ? r += 1e3 : t.endsWith("*") ? r += 100 : r += 10
+    } return t.length > 0 && (r += 1 / t.length), r
+}
+
+function d(e) {
+if (u.has(e)) return u.get(e) ?? null;
+try {
+    let t = new RegExp(e);
+    return u.set(e, t), t
+} catch (t) {
+    return i.T && o.Yz.warn("Could not compile regex", {
+        regexString: e,
+        error: t
+    }), null
+}
+}
+
+function p() {
+if (!s?._sentryRouteManifest || "string" != typeof s._sentryRouteManifest) return null;
+let e = s._sentryRouteManifest;
+if (l && n === e) return l;
+u.clear(), c.clear();
+let t = {
+    staticRoutes: [],
+    dynamicRoutes: [],
+    isrRoutes: []
+};
+try {
+    if (t = JSON.parse(e), !Array.isArray(t.staticRoutes) || !Array.isArray(t.dynamicRoutes)) return null;
+    return l = t, n = e, t
+} catch {
+    return i.T && o.Yz.warn("Could not extract route manifest"), null
+}
+}
+let h = e => {
+let t = p();
+if (!t) return;
+if (c.has(e)) return c.get(e);
+let {
+    staticRoutes: r,
+    dynamicRoutes: n
+} = t;
+if (!Array.isArray(r) || !Array.isArray(n)) return;
+let a = (function(e, t, r) {
+    let n = [];
+    if (t.some(t => t.path === e)) return n;
+    for (let t of r)
+        if (t.regex) {
+            let r = d(t.regex);
+            r?.test(e) && n.push(t.path)
+        } if (!e.startsWith("/:")) {
+        for (let t of r)
+            if (t.hasOptionalPrefix && t.regex) {
+                let r = "/" === e ? "/SENTRY_OPTIONAL_PREFIX" : `/SENTRY_OPTIONAL_PREFIX${e}`,
+                    a = d(t.regex);
+                a?.test(r) && n.push(t.path)
+            }
+    }
+    return n
+})(e, r, n).sort((e, t) => f(e) - f(t))[0];
+return c.set(e, a), a
 }
 }, 36353: (e, t, r) => {
 "use strict";
@@ -8870,7 +9016,6 @@ async function H(e) {
 if (!await D(e) || !e.fetchData) return null;
 let t = await e.fetchData(),
     r = await
-
 function(e, t, r) {
     let n = {
             basePath: r.router.basePath,
@@ -10370,12 +10515,6 @@ return L.add(e), L.size !== t && U.forEach(e => e()), Promise.resolve()
 }, ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
 value: !0
 }), Object.assign(t.default, t), e.exports = t.default)
-}, 45688: (e, t, r) => {
-"use strict";
-r.d(t, {
-T: () => n
-});
-let n = !1
 }, 45977: (e, t, r) => {
 "use strict";
 Object.defineProperty(t, "__esModule", {
@@ -11915,11 +12054,6 @@ isPlainObject: function() {
     return n
 }
 })
-}, 56018: (e, t, r) => {
-"use strict";
-globalThis._sentryRewritesTunnelPath = void 0, globalThis.SENTRY_RELEASE = {
-id: "9957c0836ace44ecf938590ecf317cadc9883751"
-}, globalThis._sentryBasePath = void 0, globalThis._sentryNextJsVersion = "15.5.10", globalThis._sentryRewriteFramesAssetPrefixPath = "", globalThis._sentryAssetPrefix = void 0, globalThis._sentryExperimentalThirdPartyOriginStackFrames = void 0, globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":"^/([^/]+)$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/2d-solution-guide/:slug*?","regex":"^/([^/]+)/2d-solution-guide(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/:rest*","regex":"^/([^/]+)/(.+)$","paramNames":["locale","rest"],"hasOptionalPrefix":true},{"path":"/:locale/addresses/:slug*?","regex":"^/([^/]+)/addresses(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/affiliates/:slug*?","regex":"^/([^/]+)/affiliates(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/archive/blog/:slug*?","regex":"^/([^/]+)/archive/blog(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/archive/news/:slug*","regex":"^/([^/]+)/archive/news/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/archive/resources/:slug*","regex":"^/([^/]+)/archive/resources/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/awards/:slug*?","regex":"^/([^/]+)/awards(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/blog/:slug*","regex":"^/([^/]+)/blog/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/campaign/:slug*?","regex":"^/([^/]+)/campaign(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/careers","regex":"^/([^/]+)/careers$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/careers/positions","regex":"^/([^/]+)/careers/positions$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/careers/positions/:id","regex":"^/([^/]+)/careers/positions/([^/]+)$","paramNames":["locale","id"],"hasOptionalPrefix":true},{"path":"/:locale/case-study/:slug*?","regex":"^/([^/]+)/case-study(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/coe/:slug*?","regex":"^/([^/]+)/coe(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/community","regex":"^/([^/]+)/community$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/contact-us","regex":"^/([^/]+)/contact-us$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/core-standards","regex":"^/([^/]+)/core-standards$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/data-request","regex":"^/([^/]+)/data-request$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/demos/:slug*?","regex":"^/([^/]+)/demos(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/developer-tools/:slug*?","regex":"^/([^/]+)/developer-tools(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/dots/:slug*?","regex":"^/([^/]+)/dots(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/download/:slug*?","regex":"^/([^/]+)/download(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/ecs","regex":"^/([^/]+)/ecs$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/esg/:slug*?","regex":"^/([^/]+)/esg(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/events/:slug*?","regex":"^/([^/]+)/events(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/events-hub","regex":"^/([^/]+)/events-hub$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/faq/:slug*?","regex":"^/([^/]+)/faq(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/features/:slug*?","regex":"^/([^/]+)/features(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/games","regex":"^/([^/]+)/games$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/games/:slug*","regex":"^/([^/]+)/games/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/glossary","regex":"^/([^/]+)/glossary$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/glossary/:slug*","regex":"^/([^/]+)/glossary/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/grow","regex":"^/([^/]+)/grow$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/home-experiment/:slug*","regex":"^/([^/]+)/home-experiment/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/home-landing","regex":"^/([^/]+)/home-landing$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/how-to/:slug*?","regex":"^/([^/]+)/how-to(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/humanity/:slug*?","regex":"^/([^/]+)/humanity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/impact/:slug*?","regex":"^/([^/]+)/impact(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/inclusion-diversity/:slug*?","regex":"^/([^/]+)/inclusion-diversity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/industry","regex":"^/([^/]+)/industry$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/industry/:slug*","regex":"^/([^/]+)/industry/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/labs/:slug*?","regex":"^/([^/]+)/labs(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/leadership","regex":"^/([^/]+)/leadership$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/learn/:slug*?","regex":"^/([^/]+)/learn(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/legal/:slug*?","regex":"^/([^/]+)/legal(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/made-unity/:slug*?","regex":"^/([^/]+)/made-unity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/made-with-unity/:slug*?","regex":"^/([^/]+)/made-with-unity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/news","regex":"^/([^/]+)/news$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/news/:slug*","regex":"^/([^/]+)/news/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/oauth","regex":"^/([^/]+)/oauth$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/onboardingsuccess/:slug*?","regex":"^/([^/]+)/onboardingsuccess(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/our-company","regex":"^/([^/]+)/our-company$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/pages/:slug*?","regex":"^/([^/]+)/pages(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/partners/:slug*?","regex":"^/([^/]+)/partners(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/platform-installation","regex":"^/([^/]+)/platform-installation$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/products","regex":"^/([^/]+)/products$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/products/:slug*","regex":"^/([^/]+)/products/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/products/experiment/:slug*","regex":"^/([^/]+)/products/experiment/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/publications/:slug*?","regex":"^/([^/]+)/publications(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/ray-tracing","regex":"^/([^/]+)/ray-tracing$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/ray-tracing/:slug*","regex":"^/([^/]+)/ray-tracing/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/releases/:slug*?","regex":"^/([^/]+)/releases(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor","regex":"^/([^/]+)/releases/editor$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/alpha","regex":"^/([^/]+)/releases/editor/alpha$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/alpha/:version","regex":"^/([^/]+)/releases/editor/alpha/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/archive","regex":"^/([^/]+)/releases/editor/archive$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta","regex":"^/([^/]+)/releases/editor/beta$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta/:version","regex":"^/([^/]+)/releases/editor/beta/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta/guide-beta-testing","regex":"^/([^/]+)/releases/editor/beta/guide-beta-testing$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/latest","regex":"^/([^/]+)/releases/editor/latest$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/whats-new","regex":"^/([^/]+)/releases/editor/whats-new$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/whats-new/:version","regex":"^/([^/]+)/releases/editor/whats-new/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/resources/:slug*","regex":"^/([^/]+)/resources/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/roadmap","regex":"^/([^/]+)/roadmap$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/roadmap/detail","regex":"^/([^/]+)/roadmap/detail$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/search","regex":"^/([^/]+)/search$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/security/:slug*?","regex":"^/([^/]+)/security(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/simulation/:slug*?","regex":"^/([^/]+)/simulation(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/social-impact/:slug*?","regex":"^/([^/]+)/social-impact(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/solutions/:slug*?","regex":"^/([^/]+)/solutions(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/srp/:slug*?","regex":"^/([^/]+)/srp(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/students/:slug*?","regex":"^/([^/]+)/students(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/success-plans/:slug*?","regex":"^/([^/]+)/success-plans(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/support-services/:slug*?","regex":"^/([^/]+)/support-services(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/the-heretic/:slug*?","regex":"^/([^/]+)/the-heretic(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/topics/:slug*?","regex":"^/([^/]+)/topics(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unitenow/:slug*?","regex":"^/([^/]+)/unitenow(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity/:slug*?","regex":"^/([^/]+)/unity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-hub/:slug*?","regex":"^/([^/]+)/unity-hub(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-humanity-summit/:slug*?","regex":"^/([^/]+)/unity-humanity-summit(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-insiders/:slug*?","regex":"^/([^/]+)/unity-insiders(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-pulse/:slug*?","regex":"^/([^/]+)/unity-pulse(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-release/latest","regex":"^/([^/]+)/unity-release/latest$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/unreal-engine/:slug*?","regex":"^/([^/]+)/unreal-engine(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/use-cases/:slug*?","regex":"^/([^/]+)/use-cases(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/visual-effect-graph/:slug*?","regex":"^/([^/]+)/visual-effect-graph(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true}],"staticRoutes":[],"isrRoutes":["/:locale/:rest*","/:locale/addresses/:slug*?","/:locale/affiliates/:slug*?","/:locale/archive/resources/:slug*","/:locale/awards/:slug*?","/:locale/blog/:slug*","/:locale/campaign/:slug*?","/:locale/case-study/:slug*?","/:locale/coe/:slug*?","/:locale/demos/:slug*?","/:locale/developer-tools/:slug*?","/:locale/dots/:slug*?","/:locale/download/:slug*?","/:locale/esg/:slug*?","/:locale/events/:slug*?","/:locale/faq/:slug*?","/:locale/features/:slug*?","/:locale/glossary/:slug*","/:locale/home-experiment/:slug*","/:locale/how-to/:slug*?","/:locale/humanity/:slug*?","/:locale/impact/:slug*?","/:locale/inclusion-diversity/:slug*?","/:locale/labs/:slug*?","/:locale/learn/:slug*?","/:locale/legal/:slug*?","/:locale/made-unity/:slug*?","/:locale/made-with-unity/:slug*?","/:locale/onboardingsuccess/:slug*?","/:locale/pages/:slug*?","/:locale/partners/:slug*?","/:locale/products/:slug*","/:locale/products/experiment/:slug*","/:locale/publications/:slug*?","/:locale/releases/editor/whats-new/:version","/:locale/resources/:slug*","/:locale/security/:slug*?","/:locale/simulation/:slug*?","/:locale/social-impact/:slug*?","/:locale/solutions/:slug*?","/:locale/srp/:slug*?","/:locale/students/:slug*?","/:locale/success-plans/:slug*?","/:locale/support-services/:slug*?","/:locale/the-heretic/:slug*?","/:locale/topics/:slug*?","/:locale/unitenow/:slug*?","/:locale/unity/:slug*?","/:locale/unity-hub/:slug*?","/:locale/unity-humanity-summit/:slug*?","/:locale/unity-insiders/:slug*?","/:locale/unity-pulse/:slug*?","/:locale/unreal-engine/:slug*?","/:locale/use-cases/:slug*?","/:locale/visual-effect-graph/:slug*?"]}', e.exports = r(45286)
 }, 56127: (e, t, r) => {
 "use strict";
 r.d(t, {
@@ -16340,129 +16474,6 @@ r.d(t, {
 Z: () => n,
 e: () => a
 })
-}, 83407: (e, t, r) => {
-"use strict";
-let n;
-r.d(t, {
-NI: () => f,
-Nc: () => E,
-jw: () => h,
-q3: () => _
-});
-var a = r(94399),
-o = r(18801),
-i = r(70181),
-s = r(36353),
-l = r(38922),
-u = r(25310),
-c = r(37811);
-let f = "incomplete-app-router-transaction",
-d = "router-patch",
-p = {
-    current: void 0
-};
-
-function h(e) {
-let t = (0, u.D)(s.jf.location.pathname),
-    r = (0, a.k3)();
-(0, l.Sx)(e, {
-    name: t ?? s.jf.location.pathname,
-    startTime: r ? r / 1e3 : void 0,
-    attributes: {
-        [o.uT]: "pageload",
-        [o.JD]: "auto.pageload.nextjs.app_router_instrumentation",
-        [o.i_]: t ? "route" : "url"
-    }
-})
-}
-let g = i.O,
-m = i.O;
-
-function _(e) {
-n = (t, r) => {
-    let n = c.env._sentryBasePath ?? m._sentryBasePath,
-        a = new URL(n && !t.startsWith(n) ? `${n}${t}` : t, s.jf.location.href).pathname,
-        i = (0, u.D)(a),
-        f = i ?? a;
-    "router-patch" === d && (d = "transition-start-hook");
-    let h = p.current;
-    h ? (h.updateName(f), h.setAttributes({
-        "navigation.type": `router.${r}`,
-        [o.i_]: i ? "route" : "url"
-    }), p.current = void 0) : (0, l.Nt)(e, {
-        name: f,
-        attributes: {
-            [o.uT]: "navigation",
-            [o.JD]: "auto.navigation.nextjs.app_router_instrumentation",
-            [o.i_]: i ? "route" : "url",
-            "navigation.type": `router.${r}`
-        }
-    })
-}, s.jf.addEventListener("popstate", () => {
-    let t = (0, u.D)(s.jf.location.pathname);
-    p.current?.isRecording() ? (p.current.updateName(t ?? s.jf.location.pathname), p.current.setAttribute(o.i_, t ? "route" : "url")) : p.current = (0, l.Nt)(e, {
-        name: t ?? s.jf.location.pathname,
-        attributes: {
-            [o.JD]: "auto.navigation.nextjs.app_router_instrumentation",
-            [o.i_]: t ? "route" : "url",
-            "navigation.type": "browser.popstate"
-        }
-    })
-});
-let t = !1,
-    r = 0,
-    a = setInterval(() => {
-        r++;
-        let n = g?.next?.router ?? g?.nd?.router;
-        t || r > 500 ? clearInterval(a) : n && (clearInterval(a), t = !0, b(e, n, p), ["nd", "next"].forEach(t => {
-            let r = g[t];
-            r && (g[t] = new Proxy(r, {
-                set: (t, r, n) => ("router" === r && "object" == typeof n && null !== n && b(e, n, p), t[r] = n, !0)
-            }))
-        }))
-    }, 20)
-}
-
-function y(e) {
-try {
-    return new URL(e, "http://example.com/").pathname
-} catch {
-    return "/"
-}
-}
-let v = new WeakSet;
-
-function b(e, t, r) {
-v.has(t) || (v.add(t), ["back", "forward", "push", "replace"].forEach(n => {
-    t?.[n] && (t[n] = new Proxy(t[n], {
-        apply(t, a, i) {
-            if ("router-patch" !== d) return t.apply(a, i);
-            let s = f,
-                p = {
-                    [o.uT]: "navigation",
-                    [o.JD]: "auto.navigation.nextjs.app_router_instrumentation",
-                    [o.i_]: "url"
-                },
-                h = i[0],
-                g = c.env._sentryBasePath ?? m._sentryBasePath,
-                _ = g && "string" == typeof h && !h.startsWith(g) ? `${g}${h}` : h;
-            "push" === n ? (s = y(_), p["navigation.type"] = "router.push") : "replace" === n ? (s = y(_), p["navigation.type"] = "router.replace") : "back" === n ? p["navigation.type"] = "router.back" : "forward" === n && (p["navigation.type"] = "router.forward");
-            let v = (0, u.D)(s);
-            return r.current = (0, l.Nt)(e, {
-                name: v ?? s,
-                attributes: {
-                    ...p,
-                    [o.i_]: v ? "route" : "url"
-                }
-            }), t.apply(a, i)
-        }
-    }))
-}))
-}
-
-function E(e, t) {
-n && n(e, t)
-}
 }, 83589: (e, t, r) => {
 "use strict";
 Object.defineProperty(t, "__esModule", {
@@ -19389,6 +19400,11 @@ throw Object.defineProperty(Error("`unstable_isUnrecognizedActionError` can only
 }("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
 value: !0
 }), Object.assign(t.default, t), e.exports = t.default)
+}, 97459: (e, t, r) => {
+"use strict";
+globalThis._sentryRewritesTunnelPath = void 0, globalThis.SENTRY_RELEASE = {
+id: "cb2e4ab745ae889f5a85a6471a85144e981a8efa"
+}, globalThis._sentryBasePath = void 0, globalThis._sentryNextJsVersion = "15.5.10", globalThis._sentryRewriteFramesAssetPrefixPath = "", globalThis._sentryAssetPrefix = void 0, globalThis._sentryExperimentalThirdPartyOriginStackFrames = void 0, globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":"^/([^/]+)$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/2d-solution-guide/:slug*?","regex":"^/([^/]+)/2d-solution-guide(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/:rest*","regex":"^/([^/]+)/(.+)$","paramNames":["locale","rest"],"hasOptionalPrefix":true},{"path":"/:locale/addresses/:slug*?","regex":"^/([^/]+)/addresses(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/affiliates/:slug*?","regex":"^/([^/]+)/affiliates(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/archive/blog/:slug*?","regex":"^/([^/]+)/archive/blog(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/archive/news/:slug*","regex":"^/([^/]+)/archive/news/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/archive/resources/:slug*","regex":"^/([^/]+)/archive/resources/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/awards/:slug*?","regex":"^/([^/]+)/awards(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/blog/:slug*","regex":"^/([^/]+)/blog/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/campaign/:slug*?","regex":"^/([^/]+)/campaign(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/careers","regex":"^/([^/]+)/careers$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/careers/positions","regex":"^/([^/]+)/careers/positions$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/careers/positions/:id","regex":"^/([^/]+)/careers/positions/([^/]+)$","paramNames":["locale","id"],"hasOptionalPrefix":true},{"path":"/:locale/case-study/:slug*?","regex":"^/([^/]+)/case-study(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/coe/:slug*?","regex":"^/([^/]+)/coe(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/community","regex":"^/([^/]+)/community$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/contact-us","regex":"^/([^/]+)/contact-us$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/core-standards","regex":"^/([^/]+)/core-standards$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/data-request","regex":"^/([^/]+)/data-request$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/demos/:slug*?","regex":"^/([^/]+)/demos(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/developer-tools/:slug*?","regex":"^/([^/]+)/developer-tools(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/dots/:slug*?","regex":"^/([^/]+)/dots(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/download/:slug*?","regex":"^/([^/]+)/download(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/ecs","regex":"^/([^/]+)/ecs$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/esg/:slug*?","regex":"^/([^/]+)/esg(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/events/:slug*?","regex":"^/([^/]+)/events(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/events-hub","regex":"^/([^/]+)/events-hub$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/faq/:slug*?","regex":"^/([^/]+)/faq(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/features/:slug*?","regex":"^/([^/]+)/features(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/games","regex":"^/([^/]+)/games$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/games/:slug*","regex":"^/([^/]+)/games/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/glossary","regex":"^/([^/]+)/glossary$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/glossary/:slug*","regex":"^/([^/]+)/glossary/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/grow","regex":"^/([^/]+)/grow$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/home-experiment/:slug*","regex":"^/([^/]+)/home-experiment/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/home-landing","regex":"^/([^/]+)/home-landing$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/how-to/:slug*?","regex":"^/([^/]+)/how-to(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/humanity/:slug*?","regex":"^/([^/]+)/humanity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/impact/:slug*?","regex":"^/([^/]+)/impact(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/inclusion-diversity/:slug*?","regex":"^/([^/]+)/inclusion-diversity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/industry","regex":"^/([^/]+)/industry$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/industry/:slug*","regex":"^/([^/]+)/industry/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/labs/:slug*?","regex":"^/([^/]+)/labs(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/leadership","regex":"^/([^/]+)/leadership$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/learn/:slug*?","regex":"^/([^/]+)/learn(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/legal/:slug*?","regex":"^/([^/]+)/legal(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/made-unity/:slug*?","regex":"^/([^/]+)/made-unity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/made-with-unity/:slug*?","regex":"^/([^/]+)/made-with-unity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/news","regex":"^/([^/]+)/news$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/news/:slug*","regex":"^/([^/]+)/news/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/oauth","regex":"^/([^/]+)/oauth$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/onboardingsuccess/:slug*?","regex":"^/([^/]+)/onboardingsuccess(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/our-company","regex":"^/([^/]+)/our-company$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/pages/:slug*?","regex":"^/([^/]+)/pages(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/partners/:slug*?","regex":"^/([^/]+)/partners(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/platform-installation","regex":"^/([^/]+)/platform-installation$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/products","regex":"^/([^/]+)/products$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/products/:slug*","regex":"^/([^/]+)/products/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/products/experiment/:slug*","regex":"^/([^/]+)/products/experiment/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/publications/:slug*?","regex":"^/([^/]+)/publications(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/ray-tracing","regex":"^/([^/]+)/ray-tracing$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/ray-tracing/:slug*","regex":"^/([^/]+)/ray-tracing/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/releases/:slug*?","regex":"^/([^/]+)/releases(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor","regex":"^/([^/]+)/releases/editor$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/alpha","regex":"^/([^/]+)/releases/editor/alpha$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/alpha/:version","regex":"^/([^/]+)/releases/editor/alpha/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/archive","regex":"^/([^/]+)/releases/editor/archive$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta","regex":"^/([^/]+)/releases/editor/beta$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta/:version","regex":"^/([^/]+)/releases/editor/beta/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta/guide-beta-testing","regex":"^/([^/]+)/releases/editor/beta/guide-beta-testing$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/latest","regex":"^/([^/]+)/releases/editor/latest$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/whats-new","regex":"^/([^/]+)/releases/editor/whats-new$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/whats-new/:version","regex":"^/([^/]+)/releases/editor/whats-new/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/resources/:slug*","regex":"^/([^/]+)/resources/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/roadmap","regex":"^/([^/]+)/roadmap$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/roadmap/detail","regex":"^/([^/]+)/roadmap/detail$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/search","regex":"^/([^/]+)/search$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/security/:slug*?","regex":"^/([^/]+)/security(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/simulation/:slug*?","regex":"^/([^/]+)/simulation(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/social-impact/:slug*?","regex":"^/([^/]+)/social-impact(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/solutions/:slug*?","regex":"^/([^/]+)/solutions(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/srp/:slug*?","regex":"^/([^/]+)/srp(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/students/:slug*?","regex":"^/([^/]+)/students(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/success-plans/:slug*?","regex":"^/([^/]+)/success-plans(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/support-services/:slug*?","regex":"^/([^/]+)/support-services(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/the-heretic/:slug*?","regex":"^/([^/]+)/the-heretic(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/topics/:slug*?","regex":"^/([^/]+)/topics(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unitenow/:slug*?","regex":"^/([^/]+)/unitenow(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity/:slug*?","regex":"^/([^/]+)/unity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-hub/:slug*?","regex":"^/([^/]+)/unity-hub(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-humanity-summit/:slug*?","regex":"^/([^/]+)/unity-humanity-summit(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-insiders/:slug*?","regex":"^/([^/]+)/unity-insiders(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-pulse/:slug*?","regex":"^/([^/]+)/unity-pulse(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-release/latest","regex":"^/([^/]+)/unity-release/latest$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/unreal-engine/:slug*?","regex":"^/([^/]+)/unreal-engine(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/use-cases/:slug*?","regex":"^/([^/]+)/use-cases(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/visual-effect-graph/:slug*?","regex":"^/([^/]+)/visual-effect-graph(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true}],"staticRoutes":[],"isrRoutes":["/:locale/:rest*","/:locale/addresses/:slug*?","/:locale/affiliates/:slug*?","/:locale/archive/resources/:slug*","/:locale/awards/:slug*?","/:locale/blog/:slug*","/:locale/campaign/:slug*?","/:locale/case-study/:slug*?","/:locale/coe/:slug*?","/:locale/demos/:slug*?","/:locale/developer-tools/:slug*?","/:locale/dots/:slug*?","/:locale/download/:slug*?","/:locale/esg/:slug*?","/:locale/events/:slug*?","/:locale/faq/:slug*?","/:locale/features/:slug*?","/:locale/glossary/:slug*","/:locale/home-experiment/:slug*","/:locale/how-to/:slug*?","/:locale/humanity/:slug*?","/:locale/impact/:slug*?","/:locale/inclusion-diversity/:slug*?","/:locale/labs/:slug*?","/:locale/learn/:slug*?","/:locale/legal/:slug*?","/:locale/made-unity/:slug*?","/:locale/made-with-unity/:slug*?","/:locale/onboardingsuccess/:slug*?","/:locale/pages/:slug*?","/:locale/partners/:slug*?","/:locale/products/:slug*","/:locale/products/experiment/:slug*","/:locale/publications/:slug*?","/:locale/releases/editor/whats-new/:version","/:locale/resources/:slug*","/:locale/security/:slug*?","/:locale/simulation/:slug*?","/:locale/social-impact/:slug*?","/:locale/solutions/:slug*?","/:locale/srp/:slug*?","/:locale/students/:slug*?","/:locale/success-plans/:slug*?","/:locale/support-services/:slug*?","/:locale/the-heretic/:slug*?","/:locale/topics/:slug*?","/:locale/unitenow/:slug*?","/:locale/unity/:slug*?","/:locale/unity-hub/:slug*?","/:locale/unity-humanity-summit/:slug*?","/:locale/unity-insiders/:slug*?","/:locale/unity-pulse/:slug*?","/:locale/unreal-engine/:slug*?","/:locale/use-cases/:slug*?","/:locale/visual-effect-graph/:slug*?"]}', e.exports = r(14813)
 }, 97556: (e, t) => {
 "use strict";
 Object.defineProperty(t, "__esModule", {
