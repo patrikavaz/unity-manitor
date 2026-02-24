@@ -1,44 +1,54 @@
-name: Monitor Unity Cloud JS Changes
+name: Monitor Unity Cloud JS Changes (with Cleanup)
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
-  workflow_dispatch:
+    - cron: '0 */3 * * *' # Runs every 3 hours at the start of the hour
+  workflow_dispatch: # Allows manual triggering
 
 permissions:
-  contents: write
+  contents: write # Necessary for committing changes
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clean old files
+        run: rm -rf chunks && mkdir -p chunks
+        # This step ensures that the chunks directory is empty before downloading new files.
 
       - name: Prepare folders
         run: mkdir -p chunks
 
       - name: Fetch all JS URLs from main page
+        id: fetch_js # Added ID for potential future use
         run: |
           curl -s https://unity.com | grep -o '/_next/static[^"]*\.js' | sort -u > js_list.txt
-          cat js_list.txt
+          # Fetches unique JS file URLs from the main Unity page and saves them to js_list.txt
 
       - name: Download JS files
         run: |
           while read file; do
             url="https://unity.com${file}"
-            out="chunks${file#/_next/static/chunks}"
+            # Construct the output path within the 'chunks' directory, maintaining structure
+            out="chunks${file}" # Simplified output path construction
             mkdir -p "$(dirname "$out")"
-            echo "↓ $url"
-            curl -f -L "$url" -o "$out" && echo "✓ $file"
+            curl -f -L "$url" -o "$out"
           done < js_list.txt
+          # Downloads each JS file listed in js_list.txt into the 'chunks' directory
 
       - name: Beautify JS
         run: |
           npm install -g js-beautify
           find chunks -name "*.js" -exec js-beautify -r {} \;
+          # Installs js-beautify globally and then formats all .js files in the chunks directory for better readability.
 
       - name: Commit if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "unity.com JS updated"
-          file_pattern: chunks
+          commit_message: "Automated update of Unity.com JS files"
+          file_pattern: chunks # Only commit changes within the chunks directory
+          # This action commits any changes in the 'chunks' directory if they exist,
+          # creating a new commit with a descriptive message.
