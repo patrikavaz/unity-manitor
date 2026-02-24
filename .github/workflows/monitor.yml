@@ -1,54 +1,102 @@
-name: Monitor Unity Cloud JS Changes (with Cleanup)
+name: Monitor Unity Cloud JS Changes (with Cleanup & Alert)
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Runs every 3 hours at the start of the hour
-  workflow_dispatch: # Allows manual triggering
+    - cron: '0 */3 * * *' # اجرا هر 3 ساعت یکبار
+  workflow_dispatch: # اجرای دستی
 
 permissions:
-  contents: write # Necessary for committing changes
+  contents: write # دسترسی برای commit کردن تغییرات
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
     steps:
+      # >>> مرحله جدید: اعلام شروع کار <<<
+      - name: Notify Workflow Start
+        run: |
+          BOT_TOKEN="${{ secrets.TELEGRAM_BOT_TOKEN }}"
+          CHAT_ID="${{ secrets.TELEGRAM_CHAT_ID }}"
+          RUN_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          
+          # URL Encoding for Markdown safety
+          URL_ENCODED_MESSAGE=$(echo -e "🚀 *Workflow Started: Unity JS Monitor* 🚀%0A%0ARepository: ${{ github.repository }}%0ARun ID: ${{ github.run_id }}%0A%0A[View Run Details](${RUN_URL})" | sed 's/ /%20/g' | sed 's/!/%21/g' | sed 's/#/%23/g' | sed 's/\./%2E/g')
+
+          curl -s -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" \
+               -d "chat_id=$CHAT_ID" \
+               -d "parse_mode=Markdown" \
+               -d "text=$URL_ENCODED_MESSAGE"
+        shell: bash
+      # >>> پایان مرحله جدید <<<
+
+      # 1. آماده‌سازی محیط
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2. پاک‌سازی فضای کاری (Cleanup Strategy)
       - name: Clean old files
         run: rm -rf chunks && mkdir -p chunks
-        # This step ensures that the chunks directory is empty before downloading new files.
+        # این مرحله تضمین می‌کند که پوشه chunks قبل از دانلود، خالی است.
 
       - name: Prepare folders
         run: mkdir -p chunks
 
+      # 3. واکشی و دانلود
       - name: Fetch all JS URLs from main page
-        id: fetch_js # Added ID for potential future use
+        id: fetch_js
         run: |
+          # Fetching unique JS file URLs and saving them to a file
           curl -s https://unity.com | grep -o '/_next/static[^"]*\.js' | sort -u > js_list.txt
-          # Fetches unique JS file URLs from the main Unity page and saves them to js_list.txt
 
       - name: Download JS files
         run: |
           while read file; do
             url="https://unity.com${file}"
-            # Construct the output path within the 'chunks' directory, maintaining structure
-            out="chunks${file}" # Simplified output path construction
+            out="chunks${file}"
             mkdir -p "$(dirname "$out")"
+            # Using -f (fail fast) and -L (follow redirects) for robust download
             curl -f -L "$url" -o "$out"
           done < js_list.txt
-          # Downloads each JS file listed in js_list.txt into the 'chunks' directory
 
+      # 4. پردازش و خواناسازی
       - name: Beautify JS
         run: |
           npm install -g js-beautify
+          # Formatting all .js files in the chunks directory for better diff readability
           find chunks -name "*.js" -exec js-beautify -r {} \;
-          # Installs js-beautify globally and then formats all .js files in the chunks directory for better readability.
 
+      # 5. ثبت تغییرات در Git
       - name: Commit if changed
+        id: commit_action
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated update of Unity.com JS files"
-          file_pattern: chunks # Only commit changes within the chunks directory
-          # This action commits any changes in the 'chunks' directory if they exist,
-          # creating a new commit with a descriptive message.
+          file_pattern: chunks
+          
+      # 6. آماده‌سازی برای هشدار تلگرام
+      - name: Prepare Telegram Notification Flag
+        if: steps.commit_action.outputs.committed == 'true' # Only proceed if a commit was actually made
+        run: |
+          LAST_COMMIT_MSG=$(git log -1 --pretty=%B)
+          if [[ "$LAST_COMMIT_MSG" == "Automated update of Unity.com JS files"* ]]; then
+            echo "SEND_NOTIFICATION=true" >> $GITHUB_ENV
+            echo "SUMMARY=JS files updated. New commit hash: ${{ github.sha }}" >> $GITHUB_ENV
+          else
+            echo "SEND_NOTIFICATION=false" >> $GITHUB_ENV
+          fi
+        shell: bash
+
+      # 7. ارسال هشدار به تلگرام (فقط در صورت تغییر)
+      - name: Send Telegram Notification (on Change)
+        if: env.SEND_NOTIFICATION == 'true'
+        run: |
+          BOT_TOKEN="${{ secrets.TELEGRAM_BOT_TOKEN }}"
+          CHAT_ID="${{ secrets.TELEGRAM_CHAT_ID }}"
+          
+          URL_ENCODED_MESSAGE=$(echo -e "🚨 *Unity JS Change Detected on ${{ github.repository }}* 🚨%0A%0A${{ env.SUMMARY }}%0A%0A[View Commit Details](${{"https://github.com/${{ github.repository }}/commit/${{ github.sha }}"}})" | sed 's/ /%20/g' | sed 's/!/%21/g' | sed 's/#/%23/g' | sed 's/\./%2E/g')
+
+          curl -s -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" \
+               -d "chat_id=$CHAT_ID" \
+               -d "parse_mode=Markdown" \
+               -d "text=$URL_ENCODED_MESSAGE"
+        shell: bash
