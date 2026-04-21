@@ -2514,7 +2514,6 @@
             if (!await $(e) || !e.fetchData) return null;
             let t = await e.fetchData(),
                 n = await
-
             function(e, t, n) {
                 let r = {
                         basePath: n.router.basePath,
@@ -3817,7 +3816,7 @@ ${e.stack}` : e + "")
             }
         }
         var er = e.i(545268),
-            ea = e.i(691360),
+            ea = e.i(81211),
             ei = e.i(528951),
             eo = e.i(529956),
             el = e.i(742327),
@@ -7808,7 +7807,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
             rewriteFramesAssetPrefixPath: a,
             experimentalThirdPartyOriginStackFrames: l
         })), r),
-        release: "12968d2ab27c7757f0054d08bfce642597a480d2",
+        release: "16cc2f32e351cacd8043c5f35946cbfac795ec7d",
         ...e
     };
     ! function(e) {
@@ -18352,7 +18351,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
     try {
         var e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof globalThis ? globalThis : "undefined" != typeof self ? self : {},
             n = (new e.Error).stack;
-        n && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[n] = "03b7505c-f66a-5f31-8ce5-530fb82639e9")
+        n && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[n] = "62d87a52-0a54-5ab8-a5ec-b9f2014fc494")
     } catch (e) {}
 }();
-//# debugId=03b7505c-f66a-5f31-8ce5-530fb82639e9
+//# debugId=62d87a52-0a54-5ab8-a5ec-b9f2014fc494
