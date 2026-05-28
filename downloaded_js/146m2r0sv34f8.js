@@ -2176,7 +2176,6 @@
             if (!await $(e) || !e.fetchData) return null;
             let t = await e.fetchData(),
                 n = await
-
             function(e, t, n) {
                 let r = {
                         basePath: n.router.basePath,
@@ -7498,7 +7497,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
             rewriteFramesAssetPrefixPath: a,
             experimentalThirdPartyOriginStackFrames: l
         })), r),
-        release: "a72dc3338492fefe0d3edc0a8aaddd695bd6bd0b",
+        release: "44c0e5bfc11669f51aa15a5c82a46cbbfb8e039e",
         ...e
     };
     ! function(e) {
@@ -18403,7 +18402,7 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     try {
         var e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof globalThis ? globalThis : "undefined" != typeof self ? self : {},
             n = (new e.Error).stack;
-        n && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[n] = "8ceeb6f9-0ff8-50c1-8189-273f3a34bd56")
+        n && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[n] = "986e79ae-da1e-53f8-95d0-bfd84c02a847")
     } catch (e) {}
 }();
-//# debugId=8ceeb6f9-0ff8-50c1-8189-273f3a34bd56
+//# debugId=986e79ae-da1e-53f8-95d0-bfd84c02a847
