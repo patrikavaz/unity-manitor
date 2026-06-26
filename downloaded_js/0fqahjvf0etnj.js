@@ -2176,7 +2176,6 @@
             if (!await $(e) || !e.fetchData) return null;
             let t = await e.fetchData(),
                 n = await
-
             function(e, t, n) {
                 let r = {
                         basePath: n.router.basePath,
@@ -7498,7 +7497,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
             rewriteFramesAssetPrefixPath: a,
             experimentalThirdPartyOriginStackFrames: l
         })), r),
-        release: "da8923d3fadacb8af13e9aeb06f7181723fd51ac",
+        release: "4d06780e140e9e1f5f04db956843b8dbc649877b",
         ...e
     };
     ! function(e) {
@@ -7872,6 +7871,7 @@ ${e.stack}` : "unknown"
             })(t, e.saveZodIssuesAsAttachment, n, r)
         }
     })()],
+    sampleRate: .9,
     tracesSampleRate: .005,
     profileSessionSampleRate: .005
 }), e.s(["onRouterTransitionStart", 0, function(e, t) {
@@ -18403,7 +18403,7 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     try {
         var e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof globalThis ? globalThis : "undefined" != typeof self ? self : {},
             n = (new e.Error).stack;
-        n && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[n] = "5efcc82d-88b6-5f15-b678-4131eaecdbcb")
+        n && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[n] = "81557b8a-21ba-588c-b231-fb38d08b3944")
     } catch (e) {}
 }();
-//# debugId=5efcc82d-88b6-5f15-b678-4131eaecdbcb
+//# debugId=81557b8a-21ba-588c-b231-fb38d08b3944
