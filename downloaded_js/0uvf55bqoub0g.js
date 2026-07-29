@@ -1,13 +1,13 @@
-(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push(["object" == typeof document ? document.currentScript : void 0, 314759, (e, t, n) => {
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push(["object" == typeof document ? document.currentScript : void 0, 439390, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
         });
-        let r = (0, e.r(705027).getDeploymentId)();
+        let r = (0, e.r(61222).getDeploymentId)();
         globalThis.NEXT_DEPLOYMENT_ID = r, ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 41083, (e, t, n) => {
+    }, 450371, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -17,7 +17,7 @@
                 return a
             }
         });
-        let r = e.r(646256);
+        let r = e.r(798808);
 
         function a() {
             let e = document.currentScript;
@@ -38,7 +38,7 @@
         }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 209735, (e, t, n) => {
+    }, 685700, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -48,8 +48,8 @@
                 return i
             }
         });
-        let r = e.r(41083),
-            a = e.r(559215);
+        let r = e.r(450371),
+            a = e.r(716016);
 
         function i(e) {
             var t, n;
@@ -71,7 +71,7 @@
         }, ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 192915, (e, t, n) => {
+    }, 714618, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -98,7 +98,7 @@
             let t = Object.getPrototypeOf(e);
             return null === t || t.hasOwnProperty("isPrototypeOf")
         }
-    }, 675634, (e, t, n) => {
+    }, 498044, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -115,7 +115,7 @@
             enumerable: !0,
             get: r[a]
         });
-        let i = e.r(192915);
+        let i = e.r(714618);
 
         function o(e) {
             return "object" == typeof e && null !== e && "name" in e && "message" in e
@@ -135,7 +135,7 @@
                 configurable: !0
             })
         }
-    }, 793127, (e, t, n) => {
+    }, 891938, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -151,7 +151,7 @@
         ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 511864, (e, t, n) => {
+    }, 26135, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -169,9 +169,9 @@
             get: r[a]
         });
         let i = e.r(481258),
-            o = e.r(768205),
-            l = i._(e.r(675634)),
-            s = e.r(793127),
+            o = e.r(723221),
+            l = i._(e.r(498044)),
+            s = e.r(891938),
             u = new WeakSet;
 
         function c(e) {
@@ -184,7 +184,7 @@
         ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 89448, (e, t, n) => {
+    }, 642491, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -236,7 +236,7 @@
                 return t
             }
         }
-    }, 757557, (e, t, n) => {
+    }, 176838, (e, t, n) => {
         "use strict";
 
         function r(e, t = "") {
@@ -250,7 +250,7 @@
                 return r
             }
         })
-    }, 303410, (e, t, n) => {
+    }, 655234, (e, t, n) => {
         "use strict";
         let r;
 
@@ -271,7 +271,7 @@
         }), ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 494861, (e, t, n) => {
+    }, 83815, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -281,7 +281,7 @@
                 return a
             }
         });
-        let r = e.r(49557);
+        let r = e.r(150015);
 
         function a(e, t, n) {
             return new Promise((n, a) => {
@@ -295,7 +295,7 @@
         }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 190471, (e, t, n) => {
+    }, 557887, (e, t, n) => {
         "use strict";
         let r;
         Object.defineProperty(n, "__esModule", {
@@ -319,12 +319,12 @@
             enumerable: !0,
             get: a[i]
         });
-        e.r(481258), e.r(757557);
-        let o = e.r(303410),
-            l = e.r(49557),
-            s = e.r(705027),
-            u = e.r(520346),
-            c = e.r(494861);
+        e.r(481258), e.r(176838);
+        let o = e.r(655234),
+            l = e.r(150015),
+            s = e.r(61222),
+            u = e.r(243285),
+            c = e.r(83815);
 
         function d(e, t, n) {
             let r, a = t.get(e);
@@ -490,7 +490,7 @@
         }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 28146, (e, t, n) => {
+    }, 671631, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -624,7 +624,7 @@
             }
             return o(r).map(t => e[n[t]])
         }
-    }, 745077, (e, t, n) => {
+    }, 622131, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -634,14 +634,14 @@
                 return o
             }
         });
-        let r = e.r(127808),
+        let r = e.r(602926),
             a = /\/[^/]*\[[^/]+\][^/]*(?=\/|$)/,
             i = /\/\[[^/]+\](?=\/|$)/;
 
         function o(e, t = !0) {
             return ((0, r.isInterceptionRouteAppPath)(e) && (e = (0, r.extractInterceptionRouteInformation)(e).interceptedRoute), t) ? i.test(e) : a.test(e)
         }
-    }, 938835, (e, t, n) => {
+    }, 822194, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -661,9 +661,9 @@
             enumerable: !0,
             get: r[a]
         });
-        let i = e.r(28146),
-            o = e.r(745077)
-    }, 474270, (e, t, n) => {
+        let i = e.r(671631),
+            o = e.r(622131)
+    }, 633476, (e, t, n) => {
         "use strict";
 
         function r(e) {
@@ -677,7 +677,7 @@
                 return r
             }
         })
-    }, 50041, (e, t, n) => {
+    }, 803710, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -687,14 +687,14 @@
                 return i
             }
         });
-        let r = e.r(938835),
-            a = e.r(474270);
+        let r = e.r(822194),
+            a = e.r(633476);
 
         function i(e) {
             let t = (0, a.normalizePathSep)(e);
             return t.startsWith("/index/") && !(0, r.isDynamicRoute)(t) ? t.slice(6) : "/index" !== t ? t : "/"
         }
-    }, 486747, (e, t, n) => {
+    }, 158879, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -726,7 +726,7 @@
                 detectedLocale: n
             })
         }
-    }, 186500, (e, t, n) => {
+    }, 219978, (e, t, n) => {
         "use strict";
 
         function r() {
@@ -753,10 +753,10 @@
                 return r
             }
         })
-    }, 788129, (e, t, n) => {
+    }, 240180, (e, t, n) => {
         (() => {
             "use strict";
-            "u" > typeof __nccwpck_require__ && (__nccwpck_require__.ab = "/ROOT/node_modules/.pnpm/next@16.2.6_@babel+core@7.28.4_@opentelemetry+api@1.9.1_@playwright+test@1.56.1_babel-p_2741dd58e007ab5c73efa373a1e77b34/node_modules/next/dist/compiled/path-to-regexp/");
+            "u" > typeof __nccwpck_require__ && (__nccwpck_require__.ab = "/ROOT/node_modules/.pnpm/next@16.2.6_@babel+core@7.29.7_@opentelemetry+api@1.9.1_@playwright+test@1.61.1_babel-p_796ef0dfc3422f91e6a090c40d5cf9e8/node_modules/next/dist/compiled/path-to-regexp/");
             var e = {};
             (() => {
                 function t(e, t) {
@@ -1053,7 +1053,7 @@
                 }, e.regexpToFunction = r, e.tokensToRegexp = o, e.pathToRegexp = l
             })(), t.exports = e
         })()
-    }, 758380, (e, t, n) => {
+    }, 55808, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1109,7 +1109,7 @@
             for (let [n, r] of Object.entries(e)) "string" == typeof r ? t[n] = r.replace(RegExp(`^${i}`), "") : Array.isArray(r) ? t[n] = r.map(e => "string" == typeof e ? e.replace(RegExp(`^${i}`), "") : e) : t[n] = r;
             return t
         }
-    }, 480034, (e, t, n) => {
+    }, 84365, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1132,8 +1132,8 @@
             enumerable: !0,
             get: r[a]
         });
-        let i = e.r(788129),
-            o = e.r(758380);
+        let i = e.r(240180),
+            o = e.r(55808);
 
         function l(e, t, n) {
             if ("string" != typeof e) return (0, i.pathToRegexp)(e, t, n);
@@ -1184,7 +1184,7 @@
                 return !!n && (0, o.stripParameterSeparators)(n)
             }
         }
-    }, 637161, (e, t, n) => {
+    }, 149146, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1194,8 +1194,8 @@
                 return i
             }
         });
-        let r = e.r(165748),
-            a = e.r(480034);
+        let r = e.r(359682),
+            a = e.r(84365);
 
         function i({
             re: e,
@@ -1223,7 +1223,7 @@
                 return o
             })
         }
-    }, 625151, (e, t, n) => {
+    }, 902896, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1239,7 +1239,7 @@
         function i(e) {
             return r.test(e) ? e.replace(a, "\\$&") : e
         }
-    }, 60694, (e, t, n) => {
+    }, 639161, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1249,7 +1249,7 @@
                 return a
             }
         });
-        let r = e.r(114065);
+        let r = e.r(650999);
 
         function a(e) {
             let [t, n, a, i] = e, {
@@ -1269,7 +1269,7 @@
                 staticSiblings: i
             }
         }
-    }, 198700, (e, t, n) => {
+    }, 661495, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1332,9 +1332,9 @@
             enumerable: !0,
             get: r[a]
         });
-        let i = e.r(646256),
-            o = e.r(568124),
-            l = e.r(127808);
+        let i = e.r(798808),
+            o = e.r(242497),
+            l = e.r(602926);
 
         function s(e) {
             if ("" === e) return null;
@@ -1367,7 +1367,7 @@
         function c(e) {
             return void 0 !== e.interceptionMarker && void 0 !== e.interceptingRoute && void 0 !== e.interceptedRoute
         }
-    }, 618980, (e, t, n) => {
+    }, 607960, (e, t, n) => {
         "use strict";
 
         function r(e) {
@@ -1396,7 +1396,7 @@
                 return r
             }
         })
-    }, 410473, (e, t, n) => {
+    }, 418424, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1406,8 +1406,8 @@
                 return i
             }
         });
-        let r = e.r(646256),
-            a = e.r(618980);
+        let r = e.r(798808),
+            a = e.r(607960);
 
         function i(e, t, n, i, o) {
             switch (t) {
@@ -1453,7 +1453,7 @@
                     return
             }
         }
-    }, 365454, (e, t, n) => {
+    }, 945510, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1479,10 +1479,10 @@
             enumerable: !0,
             get: r[a]
         });
-        let i = e.r(646256),
-            o = e.r(60694),
-            l = e.r(198700),
-            s = e.r(410473);
+        let i = e.r(798808),
+            o = e.r(639161),
+            l = e.r(661495),
+            s = e.r(418424);
 
         function u(e, t, n, r) {
             let a = structuredClone(t),
@@ -1567,7 +1567,7 @@
                 optional: t
             }
         }
-    }, 246566, (e, t, n) => {
+    }, 384982, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1587,11 +1587,11 @@
             enumerable: !0,
             get: r[a]
         });
-        let i = e.r(504901),
-            o = e.r(127808),
-            l = e.r(625151),
-            s = e.r(401616),
-            u = e.r(365454);
+        let i = e.r(805670),
+            o = e.r(602926),
+            l = e.r(902896),
+            s = e.r(335751),
+            u = e.r(945510);
 
         function c(e, t, n) {
             let r = {},
@@ -1765,7 +1765,7 @@
                 namedRegex: `^${a}${r?"(?:(/.*)?)":""}$`
             }
         }
-    }, 986360, (e, t, n) => {
+    }, 75192, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1779,7 +1779,7 @@
         ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 398757, (e, t, n) => {
+    }, 642220, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1788,12 +1788,12 @@
             get: function() {
                 return r
             }
-        }), e.r(546833);
+        }), e.r(478907);
         let r = (e, ...t) => e;
         ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 691439, (e, t, n) => {
+    }, 356337, (e, t, n) => {
         "use strict";
 
         function r(e, t) {
@@ -1806,10 +1806,10 @@
             get: function() {
                 return r
             }
-        }), e.r(230882), ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
+        }), e.r(821966), ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 345686, (e, t, n) => {
+    }, 987404, (e, t, n) => {
         "use strict";
 
         function r(e, t) {
@@ -1826,7 +1826,7 @@
                 return r
             }
         })
-    }, 164208, (e, t, n) => {
+    }, 72139, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1836,8 +1836,8 @@
                 return i
             }
         });
-        let r = e.r(637161),
-            a = e.r(246566);
+        let r = e.r(149146),
+            a = e.r(384982);
 
         function i(e, t, n) {
             let i = "",
@@ -1859,7 +1859,7 @@
                 result: i
             }
         }
-    }, 237303, (e, t, n) => {
+    }, 49e3, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1869,16 +1869,16 @@
                 return p
             }
         });
-        let r = e.r(88430),
-            a = e.r(481385),
-            i = e.r(345686),
-            o = e.r(165748),
-            l = e.r(546833),
-            s = e.r(791456),
-            u = e.r(938835),
-            c = e.r(164208),
-            d = e.r(246566),
-            f = e.r(637161);
+        let r = e.r(881775),
+            a = e.r(348220),
+            i = e.r(987404),
+            o = e.r(359682),
+            l = e.r(478907),
+            s = e.r(820936),
+            u = e.r(822194),
+            c = e.r(72139),
+            d = e.r(384982),
+            f = e.r(149146);
 
         function p(e, t, n) {
             let p, h = "string" == typeof t ? t : (0, a.formatWithValidation)(t),
@@ -1925,7 +1925,7 @@
         }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 303451, (e, t, n) => {
+    }, 442891, (e, t, n) => {
         "use strict";
 
         function r(e) {
@@ -1939,7 +1939,7 @@
                 return r
             }
         })
-    }, 792478, (e, t, n) => {
+    }, 937514, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1949,14 +1949,14 @@
                 return a
             }
         });
-        let r = e.r(440631);
+        let r = e.r(299304);
 
         function a(e, t) {
             if (!(0, r.pathHasPrefix)(e, t)) return e;
             let n = e.slice(t.length);
             return n.startsWith("/") ? n : `/${n}`
         }
-    }, 87545, (e, t, n) => {
+    }, 759523, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -1966,9 +1966,9 @@
                 return o
             }
         });
-        let r = e.r(486747),
-            a = e.r(792478),
-            i = e.r(440631);
+        let r = e.r(158879),
+            a = e.r(937514),
+            i = e.r(299304);
 
         function o(e, t) {
             let {
@@ -1991,7 +1991,7 @@
             }
             return s
         }
-    }, 12348, (e, t, n) => {
+    }, 262156, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -2001,7 +2001,7 @@
                 return a
             }
         });
-        let r = e.r(230882);
+        let r = e.r(821966);
 
         function a(e, t) {
             if (!e.startsWith("/") || !t) return e;
@@ -2012,7 +2012,7 @@
             } = (0, r.parsePath)(e);
             return `${n}${t}${a}${i}`
         }
-    }, 832193, (e, t, n) => {
+    }, 758274, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -2022,15 +2022,15 @@
                 return i
             }
         });
-        let r = e.r(918304),
-            a = e.r(440631);
+        let r = e.r(937082),
+            a = e.r(299304);
 
         function i(e, t, n, i) {
             if (!t || t === n) return e;
             let o = e.toLowerCase();
             return !i && ((0, a.pathHasPrefix)(o, "/api") || (0, a.pathHasPrefix)(o, `/${t.toLowerCase()}`)) ? e : (0, r.addPathPrefix)(e, `/${t}`)
         }
-    }, 443787, (e, t, n) => {
+    }, 242031, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -2040,16 +2040,16 @@
                 return l
             }
         });
-        let r = e.r(401616),
-            a = e.r(918304),
-            i = e.r(12348),
-            o = e.r(832193);
+        let r = e.r(335751),
+            a = e.r(937082),
+            i = e.r(262156),
+            o = e.r(758274);
 
         function l(e) {
             let t = (0, o.addLocale)(e.pathname, e.locale, e.buildId ? void 0 : e.defaultLocale, e.ignorePrefix);
             return (e.buildId || !e.trailingSlash) && (t = (0, r.removeTrailingSlash)(t)), e.buildId && (t = (0, i.addPathSuffix)((0, a.addPathPrefix)(t, `/_next/data/${e.buildId}`), "/" === e.pathname ? "index.json" : ".json")), t = (0, a.addPathPrefix)(t, e.basePath), !e.buildId && e.trailingSlash ? t.endsWith("/") ? t : (0, i.addPathSuffix)(t, "/") : (0, r.removeTrailingSlash)(t)
         }
-    }, 624991, (e, t, n) => {
+    }, 121916, (e, t, n) => {
         "use strict";
 
         function r(e, t) {
@@ -2076,7 +2076,7 @@
                 return r
             }
         })
-    }, 589309, (e, t, n) => {
+    }, 892072, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -2098,39 +2098,39 @@
         });
         let i = e.r(481258),
             o = e.r(744066),
-            l = e.r(401616),
-            s = e.r(190471),
-            u = e.r(50783),
-            c = o._(e.r(675634)),
-            d = e.r(50041),
-            f = e.r(486747),
-            p = i._(e.r(186500)),
-            h = e.r(165748),
-            m = e.r(745077),
-            g = e.r(45689),
-            v = e.r(637161),
-            y = e.r(246566),
-            b = e.r(481385);
-        e.r(986360);
-        let _ = e.r(230882),
-            S = e.r(398757),
-            E = e.r(691439),
-            w = e.r(235688),
-            T = e.r(712499),
-            P = e.r(292628),
-            x = e.r(237303),
-            k = e.r(303451),
-            R = e.r(87545),
-            N = e.r(443787),
-            O = e.r(624991),
-            C = e.r(791456),
-            I = e.r(807707),
-            A = e.r(345686),
-            L = e.r(164208),
-            M = e.r(894031),
-            D = e.r(504901),
-            j = e.r(705027),
-            U = e.r(371200);
+            l = e.r(335751),
+            s = e.r(557887),
+            u = e.r(511215),
+            c = o._(e.r(498044)),
+            d = e.r(803710),
+            f = e.r(158879),
+            p = i._(e.r(219978)),
+            h = e.r(359682),
+            m = e.r(622131),
+            g = e.r(233750),
+            v = e.r(149146),
+            y = e.r(384982),
+            b = e.r(348220);
+        e.r(75192);
+        let _ = e.r(821966),
+            S = e.r(642220),
+            E = e.r(356337),
+            w = e.r(313592),
+            T = e.r(520009),
+            P = e.r(3251),
+            x = e.r(49e3),
+            k = e.r(442891),
+            R = e.r(759523),
+            N = e.r(242031),
+            O = e.r(121916),
+            C = e.r(820936),
+            I = e.r(786551),
+            A = e.r(987404),
+            L = e.r(72139),
+            M = e.r(727594),
+            D = e.r(805670),
+            j = e.r(61222),
+            U = e.r(897835);
 
         function z() {
             return Object.assign(Object.defineProperty(Error("Route Cancelled"), "__NEXT_ERROR_CODE", {
@@ -2176,7 +2176,6 @@
             if (!await $(e) || !e.fetchData) return null;
             let t = await e.fetchData(),
                 n = await
-
             function(e, t, n) {
                 let r = {
                         basePath: n.router.basePath,
@@ -2273,9 +2272,9 @@
                 effect: n
             }
         }
-        let q = Symbol("SSG_DATA_NOT_FOUND");
+        let G = Symbol("SSG_DATA_NOT_FOUND");
 
-        function V(e) {
+        function q(e) {
             try {
                 return JSON.parse(e)
             } catch (e) {
@@ -2283,7 +2282,7 @@
             }
         }
 
-        function G({
+        function V({
             dataHref: e,
             inflightCache: t,
             isPrefetch: n,
@@ -2328,10 +2327,10 @@
                         json: {},
                         cacheKey: c
                     };
-                    if (404 === t.status && V(n)?.notFound) return {
+                    if (404 === t.status && q(n)?.notFound) return {
                         dataHref: e,
                         json: {
-                            notFound: q
+                            notFound: G
                         },
                         response: t,
                         text: n,
@@ -2355,7 +2354,7 @@
                 }
                 return {
                     dataHref: e,
-                    json: i ? V(n) : null,
+                    json: i ? q(n) : null,
                     response: t,
                     text: n,
                     cacheKey: c
@@ -2532,7 +2531,7 @@
                     if (!this._bfl_s && !this._bfl_d) {
                         let n, i, {
                             BloomFilter: o
-                        } = e.r(89448);
+                        } = e.r(642491);
                         try {
                             ({
                                 __routerFilterStatic: n,
@@ -2655,15 +2654,15 @@
                     }), !1
                 }
                 this.urlIsNew(D) || j || (e = "replaceState");
-                let V = n;
+                let q = n;
                 B = B ? (0, l.removeTrailingSlash)((0, w.removeBasePath)(B)) : B;
-                let G = (0, l.removeTrailingSlash)(B),
+                let V = (0, l.removeTrailingSlash)(B),
                     Y = n.startsWith("/") && (0, g.parseRelativeUrl)(n).pathname;
                 if (this.components[B]?.__appRouter) return X({
                     url: n,
                     router: this
                 }), new Promise(() => {});
-                let J = !!(Y && G !== Y && (!(0, m.isDynamicRoute)(G) || !(0, v.getRouteMatcher)((0, y.getRouteRegex)(G))(Y))),
+                let J = !!(Y && V !== Y && (!(0, m.isDynamicRoute)(V) || !(0, v.getRouteMatcher)((0, y.getRouteRegex)(V))(Y))),
                     K = !r.shallow && await $({
                         asPath: n,
                         locale: p.locale,
@@ -2673,22 +2672,22 @@
                     url: n,
                     router: this
                 }), !1;
-                V = (0, E.removeLocale)((0, w.removeBasePath)(V), p.locale), G = (0, l.removeTrailingSlash)(B);
+                q = (0, E.removeLocale)((0, w.removeBasePath)(q), p.locale), V = (0, l.removeTrailingSlash)(B);
                 let Z = !1;
-                if ((0, m.isDynamicRoute)(G)) {
-                    let e = (0, g.parseRelativeUrl)(V),
+                if ((0, m.isDynamicRoute)(V)) {
+                    let e = (0, g.parseRelativeUrl)(q),
                         r = e.pathname,
-                        a = (0, y.getRouteRegex)(G);
+                        a = (0, y.getRouteRegex)(V);
                     Z = (0, v.getRouteMatcher)(a)(r);
-                    let i = G === r,
-                        o = i ? (0, L.interpolateAs)(G, r, W) : {};
+                    let i = V === r,
+                        o = i ? (0, L.interpolateAs)(V, r, W) : {};
                     if (Z && (!i || o.result)) i ? n = (0, b.formatWithValidation)(Object.assign({}, e, {
                         pathname: o.result,
                         query: (0, A.omit)(W, o.params)
                     })) : Object.assign(W, Z);
                     else {
                         let e = Object.keys(a.groups).filter(e => !W[e] && !a.groups[e].optional);
-                        if (e.length > 0 && !K) throw Object.defineProperty(Error((i ? `The provided \`href\` (${t}) value is missing query values (${e.join(", ")}) to be interpolated properly. ` : `The provided \`as\` value (${r}) is incompatible with the \`href\` value (${G}). `) + `Read more: https://nextjs.org/docs/messages/${i?"href-interpolation-failed":"incompatible-href-as"}`), "__NEXT_ERROR_CODE", {
+                        if (e.length > 0 && !K) throw Object.defineProperty(Error((i ? `The provided \`href\` (${t}) value is missing query values (${e.join(", ")}) to be interpolated properly. ` : `The provided \`as\` value (${r}) is incompatible with the \`href\` value (${V}). `) + `Read more: https://nextjs.org/docs/messages/${i?"href-interpolation-failed":"incompatible-href-as"}`), "__NEXT_ERROR_CODE", {
                             value: "E344",
                             enumerable: !1,
                             configurable: !0
@@ -2699,11 +2698,11 @@
                 let ee = "/404" === this.pathname || "/_error" === this.pathname;
                 try {
                     let o = await this.getRouteInfo({
-                        route: G,
+                        route: V,
                         pathname: B,
                         query: W,
                         as: n,
-                        resolvedAs: V,
+                        resolvedAs: q,
                         routeProps: M,
                         locale: p.locale,
                         isPreview: p.isPreview,
@@ -2713,7 +2712,7 @@
                         isMiddlewareRewrite: J
                     });
                     if (d || r.shallow || await this._bfl(n, "resolvedAs" in o ? o.resolvedAs : void 0, p.locale), "route" in o && K) {
-                        G = B = o.route || G, M.shallow || (W = Object.assign({}, o.query || {}, W));
+                        V = B = o.route || V, M.shallow || (W = Object.assign({}, o.query || {}, W));
                         let e = (0, P.hasBasePath)(U.pathname) ? (0, w.removeBasePath)(U.pathname) : U.pathname;
                         if (Z && B !== e && Object.keys(Z).forEach(e => {
                                 Z && W[e] === Z[e] && delete W[e]
@@ -2752,7 +2751,7 @@
                                 router: this
                             }), new Promise(() => {})
                         }
-                        if (p.isPreview = !!o.props.__N_PREVIEW, o.props.notFound === q) {
+                        if (p.isPreview = !!o.props.__N_PREVIEW, o.props.notFound === G) {
                             let e;
                             try {
                                 await this.fetchComponent("/404"), e = "/404"
@@ -2764,7 +2763,7 @@
                                     pathname: e,
                                     query: W,
                                     as: n,
-                                    resolvedAs: V,
+                                    resolvedAs: q,
                                     routeProps: {
                                         shallow: !1
                                     },
@@ -2779,7 +2778,7 @@
                         }
                     }
                     d && "/_error" === this.pathname && self.__NEXT_DATA__.props?.pageProps?.statusCode === 500 && o.props?.pageProps && (o.props.pageProps.statusCode = 500);
-                    let s = r.shallow && p.route === (o.route ?? G),
+                    let s = r.shallow && p.route === (o.route ?? V),
                         f = r.scroll ?? (!d && !s),
                         h = a ?? (f ? {
                             x: 0,
@@ -2787,7 +2786,7 @@
                         } : null),
                         b = {
                             ...p,
-                            route: G,
+                            route: V,
                             pathname: B,
                             query: W,
                             asPath: D,
@@ -2799,7 +2798,7 @@
                                 pathname: this.pathname,
                                 query: W,
                                 as: n,
-                                resolvedAs: V,
+                                resolvedAs: q,
                                 routeProps: {
                                     shallow: !1
                                 },
@@ -2926,7 +2925,7 @@
                             isBackground: p
                         },
                         _ = p && !h ? null : await W({
-                            fetchData: () => G(y),
+                            fetchData: () => V(y),
                             asPath: m ? "/404" : a,
                             locale: o,
                             router: this
@@ -2978,7 +2977,7 @@
                                     asPath: a,
                                     locale: o
                                 }),
-                                r = await G({
+                                r = await V({
                                     dataHref: e,
                                     isServerRender: this.isSsr,
                                     parseJSON: !0,
@@ -3004,7 +3003,7 @@
                             })
                         }
                     });
-                    return S.__N_SSP && y.dataHref && x && delete this.sdc[x], this.isPreview || !S.__N_SSG || p || G(Object.assign({}, y, {
+                    return S.__N_SSP && y.dataHref && x && delete this.sdc[x], this.isPreview || !S.__N_SSG || p || V(Object.assign({}, y, {
                         isBackground: !0,
                         persistCache: !1,
                         inflightCache: this.sbc
@@ -3059,7 +3058,7 @@
                     });
                 r.pathname = H(r.pathname, u), (0, m.isDynamicRoute)(r.pathname) && (i = r.pathname, r.pathname = i, Object.assign(o, (0, v.getRouteMatcher)((0, y.getRouteRegex)(r.pathname))((0, _.parsePath)(t).pathname) || {}), f || (e = (0, b.formatWithValidation)(r)));
                 let p = await W({
-                    fetchData: () => G({
+                    fetchData: () => V({
                         dataHref: this.pageLoader.getDataHref({
                             href: (0, b.formatWithValidation)({
                                 pathname: s,
@@ -3087,7 +3086,7 @@
                 let h = (0, l.removeTrailingSlash)(i);
                 await this._bfl(t, c, n.locale, !0) && (this.components[a] = {
                     __appRouter: !0
-                }), await Promise.all([this.pageLoader._isSsg(h).then(t => !!t && G({
+                }), await Promise.all([this.pageLoader._isSsg(h).then(t => !!t && V({
                     dataHref: p?.json ? p?.dataHref : this.pageLoader.getDataHref({
                         href: e,
                         asPath: c,
@@ -3163,7 +3162,7 @@
                 return this.state.isPreview
             }
         }
-    }, 804727, (e, t, n) => {
+    }, 751572, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -3173,9 +3172,9 @@
                 return i
             }
         }), e.r(481258);
-        let r = e.r(500783);
-        e.r(3931);
-        let a = e.r(814813);
+        let r = e.r(14666);
+        e.r(499531);
+        let a = e.r(105254);
 
         function i(e) {
             function t(t) {
@@ -3188,7 +3187,7 @@
         }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 814813, (e, t, n) => {
+    }, 105254, (e, t, n) => {
         "use strict";
         Object.defineProperty(n, "__esModule", {
             value: !0
@@ -3218,11 +3217,11 @@
             get: r[a]
         });
         let i = e.r(481258),
-            o = i._(e.r(3931)),
-            l = i._(e.r(589309)),
-            s = e.r(634629),
-            u = i._(e.r(675634)),
-            c = i._(e.r(804727)),
+            o = i._(e.r(499531)),
+            l = i._(e.r(892072)),
+            s = e.r(970296),
+            u = i._(e.r(498044)),
+            c = i._(e.r(751572)),
             d = {
                 router: null,
                 readyCallbacks: [],
@@ -3294,30 +3293,26 @@ ${e.stack}` : e + "")
         }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
             value: !0
         }), Object.assign(n.default, n), t.exports = n.default)
-    }, 936700, (e, t, n) => {
-        t.exports = e.r(814813)
+    }, 113892, (e, t, n) => {
+        t.exports = e.r(105254)
     }, 427075, e => {
         "use strict";
         let t, n, r, a, i, o, l, s, u, c, d, f, p, h, m;
-        var g = e.i(788727),
-            v = e.i(809538),
-            y = e.i(685099),
-            b = e.i(310954);
+        var g = e.i(203217),
+            v = e.i(730950),
+            y = e.i(336017),
+            b = e.i(800987);
 
         function _(e, t, n = [t], r = "npm") {
-            let a = e._metadata || {};
-            a.sdk || (a.sdk = {
-                name: `sentry.javascript.${t}`,
-                packages: n.map(e => ({
-                    name: `${r}:@sentry/${e}`,
-                    version: b.SDK_VERSION
-                })),
+            let a = (e._metadata = e._metadata || {}).sdk = e._metadata.sdk || {};
+            a.name || (a.name = `sentry.javascript.${t}`, a.packages = n.map(e => ({
+                name: `${r}:@sentry/${e}`,
                 version: b.SDK_VERSION
-            }), e._metadata = a
+            })), a.version = b.SDK_VERSION)
         }
-        var S = e.i(677278),
-            E = e.i(788879),
-            w = e.i(884580);
+        var S = e.i(569959),
+            E = e.i(666041),
+            w = e.i(245859);
         let T = [];
 
         function P(e, t) {
@@ -3339,8 +3334,10 @@ ${e.stack}` : e + "")
                         id: t.name
                     });
                 e.addEventProcessor(r)
-            }
-            w.DEBUG_BUILD && v.debug.log(`Integration installed: ${t.name}`)
+            } ["processSpan", "processSegmentSpan"].forEach(n => {
+                let r = t[n];
+                "function" == typeof r && e.on(n, n => r.call(t, n, e))
+            }), w.DEBUG_BUILD && v.debug.log(`Integration installed: ${t.name}`)
         }
 
         function k(e) {
@@ -3352,9 +3349,9 @@ ${e.stack}` : e + "")
             } catch {}
             return t
         }
-        var R = e.i(303197),
-            N = e.i(437946);
-        let O = [/^Script error\.?$/, /^Javascript error: Script error\.? on line 0$/, /^ResizeObserver loop completed with undelivered notifications.$/, /^Cannot redefine property: googletag$/, /^Can't find variable: gmo$/, /^undefined is not an object \(evaluating 'a\.[A-Z]'\)$/, 'can\'t redefine non-configurable property "solana"', "vv().getRestrictions is not a function. (In 'vv().getRestrictions(1,a)', 'vv().getRestrictions' is undefined)", "Can't find variable: _AutofillCallbackHandler", /^Non-Error promise rejection captured with value: Object Not Found Matching Id:\d+, MethodName:simulateEvent, ParamCount:\d+$/, /^Java exception was raised during method invocation$/];
+        var R = e.i(981379),
+            N = e.i(192261);
+        let O = [/^Script error\.?$/, /^Javascript error: Script error\.? on line 0$/, /^ResizeObserver loop completed with undelivered notifications.$/, /^Cannot redefine property: googletag$/, /^Can't find variable: gmo$/, /^undefined is not an object \(evaluating 'a\.[A-Z]'\)$/, /can't redefine non-configurable property "solana"/, /vv\(\)\.getRestrictions is not a function/, /Can't find variable: _AutofillCallbackHandler/, /Object Not Found Matching Id:\d+, MethodName:simulateEvent/, /^Java exception was raised during method invocation$/];
 
         function C(e = {}, t = {}) {
             return {
@@ -3380,13 +3377,15 @@ ${e.stack}` : e + "")
                 return w.DEBUG_BUILD && v.debug.error(`Cannot extract url for event ${(0,R.getEventDescription)(e)}`), null
             }
         }
-        var A = e.i(353649);
+        var A = e.i(935545);
         let L = new WeakMap;
-        var M = e.i(743959);
+        var M = e.i(809302),
+            D = e.i(310559),
+            j = e.i(399639);
 
-        function D(e, t) {
-            let n = (0, M.getFramesFromEvent)(e),
-                r = (0, M.getFramesFromEvent)(t);
+        function U(e, t) {
+            let n = (0, j.getFramesFromEvent)(e),
+                r = (0, j.getFramesFromEvent)(t);
             if (!n && !r) return !0;
             if (n && !r || !n && r || r.length !== n.length) return !1;
             for (let e = 0; e < r.length; e++) {
@@ -3397,7 +3396,7 @@ ${e.stack}` : e + "")
             return !0
         }
 
-        function j(e, t) {
+        function z(e, t) {
             let n = e.fingerprint,
                 r = t.fingerprint;
             if (!n && !r) return !0;
@@ -3409,80 +3408,101 @@ ${e.stack}` : e + "")
             }
         }
 
-        function U(e) {
+        function $(e) {
             return e.exception?.values?.[0]
         }
-        var z = e.i(856040),
-            $ = e.i(7837),
-            B = e.i(69164),
-            F = e.i(925511),
-            H = e.i(342475);
-        e.i(539218);
-        var W = e.i(761391),
-            q = e.i(521581),
-            V = e.i(706365),
-            G = e.i(251287),
-            Y = e.i(806861);
-
-        function X(e, t) {
-            var n, r, a, i;
-            let o, l = t ?? (i = e, J().get(i)) ?? [];
-            if (0 === l.length) return;
-            let s = e.getOptions(),
-                u = (n = s._metadata, r = s.tunnel, a = e.getDsn(), o = {}, n?.sdk && (o.sdk = {
-                    name: n.sdk.name,
-                    version: n.sdk.version
-                }), r && a && (o.dsn = (0, z.dsnToString)(a)), (0, Y.createEnvelope)(o, [
-                    [{
-                        type: "log",
-                        item_count: l.length,
-                        content_type: "application/vnd.sentry.items.log+json"
-                    }, {
-                        items: l
-                    }]
-                ]));
-            J().set(e, []), e.emit("flushLogs"), e.sendEnvelope(u)
-        }
+        var B = e.i(787331),
+            F = e.i(144150),
+            H = e.i(174274);
+        e.i(204566);
+        var W = e.i(330826),
+            G = e.i(627784);
+        e.i(136598);
+        var q = e.i(121492),
+            V = e.i(720994),
+            Y = e.i(743064),
+            X = e.i(59429);
 
         function J() {
-            return (0, F.getGlobalSingleton)("clientToLogBufferMap", () => new WeakMap)
+            let e;
+            return "u" > typeof window && (!(!("u" > typeof __SENTRY_BROWSER_BUNDLE__ && __SENTRY_BROWSER_BUNDLE__) && "[object process]" === Object.prototype.toString.call(void 0 !== g.default ? g.default : 0)) || (e = y.GLOBAL_OBJ.process, e?.type === "renderer"))
         }
 
         function Q(e, t) {
-            var n, r, a, i;
-            let o, l = t ?? (i = e, K().get(i)) ?? [];
-            if (0 === l.length) return;
-            let s = e.getOptions(),
-                u = (n = s._metadata, r = s.tunnel, a = e.getDsn(), o = {}, n?.sdk && (o.sdk = {
+            var n, r, a, i, o;
+            let l, s, u = t ?? (o = e, K().get(o)) ?? [];
+            if (0 === u.length) return;
+            let c = e.getOptions(),
+                d = (n = c._metadata, r = c.tunnel, a = e.getDsn(), i = c.sendDefaultPii, l = {}, n?.sdk && (l.sdk = {
                     name: n.sdk.name,
                     version: n.sdk.version
-                }), r && a && (o.dsn = (0, z.dsnToString)(a)), (0, Y.createEnvelope)(o, [
-                    [{
-                        type: "trace_metric",
-                        item_count: l.length,
-                        content_type: "application/vnd.sentry.items.trace-metric+json"
-                    }, {
-                        items: l
-                    }]
-                ]));
-            K().set(e, []), e.emit("flushMetrics"), e.sendEnvelope(u)
+                }), r && a && (l.dsn = (0, B.dsnToString)(a)), (0, X.createEnvelope)(l, [(s = i ? "auto" : "never", [{
+                    type: "log",
+                    item_count: u.length,
+                    content_type: "application/vnd.sentry.items.log+json"
+                }, {
+                    version: 2,
+                    ...J() && {
+                        ingest_settings: {
+                            infer_ip: s,
+                            infer_user_agent: s
+                        }
+                    },
+                    items: u
+                }])]));
+            K().set(e, []), e.emit("flushLogs"), e.sendEnvelope(d)
         }
 
         function K() {
-            return (0, F.getGlobalSingleton)("clientToMetricBufferMap", () => new WeakMap)
+            return (0, W.getGlobalSingleton)("clientToLogBufferMap", () => new WeakMap)
         }
-        var Z = e.i(445257),
-            ee = e.i(587791);
-        let et = Symbol.for("SentryBufferFullError");
 
-        function en(e = 100) {
+        function Z(e, t) {
+            var n, r, a, i, o;
+            let l, s, u = t ?? (o = e, ee().get(o)) ?? [];
+            if (0 === u.length) return;
+            let c = e.getOptions(),
+                d = (n = c._metadata, r = c.tunnel, a = e.getDsn(), i = c.sendDefaultPii, l = {}, n?.sdk && (l.sdk = {
+                    name: n.sdk.name,
+                    version: n.sdk.version
+                }), r && a && (l.dsn = (0, B.dsnToString)(a)), (0, X.createEnvelope)(l, [(s = i ? "auto" : "never", [{
+                    type: "trace_metric",
+                    item_count: u.length,
+                    content_type: "application/vnd.sentry.items.trace-metric+json"
+                }, {
+                    version: 2,
+                    ...J() && {
+                        ingest_settings: {
+                            infer_ip: s,
+                            infer_user_agent: s
+                        }
+                    },
+                    items: u
+                }])]));
+            ee().set(e, []), e.emit("flushMetrics"), e.sendEnvelope(d)
+        }
+
+        function ee() {
+            return (0, W.getGlobalSingleton)("clientToMetricBufferMap", () => new WeakMap)
+        }
+        var et = e.i(365330),
+            en = e.i(562043),
+            er = e.i(721549),
+            ea = e.i(189271);
+
+        function ei(e) {
+            return "object" == typeof e && "function" == typeof e.unref && e.unref(), e
+        }
+        let eo = Symbol.for("SentryBufferFullError");
+
+        function el(e = 100) {
             let t = new Set;
             return {
                 get $() {
                     return Array.from(t)
                 },
                 add: function(n) {
-                    if (!(t.size < e)) return (0, ee.rejectedSyncPromise)(et);
+                    if (!(t.size < e)) return (0, ea.rejectedSyncPromise)(eo);
                     let r = n();
                     return t.add(r), r.then(() => {
                         t.delete(r)
@@ -3491,89 +3511,88 @@ ${e.stack}` : e + "")
                     }), r
                 },
                 drain: function(e) {
-                    if (!t.size) return (0, ee.resolvedSyncPromise)(!0);
+                    if (!t.size) return (0, ea.resolvedSyncPromise)(!0);
                     let n = Promise.allSettled(Array.from(t)).then(() => !0);
-                    return e ? Promise.race([n, new Promise(t => setTimeout(() => t(!1), e))]) : n
+                    return e ? Promise.race([n, new Promise(t => ei(setTimeout(() => t(!1), e)))]) : n
                 }
             }
         }
-        var er = e.i(545268),
-            ea = e.i(81211),
-            ei = e.i(528951),
-            eo = e.i(529956),
-            el = e.i(361277),
-            es = e.i(765158);
-        let eu = "Not capturing exception because it's already been captured.",
-            ec = "Discarded session because of missing or non-string release",
-            ed = Symbol.for("SentryInternalError"),
-            ef = Symbol.for("SentryDoNotSendEventError");
+        var es = e.i(778011),
+            eu = e.i(338640),
+            ec = e.i(784553),
+            ed = e.i(838153),
+            ef = e.i(347437);
+        let ep = "Not capturing exception because it's already been captured.",
+            eh = "Discarded session because of missing or non-string release",
+            em = Symbol.for("SentryInternalError"),
+            eg = Symbol.for("SentryDoNotSendEventError");
 
-        function ep(e) {
+        function ev(e) {
             return {
                 message: e,
-                [ed]: !0
+                [em]: !0
             }
         }
 
-        function eh(e) {
+        function ey(e) {
             return {
                 message: e,
-                [ef]: !0
+                [eg]: !0
             }
         }
 
-        function em(e) {
-            return !!e && "object" == typeof e && ed in e
+        function eb(e) {
+            return !!e && "object" == typeof e && em in e
         }
 
-        function eg(e) {
-            return !!e && "object" == typeof e && ef in e
+        function e_(e) {
+            return !!e && "object" == typeof e && eg in e
         }
 
-        function ev(e, t, n, r, a) {
+        function eS(e, t, n, r, a) {
             let i, o = 0,
                 l = !1;
             e.on(n, () => {
                 o = 0, clearTimeout(i), l = !1
             }), e.on(t, t => {
-                (o += r(t)) >= 8e5 ? a(e) : l || (l = !0, i = setTimeout(() => {
+                (o += r(t)) >= 8e5 ? a(e) : l || (l = !0, i = ei(setTimeout(() => {
                     a(e)
-                }, 5e3))
+                }, 5e3)))
             }), e.on("flush", () => {
                 a(e)
             })
         }
-        class ey {
+        class eE {
             constructor(e) {
-                if (this._options = e, this._integrations = {}, this._numProcessing = 0, this._outcomes = {}, this._hooks = {}, this._eventProcessors = [], this._promiseBuffer = en(e.transportOptions?.bufferSize ?? 64), e.dsn ? this._dsn = (0, z.makeDsn)(e.dsn) : w.DEBUG_BUILD && v.debug.warn("No DSN provided, client will not send events."), this._dsn) {
+                if (this._options = e, this._integrations = {}, this._numProcessing = 0, this._outcomes = {}, this._hooks = {}, this._eventProcessors = [], this._promiseBuffer = el(e.transportOptions?.bufferSize ?? 64), e.dsn ? this._dsn = (0, B.makeDsn)(e.dsn) : w.DEBUG_BUILD && v.debug.warn("No DSN provided, client will not send events."), this._dsn) {
                     const t = function(e, t, n) {
                         let r, a, i;
                         return t || `${r=e.protocol?`${e.protocol}:`:"",a=e.port?`:${e.port}`:"",`${r}//${e.host}${a}${e.path?`/${e.path}`:""}/api/`}${e.projectId}/envelope/?${i={sentry_version:"7"},e.publicKey&&(i.sentry_key=e.publicKey),n&&(i.sentry_client=`
                         $ {
                             n.name
                         }
-                        /${n.version}`),new URLSearchParams(i).toString()}`}(this._dsn,e.tunnel,e._metadata?e._metadata.sdk:void 0);this._transport=e.transport({tunnel:this._options.tunnel,recordDroppedEvent:this.recordDroppedEvent.bind(this),...e.transportOptions,url:t})}this._options.enableLogs=this._options.enableLogs??this._options._experiments?.enableLogs,this._options.enableLogs&&ev(this,"afterCaptureLog","flushLogs",ew,X),(this._options.enableMetrics??this._options._experiments?.enableMetrics??!0)&&ev(this,"afterCaptureMetric","flushMetrics",eE,Q)}captureException(e,t,n){let r=(0,R.uuid4)();if((0,R.checkOrSetAlreadyCaught)(e))return w.DEBUG_BUILD&&v.debug.log(eu),r;let a={event_id:r,...t};return this._process(()=>this.eventFromException(e,a).then(e=>this._captureEvent(e,a,n)).then(e=>e),"error"),a.event_id}captureMessage(e,t,n,r){let a={event_id:(0,R.uuid4)(),...n},i=(0,H.isParameterizedString)(e)?e:String(e),o=(0,H.isPrimitive)(e),l=o?this.eventFromMessage(i,t,a):this.eventFromException(e,a);return this._process(()=>l.then(e=>this._captureEvent(e,a,r)),o?"unknown":"error"),a.event_id}captureEvent(e,t,n){let r=(0,R.uuid4)();if(t?.originalException&&(0,R.checkOrSetAlreadyCaught)(t.originalException))return w.DEBUG_BUILD&&v.debug.log(eu),r;let a={event_id:r,...t},i=e.sdkProcessingMetadata||{},o=i.capturedSpanScope,l=i.capturedSpanIsolationScope,s=eb(e.type);return this._process(()=>this._captureEvent(e,a,o||n,l),s),a.event_id}captureSession(e){this.sendSession(e),(0,Z.updateSession)(e,{init:!1})}getDsn(){return this._dsn}getOptions(){return this._options}getSdkMetadata(){return this._options._metadata}getTransport(){return this._transport}async flush(e){let t=this._transport;if(!t)return!0;this.emit("flush");let n=await this._isClientDoneProcessing(e),r=await t.flush(e);return n&&r}async close(e){let t=await this.flush(e);return this.getOptions().enabled=!1,this.emit("close"),t}getEventProcessors(){return this._eventProcessors}addEventProcessor(e){this._eventProcessors.push(e)}init(){(this._isEnabled()||this._options.integrations.some(({name:e})=>e.startsWith("Spotlight")))&&this._setupIntegrations()}getIntegrationByName(e){return this._integrations[e]}addIntegration(e){let t=this._integrations[e.name];x(this,e,this._integrations),t||P(this,[e])}sendEvent(e,t={}){this.emit("beforeSendEvent",e,t);let n=(0,B.createEventEnvelope)(e,this._dsn,this._options._metadata,this._options.tunnel);for(let e of t.attachments||[])n=(0,Y.addItemToEnvelope)(n,(0,Y.createAttachmentEnvelopeItem)(e));this.sendEnvelope(n).then(t=>this.emit("afterSendEvent",e,t))}sendSession(e){let{release:t,environment:n=$.DEFAULT_ENVIRONMENT}=this._options;if("aggregates"in e){let r=e.attrs||{};if(!r.release&&!t){w.DEBUG_BUILD&&v.debug.warn(ec);return}r.release=r.release||t,r.environment=r.environment||n,e.attrs=r}else{if(!e.release&&!t){w.DEBUG_BUILD&&v.debug.warn(ec);return}e.release=e.release||t,e.environment=e.environment||n}this.emit("beforeSendSession",e);let r=(0,B.createSessionEnvelope)(e,this._dsn,this._options._metadata,this._options.tunnel);this.sendEnvelope(r)}recordDroppedEvent(e,t,n=1){if(this._options.sendClientReports){let r=`${e}:${t}`;w.DEBUG_BUILD&&v.debug.log(`Recording outcome: "${r}"${n>1?` (${n} times)`:""}`),this._outcomes[r]=(this._outcomes[r]||0)+n}}on(e,t){let n=this._hooks[e]=this._hooks[e]||new Set,r=(...e)=>t(...e);return n.add(r),()=>{n.delete(r)}}emit(e,...t){let n=this._hooks[e];n&&n.forEach(e=>e(...t))}async sendEnvelope(e){if(this.emit("beforeEnvelope",e),this._isEnabled()&&this._transport)try{return await this._transport.send(e)}catch(e){return w.DEBUG_BUILD&&v.debug.error("Error while sending envelope:",e),{}}return w.DEBUG_BUILD&&v.debug.error("Transport disabled"),{}}_setupIntegrations(){var e;let t,{integrations:n}=this._options;this._integrations=(e=this,t={},n.forEach(n=>{n&&x(e,n,t)}),t),P(this,n)}_updateSessionFromEvent(e,t){let n="fatal"===t.level,r=!1,a=t.exception?.values;if(a){for(let e of(r=!0,n=!1,a))if(e.mechanism?.handled===!1){n=!0;break}}let i="ok"===e.status;(i&&0===e.errors||i&&n)&&((0,Z.updateSession)(e,{...n&&{status:"crashed"},errors:e.errors||Number(r||n)}),this.captureSession(e))}async _isClientDoneProcessing(e){let t=0;for(;!e||t<e;){if(await new Promise(e=>setTimeout(e,1)),!this._numProcessing)return!0;t++}return!1}_isEnabled(){return!1!==this.getOptions().enabled&&void 0!==this._transport}_prepareEvent(e,t,n,r){let a=this.getOptions(),i=Object.keys(this._integrations);return!t.integrations&&i?.length&&(t.integrations=i),this.emit("preprocessEvent",e,t),e.type||r.setLastEventId(e.event_id||t.event_id),(0,eo.prepareEvent)(a,e,t,n,this,r).then(e=>(null===e||(this.emit("postprocessEvent",e,t),e.contexts={trace:(0,E.getTraceContextFromScope)(n),...e.contexts},e.sdkProcessingMetadata={dynamicSamplingContext:(0,V.getDynamicSamplingContextFromScope)(this,n),...e.sdkProcessingMetadata}),e))}_captureEvent(e,t={},n=(0,E.getCurrentScope)(),r=(0,E.getIsolationScope)()){return w.DEBUG_BUILD&&e_(e)&&v.debug.log(`Captured error event \`${k(e)[0]||"<unknown>"}\``),this._processEvent(e,t,n,r).then(e=>e.event_id,e=>{w.DEBUG_BUILD&&(eg(e)?v.debug.log(e.message):em(e)?v.debug.warn(e.message):v.debug.warn(e))})}_processEvent(e,t,n,r){let a=this.getOptions(),{sampleRate:i}=a,o=eS(e),l=e_(e),s=e.type||"error",u=`before send for type \`${s}\``,c=void 0===i?void 0:(0,ei.parseSampleRate)(i);if(l&&"number"==typeof c&&(0,er.safeMathRandom)()>c)return this.recordDroppedEvent("sample_rate","error"),(0,ee.rejectedSyncPromise)(eh(`Discarding event because it's not included in the random sample (sampling rate = ${i})`));let d=eb(e.type);return this._prepareEvent(e,t,n,r).then(e=>{if(null===e)throw this.recordDroppedEvent("event_processor",d),eh("An event processor returned `null`, will not send event.");return t.data&&!0===t.data.__sentry__?e:function(e,t){let n=`${t} must return \`null\` or a valid event.`;if((0,H.isThenable)(e))return e.then(e=>{if(!(0,H.isPlainObject)(e)&&null!==e)throw ep(n);return e},e=>{throw ep(`${t} rejected with ${e}`)});if(!(0,H.isPlainObject)(e)&&null!==e)throw ep(n);return e}(function(e,t,n,r){let{beforeSend:a,beforeSendTransaction:i,beforeSendSpan:o,ignoreSpans:l}=t,s=n;if(e_(s)&&a)return a(s,r);if(eS(s)){if(o||l){let t=function(e){let{trace_id:t,parent_span_id:n,span_id:r,status:a,origin:i,data:o,op:l}=e.contexts?.trace??{};return{data:o??{},description:e.transaction,op:l,parent_span_id:n,span_id:r??"",start_timestamp:e.start_timestamp??0,status:a,timestamp:e.timestamp,trace_id:t??"",origin:i,profile_id:o?.[es.SEMANTIC_ATTRIBUTE_PROFILE_ID],exclusive_time:o?.[es.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME],measurements:e.measurements,is_segment:!0}}(s);if(l?.length&&(0,el.shouldIgnoreSpan)(t,l))return null;if(o){let e=o(t);if(e)s=(0,ea.merge)(n,{type:"transaction",timestamp:e.timestamp,start_timestamp:e.start_timestamp,transaction:e.description,contexts:{trace:{trace_id:e.trace_id,span_id:e.span_id,parent_span_id:e.parent_span_id,op:e.op,status:e.status,origin:e.origin,data:{...e.data,...e.profile_id&&{[es.SEMANTIC_ATTRIBUTE_PROFILE_ID]:e.profile_id},...e.exclusive_time&&{[es.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME]:e.exclusive_time}}}},measurements:e.measurements});else(0,G.showSpanDropWarning)()}if(s.spans){let t=[],n=s.spans;for(let e of n){if(l?.length&&(0,el.shouldIgnoreSpan)(e,l)){(0,el.reparentChildSpans)(n,e);continue}if(o){let n=o(e);n?t.push(n):((0,G.showSpanDropWarning)(),t.push(e))}else t.push(e)}let r=s.spans.length-t.length;r&&e.recordDroppedEvent("before_send","span",r),s.spans=t}}if(i){if(s.spans){let e=s.spans.length;s.sdkProcessingMetadata={...n.sdkProcessingMetadata,spanCountBeforeProcessing:e}}return i(s,r)}}return s}(this,a,e,t),u)}).then(a=>{if(null===a){if(this.recordDroppedEvent("before_send",d),o){let t=1+(e.spans||[]).length;this.recordDroppedEvent("before_send","span",t)}throw eh(`${u} returned \`null\`, will not send event.`)}let i=n.getSession()||r.getSession();if(l&&i&&this._updateSessionFromEvent(i,a),o){let e=(a.sdkProcessingMetadata?.spanCountBeforeProcessing||0)-(a.spans?a.spans.length:0);e>0&&this.recordDroppedEvent("before_send","span",e)}let s=a.transaction_info;return o&&s&&a.transaction!==e.transaction&&(a.transaction_info={...s,source:"custom"}),this.sendEvent(a,t),a}).then(null,e=>{if(eg(e)||em(e))throw e;throw this.captureException(e,{mechanism:{handled:!1,type:"internal"},data:{__sentry__:!0},originalException:e}),ep(`Event processing pipeline threw an error, original event will not be sent. Details have been sent as a new event.
+                        /${n.version}`),new URLSearchParams(i).toString()}`}(this._dsn,e.tunnel,e._metadata?e._metadata.sdk:void 0);this._transport=e.transport({tunnel:this._options.tunnel,recordDroppedEvent:this.recordDroppedEvent.bind(this),...e.transportOptions,url:t})}this._options.enableLogs=this._options.enableLogs??this._options._experiments?.enableLogs,this._options.enableLogs&&eS(this,"afterCaptureLog","flushLogs",ek,Q),(this._options.enableMetrics??this._options._experiments?.enableMetrics??!0)&&eS(this,"afterCaptureMetric","flushMetrics",ex,Z)}captureException(e,t,n){let r=(0,R.uuid4)();if((0,R.checkOrSetAlreadyCaught)(e))return w.DEBUG_BUILD&&v.debug.log(ep),r;let a={event_id:r,...t};return this._process(()=>this.eventFromException(e,a).then(e=>this._captureEvent(e,a,n)).then(e=>e),"error"),a.event_id}captureMessage(e,t,n,r){let a={event_id:(0,R.uuid4)(),...n},i=(0,G.isParameterizedString)(e)?e:String(e),o=(0,G.isPrimitive)(e),l=o?this.eventFromMessage(i,t,a):this.eventFromException(e,a);return this._process(()=>l.then(e=>this._captureEvent(e,a,r)),o?"unknown":"error"),a.event_id}captureEvent(e,t,n){let r=(0,R.uuid4)();if(t?.originalException&&(0,R.checkOrSetAlreadyCaught)(t.originalException))return w.DEBUG_BUILD&&v.debug.log(ep),r;let a={event_id:r,...t},i=e.sdkProcessingMetadata||{},o=i.capturedSpanScope,l=i.capturedSpanIsolationScope,s=ew(e.type);return this._process(()=>this._captureEvent(e,a,o||n,l),s),a.event_id}captureSession(e){this.sendSession(e),(0,et.updateSession)(e,{init:!1})}getDsn(){return this._dsn}getOptions(){return this._options}getSdkMetadata(){return this._options._metadata}getTransport(){return this._transport}async flush(e){let t=this._transport;if(this.emit("flush"),!t)return!0;let n=await this._isClientDoneProcessing(e),r=await t.flush(e);return n&&r}async close(e){Q(this);let t=await this.flush(e);return this.getOptions().enabled=!1,this.emit("close"),t}getEventProcessors(){return this._eventProcessors}addEventProcessor(e){this._eventProcessors.push(e)}init(){(this._isEnabled()||this._options.integrations.some(({name:e})=>e.startsWith("Spotlight")))&&this._setupIntegrations()}getIntegrationByName(e){return this._integrations[e]}addIntegration(e){let t=this._integrations[e.name];!t&&e.beforeSetup&&e.beforeSetup(this),x(this,e,this._integrations),t||P(this,[e])}sendEvent(e,t={}){this.emit("beforeSendEvent",e,t);let n=function(e,t){if("transaction"!==e.type||!e.spans?.length||!e.sdkProcessingMetadata?.hasGenAiSpans||!t.getOptions().streamGenAiSpans||(0,er.hasSpanStreamingEnabled)(t))return;let n=[],r=[];for(let t of e.spans)t.op?.startsWith("gen_ai.")?n.push(function(e){let t={trace_id:e.trace_id,span_id:e.span_id,parent_span_id:e.parent_span_id,name:e.description||"",start_timestamp:e.start_timestamp,end_timestamp:e.timestamp||e.start_timestamp,status:e.status&&"ok"!==e.status&&"cancelled"!==e.status?"error":"ok",is_segment:!1,attributes:{...e.data},links:e.links};return(0,D.streamedSpanJsonToSerializedSpan)(t)}(t)):r.push(t);if(0===n.length)return;e.spans=r;let a=t.getOptions().sendDefaultPii?"auto":"never";return[{type:"span",item_count:n.length,content_type:"application/vnd.sentry.items.span.v2+json"},{version:2,...J()&&{ingest_settings:{infer_ip:a,infer_user_agent:a}},items:n}]}(e,this),r=(0,H.createEventEnvelope)(e,this._dsn,this._options._metadata,this._options.tunnel);for(let e of t.attachments||[])r=(0,X.addItemToEnvelope)(r,(0,X.createAttachmentEnvelopeItem)(e));n&&(r=(0,X.addItemToEnvelope)(r,n)),this.sendEnvelope(r).then(t=>this.emit("afterSendEvent",e,t))}sendSession(e){let{release:t,environment:n=F.DEFAULT_ENVIRONMENT}=this._options;if("aggregates"in e){let r=e.attrs||{};if(!r.release&&!t){w.DEBUG_BUILD&&v.debug.warn(eh);return}r.release=r.release||t,r.environment=r.environment||n,e.attrs=r}else{if(!e.release&&!t){w.DEBUG_BUILD&&v.debug.warn(eh);return}e.release=e.release||t,e.environment=e.environment||n}this.emit("beforeSendSession",e);let r=(0,H.createSessionEnvelope)(e,this._dsn,this._options._metadata,this._options.tunnel);this.sendEnvelope(r)}recordDroppedEvent(e,t,n=1){if(this._options.sendClientReports){let r=`${e}:${t}`;w.DEBUG_BUILD&&v.debug.log(`Recording outcome: "${r}"${n>1?` (${n} times)`:""}`),this._outcomes[r]=(this._outcomes[r]||0)+n}}on(e,t){let n=this._hooks[e]=this._hooks[e]||new Set,r=(...e)=>t(...e);return n.add(r),()=>{n.delete(r)}}emit(e,...t){let n=this._hooks[e];n&&n.forEach(e=>e(...t))}async sendEnvelope(e){if(this.emit("beforeEnvelope",e),this._isEnabled()&&this._transport)try{return await this._transport.send(e)}catch(e){return w.DEBUG_BUILD&&v.debug.error("Error while sending envelope:",e),{}}return w.DEBUG_BUILD&&v.debug.error("Transport disabled"),{}}registerCleanup(e){}dispose(){}_setupIntegrations(){var e;let t,{integrations:n}=this._options;this._integrations=(e=this,t={},n.forEach(t=>{t?.beforeSetup&&t.beforeSetup(e)}),n.forEach(n=>{n&&x(e,n,t)}),t),P(this,n)}_updateSessionFromEvent(e,t){let n="fatal"===t.level,r=!1,a=t.exception?.values;if(a){for(let e of(r=!0,n=!1,a))if(e.mechanism?.handled===!1){n=!0;break}}let i="ok"===e.status;(i&&0===e.errors||i&&n)&&((0,et.updateSession)(e,{...n&&{status:"crashed"},errors:e.errors||Number(r||n)}),this.captureSession(e))}async _isClientDoneProcessing(e){let t=0;for(;!e||t<e;){if(await new Promise(e=>setTimeout(e,1)),!this._numProcessing)return!0;t++}return!1}_isEnabled(){return!1!==this.getOptions().enabled&&void 0!==this._transport}_prepareEvent(e,t,n,r){let a=this.getOptions(),i=Object.keys(this._integrations);return!t.integrations&&i?.length&&(t.integrations=i),this.emit("preprocessEvent",e,t),e.type||r.setLastEventId(e.event_id||t.event_id),(0,ed.prepareEvent)(a,e,t,n,this,r).then(e=>(null===e||(this.emit("postprocessEvent",e,t),e.contexts={trace:{...e.contexts?.trace,...(0,E.getTraceContextFromScope)(n)},...e.contexts},e.sdkProcessingMetadata={dynamicSamplingContext:(0,Y.getDynamicSamplingContextFromScope)(this,n),...e.sdkProcessingMetadata}),e))}_captureEvent(e,t={},n=(0,E.getCurrentScope)(),r=(0,E.getIsolationScope)()){return w.DEBUG_BUILD&&eT(e)&&v.debug.log(`Captured error event \`${k(e)[0]||"<unknown>"}\``),this._processEvent(e,t,n,r).then(e=>e.event_id,e=>{w.DEBUG_BUILD&&(e_(e)?v.debug.log(e.message):eb(e)?v.debug.warn(e.message):v.debug.warn(e))})}_processEvent(e,t,n,r){let a=this.getOptions(),{sampleRate:i}=a,o=eP(e),l=eT(e),s=e.type||"error",u=`before send for type \`${s}\``,c=void 0===i?void 0:(0,ec.parseSampleRate)(i);if(l&&"number"==typeof c&&(0,es.safeMathRandom)()>c)return this.recordDroppedEvent("sample_rate","error"),(0,ea.rejectedSyncPromise)(ey(`Discarding event because it's not included in the random sample (sampling rate = ${i})`));let d=ew(e.type);return this._prepareEvent(e,t,n,r).then(e=>{if(null===e)throw this.recordDroppedEvent("event_processor",d),ey("An event processor returned `null`, will not send event.");return t.data?.__sentry__===!0?e:function(e,t){let n=`${t} must return \`null\` or a valid event.`;if((0,G.isThenable)(e))return e.then(e=>{if(!(0,G.isPlainObject)(e)&&null!==e)throw ev(n);return e},e=>{throw ev(`${t} rejected with ${e}`)});if(!(0,G.isPlainObject)(e)&&null!==e)throw ev(n);return e}(function(e,t,n,r){let{beforeSend:a,beforeSendTransaction:i,ignoreSpans:o}=t,l=!(0,en.isStreamedBeforeSendSpanCallback)(t.beforeSendSpan)&&t.beforeSendSpan,s=n;if(eT(s)&&a)return a(s,r);if(eP(s)){if(l||o){let t=function(e){let{trace_id:t,parent_span_id:n,span_id:r,status:a,origin:i,data:o,op:l}=e.contexts?.trace??{};return{data:o??{},description:e.transaction,op:l,parent_span_id:n,span_id:r??"",start_timestamp:e.start_timestamp??0,status:a,timestamp:e.timestamp,trace_id:t??"",origin:i,profile_id:o?.[M.SEMANTIC_ATTRIBUTE_PROFILE_ID],exclusive_time:o?.[M.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME],measurements:e.measurements,is_segment:!0}}(s);if(o?.length&&(0,ef.shouldIgnoreSpan)({description:t.description,op:t.op,attributes:t.data},o))return null;if(l){let e=l(t);if(e)s=(0,eu.merge)(n,{type:"transaction",timestamp:e.timestamp,start_timestamp:e.start_timestamp,transaction:e.description,contexts:{trace:{trace_id:e.trace_id,span_id:e.span_id,parent_span_id:e.parent_span_id,op:e.op,status:e.status,origin:e.origin,data:{...e.data,...e.profile_id&&{[M.SEMANTIC_ATTRIBUTE_PROFILE_ID]:e.profile_id},...e.exclusive_time&&{[M.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME]:e.exclusive_time}}}},measurements:e.measurements});else(0,D.showSpanDropWarning)()}if(s.spans){let t=[],n=s.spans;for(let e of n){if(o?.length&&(0,ef.shouldIgnoreSpan)({description:e.description,op:e.op,attributes:e.data},o)){(0,ef.reparentChildSpans)(n,e);continue}if(l){let n=l(e);n?t.push(n):((0,D.showSpanDropWarning)(),t.push(e))}else t.push(e)}let r=s.spans.length-t.length;r&&e.recordDroppedEvent("before_send","span",r),s.spans=t}}if(i){if(s.spans){let e=s.spans.length;s.sdkProcessingMetadata={...n.sdkProcessingMetadata,spanCountBeforeProcessing:e}}return i(s,r)}}return s}(this,a,e,t),u)}).then(a=>{if(null===a){if(this.recordDroppedEvent("before_send",d),o){let t=1+(e.spans||[]).length;this.recordDroppedEvent("before_send","span",t)}throw ey(`${u} returned \`null\`, will not send event.`)}let i=n.getSession()||r.getSession();if(l&&i&&this._updateSessionFromEvent(i,a),o){let e=(a.sdkProcessingMetadata?.spanCountBeforeProcessing||0)-(a.spans?a.spans.length:0);e>0&&this.recordDroppedEvent("before_send","span",e)}let s=a.transaction_info;return o&&s&&a.transaction!==e.transaction&&(a.transaction_info={...s,source:"custom"}),this.sendEvent(a,t),a}).then(null,e=>{if(e_(e)||eb(e))throw e;throw this.captureException(e,{mechanism:{handled:!1,type:"internal"},data:{__sentry__:!0},originalException:e}),ev(`Event processing pipeline threw an error, original event will not be sent. Details have been sent as a new event.
                         Reason: $ {
                             e
                         }
-                        `)})}_process(e,t){this._numProcessing++,this._promiseBuffer.add(e).then(e=>(this._numProcessing--,e),e=>(this._numProcessing--,e===et&&this.recordDroppedEvent("queue_overflow",t),e))}_clearOutcomes(){let e=this._outcomes;return this._outcomes={},Object.entries(e).map(([e,t])=>{let[n,r]=e.split(":");return{reason:n,category:r,quantity:t}})}_flushOutcomes(){var e;let t;w.DEBUG_BUILD&&v.debug.log("Flushing outcomes...");let n=this._clearOutcomes();if(0===n.length){w.DEBUG_BUILD&&v.debug.log("No outcomes to send");return}if(!this._dsn){w.DEBUG_BUILD&&v.debug.log("No dsn provided, will not send outcomes");return}w.DEBUG_BUILD&&v.debug.log("Sending outcomes:",n);let r=(e=this._options.tunnel&&(0,z.dsnToString)(this._dsn),t=[{type:"client_report"},{timestamp:(0,q.dateTimestampInSeconds)(),discarded_events:n}],(0,Y.createEnvelope)(e?{dsn:e}:{},[t]));this.sendEnvelope(r)}}function eb(e){return"replay_event"===e?"replay":e||"error"}function e_(e){return void 0===e.type}function eS(e){return"transaction"===e.type}function eE(e){let t=0;return e.name&&(t+=2*e.name.length),(t+=8)+eT(e.attributes)}function ew(e){let t=0;return e.message&&(t+=2*e.message.length),t+eT(e.attributes)}function eT(e){if(!e)return 0;let t=0;return Object.values(e).forEach(e=>{Array.isArray(e)?t+=e.length*eP(e[0]):(0,H.isPrimitive)(e)?t+=eP(e):t+=100}),t}function eP(e){return"string"==typeof e?2*e.length:"number"==typeof e?8:4*("boolean"==typeof e)}function ex(e){"aggregates"in e?e.attrs?.ip_address===void 0&&(e.attrs={...e.attrs,ip_address:"{{auto}}"}):void 0===e.ipAddress&&(e.ipAddress="{{auto}}")}var ek=e.i(784863);function eR(e){return(0,H.isError)(e)&&"__sentry_fetch_url_host__"in e&&"string"==typeof e.__sentry_fetch_url_host__?`
+                        `)})}_process(e,t){this._numProcessing++,this._promiseBuffer.add(e).then(e=>(this._numProcessing--,e),e=>(this._numProcessing--,e===eo&&this.recordDroppedEvent("queue_overflow",t),e))}_clearOutcomes(){let e=this._outcomes;return this._outcomes={},Object.entries(e).map(([e,t])=>{let[n,r]=e.split(":");return{reason:n,category:r,quantity:t}})}_flushOutcomes(){var e;let t;w.DEBUG_BUILD&&v.debug.log("Flushing outcomes...");let n=this._clearOutcomes();if(0===n.length){w.DEBUG_BUILD&&v.debug.log("No outcomes to send");return}if(!this._dsn){w.DEBUG_BUILD&&v.debug.log("No dsn provided, will not send outcomes");return}w.DEBUG_BUILD&&v.debug.log("Sending outcomes:",n);let r=(e=this._options.tunnel&&(0,B.dsnToString)(this._dsn),t=[{type:"client_report"},{timestamp:(0,V.dateTimestampInSeconds)(),discarded_events:n}],(0,X.createEnvelope)(e?{dsn:e}:{},[t]));this.sendEnvelope(r)}}function ew(e){return"replay_event"===e?"replay":e||"error"}function eT(e){return void 0===e.type}function eP(e){return"transaction"===e.type}function ex(e){let t=0;return e.name&&(t+=2*e.name.length),(t+=8)+eR(e.attributes)}function ek(e){let t=0;return e.message&&(t+=2*e.message.length),t+eR(e.attributes)}function eR(e){if(!e)return 0;let t=0;return Object.values(e).forEach(e=>{Array.isArray(e)?t+=e.length*eN(e[0]):(0,G.isPrimitive)(e)?t+=eN(e):t+=100}),t}function eN(e){return"string"==typeof e?2*e.length:"number"==typeof e?8:4*("boolean"==typeof e)}function eO(e){"aggregates"in e?e.attrs?.ip_address===void 0&&(e.attrs={...e.attrs,ip_address:"{{auto}}"}):void 0===e.ipAddress&&(e.ipAddress="{{auto}}")}var eC=e.i(514302);function eI(e){return(0,G.isError)(e)&&"__sentry_fetch_url_host__"in e&&"string"==typeof e.__sentry_fetch_url_host__?`
                         $ {
                             e.message
                         }($ {
                             e.__sentry_fetch_url_host__
-                        })`:e.message}function eN(e,t){var n,r;let a,i,o=eC(e,t),l={type:(n=t,!(a=n?.name)&&eA(n)?n.message&&Array.isArray(n.message)&&2==n.message.length?n.message[0]:"WebAssembly.Exception":a),value:(r=t,i=r?.message,eA(r)?Array.isArray(r.message)&&2==r.message.length?r.message[1]:"wasm exception":i?i.error&&"string"==typeof i.error.message?eR(i.error):eR(r):"No error message")};return o.length&&(l.stacktrace={frames:o}),void 0===l.type&&""===l.value&&(l.value="Unrecoverable error caught"),l}function eO(e,t){return{exception:{values:[eN(e,t)]}}}function eC(e,t){var n,r;let a=t.stacktrace||t.stack||"",i=(n=t)&&eI.test(n.message)?1:0,o="number"==typeof(r=t).framesToPop?r.framesToPop:0;try{return e(a,i,o)}catch{}return[]}let eI=/Minified React error #\d+;/i;function eA(e){return"u">typeof WebAssembly&&void 0!==WebAssembly.Exception&&e instanceof WebAssembly.Exception}function eL(e,t,n,r,a){let i;if((0,H.isErrorEvent)(t)&&t.error)return eO(e,t.error);if((0,H.isDOMError)(t)||(0,H.isDOMException)(t)){if("stack"in t)i=eO(e,t);else{let a=t.name||((0,H.isDOMError)(t)?"DOMError":"DOMException"),o=t.message?`
+                        })`:e.message}function eA(e,t){var n,r;let a,i,o=eM(e,t),l={type:(n=t,!(a=n?.name)&&ej(n)?n.message&&Array.isArray(n.message)&&2==n.message.length?n.message[0]:"WebAssembly.Exception":a),value:(r=t,i=r?.message,ej(r)?Array.isArray(r.message)&&2==r.message.length?r.message[1]:"wasm exception":i?i.error&&"string"==typeof i.error.message?eI(i.error):eI(r):"No error message")};return o.length&&(l.stacktrace={frames:o}),void 0===l.type&&""===l.value&&(l.value="Unrecoverable error caught"),l}function eL(e,t){return{exception:{values:[eA(e,t)]}}}function eM(e,t){var n,r;let a=t.stacktrace||t.stack||"",i=(n=t)&&eD.test(n.message)?1:0,o="number"==typeof(r=t).framesToPop?r.framesToPop:0;try{return e(a,i,o)}catch{}return[]}let eD=/Minified React error #\d+;/i;function ej(e){return"u">typeof WebAssembly&&void 0!==WebAssembly.Exception&&e instanceof WebAssembly.Exception}function eU(e,t,n,r,a){let i;if((0,G.isErrorEvent)(t)&&t.error)return eL(e,t.error);if((0,G.isDOMError)(t)||(0,G.isDOMException)(t)){if("stack"in t)i=eL(e,t);else{let a=t.name||((0,G.isDOMError)(t)?"DOMError":"DOMException"),o=t.message?`
                         $ {
                             a
                         }: $ {
                             t.message
                         }
-                        `:a;i=eM(e,o,n,r),(0,R.addExceptionTypeValue)(i,o)}return"code"in t&&(i.tags={...i.tags,"DOMException.code":`
+                        `:a;i=ez(e,o,n,r),(0,R.addExceptionTypeValue)(i,o)}return"code"in t&&(i.tags={...i.tags,"DOMException.code":`
                         $ {
                             t.code
                         }
-                        `}),i}return(0,H.isError)(t)?eO(e,t):((0,H.isPlainObject)(t)||(0,H.isEvent)(t)?i=function(e,t,n,r){let a=(0,E.getClient)(),i=a?.getOptions().normalizeDepth,o=function(e){for(let t in e)if(Object.prototype.hasOwnProperty.call(e,t)){let n=e[t];if(n instanceof Error)return n}}(t),l={__serialized__:(0,ek.normalizeToSize)(t,i)};if(o)return{exception:{values:[eN(e,o)]},extra:l};let s={exception:{values:[{type:(0,H.isEvent)(t)?t.constructor.name:r?"UnhandledRejection":"Error",value:function(e,{isUnhandledRejection:t}){let n=(0,A.extractExceptionKeysForMessage)(e),r=t?"promise rejection":"exception";if((0,H.isErrorEvent)(e))return`
+                        `}),i}return(0,G.isError)(t)?eL(e,t):((0,G.isPlainObject)(t)||(0,G.isEvent)(t)?i=function(e,t,n,r){let a=(0,E.getClient)(),i=a?.getOptions().normalizeDepth,o=Object.values(t).find(e=>e instanceof Error),l={__serialized__:(0,eC.normalizeToSize)(t,i)};if(o)return{exception:{values:[eA(e,o)]},extra:l};let s={exception:{values:[{type:(0,G.isEvent)(t)?t.constructor.name:r?"UnhandledRejection":"Error",value:function(e,{isUnhandledRejection:t}){let n=(0,A.extractExceptionKeysForMessage)(e),r=t?"promise rejection":"exception";if((0,G.isErrorEvent)(e))return`
                         Event`ErrorEvent\` captured as ${r} with message \`${e.message}\``;
-                        if ((0, H.isEvent)(e)) {
+                        if ((0, G.isEvent)(e)) {
                             let t = function(e) {
                                 try {
                                     let t = Object.getPrototypeOf(e);
@@ -3590,21 +3609,21 @@ ${e.stack}` : e + "")
         }, extra: l
     };
     if (n) {
-        let t = eC(e, n);
+        let t = eM(e, n);
         t.length && (s.exception.values[0].stacktrace = {
             frames: t
         })
     }
     return s
-}(e, t, n, a): (i = eM(e, t, n, r), (0, R.addExceptionTypeValue)(i, `${t}`, void 0)), (0, R.addExceptionMechanism)(i, {
+}(e, t, n, a): (i = ez(e, t, n, r), (0, R.addExceptionTypeValue)(i, `${t}`, void 0)), (0, R.addExceptionMechanism)(i, {
     synthetic: !0
 }), i)
 }
 
-function eM(e, t, n, r) {
+function ez(e, t, n, r) {
     let a = {};
     if (r && n) {
-        let r = eC(e, n);
+        let r = eM(e, n);
         r.length && (a.exception = {
             values: [{
                 value: t,
@@ -3616,7 +3635,7 @@ function eM(e, t, n, r) {
             synthetic: !0
         })
     }
-    if ((0, H.isParameterizedString)(t)) {
+    if ((0, G.isParameterizedString)(t)) {
         let {
             __sentry_template_string__: e,
             __sentry_template_values__: n
@@ -3628,11 +3647,11 @@ function eM(e, t, n, r) {
     }
     return a.message = t, a
 }
-var eD = e.i(545260);
-let ej = y.GLOBAL_OBJ,
-    eU = 0;
+var e$ = e.i(136531);
+let eB = y.GLOBAL_OBJ,
+    eF = 0;
 
-function ez(e, t = {}) {
+function eH(e, t = {}) {
     if ("function" != typeof e) return e;
     try {
         let t = e.__sentry_wrapped__;
@@ -3645,11 +3664,11 @@ function ez(e, t = {}) {
     }
     let n = function(...n) {
         try {
-            let r = n.map(e => ez(e, t));
+            let r = n.map(e => eH(e, t));
             return e.apply(this, r)
         } catch (e) {
-            throw eU++, setTimeout(() => {
-                eU--
+            throw eF++, setTimeout(() => {
+                eF--
             }), (0, E.withScope)(r => {
                 r.addEventProcessor(e => (t.mechanism && ((0, R.addExceptionTypeValue)(e, void 0, void 0), (0, R.addExceptionMechanism)(e, t.mechanism)), e.extra = {
                     ...e.extra,
@@ -3669,14 +3688,14 @@ function ez(e, t = {}) {
     return n
 }
 
-function e$() {
-    let e = (0, eD.getLocationHref)(),
+function eW() {
+    let e = (0, e$.getLocationHref)(),
         {
             referrer: t
-        } = ej.document || {},
+        } = eB.document || {},
         {
             userAgent: n
-        } = ej.navigator || {};
+        } = eB.navigator || {};
     return {
         url: e,
         headers: {
@@ -3689,17 +3708,17 @@ function e$() {
         }
     }
 }
-class eB extends ey {
+class eG extends eE {
     constructor(e) {
         const t = function(e) {
             return {
-                release: "string" == typeof __SENTRY_RELEASE__ ? __SENTRY_RELEASE__ : ej.SENTRY_RELEASE?.id,
+                release: "string" == typeof __SENTRY_RELEASE__ ? __SENTRY_RELEASE__ : eB.SENTRY_RELEASE?.id,
                 sendClientReports: !0,
                 parentSpanIsAlwaysRootSpan: !0,
                 ...e
             }
         }(e);
-        _(t, "browser", ["browser"], ej.SENTRY_SDK_SOURCE || "npm"), t._metadata?.sdk && (t._metadata.sdk.settings = {
+        _(t, "browser", ["browser"], eB.SENTRY_SDK_SOURCE || "npm"), t._metadata?.sdk && (t._metadata.sdk.settings = {
             infer_ip: t.sendDefaultPii ? "auto" : "never",
             ...t._metadata.sdk.settings
         }), super(t);
@@ -3710,35 +3729,40 @@ class eB extends ey {
             _experiments: i,
             enableMetrics: o
         } = this._options, l = o ?? i?.enableMetrics ?? !0;
-        ej.document && (r || a || l) && ej.document.addEventListener("visibilitychange", () => {
-            "hidden" === ej.document.visibilityState && (r && this._flushOutcomes(), a && X(this), l && Q(this))
-        }), n && this.on("beforeSendSession", ex)
+        eB.document && (r || a || l) && eB.document.addEventListener("visibilitychange", () => {
+            "hidden" === eB.document.visibilityState && (r && this._flushOutcomes(), a && Q(this), l && Z(this))
+        }), n && this.on("beforeSendSession", eO)
     }
     eventFromException(e, t) {
         var n, r;
         let a;
-        return n = this._options.stackParser, r = this._options.attachStacktrace, a = eL(n, e, t?.syntheticException || void 0, r), (0, R.addExceptionMechanism)(a), a.level = "error", t?.event_id && (a.event_id = t.event_id), (0, ee.resolvedSyncPromise)(a)
+        return n = this._options.stackParser, r = this._options.attachStacktrace, a = eU(n, e, t?.syntheticException || void 0, r), (0, R.addExceptionMechanism)(a), a.level = "error", t?.event_id && (a.event_id = t.event_id), (0, ea.resolvedSyncPromise)(a)
     }
     eventFromMessage(e, t = "info", n) {
         return function(e, t, n = "info", r, a) {
-            let i = eM(e, t, r?.syntheticException || void 0, a);
-            return i.level = n, r?.event_id && (i.event_id = r.event_id), (0, ee.resolvedSyncPromise)(i)
+            let i = ez(e, t, r?.syntheticException || void 0, a);
+            return i.level = n, r?.event_id && (i.event_id = r.event_id), (0, ea.resolvedSyncPromise)(i)
         }(this._options.stackParser, e, t, n, this._options.attachStacktrace)
     }
     _prepareEvent(e, t, n, r) {
         return e.platform = e.platform || "javascript", super._prepareEvent(e, t, n, r)
     }
 }
-let eF = {},
-    eH = {};
+let eq = {},
+    eV = {};
 
-function eW(e, t) {
-    eF[e] = eF[e] || [], eF[e].push(t)
+function eY(e, t) {
+    return eq[e] = eq[e] || [], eq[e].push(t), () => {
+        let n = eq[e];
+        if (n) {
+            let e = n.indexOf(t); - 1 !== e && n.splice(e, 1)
+        }
+    }
 }
 
-function eq(e, t) {
-    if (!eH[e]) {
-        eH[e] = !0;
+function eX(e, t) {
+    if (!eV[e]) {
+        eV[e] = !0;
         try {
             t()
         } catch (t) {
@@ -3747,62 +3771,65 @@ function eq(e, t) {
     }
 }
 
-function eV(e, t) {
-    let n = e && eF[e];
+function eJ(e, t) {
+    let n = e && eq[e];
     if (n)
         for (let r of n) try {
             r(t)
         } catch (t) {
             w.DEBUG_BUILD && v.debug.error(`Error while triggering instrumentation handler.
 Type: ${e}
-Name: ${(0,M.getFunctionName)(r)}
+Name: ${(0,j.getFunctionName)(r)}
 Error:`, t)
         }
 }
+let eQ = new Set([]);
 
-function eG() {
+function eK() {
     "console" in y.GLOBAL_OBJ && v.CONSOLE_LEVELS.forEach(function(e) {
         e in y.GLOBAL_OBJ.console && (0, A.fill)(y.GLOBAL_OBJ.console, e, function(t) {
             return v.originalConsoleMethods[e] = t,
                 function(...t) {
-                    eV("console", {
+                    let n = t[0],
+                        r = v.originalConsoleMethods[e],
+                        a = eQ.size && "string" == typeof n && (0, N.stringMatchesSomePattern)(n, eQ);
+                    a || eJ("console", {
                         args: t,
                         level: e
-                    });
-                    let n = v.originalConsoleMethods[e];
-                    n?.apply(y.GLOBAL_OBJ.console, t)
+                    }), (!a || w.DEBUG_BUILD && v.debug.isEnabled()) && r?.apply(y.GLOBAL_OBJ.console, t)
                 }
         })
     })
 }
-let eY = y.GLOBAL_OBJ;
+let eZ = y.GLOBAL_OBJ;
 
-function eX(e) {
+function e0(e) {
     return e && /^function\s+\w+\(\)\s+\{\s+\[native code\]\s+\}$/.test(e.toString())
 }
 
-function eJ(e, t) {
-    let n = "fetch";
-    eW(n, e), eq(n, () => eQ(void 0, t))
+function e1(e, t) {
+    let n = "fetch",
+        r = eY(n, e);
+    return eX(n, () => e2(void 0, t)), r
 }
 
-function eQ(e, t = !1) {
+function e2(e, t = !1) {
     (!t || function() {
         if ("string" == typeof EdgeRuntime) return !0;
         if (! function() {
-                if (!("fetch" in eY)) return !1;
+                if (!("fetch" in eZ)) return !1;
                 try {
                     return new Headers, new Request("data:,"), new Response, !0
                 } catch {
                     return !1
                 }
             }()) return !1;
-        if (eX(eY.fetch)) return !0;
+        if (e0(eZ.fetch)) return !0;
         let e = !1,
-            t = eY.document;
+            t = eZ.document;
         if (t && "function" == typeof t.createElement) try {
             let n = t.createElement("iframe");
-            n.hidden = !0, t.head.appendChild(n), n.contentWindow?.fetch && (e = eX(n.contentWindow.fetch)), t.head.removeChild(n)
+            n.hidden = !0, t.head.appendChild(n), n.contentWindow?.fetch && (e = e0(n.contentWindow.fetch)), t.head.removeChild(n)
         } catch (e) {
             w.DEBUG_BUILD && v.debug.warn("Could not create sandbox iframe for pure fetch check, bailing to window.fetch: ", e)
         }
@@ -3821,14 +3848,14 @@ function eQ(e, t = !1) {
                     if (2 === e.length) {
                         let [t, n] = e;
                         return {
-                            url: e1(t),
-                            method: e0(n, "method") ? String(n.method).toUpperCase() : (0, H.isRequest)(t) && e0(t, "method") ? String(t.method).toUpperCase() : "GET"
+                            url: e8(t),
+                            method: e5(n, "method") ? String(n.method).toUpperCase() : (0, G.isRequest)(t) && e5(t, "method") ? String(t.method).toUpperCase() : "GET"
                         }
                     }
                     let t = e[0];
                     return {
-                        url: e1(t),
-                        method: e0(t, "method") ? String(t.method).toUpperCase() : "GET"
+                        url: e8(t),
+                        method: e5(t, "method") ? String(t.method).toUpperCase() : "GET"
                     }
                 }(n),
                 o = {
@@ -3837,28 +3864,28 @@ function eQ(e, t = !1) {
                         method: a,
                         url: i
                     },
-                    startTimestamp: 1e3 * (0, q.timestampInSeconds)(),
+                    startTimestamp: 1e3 * (0, V.timestampInSeconds)(),
                     virtualError: r,
                     headers: function(e) {
                         let [t, n] = e;
                         try {
                             if ("object" == typeof n && null !== n && "headers" in n && n.headers) return new Headers(n.headers);
-                            if ((0, H.isRequest)(t)) return new Headers(t.headers)
+                            if ((0, G.isRequest)(t)) return new Headers(t.headers)
                         } catch {}
                     }(n)
                 };
-            return e || eV("fetch", {
+            return e || eJ("fetch", {
                 ...o
-            }), t.apply(y.GLOBAL_OBJ, n).then(async t => (e ? e(t) : eV("fetch", {
+            }), t.apply(y.GLOBAL_OBJ, n).then(async t => (e ? e(t) : eJ("fetch", {
                 ...o,
-                endTimestamp: 1e3 * (0, q.timestampInSeconds)(),
+                endTimestamp: 1e3 * (0, V.timestampInSeconds)(),
                 response: t
             }), t), e => {
-                eV("fetch", {
+                eJ("fetch", {
                     ...o,
-                    endTimestamp: 1e3 * (0, q.timestampInSeconds)(),
+                    endTimestamp: 1e3 * (0, V.timestampInSeconds)(),
                     error: e
-                }), (0, H.isError)(e) && void 0 === e.stack && (e.stack = r.stack, (0, A.addNonEnumerableProperty)(e, "framesToPop", 1));
+                }), (0, G.isError)(e) && void 0 === e.stack && (e.stack = r.stack, (0, A.addNonEnumerableProperty)(e, "framesToPop", 1));
                 let t = (0, E.getClient)(),
                     n = t?.getOptions().enhanceFetchErrorMessages ?? "always";
                 if (!1 !== n && e instanceof TypeError && ("Failed to fetch" === e.message || "Load failed" === e.message || "NetworkError when attempting to fetch resource." === e.message)) try {
@@ -3870,7 +3897,7 @@ function eQ(e, t = !1) {
         }
     })
 }
-async function eK(e, t) {
+async function e3(e, t) {
     if (e?.body) {
         let n = e.body,
             r = n.getReader(),
@@ -3898,30 +3925,30 @@ async function eK(e, t) {
     }
 }
 
-function eZ(e) {
+function e4(e) {
     let t;
     try {
         t = e.clone()
     } catch {
         return
     }
-    eK(t, () => {
-        eV("fetch-body-resolved", {
-            endTimestamp: 1e3 * (0, q.timestampInSeconds)(),
+    e3(t, () => {
+        eJ("fetch-body-resolved", {
+            endTimestamp: 1e3 * (0, V.timestampInSeconds)(),
             response: e
         })
     })
 }
 
-function e0(e, t) {
+function e5(e, t) {
     return !!e && "object" == typeof e && !!e[t]
 }
 
-function e1(e) {
-    return "string" == typeof e ? e : e ? e0(e, "url") ? e.url : e.toString ? e.toString() : "" : ""
+function e8(e) {
+    return "string" == typeof e ? e : e ? e5(e, "url") ? e.url : e.toString ? e.toString() : "" : ""
 }
 
-function e2(e, t) {
+function e6(e, t) {
     let n = (0, E.getClient)(),
         r = (0, E.getIsolationScope)();
     if (!n) return;
@@ -3931,22 +3958,22 @@ function e2(e, t) {
     } = n.getOptions();
     if (i <= 0) return;
     let o = {
-            timestamp: (0, q.dateTimestampInSeconds)(),
+            timestamp: (0, V.dateTimestampInSeconds)(),
             ...e
         },
         l = a ? (0, v.consoleSandbox)(() => a(o, t)) : o;
     null !== l && (n.emit && n.emit("beforeAddBreadcrumb", l, t), r.addBreadcrumb(l, i))
 }
 
-function e3(e) {
+function e9(e) {
     if (void 0 !== e) return e >= 400 && e < 500 ? "warning" : e >= 500 ? "error" : void 0
 }
 
-function e4(e) {
+function e7(e) {
     return "isRelative" in e
 }
 
-function e5(e, t) {
+function te(e, t) {
     let n = 0 >= e.indexOf("://") && 0 !== e.indexOf("//"),
         r = t ?? (n ? "thismessage:/" : void 0);
     try {
@@ -3962,7 +3989,7 @@ function e5(e, t) {
     } catch {}
 }
 
-function e8(e) {
+function tt(e) {
     if (!e) return {};
     let t = e.match(/^(([^:/?#]+):)?(\/\/([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?$/);
     if (!t) return {};
@@ -3978,17 +4005,33 @@ function e8(e) {
     }
 }
 
-function e6(e) {
+function tn(e) {
     return e.split(/[?#]/, 1)[0]
 }
-let e9 = y.GLOBAL_OBJ;
 
-function e7() {
-    if (!e9.document) return;
-    let e = eV.bind(null, "dom"),
-        t = te(e, !0);
-    e9.document.addEventListener("click", t, !1), e9.document.addEventListener("keypress", t, !1), ["EventTarget", "Node"].forEach(t => {
-        let n = e9[t]?.prototype;
+function tr(e, t = !0) {
+    if (e.startsWith("data:")) {
+        let n = e.match(/^data:([^;,]+)/),
+            r = n ? n[1] : "text/plain",
+            a = e.includes(";base64,"),
+            i = e.indexOf(","),
+            o = "";
+        if (t && -1 !== i) {
+            let t = e.slice(i + 1);
+            o = t.length > 10 ? `${t.slice(0,10)}... [truncated]` : t
+        }
+        return `data:${r}${a?",base64":""}${o?`,${o}`:""}`
+    }
+    return e
+}
+let ta = y.GLOBAL_OBJ;
+
+function ti() {
+    if (!ta.document) return;
+    let e = eJ.bind(null, "dom"),
+        t = to(e, !0);
+    ta.document.addEventListener("click", t, !1), ta.document.addEventListener("keypress", t, !1), ["EventTarget", "Node"].forEach(t => {
+        let n = ta[t]?.prototype;
         n?.hasOwnProperty?.("addEventListener") && ((0, A.fill)(n, "addEventListener", function(t) {
             return function(n, r, a) {
                 if ("click" === n || "keypress" == n) try {
@@ -3997,7 +4040,7 @@ function e7() {
                             refCount: 0
                         };
                     if (!i.handler) {
-                        let r = te(e);
+                        let r = to(e);
                         i.handler = r, t.call(this, n, r, a)
                     }
                     i.refCount++
@@ -4017,7 +4060,7 @@ function e7() {
     })
 }
 
-function te(e, t = !1) {
+function to(e, t = !1) {
     return i => {
         var o;
         if (!i || i._sentryCaptured) return;
@@ -4041,45 +4084,45 @@ function te(e, t = !1) {
             event: i,
             name: s,
             global: t
-        }), r = i.type, a = l ? l._sentryId : void 0), clearTimeout(n), n = e9.setTimeout(() => {
+        }), r = i.type, a = l ? l._sentryId : void 0), clearTimeout(n), n = ta.setTimeout(() => {
             a = void 0, r = void 0
         }, 1e3)
     }
 }
-let tt = "__sentry_xhr_v3__";
+let tl = "__sentry_xhr_v3__";
 
-function tn(e) {
-    eW("xhr", e), eq("xhr", tr)
+function ts(e) {
+    eY("xhr", e), eX("xhr", tu)
 }
 
-function tr() {
-    if (!e9.XMLHttpRequest) return;
+function tu() {
+    if (!ta.XMLHttpRequest) return;
     let e = XMLHttpRequest.prototype;
     e.open = new Proxy(e.open, {
         apply(e, t, n) {
             let r = Error(),
-                a = 1e3 * (0, q.timestampInSeconds)(),
-                i = (0, H.isString)(n[0]) ? n[0].toUpperCase() : void 0,
+                a = 1e3 * (0, V.timestampInSeconds)(),
+                i = (0, G.isString)(n[0]) ? n[0].toUpperCase() : void 0,
                 o = function(e) {
-                    if ((0, H.isString)(e)) return e;
+                    if ((0, G.isString)(e)) return e;
                     try {
                         return e.toString()
                     } catch {}
                 }(n[1]);
             if (!i || !o) return e.apply(t, n);
-            t[tt] = {
+            t[tl] = {
                 method: i,
                 url: o,
                 request_headers: {}
             }, "POST" === i && o.match(/sentry_key/) && (t.__sentry_own_request__ = !0);
             let l = () => {
-                let e = t[tt];
+                let e = t[tl];
                 if (e && 4 === t.readyState) {
                     try {
                         e.status_code = t.status
                     } catch {}
-                    eV("xhr", {
-                        endTimestamp: 1e3 * (0, q.timestampInSeconds)(),
+                    eJ("xhr", {
+                        endTimestamp: 1e3 * (0, V.timestampInSeconds)(),
                         startTimestamp: a,
                         xhr: t,
                         virtualError: r
@@ -4090,28 +4133,28 @@ function tr() {
                 apply: (e, t, n) => (l(), e.apply(t, n))
             }) : t.addEventListener("readystatechange", l), t.setRequestHeader = new Proxy(t.setRequestHeader, {
                 apply(e, t, n) {
-                    let [r, a] = n, i = t[tt];
-                    return i && (0, H.isString)(r) && (0, H.isString)(a) && (i.request_headers[r.toLowerCase()] = a), e.apply(t, n)
+                    let [r, a] = n, i = t[tl];
+                    return i && (0, G.isString)(r) && (0, G.isString)(a) && (i.request_headers[r.toLowerCase()] = a), e.apply(t, n)
                 }
             }), e.apply(t, n)
         }
     }), e.send = new Proxy(e.send, {
         apply(e, t, n) {
-            let r = t[tt];
-            return r && (void 0 !== n[0] && (r.body = n[0]), eV("xhr", {
-                startTimestamp: 1e3 * (0, q.timestampInSeconds)(),
+            let r = t[tl];
+            return r && (void 0 !== n[0] && (r.body = n[0]), eJ("xhr", {
+                startTimestamp: 1e3 * (0, V.timestampInSeconds)(),
                 xhr: t
             })), e.apply(t, n)
         }
     })
 }
 
-function ta(e) {
+function tc(e) {
     let t = "history";
-    eW(t, e), eq(t, ti)
+    eY(t, e), eX(t, td)
 }
 
-function ti() {
+function td() {
     function e(e) {
         return function(...t) {
             let n = t.length > 2 ? t[2] : void 0;
@@ -4119,13 +4162,13 @@ function ti() {
                 let r = i,
                     a = function(e) {
                         try {
-                            return new URL(e, e9.location.origin).toString()
+                            return new URL(e, ta.location.origin).toString()
                         } catch {
                             return e
                         }
                     }(String(n));
                 if (i = a, r === a) return e.apply(this, t);
-                eV("history", {
+                eJ("history", {
                     from: r,
                     to: a
                 })
@@ -4133,36 +4176,36 @@ function ti() {
             return e.apply(this, t)
         }
     }
-    e9.addEventListener("popstate", () => {
-        let e = e9.location.href,
+    ta.addEventListener("popstate", () => {
+        let e = ta.location.href,
             t = i;
-        i = e, t === e || eV("history", {
+        i = e, t === e || eJ("history", {
             from: t,
             to: e
         })
-    }), "history" in eY && eY.history && ((0, A.fill)(e9.history, "pushState", e), (0, A.fill)(e9.history, "replaceState", e))
+    }), "history" in eZ && eZ.history && ((0, A.fill)(ta.history, "pushState", e), (0, A.fill)(ta.history, "replaceState", e))
 }
-let to = "u" < typeof __SENTRY_DEBUG__ || __SENTRY_DEBUG__,
-    tl = ["EventTarget", "Window", "Node", "ApplicationCache", "AudioTrackList", "BroadcastChannel", "ChannelMergerNode", "CryptoOperation", "EventSource", "FileReader", "HTMLUnknownElement", "IDBDatabase", "IDBRequest", "IDBTransaction", "KeyOperation", "MediaController", "MessagePort", "ModalWindow", "Notification", "SVGElementInstance", "Screen", "SharedWorker", "TextTrack", "TextTrackCue", "TextTrackList", "WebSocket", "WebSocketWorker", "Worker", "XMLHttpRequest", "XMLHttpRequestEventTarget", "XMLHttpRequestUpload"];
+let tf = "u" < typeof __SENTRY_DEBUG__ || __SENTRY_DEBUG__,
+    tp = "EventTarget,Window,Node,ApplicationCache,AudioTrackList,BroadcastChannel,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,SharedWorker,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");
 
-function ts(e) {
+function th(e) {
     return function(...t) {
         let n = t[0];
-        return t[0] = ez(n, {
+        return t[0] = eH(n, {
             mechanism: {
                 handled: !1,
-                type: `auto.browser.browserapierrors.${(0,M.getFunctionName)(e)}`
+                type: `auto.browser.browserapierrors.${(0,j.getFunctionName)(e)}`
             }
         }), e.apply(this, t)
     }
 }
 
-function tu(e) {
+function tm(e) {
     return function(t) {
-        return e.apply(this, [ez(t, {
+        return e.apply(this, [eH(t, {
             mechanism: {
                 data: {
-                    handler: (0, M.getFunctionName)(e)
+                    handler: (0, j.getFunctionName)(e)
                 },
                 handled: !1,
                 type: "auto.browser.browserapierrors.requestAnimationFrame"
@@ -4171,7 +4214,7 @@ function tu(e) {
     }
 }
 
-function tc(e) {
+function tg(e) {
     return function(...t) {
         let n = this;
         return ["onload", "onerror", "onprogress", "onreadystatechange"].forEach(e => {
@@ -4179,54 +4222,77 @@ function tc(e) {
                 let n = {
                         mechanism: {
                             data: {
-                                handler: (0, M.getFunctionName)(t)
+                                handler: (0, j.getFunctionName)(t)
                             },
                             handled: !1,
                             type: `auto.browser.browserapierrors.xhr.${e}`
                         }
                     },
                     r = (0, A.getOriginalFunction)(t);
-                return r && (n.mechanism.data.handler = (0, M.getFunctionName)(r)), ez(t, n)
+                return r && (n.mechanism.data.handler = (0, j.getFunctionName)(r)), eH(t, n)
             })
         }), e.apply(this, t)
     }
 }
-let td = null;
 
-function tf(e) {
-    let t = "error";
-    eW(t, e), eq(t, tp)
+function tv(e, t) {
+    let n = e.attributes ?? (e.attributes = {});
+    Object.entries(t).forEach(([e, t]) => {
+        null == t || e in n || (n[e] = t)
+    })
 }
 
-function tp() {
-    td = y.GLOBAL_OBJ.onerror, y.GLOBAL_OBJ.onerror = function(e, t, n, r, a) {
-        return eV("error", {
+function ty() {
+    try {
+        let e = eB.Intl;
+        if (!e) return;
+        let t = e.DateTimeFormat().resolvedOptions();
+        return {
+            locale: t.locale,
+            timezone: t.timeZone,
+            calendar: t.calendar
+        }
+    } catch {
+        return
+    }
+}
+e.i(908408);
+let tb = null;
+
+function t_(e) {
+    let t = "error";
+    eY(t, e), eX(t, tS)
+}
+
+function tS() {
+    tb = y.GLOBAL_OBJ.onerror, y.GLOBAL_OBJ.onerror = function(e, t, n, r, a) {
+        return eJ("error", {
             column: r,
             error: a,
             line: n,
             msg: e,
             url: t
-        }), !!td && td.apply(this, arguments)
+        }), !!tb && tb.apply(this, arguments)
     }, y.GLOBAL_OBJ.onerror.__SENTRY_INSTRUMENTED__ = !0
 }
-let th = null;
+let tE = null;
 
-function tm(e) {
+function tw(e) {
     let t = "unhandledrejection";
-    eW(t, e), eq(t, tg)
+    eY(t, e), eX(t, tT)
 }
 
-function tg() {
-    th = y.GLOBAL_OBJ.onunhandledrejection, y.GLOBAL_OBJ.onunhandledrejection = function(e) {
-        return eV("unhandledrejection", e), !th || th.apply(this, arguments)
+function tT() {
+    tE = y.GLOBAL_OBJ.onunhandledrejection, y.GLOBAL_OBJ.onunhandledrejection = function(e) {
+        return eJ("unhandledrejection", e), !tE || tE.apply(this, arguments)
     }, y.GLOBAL_OBJ.onunhandledrejection.__SENTRY_INSTRUMENTED__ = !0
 }
 
-function tv(e) {
-    to && v.debug.log(`Global Handler attached: ${e}`)
+function tP(e) {
+    tf && v.debug.log(`Global Handler attached: ${e}`)
 }
 
-function ty() {
+function tx() {
     let e = (0, E.getClient)();
     return e?.getOptions() || {
         stackParser: () => [],
@@ -4234,19 +4300,23 @@ function ty() {
     }
 }
 
-function tb(e, t) {
+function tk(e) {
+    return Array.isArray(e.errors)
+}
+
+function tR(e, t, n) {
     e.mechanism = {
         handled: !0,
         type: "auto.core.linked_errors",
-        ...e.mechanism,
-        ..."AggregateError" === e.type && {
+        ...tk(n) && {
             is_exception_group: !0
         },
+        ...e.mechanism,
         exception_id: t
     }
 }
 
-function t_(e, t, n, r) {
+function tN(e, t, n, r) {
     e.mechanism = {
         handled: !0,
         ...e.mechanism,
@@ -4257,77 +4327,77 @@ function t_(e, t, n, r) {
     }
 }
 
-function tS(e, t, n, r) {
+function tO(e, t, n, r) {
     let a = {
         filename: e,
-        function: "<anonymous>" === t ? M.UNKNOWN_FUNCTION : t,
+        function: "<anonymous>" === t ? j.UNKNOWN_FUNCTION : t,
         in_app: !0
     };
     return void 0 !== n && (a.lineno = n), void 0 !== r && (a.colno = r), a
 }
-let tE = /^\s*at (\S+?)(?::(\d+))(?::(\d+))\s*$/i,
-    tw = /^\s*at (?:(.+?\)(?: \[.+\])?|.*?) ?\((?:address at )?)?(?:async )?((?:<anonymous>|[-a-z]+:|.*bundle|\/)?.*?)(?::(\d+))?(?::(\d+))?\)?\s*$/i,
-    tT = /\((\S*)(?::(\d+))(?::(\d+))\)/,
-    tP = /at (.+?) ?\(data:(.+?),/,
-    tx = [30, e => {
-        let t = e.match(tP);
+let tC = /^\s*at (\S+?)(?::(\d+))(?::(\d+))\s*$/i,
+    tI = /^\s*at (?:(.+?\)(?: \[.+\])?|.*?) ?\((?:address at )?)?(?:async )?((?:<anonymous>|[-a-z]+:|.*bundle|\/)?.*?)(?::(\d+))?(?::(\d+))?\)?\s*$/i,
+    tA = /\((\S*)(?::(\d+))(?::(\d+))\)/,
+    tL = /at (.+?) ?\(data:(.+?),/,
+    tM = [30, e => {
+        let t = e.match(tL);
         if (t) return {
             filename: `<data:${t[2]}>`,
             function: t[1]
         };
-        let n = tE.exec(e);
+        let n = tC.exec(e);
         if (n) {
             let [, e, t, r] = n;
-            return tS(e, M.UNKNOWN_FUNCTION, +t, +r)
+            return tO(e, j.UNKNOWN_FUNCTION, +t, +r)
         }
-        let r = tw.exec(e);
+        let r = tI.exec(e);
         if (r) {
-            if (r[2] && 0 === r[2].indexOf("eval")) {
-                let e = tT.exec(r[2]);
+            if (r[2]?.indexOf("eval") === 0) {
+                let e = tA.exec(r[2]);
                 e && (r[2] = e[1], r[3] = e[2], r[4] = e[3])
             }
-            let [e, t] = tC(r[1] || M.UNKNOWN_FUNCTION, r[2]);
-            return tS(t, e, r[3] ? +r[3] : void 0, r[4] ? +r[4] : void 0)
+            let [e, t] = t$(r[1] || j.UNKNOWN_FUNCTION, r[2]);
+            return tO(t, e, r[3] ? +r[3] : void 0, r[4] ? +r[4] : void 0)
         }
     }],
-    tk = /^\s*(.*?)(?:\((.*?)\))?(?:^|@)?((?:[-a-z]+)?:\/.*?|\[native code\]|[^@]*(?:bundle|\d+\.js)|\/[\w\-. /=]+)(?::(\d+))?(?::(\d+))?\s*$/i,
-    tR = /(\S+) line (\d+)(?: > eval line \d+)* > eval/i,
-    tN = [50, e => {
-        let t = tk.exec(e);
+    tD = /^\s*(.*?)(?:\((.*?)\))?(?:^|@)?((?:[-a-z]+)?:\/.*?|\[native code\]|[^@]*(?:bundle|\d+\.js)|\/[\w\-. /=]+)(?::(\d+))?(?::(\d+))?\s*$/i,
+    tj = /(\S+) line (\d+)(?: > eval line \d+)* > eval/i,
+    tU = [50, e => {
+        let t = tD.exec(e);
         if (t) {
             if (t[3] && t[3].indexOf(" > eval") > -1) {
-                let e = tR.exec(t[3]);
+                let e = tj.exec(t[3]);
                 e && (t[1] = t[1] || "eval", t[3] = e[1], t[4] = e[2], t[5] = "")
             }
             let e = t[3],
-                n = t[1] || M.UNKNOWN_FUNCTION;
-            return [n, e] = tC(n, e), tS(e, n, t[4] ? +t[4] : void 0, t[5] ? +t[5] : void 0)
+                n = t[1] || j.UNKNOWN_FUNCTION;
+            return [n, e] = t$(n, e), tO(e, n, t[4] ? +t[4] : void 0, t[5] ? +t[5] : void 0)
         }
     }],
-    tO = (0, M.createStackParser)(tx, tN),
-    tC = (e, t) => {
+    tz = (0, j.createStackParser)(tM, tU),
+    t$ = (e, t) => {
         let n = -1 !== e.indexOf("safari-extension"),
             r = -1 !== e.indexOf("safari-web-extension");
-        return n || r ? [-1 !== e.indexOf("@") ? e.split("@")[0] : M.UNKNOWN_FUNCTION, n ? `safari-extension:${t}` : `safari-web-extension:${t}`] : [e, t]
+        return n || r ? [-1 !== e.indexOf("@") ? e.split("@")[0] : j.UNKNOWN_FUNCTION, n ? `safari-extension:${t}` : `safari-web-extension:${t}`] : [e, t]
     },
-    tI = "u" < typeof __SENTRY_DEBUG__ || __SENTRY_DEBUG__,
-    tA = {};
+    tB = "u" < typeof __SENTRY_DEBUG__ || __SENTRY_DEBUG__,
+    tF = {};
 
-function tL(e, t = function(e) {
-    let t = tA[e];
+function tH(e, t = function(e) {
+    let t = tF[e];
     if (t) return t;
-    let n = e9[e];
-    if (eX(n)) return tA[e] = n.bind(e9);
-    let r = e9.document;
+    let n = ta[e];
+    if (e0(n)) return tF[e] = n.bind(ta);
+    let r = ta.document;
     if (r && "function" == typeof r.createElement) try {
         let t = r.createElement("iframe");
         t.hidden = !0, r.head.appendChild(t);
         let a = t.contentWindow;
         a?.[e] && (n = a[e]), r.head.removeChild(t)
     } catch (t) {
-        tI && v.debug.warn(`Could not create sandbox iframe for ${e} check, bailing to window.${e}: `, t)
+        tB && v.debug.warn(`Could not create sandbox iframe for ${e} check, bailing to window.${e}: `, t)
     }
-    return n ? tA[e] = n.bind(e9) : n
+    return n ? tF[e] = n.bind(ta) : n
 }("fetch")) {
     let n = 0,
         r = 0;
@@ -4352,37 +4422,37 @@ function tL(e, t = function(e) {
                 }
             }
         } catch (e) {
-            throw tA.fetch = void 0, e
+            throw tF.fetch = void 0, e
         } finally {
             n -= i, r--
         }
     }
-    return function(e, t, n = en(e.bufferSize || 64)) {
+    return function(e, t, n = el(e.bufferSize || 64)) {
         let r = {};
         return {
             send: function(a) {
                 let i = [];
-                if ((0, Y.forEachEnvelopeItem)(a, (t, n) => {
-                        let a = (0, Y.envelopeItemTypeToDataCategory)(n);
-                        ! function(e, t, n = (0, er.safeDateNow)()) {
+                if ((0, X.forEachEnvelopeItem)(a, (t, n) => {
+                        let a = (0, X.envelopeItemTypeToDataCategory)(n);
+                        ! function(e, t, n = (0, es.safeDateNow)()) {
                             return (e[t] || e.all || 0) > n
                         }(r, a) ? i.push(t): e.recordDroppedEvent("ratelimit_backoff", a)
                     }), 0 === i.length) return Promise.resolve({});
-                let o = (0, Y.createEnvelope)(a[0], i),
+                let o = (0, X.createEnvelope)(a[0], i),
                     l = t => {
-                        if ((0, Y.envelopeContainsItemType)(o, ["client_report"])) {
+                        if ((0, X.envelopeContainsItemType)(o, ["client_report"])) {
                             w.DEBUG_BUILD && v.debug.warn(`Dropping client report. Will not send outcomes (reason: ${t}).`);
                             return
-                        }(0, Y.forEachEnvelopeItem)(o, (n, r) => {
-                            e.recordDroppedEvent(t, (0, Y.envelopeItemTypeToDataCategory)(r))
+                        }(0, X.forEachEnvelopeItem)(o, (n, r) => {
+                            e.recordDroppedEvent(t, (0, X.envelopeItemTypeToDataCategory)(r))
                         })
                     };
                 return n.add(() => t({
-                    body: (0, Y.serializeEnvelope)(o)
-                }).then(e => (void 0 !== e.statusCode && (e.statusCode < 200 || e.statusCode >= 300) && w.DEBUG_BUILD && v.debug.warn(`Sentry responded with status code ${e.statusCode} to sent event.`), r = function(e, {
+                    body: (0, X.serializeEnvelope)(o)
+                }).then(e => (413 === e.statusCode ? (w.DEBUG_BUILD && v.debug.error("Sentry responded with status code 413. Envelope was discarded due to exceeding size limits."), l("send_error")) : (w.DEBUG_BUILD && void 0 !== e.statusCode && (e.statusCode < 200 || e.statusCode >= 300) && v.debug.warn(`Sentry responded with status code ${e.statusCode} to sent event.`), r = function(e, {
                     statusCode: t,
                     headers: n
-                }, r = (0, er.safeDateNow)()) {
+                }, r = (0, es.safeDateNow)()) {
                     let a = {
                             ...e
                         },
@@ -4394,26 +4464,26 @@ function tL(e, t = function(e) {
                             if (n)
                                 for (let e of n.split(";")) "metric_bucket" === e ? (!i || i.split(";").includes("custom")) && (a[e] = r + l) : a[e] = r + l;
                             else a.all = r + l
-                        } else o ? a.all = r + function(e, t = (0, er.safeDateNow)()) {
+                        } else o ? a.all = r + function(e, t = (0, es.safeDateNow)()) {
                             let n = parseInt(`${e}`, 10);
                             if (!isNaN(n)) return 1e3 * n;
                             let r = Date.parse(`${e}`);
                             return isNaN(r) ? 6e4 : r - t
                         }(o, r) : 429 === t && (a.all = r + 6e4);
                     return a
-                }(r, e), e), e => {
+                }(r, e)), e), e => {
                     throw l("network_error"), w.DEBUG_BUILD && v.debug.error("Encountered error running transport request:", e), e
                 })).then(e => e, e => {
-                    if (e === et) return w.DEBUG_BUILD && v.debug.error("Skipped sending event because buffer is full."), l("queue_overflow"), Promise.resolve({});
+                    if (e === eo) return w.DEBUG_BUILD && v.debug.error("Skipped sending event because buffer is full."), l("queue_overflow"), Promise.resolve({});
                     throw e
                 })
             },
             flush: e => n.drain(e)
         }
-    }(e, a, en(e.bufferSize || 40))
+    }(e, a, el(e.bufferSize || 40))
 }
 
-function tM(e) {
+function tW(e) {
     let n;
     return [((e = {}) => ({
         ...((e = {}) => {
@@ -4472,6 +4542,24 @@ Url: ${I(e)}`), !0
         setup(e) {
             L.set(e, !0)
         }
+    }, {
+        name: "ConversationId",
+        setup(e) {
+            e.on("spanStart", e => {
+                let t = (0, E.getCurrentScope)().getScopeData(),
+                    n = (0, E.getIsolationScope)().getScopeData(),
+                    r = t.conversationId || n.conversationId;
+                if (r) {
+                    let {
+                        op: t,
+                        data: n,
+                        description: a
+                    } = (0, D.spanToJSON)(e);
+                    if (!t?.startsWith("gen_ai.") && !n["ai.operationId"] && !a?.startsWith("ai.")) return;
+                    e.setAttribute(M.GEN_AI_CONVERSATION_ID_ATTRIBUTE, r)
+                }
+            })
+        }
     }, ((e = {}) => {
         let t = {
             XMLHttpRequest: !0,
@@ -4485,19 +4573,19 @@ Url: ${I(e)}`), !0
         return {
             name: "BrowserApiErrors",
             setupOnce() {
-                t.setTimeout && (0, A.fill)(ej, "setTimeout", ts), t.setInterval && (0, A.fill)(ej, "setInterval", ts), t.requestAnimationFrame && (0, A.fill)(ej, "requestAnimationFrame", tu), t.XMLHttpRequest && "XMLHttpRequest" in ej && (0, A.fill)(XMLHttpRequest.prototype, "send", tc);
+                t.setTimeout && (0, A.fill)(eB, "setTimeout", th), t.setInterval && (0, A.fill)(eB, "setInterval", th), t.requestAnimationFrame && (0, A.fill)(eB, "requestAnimationFrame", tm), t.XMLHttpRequest && "XMLHttpRequest" in eB && (0, A.fill)(XMLHttpRequest.prototype, "send", tg);
                 let e = t.eventTarget;
-                e && (Array.isArray(e) ? e : tl).forEach(e => {
+                e && (Array.isArray(e) ? e : tp).forEach(e => {
                     var n, r;
                     let a;
-                    return n = e, r = t, a = ej[n]?.prototype, void(a?.hasOwnProperty?.("addEventListener") && ((0, A.fill)(a, "addEventListener", function(e) {
+                    return n = e, r = t, a = eB[n]?.prototype, void(a?.hasOwnProperty?.("addEventListener") && ((0, A.fill)(a, "addEventListener", function(e) {
                         return function(t, a, i) {
                             var o, l, s, u;
                             try {
-                                o = a, "function" == typeof o.handleEvent && (a.handleEvent = ez(a.handleEvent, {
+                                o = a, "function" == typeof o.handleEvent && (a.handleEvent = eH(a.handleEvent, {
                                     mechanism: {
                                         data: {
-                                            handler: (0, M.getFunctionName)(a),
+                                            handler: (0, j.getFunctionName)(a),
                                             target: n
                                         },
                                         handled: !1,
@@ -4505,10 +4593,10 @@ Url: ${I(e)}`), !0
                                     }
                                 }))
                             } catch {}
-                            return r.unregisterOriginalCallbacks && (l = this, s = t, u = a, l && "object" == typeof l && "removeEventListener" in l && "function" == typeof l.removeEventListener && l.removeEventListener(s, u)), e.apply(this, [t, ez(a, {
+                            return r.unregisterOriginalCallbacks && (l = this, s = t, u = a, l && "object" == typeof l && "removeEventListener" in l && "function" == typeof l.removeEventListener && l.removeEventListener(s, u)), e.apply(this, [t, eH(a, {
                                 mechanism: {
                                     data: {
-                                        handler: (0, M.getFunctionName)(a),
+                                        handler: (0, j.getFunctionName)(a),
                                         target: n
                                     },
                                     handled: !1,
@@ -4543,7 +4631,7 @@ Url: ${I(e)}`), !0
             setup(e) {
                 var n, r, a, i, o, l, s;
                 let u;
-                t.console && (n = e, eW(u = "console", function(e) {
+                t.console && (n = e, eY(u = "console", function(e) {
                     var t;
                     if ((0, E.getClient)() !== n) return;
                     let r = {
@@ -4558,24 +4646,24 @@ Url: ${I(e)}`), !0
                     if ("assert" === e.level)
                         if (!1 !== e.args[0]) return;
                         else r.message = `Assertion failed: ${(0,N.safeJoin)(e.args.slice(1)," ")||"console.assert"}`, r.data.arguments = e.args.slice(1);
-                    e2(r, {
+                    e6(r, {
                         input: e.args,
                         level: e.level
                     })
-                }), eq(u, eG)), t.dom && (eW("dom", (r = e, a = t.dom, function(e) {
+                }), eX(u, eK)), t.dom && (eY("dom", (r = e, a = t.dom, function(e) {
                     let t, n;
                     if ((0, E.getClient)() !== r) return;
                     let i = "object" == typeof a ? a.serializeAttribute : void 0,
                         o = "object" == typeof a && "number" == typeof a.maxStringLength ? a.maxStringLength : void 0;
-                    o && o > 1024 && (to && v.debug.warn(`\`dom.maxStringLength\` cannot exceed 1024, but a value of ${o} was configured. Sentry will use 1024 instead.`), o = 1024), "string" == typeof i && (i = [i]);
+                    o && o > 1024 && (tf && v.debug.warn(`\`dom.maxStringLength\` cannot exceed 1024, but a value of ${o} was configured. Sentry will use 1024 instead.`), o = 1024), "string" == typeof i && (i = [i]);
                     try {
                         var l;
                         let r = e.event,
                             a = (l = r) && l.target ? r.target : r;
-                        t = (0, eD.htmlTreeAsString)(a, {
+                        t = (0, e$.htmlTreeAsString)(a, {
                             keyAttrs: i,
                             maxStringLength: o
-                        }), n = (0, eD.getComponentName)(a)
+                        }), n = (0, e$.getComponentName)(a)
                     } catch {
                         t = "<unknown>"
                     }
@@ -4586,17 +4674,17 @@ Url: ${I(e)}`), !0
                     };
                     n && (s.data = {
                         "ui.component_name": n
-                    }), e2(s, {
+                    }), e6(s, {
                         event: e.event,
                         name: e.name,
                         global: e.global
                     })
-                })), eq("dom", e7)), t.xhr && tn((i = e, function(e) {
+                })), eX("dom", ti)), t.xhr && ts((i = e, function(e) {
                     if ((0, E.getClient)() !== i) return;
                     let {
                         startTimestamp: t,
                         endTimestamp: n
-                    } = e, r = e.xhr[tt];
+                    } = e, r = e.xhr[tl];
                     if (!t || !n || !r) return;
                     let {
                         method: a,
@@ -4616,39 +4704,37 @@ Url: ${I(e)}`), !0
                             status_code: l
                         },
                         type: "http",
-                        level: e3(l)
+                        level: e9(l)
                     };
-                    i.emit("beforeOutgoingRequestBreadcrumb", c, u), e2(c, u)
-                })), t.fetch && eJ((o = e, function(e) {
+                    i.emit("beforeOutgoingRequestBreadcrumb", c, u), e6(c, u)
+                })), t.fetch && e1((o = e, function(e) {
                     if ((0, E.getClient)() !== o) return;
                     let {
                         startTimestamp: t,
                         endTimestamp: n
                     } = e;
                     if (n && (!e.fetchData.url.match(/sentry_key/) || "POST" !== e.fetchData.method))
-                        if (e.fetchData.method, e.fetchData.url, e.error) {
-                            let r = e.fetchData,
-                                a = {
+                        if (e.error) {
+                            let r = {
                                     data: e.error,
                                     input: e.args,
                                     startTimestamp: t,
                                     endTimestamp: n
                                 },
-                                i = {
+                                a = {
                                     category: "fetch",
-                                    data: r,
+                                    data: e.fetchData,
                                     level: "error",
                                     type: "http"
                                 };
-                            o.emit("beforeOutgoingRequestBreadcrumb", i, a), e2(i, a)
+                            o.emit("beforeOutgoingRequestBreadcrumb", a, r), e6(a, r)
                         } else {
                             let r = e.response,
                                 a = {
                                     ...e.fetchData,
                                     status_code: r?.status
-                                };
-                            e.fetchData.request_body_size, e.fetchData.response_body_size, r?.status;
-                            let i = {
+                                },
+                                i = {
                                     input: e.args,
                                     response: r,
                                     startTimestamp: t,
@@ -4658,18 +4744,18 @@ Url: ${I(e)}`), !0
                                     category: "fetch",
                                     data: a,
                                     type: "http",
-                                    level: e3(a.status_code)
+                                    level: e9(a.status_code)
                                 };
-                            o.emit("beforeOutgoingRequestBreadcrumb", l, i), e2(l, i)
+                            o.emit("beforeOutgoingRequestBreadcrumb", l, i), e6(l, i)
                         }
-                })), t.history && ta((l = e, function(e) {
+                })), t.history && tc((l = e, function(e) {
                     if ((0, E.getClient)() !== l) return;
                     let t = e.from,
                         n = e.to,
-                        r = e8(ej.location.href),
-                        a = t ? e8(t) : void 0,
-                        i = e8(n);
-                    a?.path || (a = r), r.protocol === i.protocol && r.host === i.host && (n = i.relative), r.protocol === a.protocol && r.host === a.host && (t = a.relative), e2({
+                        r = tt(eB.location.href),
+                        a = t ? tt(t) : void 0,
+                        i = tt(n);
+                    a?.path || (a = r), r.protocol === i.protocol && r.host === i.host && (n = i.relative), r.protocol === a.protocol && r.host === a.host && (t = a.relative), e6({
                         category: "navigation",
                         data: {
                             from: t,
@@ -4677,7 +4763,7 @@ Url: ${I(e)}`), !0
                         }
                     })
                 })), t.sentry && e.on("beforeSendEvent", (s = e, function(e) {
-                    (0, E.getClient)() === s && e2({
+                    (0, E.getClient)() === s && e6({
                         category: `sentry.${"transaction"===e.type?"transaction":"event"}`,
                         event_id: e.event_id,
                         level: e.level,
@@ -4701,66 +4787,58 @@ Url: ${I(e)}`), !0
             },
             setup(e) {
                 var n, r;
-                t.onerror && (n = e, tf(e => {
+                t.onerror && (n = e, t_(e => {
                     var t, r, a, i;
-                    let o, l, s, u, c, d, {
-                        stackParser: f,
-                        attachStacktrace: p
-                    } = ty();
-                    if ((0, E.getClient)() !== n || eU > 0) return;
+                    let o, l, s, u, c, {
+                        stackParser: d,
+                        attachStacktrace: f
+                    } = tx();
+                    if ((0, E.getClient)() !== n || eF > 0) return;
                     let {
-                        msg: h,
-                        url: m,
-                        line: g,
-                        column: v,
-                        error: y
-                    } = e, b = (t = eL(f, y || h, void 0, p, !1), r = m, a = g, i = v, c = (u = (s = (l = (o = t.exception = t.exception || {}).values = o.values || [])[0] = l[0] || {}).stacktrace = s.stacktrace || {}).frames = u.frames || [], d = function(e) {
-                        if ((0, H.isString)(e) && 0 !== e.length) {
-                            if (e.startsWith("data:")) {
-                                let t = e.match(/^data:([^;]+)/),
-                                    n = t ? t[1] : "text/javascript",
-                                    r = e.includes("base64,");
-                                return `<data:${n}${r?",base64":""}>`
-                            }
-                            return e
-                        }
-                    }(r) ?? (0, eD.getLocationHref)(), 0 === c.length && c.push({
+                        msg: p,
+                        url: h,
+                        line: m,
+                        column: g,
+                        error: v
+                    } = e, y = (t = eU(d, v || p, void 0, f, !1), r = h, a = m, i = g, 0 === (c = (u = (s = (l = (o = t.exception = t.exception || {}).values = o.values || [])[0] = l[0] || {}).stacktrace = s.stacktrace || {}).frames = u.frames || []).length && c.push({
                         colno: i,
-                        filename: d,
-                        function: M.UNKNOWN_FUNCTION,
-                        in_app: !0,
-                        lineno: a
+                        lineno: a,
+                        filename: function(e) {
+                            if ((0, G.isString)(e) && 0 !== e.length) return e.startsWith("data:") ? `<${tr(e,!1)}>` : e
+                        }(r) ?? (0, e$.getLocationHref)(),
+                        function: j.UNKNOWN_FUNCTION,
+                        in_app: !0
                     }), t);
-                    b.level = "error", (0, S.captureEvent)(b, {
-                        originalException: y,
+                    y.level = "error", (0, S.captureEvent)(y, {
+                        originalException: v,
                         mechanism: {
                             handled: !1,
                             type: "auto.browser.global_handlers.onerror"
                         }
                     })
-                }), tv("onerror")), t.onunhandledrejection && (r = e, tm(e => {
+                }), tP("onerror")), t.onunhandledrejection && (r = e, tw(e => {
                     var t;
                     let {
                         stackParser: n,
                         attachStacktrace: a
-                    } = ty();
-                    if ((0, E.getClient)() !== r || eU > 0) return;
+                    } = tx();
+                    if ((0, E.getClient)() !== r || eF > 0) return;
                     let i = function(e) {
-                            if ((0, H.isPrimitive)(e)) return e;
+                            if ((0, G.isPrimitive)(e)) return e;
                             try {
                                 if ("reason" in e) return e.reason;
                                 if ("detail" in e && "reason" in e.detail) return e.detail.reason
                             } catch {}
                             return e
                         }(e),
-                        o = (0, H.isPrimitive)(i) ? (t = i, {
+                        o = (0, G.isPrimitive)(i) ? (t = i, {
                             exception: {
                                 values: [{
                                     type: "UnhandledRejection",
                                     value: `Non-Error promise rejection captured with value: ${String(t)}`
                                 }]
                             }
-                        }) : eL(n, i, void 0, a, !0);
+                        }) : eU(n, i, void 0, a, !0);
                     o.level = "error", (0, S.captureEvent)(o, {
                         originalException: i,
                         mechanism: {
@@ -4768,7 +4846,7 @@ Url: ${I(e)}`), !0
                             type: "auto.browser.global_handlers.onunhandledrejection"
                         }
                     })
-                }), tv("onunhandledrejection"))
+                }), tP("onunhandledrejection"))
             }
         }
     })(), ((e = {}) => {
@@ -4778,27 +4856,27 @@ Url: ${I(e)}`), !0
             name: "LinkedErrors",
             preprocessEvent(e, r, a) {
                 ! function(e, t, n, r, a, i) {
-                    if (!a.exception?.values || !i || !(0, H.isInstanceOf)(i.originalException, Error)) return;
+                    if (!a.exception?.values || !i || !(0, G.isInstanceOf)(i.originalException, Error)) return;
                     let o = a.exception.values.length > 0 ? a.exception.values[a.exception.values.length - 1] : void 0;
                     o && (a.exception.values = function e(t, n, r, a, i, o, l, s) {
                         if (o.length >= r + 1) return o;
                         let u = [...o];
-                        if ((0, H.isInstanceOf)(a[i], Error)) {
-                            tb(l, s);
+                        if ((0, G.isInstanceOf)(a[i], Error)) {
+                            tR(l, s, a);
                             let o = t(n, a[i]),
                                 c = u.length;
-                            t_(o, i, c, s), u = e(t, n, r, a[i], i, [o, ...u], o, c)
+                            tN(o, i, c, s), u = e(t, n, r, a[i], i, [o, ...u], o, c)
                         }
-                        return Array.isArray(a.errors) && a.errors.forEach((a, o) => {
-                            if ((0, H.isInstanceOf)(a, Error)) {
-                                tb(l, s);
-                                let c = t(n, a),
-                                    d = u.length;
-                                t_(c, `errors[${o}]`, d, s), u = e(t, n, r, a, i, [c, ...u], c, d)
+                        return tk(a) && a.errors.forEach((o, c) => {
+                            if ((0, G.isInstanceOf)(o, Error)) {
+                                tR(l, s, a);
+                                let d = t(n, o),
+                                    f = u.length;
+                                tN(d, `errors[${c}]`, f, s), u = e(t, n, r, o, i, [d, ...u], d, f)
                             }
                         }), u
                     }(e, t, r, i.originalException, n, a.exception.values, o, 0))
-                }(eN, a.getOptions().stackParser, n, t, e, r)
+                }(eA, a.getOptions().stackParser, n, t, e, r)
             }
         }
     })(), {
@@ -4808,15 +4886,15 @@ Url: ${I(e)}`), !0
             try {
                 var t, r, a, i, o, l;
                 let s, u, c, d;
-                if (t = e, (r = n) && (a = t, i = r, s = a.message, u = i.message, (s || u) && (!s || u) && (s || !u) && s === u && j(a, i) && D(a, i) && 1 || (o = t, l = r, c = U(l), d = U(o), c && d && c.type === d.type && c.value === d.value && j(o, l) && D(o, l)))) return w.DEBUG_BUILD && v.debug.warn("Event dropped due to being a duplicate of previously captured event."), null
+                if (t = e, (r = n) && (a = t, i = r, s = a.message, u = i.message, (s || u) && (!s || u) && (s || !u) && s === u && z(a, i) && U(a, i) && 1 || (o = t, l = r, c = $(l), d = $(o), c && d && c.type === d.type && c.value === d.value && z(o, l) && U(o, l)))) return w.DEBUG_BUILD && v.debug.warn("Event dropped due to being a duplicate of previously captured event."), null
             } catch {}
             return n = e
         }
     }, {
         name: "HttpContext",
         preprocessEvent(e) {
-            if (!ej.navigator && !ej.location && !ej.document) return;
-            let t = e$(),
+            if (!eB.navigator && !eB.location && !eB.document) return;
+            let t = eW(),
                 n = {
                     ...t.headers,
                     ...e.request?.headers
@@ -4826,40 +4904,78 @@ Url: ${I(e)}`), !0
                 ...e.request,
                 headers: n
             }
-        }
-    }, {
-        name: "BrowserSession",
-        setupOnce() {
-            if (void 0 === ej.document) {
-                to && v.debug.warn("Using the `browserSessionIntegration` in non-browser environments is not supported.");
-                return
-            }(0, S.startSession)({
-                ignoreDuration: !0
-            }), (0, S.captureSession)(), ta(({
-                from: e,
-                to: t
-            }) => {
-                void 0 !== e && e !== t && ((0, S.startSession)({
-                    ignoreDuration: !0
-                }), (0, S.captureSession)())
+        },
+        processSegmentSpan(e) {
+            if (!eB.navigator && !eB.location && !eB.document) return;
+            let t = eW();
+            tv(e, {
+                "url.full": t.url || void 0,
+                "http.request.header.user_agent": t.headers["User-Agent"],
+                "http.request.header.referer": t.headers.Referer
             })
         }
-    }]
+    }, {
+        name: "CultureContext",
+        preprocessEvent(e) {
+            let t = ty();
+            t && (e.contexts = {
+                ...e.contexts,
+                culture: {
+                    ...t,
+                    ...e.contexts?.culture
+                }
+            })
+        },
+        processSegmentSpan(e) {
+            let t = ty();
+            t && tv(e, {
+                "culture.locale": t.locale,
+                "culture.timezone": t.timezone,
+                "culture.calendar": t.calendar
+            })
+        }
+    }, ((e = {}) => {
+        let t = e.lifecycle ?? "route";
+        return {
+            name: "BrowserSession",
+            setupOnce() {
+                if (void 0 === eB.document) {
+                    tf && v.debug.warn("Using the `browserSessionIntegration` in non-browser environments is not supported.");
+                    return
+                }(0, S.startSession)({
+                    ignoreDuration: !0
+                }), (0, S.captureSession)();
+                let e = (0, E.getIsolationScope)(),
+                    n = e.getUser();
+                e.addScopeListener(e => {
+                    let t = e.getUser();
+                    (n?.id !== t?.id || n?.ip_address !== t?.ip_address) && ((0, S.captureSession)(), n = t)
+                }), "route" === t && tc(({
+                    from: e,
+                    to: t
+                }) => {
+                    e !== t && ((0, S.startSession)({
+                        ignoreDuration: !0
+                    }), (0, S.captureSession)())
+                })
+            }
+        }
+    })()]
 }
-var tD = e.i(3931);
-let tj = "u" < typeof __SENTRY_DEBUG__ || __SENTRY_DEBUG__;
-var tU = e.i(399116),
-    tz = e.i(280166),
-    t$ = e.i(51229),
-    tB = e.i(158186),
-    tF = e.i(166154);
-let tH = {
+var tG = e.i(499531);
+let tq = "u" < typeof __SENTRY_DEBUG__ || __SENTRY_DEBUG__;
+var tV = e.i(473295),
+    tY = e.i(445674),
+    tX = e.i(856447),
+    tJ = e.i(276782),
+    tQ = e.i(268371);
+let tK = {
     idleTimeout: 1e3,
     finalTimeout: 3e4,
     childSpanTimeout: 15e3
 };
 
-function tW(e, t = {}) {
+function tZ(e, t = {}) {
     var n;
     let r, a, i = new Map,
         o = !1,
@@ -4867,25 +4983,25 @@ function tW(e, t = {}) {
         s = !t.disableAutoFinish,
         u = [],
         {
-            idleTimeout: c = tH.idleTimeout,
-            finalTimeout: d = tH.finalTimeout,
-            childSpanTimeout: f = tH.childSpanTimeout,
+            idleTimeout: c = tK.idleTimeout,
+            finalTimeout: d = tK.finalTimeout,
+            childSpanTimeout: f = tK.childSpanTimeout,
             beforeSpanEnd: p,
             trimIdleSpanEndTimestamp: h = !0
         } = t,
         m = (0, E.getClient)();
-    if (!m || !(0, tU.hasSpansEnabled)()) {
-        let e = new tz.SentryNonRecordingSpan,
+    if (!m || !(0, tV.hasSpansEnabled)()) {
+        let e = new tY.SentryNonRecordingSpan,
             t = {
                 sample_rate: "0",
                 sampled: "false",
-                ...(0, V.getDynamicSamplingContextFromSpan)(e)
+                ...(0, Y.getDynamicSamplingContextFromSpan)(e)
             };
-        return (0, V.freezeDscOnSpan)(e, t), e
+        return (0, Y.freezeDscOnSpan)(e, t), e
     }
     let g = (0, E.getCurrentScope)(),
-        y = (0, G.getActiveSpan)(),
-        b = (n = e, r = (0, tF.startInactiveSpan)(n), (0, W._setSpanForScope)((0, E.getCurrentScope)(), r), w.DEBUG_BUILD && v.debug.log("[Tracing] Started span is an idle span"), r);
+        y = (0, D.getActiveSpan)(),
+        b = (n = e, r = (0, tQ.startInactiveSpan)(n), (0, q._setSpanForScope)((0, E.getCurrentScope)(), r), w.DEBUG_BUILD && v.debug.log("[Tracing] Started span is an idle span"), r);
 
     function _() {
         a && (clearTimeout(a), a = void 0)
@@ -4904,43 +5020,47 @@ function tW(e, t = {}) {
     }
 
     function P(e) {
-        o = !0, i.clear(), u.forEach(e => e()), (0, W._setSpanForScope)(g, y);
-        let t = (0, G.spanToJSON)(b),
+        o = !0, i.clear(), u.forEach(e => e()), (0, q._setSpanForScope)(g, y);
+        let t = (0, D.spanToJSON)(b),
             {
                 start_timestamp: n
             } = t;
         if (!n) return;
-        t.data[es.SEMANTIC_ATTRIBUTE_SENTRY_IDLE_SPAN_FINISH_REASON] || b.setAttribute(es.SEMANTIC_ATTRIBUTE_SENTRY_IDLE_SPAN_FINISH_REASON, l);
+        t.data[M.SEMANTIC_ATTRIBUTE_SENTRY_IDLE_SPAN_FINISH_REASON] || b.setAttribute(M.SEMANTIC_ATTRIBUTE_SENTRY_IDLE_SPAN_FINISH_REASON, l);
         let r = t.status;
         r && "unknown" !== r || b.setStatus({
-            code: tB.SPAN_STATUS_OK
+            code: tJ.SPAN_STATUS_OK
         }), v.debug.log(`[Tracing] Idle span "${t.op}" finished`);
-        let a = (0, G.getSpanDescendants)(b).filter(e => e !== b),
+        let a = (0, D.getSpanDescendants)(b).filter(e => e !== b),
             s = 0;
         a.forEach(t => {
             t.isRecording() && (t.setStatus({
-                code: tB.SPAN_STATUS_ERROR,
+                code: tJ.SPAN_STATUS_ERROR,
                 message: "cancelled"
             }), t.end(e), w.DEBUG_BUILD && v.debug.log("[Tracing] Cancelling span since span ended early", JSON.stringify(t, void 0, 2)));
             let {
                 timestamp: n = 0,
                 start_timestamp: r = 0
-            } = (0, G.spanToJSON)(t), a = r <= e, i = n - r <= (d + c) / 1e3;
+            } = (0, D.spanToJSON)(t), a = r <= e, i = n - r <= (d + c) / 1e3;
             if (w.DEBUG_BUILD) {
                 let e = JSON.stringify(t, void 0, 2);
                 a ? i || v.debug.log("[Tracing] Discarding span since it finished after idle span final timeout", e) : v.debug.log("[Tracing] Discarding span since it happened after idle span was finished", e)
-            }(!i || !a) && ((0, G.removeChildSpanFromSpan)(b, t), s++)
+            }(!i || !a) && ((0, D.removeChildSpanFromSpan)(b, t), s++)
         }), s > 0 && b.setAttribute("sentry.idle_span_discarded_spans", s)
     }
     return b.end = new Proxy(b.end, {
         apply(e, t, n) {
-            if (p && p(b), t instanceof tz.SentryNonRecordingSpan) return;
-            let [r, ...a] = n, i = r || (0, q.timestampInSeconds)(), o = (0, G.spanTimeInputToSeconds)(i), l = (0, G.getSpanDescendants)(b).filter(e => e !== b), s = (0, G.spanToJSON)(b);
+            if (p && p(b), t instanceof tY.SentryNonRecordingSpan) return;
+            let [r, ...a] = n, i = r || (0, V.timestampInSeconds)(), o = (0, D.spanTimeInputToSeconds)(i), l = (0, D.getSpanDescendants)(b).filter(e => e !== b), s = (0, D.spanToJSON)(b);
             if (!l.length || !h) return P(o), Reflect.apply(e, t, [o, ...a]);
             let u = m.getOptions().ignoreSpans,
                 c = l?.reduce((e, t) => {
-                    let n = (0, G.spanToJSON)(t);
-                    return !n.timestamp || u && (0, el.shouldIgnoreSpan)(n, u) ? e : e ? Math.max(e, n.timestamp) : n.timestamp
+                    let n = (0, D.spanToJSON)(t);
+                    return !n.timestamp || u && (0, ef.shouldIgnoreSpan)({
+                        description: n.description,
+                        op: n.op,
+                        attributes: n.data
+                    }, u) ? e : e ? Math.max(e, n.timestamp) : n.timestamp
                 }, void 0),
                 f = s.start_timestamp,
                 g = Math.min(f ? f + d / 1e3 : 1 / 0, Math.max(f || -1 / 0, Math.min(o, c || 1 / 0)));
@@ -4948,25 +5068,25 @@ function tW(e, t = {}) {
         }
     }), u.push(m.on("spanStart", e => {
         var t;
-        !(o || e === b || (0, G.spanToJSON)(e).timestamp || e instanceof t$.SentrySpan && e.isStandaloneSpan()) && (0, G.getSpanDescendants)(b).includes(e) && (t = e.spanContext().spanId, _(), i.set(t, !0), T((0, q.timestampInSeconds)() + f / 1e3))
+        !(o || e === b || (0, D.spanToJSON)(e).timestamp || e instanceof tX.SentrySpan && e.isStandaloneSpan()) && (0, D.getSpanDescendants)(b).includes(e) && (t = e.spanContext().spanId, _(), i.set(t, !0), T((0, V.timestampInSeconds)() + f / 1e3))
     })), u.push(m.on("spanEnd", e => {
         if (!o) {
             var t;
-            t = e.spanContext().spanId, i.has(t) && i.delete(t), 0 === i.size && S((0, q.timestampInSeconds)() + c / 1e3)
+            t = e.spanContext().spanId, i.has(t) && i.delete(t), 0 === i.size && S((0, V.timestampInSeconds)() + c / 1e3)
         }
     })), u.push(m.on("idleSpanEnableAutoFinish", e => {
         e === b && (s = !0, S(), i.size && T())
     })), t.disableAutoFinish || S(), setTimeout(() => {
         o || (b.setStatus({
-            code: tB.SPAN_STATUS_ERROR,
+            code: tJ.SPAN_STATUS_ERROR,
             message: "deadline_exceeded"
         }), l = "finalTimeout", b.end())
     }, d), b
 }
-let tq = !1;
-var tV = e.i(93763),
-    tG = e.i(323795);
-let tY = (e, t, n, r) => {
+let t0 = !1;
+var t1 = e.i(790122),
+    t2 = e.i(682603);
+let t3 = (e, t, n, r) => {
         let a, i;
         return o => {
             if (t.value >= 0 && (o || r) && ((i = t.value - (a ?? 0)) || void 0 === a)) {
@@ -4975,49 +5095,49 @@ let tY = (e, t, n, r) => {
             }
         }
     },
-    tX = (e = !0) => {
-        let t = e9.performance?.getEntriesByType?.("navigation")[0];
+    t4 = (e = !0) => {
+        let t = ta.performance?.getEntriesByType?.("navigation")[0];
         if (!e || t && t.responseStart > 0 && t.responseStart < performance.now()) return t
     },
-    tJ = () => {
-        let e = tX();
+    t5 = () => {
+        let e = t4();
         return e?.activationStart ?? 0
     };
 
-function tQ(e, t, n) {
-    e9.document && e9.addEventListener(e, t, n)
+function t8(e, t, n) {
+    ta.document && ta.addEventListener(e, t, n)
 }
 
-function tK(e, t, n) {
-    e9.document && e9.removeEventListener(e, t, n)
+function t6(e, t, n) {
+    ta.document && ta.removeEventListener(e, t, n)
 }
-let tZ = -1,
-    t0 = new Set,
-    t1 = e => {
-        if (("pagehide" === e.type || e9.document?.visibilityState === "hidden") && tZ > -1) {
+let t9 = -1,
+    t7 = new Set,
+    ne = e => {
+        if (("pagehide" === e.type || ta.document?.visibilityState === "hidden") && t9 > -1) {
             if ("visibilitychange" === e.type || "pagehide" === e.type)
-                for (let e of t0) e();
-            isFinite(tZ) || (tZ = "visibilitychange" === e.type ? e.timeStamp : 0, tK("prerenderingchange", t1, !0))
+                for (let e of t7) e();
+            isFinite(t9) || (t9 = "visibilitychange" === e.type ? e.timeStamp : 0, t6("prerenderingchange", ne, !0))
         }
     },
-    t2 = () => {
-        if (e9.document && tZ < 0) {
-            let e = tJ();
-            tZ = (e9.document.prerendering ? void 0 : globalThis.performance.getEntriesByType("visibility-state").filter(t => "hidden" === t.name && t.startTime > e)[0]?.startTime) ?? (e9.document?.visibilityState !== "hidden" || e9.document?.prerendering ? 1 / 0 : 0), tQ("visibilitychange", t1, !0), tQ("pagehide", t1, !0), tQ("prerenderingchange", t1, !0)
+    nt = () => {
+        if (ta.document && t9 < 0) {
+            let e = t5();
+            t9 = (ta.document.prerendering ? void 0 : globalThis.performance.getEntriesByType("visibility-state").filter(t => "hidden" === t.name && t.startTime > e)[0]?.startTime) ?? (ta.document?.visibilityState !== "hidden" || ta.document?.prerendering ? 1 / 0 : 0), t8("visibilitychange", ne, !0), t8("pagehide", ne, !0), t8("prerenderingchange", ne, !0)
         }
         return {
             get firstHiddenTime() {
-                return tZ
+                return t9
             },
             onHidden(e) {
-                t0.add(e)
+                t7.add(e)
             }
         }
     },
-    t3 = (e, t = -1) => {
-        let n = tX(),
+    nn = (e, t = -1) => {
+        let n = t4(),
             r = "navigate";
-        return n && (e9.document?.prerendering || tJ() > 0 ? r = "prerender" : e9.document?.wasDiscarded ? r = "restore" : n.type && (r = n.type.replace(/_/g, "-"))), {
+        return n && (ta.document?.prerendering || t5() > 0 ? r = "prerender" : ta.document?.wasDiscarded ? r = "restore" : n.type && (r = n.type.replace(/_/g, "-"))), {
             name: e,
             value: t,
             rating: "good",
@@ -5027,18 +5147,18 @@ let tZ = -1,
             navigationType: r
         }
     },
-    t4 = new WeakMap;
+    nr = new WeakMap;
 
-function t5(e, t) {
+function na(e, t) {
     try {
-        return t4.get(e) || t4.set(e, new t), t4.get(e)
+        return nr.get(e) || nr.set(e, new t), nr.get(e)
     } catch (e) {
         return new t
     }
 }
-class t8 {
+class ni {
     constructor() {
-        t8.prototype.__init.call(this), t8.prototype.__init2.call(this)
+        ni.prototype.__init.call(this), ni.prototype.__init2.call(this)
     }
     __init() {
         this._sessionValue = 0
@@ -5053,7 +5173,7 @@ class t8 {
         this._sessionValue && t && n && e.startTime - n.startTime < 1e3 && e.startTime - t.startTime < 5e3 ? (this._sessionValue += e.value, this._sessionEntries.push(e)) : (this._sessionValue = e.value, this._sessionEntries = [e]), this._onAfterProcessingUnexpectedShift?.(e)
     }
 }
-let t6 = (e, t, n = {}) => {
+let no = (e, t, n = {}) => {
         try {
             if (PerformanceObserver.supportedEntryTypes.includes(e)) {
                 let r = new PerformanceObserver(e => {
@@ -5069,30 +5189,30 @@ let t6 = (e, t, n = {}) => {
             }
         } catch {}
     },
-    t9 = e => {
+    nl = e => {
         let t = !1;
         return () => {
             t || (e(), t = !0)
         }
     },
-    t7 = e => {
-        e9.document?.prerendering ? addEventListener("prerenderingchange", () => e(), !0) : e()
+    ns = e => {
+        ta.document?.prerendering ? addEventListener("prerenderingchange", () => e(), !0) : e()
     },
-    ne = [1800, 3e3],
-    nt = [.1, .25],
-    nn = 0,
-    nr = 1 / 0,
-    na = 0,
-    ni = e => {
+    nu = [1800, 3e3],
+    nc = [.1, .25],
+    nd = 0,
+    nf = 1 / 0,
+    np = 0,
+    nh = e => {
         e.forEach(e => {
-            e.interactionId && (nr = Math.min(nr, e.interactionId), nn = (na = Math.max(na, e.interactionId)) ? (na - nr) / 7 + 1 : 0)
+            e.interactionId && (nf = Math.min(nf, e.interactionId), nd = (np = Math.max(np, e.interactionId)) ? (np - nf) / 7 + 1 : 0)
         })
     },
-    no = () => o ? nn : performance.interactionCount || 0,
-    nl = 0;
-class ns {
+    nm = () => o ? nd : performance.interactionCount || 0,
+    ng = 0;
+class nv {
     constructor() {
-        ns.prototype.__init.call(this), ns.prototype.__init2.call(this)
+        nv.prototype.__init.call(this), nv.prototype.__init2.call(this)
     }
     __init() {
         this._longestInteractionList = []
@@ -5101,10 +5221,10 @@ class ns {
         this._longestInteractionMap = new Map
     }
     _resetInteractions() {
-        nl = no(), this._longestInteractionList.length = 0, this._longestInteractionMap.clear()
+        ng = nm(), this._longestInteractionList.length = 0, this._longestInteractionMap.clear()
     }
     _estimateP98LongestInteraction() {
-        let e = Math.min(this._longestInteractionList.length - 1, Math.floor((no() - nl) / 50));
+        let e = Math.min(this._longestInteractionList.length - 1, Math.floor((nm() - ng) / 50));
         return this._longestInteractionList[e]
     }
     _processEntry(e) {
@@ -5122,93 +5242,97 @@ class ns {
         }
     }
 }
-let nu = e => {
-        let t = e9.requestIdleCallback || e9.setTimeout;
-        e9.document?.visibilityState === "hidden" ? e() : (tQ("visibilitychange", e = t9(e), {
+let ny = e => {
+        let t = ta.requestIdleCallback || ta.setTimeout;
+        ta.document?.visibilityState === "hidden" ? e() : (t8("visibilitychange", e = nl(e), {
             once: !0,
             capture: !0
-        }), tQ("pagehide", e, {
+        }), t8("pagehide", e, {
             once: !0,
             capture: !0
         }), t(() => {
-            e(), tK("visibilitychange", e, {
+            e(), t6("visibilitychange", e, {
                 capture: !0
-            }), tK("pagehide", e, {
+            }), t6("pagehide", e, {
                 capture: !0
             })
         }))
     },
-    nc = [200, 500];
-class nd {
+    nb = [200, 500];
+class n_ {
     _processEntry(e) {
         this._onBeforeProcessingEntry?.(e)
     }
 }
-let nf = [2500, 4e3],
-    np = [800, 1800],
-    nh = e => {
-        e9.document?.prerendering ? t7(() => nh(e)) : e9.document?.readyState !== "complete" ? addEventListener("load", () => nh(e), !0) : setTimeout(e)
+let nS = [2500, 4e3],
+    nE = [800, 1800],
+    nw = e => {
+        ta.document?.prerendering ? ns(() => nw(e)) : ta.document?.readyState !== "complete" ? addEventListener("load", () => nw(e), !0) : setTimeout(e)
     },
-    nm = {},
-    ng = {};
+    nT = {},
+    nP = {};
 
-function nv(e, t = !1) {
-    return nP("cls", e, nS, l, t)
+function nx(e, t = !1) {
+    return nM("cls", e, nC, l, t)
 }
 
-function ny(e, t = !1) {
-    return nP("lcp", e, nE, s, t)
+function nk(e, t = !1) {
+    return nM("lcp", e, nI, s, t)
 }
 
-function nb(e, t) {
+function nR(e) {
+    return nM("inp", e, nL, c)
+}
+
+function nN(e, t) {
     var n;
     let r;
-    return nx(e, t), ng[e] || (r = {}, "event" === (n = e) && (r.durationThreshold = 0), t6(n, e => {
-        n_(n, {
+    return nD(e, t), nP[e] || (r = {}, "event" === (n = e) && (r.durationThreshold = 0), no(n, e => {
+        nO(n, {
             entries: e
         })
-    }, r), ng[e] = !0), nk(e, t)
+    }, r), nP[e] = !0), nj(e, t)
 }
 
-function n_(e, t) {
-    let n = nm[e];
+function nO(e, t) {
+    let n = nT[e];
     if (n?.length)
         for (let r of n) try {
             r(t)
         } catch (t) {
-            tI && v.debug.error(`Error while triggering instrumentation handler.
+            tB && v.debug.error(`Error while triggering instrumentation handler.
 Type: ${e}
-Name: ${(0,M.getFunctionName)(r)}
+Name: ${(0,j.getFunctionName)(r)}
 Error:`, t)
         }
 }
 
-function nS() {
+function nC() {
     return ((e, t = {}) => {
         ((e, t = {}) => {
-            t7(() => {
-                let n, r = t2(),
-                    a = t3("FCP"),
-                    i = t6("paint", e => {
-                        for (let t of e) "first-contentful-paint" === t.name && (i.disconnect(), t.startTime < r.firstHiddenTime && (a.value = Math.max(t.startTime - tJ(), 0), a.entries.push(t), n(!0)))
+            ns(() => {
+                let n, r = nt(),
+                    a = nn("FCP"),
+                    i = no("paint", e => {
+                        for (let t of e) "first-contentful-paint" === t.name && (i.disconnect(), t.startTime < r.firstHiddenTime && (a.value = Math.max(t.startTime - t5(), 0), a.entries.push(t), n(!0)))
                     });
-                i && (n = tY(e, a, ne, t.reportAllChanges))
+                i && (n = t3(e, a, nu, t.reportAllChanges))
             })
-        })(t9(() => {
-            let n, r = t3("CLS", 0),
-                a = t2(),
-                i = t5(t, t8),
+        })(nl(() => {
+            let n, r = nn("CLS", 0),
+                a = nt(),
+                i = na(t, ni),
                 o = e => {
                     for (let t of e) i._processEntry(t);
                     i._sessionValue > r.value && (r.value = i._sessionValue, r.entries = i._sessionEntries, n())
                 },
-                l = t6("layout-shift", o);
-            l && (n = tY(e, r, nt, t.reportAllChanges), a.onHidden(() => {
+                l = no("layout-shift", o);
+            l && (n = t3(e, r, nc, t.reportAllChanges), a.onHidden(() => {
                 o(l.takeRecords()), n(!0)
-            }), e9?.setTimeout?.(n))
+            }), ta?.setTimeout?.(n))
         }))
     })(e => {
-        n_("cls", {
+        nO("cls", {
             metric: e
         }), l = e
     }, {
@@ -5216,33 +5340,33 @@ function nS() {
     })
 }
 
-function nE() {
+function nI() {
     return ((e, t = {}) => {
-        t7(() => {
-            let n, r = t2(),
-                a = t3("LCP"),
-                i = t5(t, nd),
+        ns(() => {
+            let n, r = nt(),
+                a = nn("LCP"),
+                i = na(t, n_),
                 o = e => {
-                    for (let o of (t.reportAllChanges || (e = e.slice(-1)), e)) i._processEntry(o), o.startTime < r.firstHiddenTime && (a.value = Math.max(o.startTime - tJ(), 0), a.entries = [o], n())
+                    for (let o of (t.reportAllChanges || (e = e.slice(-1)), e)) i._processEntry(o), o.startTime < r.firstHiddenTime && (a.value = Math.max(o.startTime - t5(), 0), a.entries = [o], n())
                 },
-                l = t6("largest-contentful-paint", o);
+                l = no("largest-contentful-paint", o);
             if (l) {
-                n = tY(e, a, nf, t.reportAllChanges);
-                let r = t9(() => {
+                n = t3(e, a, nS, t.reportAllChanges);
+                let r = nl(() => {
                         o(l.takeRecords()), l.disconnect(), n(!0)
                     }),
                     i = e => {
-                        e.isTrusted && (nu(r), tK(e.type, i, {
+                        e.isTrusted && (ny(r), t6(e.type, i, {
                             capture: !0
                         }))
                     };
-                for (let e of ["keydown", "click", "visibilitychange"]) tQ(e, i, {
+                for (let e of ["keydown", "click", "visibilitychange"]) t8(e, i, {
                     capture: !0
                 })
             }
         })
     })(e => {
-        n_("lcp", {
+        nO("lcp", {
             metric: e
         }), s = e
     }, {
@@ -5250,45 +5374,45 @@ function nE() {
     })
 }
 
-function nw() {
+function nA() {
     return ((e, t = {}) => {
-        let n = t3("TTFB"),
-            r = tY(e, n, np, t.reportAllChanges);
-        nh(() => {
-            let e = tX();
-            e && (n.value = Math.max(e.responseStart - tJ(), 0), n.entries = [e], r(!0))
+        let n = nn("TTFB"),
+            r = t3(e, n, nE, t.reportAllChanges);
+        nw(() => {
+            let e = t4();
+            e && (n.value = Math.max(e.responseStart - t5(), 0), n.entries = [e], r(!0))
         })
     })(e => {
-        n_("ttfb", {
+        nO("ttfb", {
             metric: e
         }), u = e
     })
 }
 
-function nT() {
+function nL() {
     return ((e, t = {}) => {
         if (!(globalThis.PerformanceEventTiming && "interactionId" in PerformanceEventTiming.prototype)) return;
-        let n = t2();
-        t7(() => {
+        let n = nt();
+        ns(() => {
             let r;
-            "interactionCount" in performance || o || (o = t6("event", ni, {
+            "interactionCount" in performance || o || (o = no("event", nh, {
                 type: "event",
                 buffered: !0,
                 durationThreshold: 0
             }));
-            let a = t3("INP"),
-                i = t5(t, ns),
+            let a = nn("INP"),
+                i = na(t, nv),
                 l = e => {
-                    nu(() => {
+                    ny(() => {
                         for (let t of e) i._processEntry(t);
                         let t = i._estimateP98LongestInteraction();
                         t && t._latency !== a.value && (a.value = t._latency, a.entries = t.entries, r())
                     })
                 },
-                s = t6("event", l, {
+                s = no("event", l, {
                     durationThreshold: t.durationThreshold ?? 40
                 });
-            r = tY(e, a, nc, t.reportAllChanges), s && (s.observe({
+            r = t3(e, a, nb, t.reportAllChanges), s && (s.observe({
                 type: "first-input",
                 buffered: !0
             }), n.onHidden(() => {
@@ -5296,42 +5420,42 @@ function nT() {
             }))
         })
     })(e => {
-        n_("inp", {
+        nO("inp", {
             metric: e
         }), c = e
     })
 }
 
-function nP(e, t, n, r, a = !1) {
+function nM(e, t, n, r, a = !1) {
     let i;
-    return nx(e, t), ng[e] || (i = n(), ng[e] = !0), r && t({
+    return nD(e, t), nP[e] || (i = n(), nP[e] = !0), r && t({
         metric: r
-    }), nk(e, t, a ? i : void 0)
+    }), nj(e, t, a ? i : void 0)
 }
 
-function nx(e, t) {
-    nm[e] = nm[e] || [], nm[e].push(t)
+function nD(e, t) {
+    nT[e] = nT[e] || [], nT[e].push(t)
 }
 
-function nk(e, t, n) {
+function nj(e, t, n) {
     return () => {
         n && n();
-        let r = nm[e];
+        let r = nT[e];
         if (!r) return;
         let a = r.indexOf(t); - 1 !== a && r.splice(a, 1)
     }
 }
 
-function nR(e) {
+function nU(e) {
     return "number" == typeof e && isFinite(e)
 }
 
-function nN(e, t, n, {
+function nz(e, t, n, {
     ...r
 }) {
-    let a = (0, G.spanToJSON)(e).start_timestamp;
-    return a && a > t && "function" == typeof e.updateStartTime && e.updateStartTime(t), (0, tF.withActiveSpan)(e, () => {
-        let e = (0, tF.startInactiveSpan)({
+    let a = (0, D.spanToJSON)(e).start_timestamp;
+    return a && a > t && "function" == typeof e.updateStartTime && e.updateStartTime(t), (0, tQ.withActiveSpan)(e, () => {
+        let e = (0, tQ.startInactiveSpan)({
             startTime: t,
             ...r
         });
@@ -5339,7 +5463,7 @@ function nN(e, t, n, {
     })
 }
 
-function nO(e) {
+function n$(e) {
     let t, n = (0, E.getClient)();
     if (!n) return;
     let {
@@ -5362,11 +5486,11 @@ function nO(e) {
         profile_id: t || void 0,
         replay_id: d || void 0,
         transaction: a,
-        "user_agent.original": e9.navigator?.userAgent,
+        "user_agent.original": ta.navigator?.userAgent,
         "client.address": u ? "{{auto}}" : void 0,
         ...i
     };
-    return (0, tF.startInactiveSpan)({
+    return (0, tQ.startInactiveSpan)({
         name: r,
         attributes: m,
         startTime: o,
@@ -5376,15 +5500,15 @@ function nO(e) {
     })
 }
 
-function nC() {
-    return e9.addEventListener && e9.performance
+function nB() {
+    return ta.addEventListener && ta.performance
 }
 
-function nI(e) {
+function nF(e) {
     return e / 1e3
 }
 
-function nA(e) {
+function nH(e) {
     try {
         return PerformanceObserver.supportedEntryTypes.includes(e)
     } catch {
@@ -5392,20 +5516,20 @@ function nA(e) {
     }
 }
 
-function nL(e, t) {
+function nW(e, t) {
     let n, r, a = !1;
 
     function i(e) {
-        !a && r && t(e, r), a = !0
+        !a && r && t(e, r.spanContext().spanId, r), a = !0
     }
-    tQ("visibilitychange", n = e => {
-        ("pagehide" === e.type || e9.document?.visibilityState === "hidden") && (() => {
+    t8("visibilitychange", n = e => {
+        ("pagehide" === e.type || ta.document?.visibilityState === "hidden") && (() => {
             i("pagehide")
         })(e)
     }, {
         capture: !0,
         once: !0
-    }), tQ("pagehide", n, {
+    }), t8("pagehide", n, {
         capture: !0,
         once: !0
     });
@@ -5413,13 +5537,13 @@ function nL(e, t) {
             t?.isRedirect || (i("navigation"), o(), l())
         }),
         l = e.on("afterStartPageLoadSpan", e => {
-            r = e.spanContext().spanId, l()
+            r = e, l()
         })
 }
-let nM = [],
-    nD = new Map,
-    nj = new Map,
-    nU = {
+let nG = [],
+    nq = new Map,
+    nV = new Map,
+    nY = {
         click: "click",
         pointerdown: "click",
         pointerup: "click",
@@ -5447,38 +5571,42 @@ let nM = [],
         keypress: "press",
         input: "press"
     },
-    nz = ({
+    nX = ({
         metric: e
     }) => {
         if (void 0 == e.value) return;
-        let t = nI(e.value);
+        let t = nF(e.value);
         if (t > 60) return;
-        let n = e.entries.find(t => t.duration === e.value && nU[t.name]);
+        let n = e.entries.find(t => t.duration === e.value && nY[t.name]);
         if (!n) return;
         let {
             interactionId: r
-        } = n, a = nU[n.name], i = nI((0, q.browserPerformanceTimeOrigin)() + n.startTime), o = (0, G.getActiveSpan)(), l = o ? (0, G.getRootSpan)(o) : void 0, s = null != r ? nD.get(r) : void 0, u = s?.span || l, c = u ? (0, G.spanToJSON)(u).description : (0, E.getCurrentScope)().getScopeData().transactionName, d = nO({
-            name: s?.elementName || (0, eD.htmlTreeAsString)(n.target),
+        } = n, a = nY[n.name], i = nF((0, V.browserPerformanceTimeOrigin)() + n.startTime), o = (0, D.getActiveSpan)(), l = o ? (0, D.getRootSpan)(o) : void 0, s = null != r ? nq.get(r) : void 0, u = s?.span || l, c = u ? (0, D.spanToJSON)(u).description : (0, E.getCurrentScope)().getScopeData().transactionName, d = n$({
+            name: s?.elementName || (0, e$.htmlTreeAsString)(n.target),
             transaction: c,
             attributes: {
-                [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.http.browser.inp",
-                [es.SEMANTIC_ATTRIBUTE_SENTRY_OP]: `ui.interaction.${a}`,
-                [es.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME]: n.duration
+                [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.http.browser.inp",
+                [M.SEMANTIC_ATTRIBUTE_SENTRY_OP]: `ui.interaction.${a}`,
+                [M.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME]: n.duration
             },
             startTime: i
         });
         d && (d.addEvent("inp", {
-            [es.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_UNIT]: "millisecond",
-            [es.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_VALUE]: e.value
+            [M.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_UNIT]: "millisecond",
+            [M.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_VALUE]: e.value
         }), d.end(i + t))
     };
-var n$ = e.i(822691);
+var nJ = e.i(413144);
 
-function nB(e) {
-    return e ? (((0, q.browserPerformanceTimeOrigin)() || performance.timeOrigin) + e) / 1e3 : e
+function nQ(e) {
+    return null != e && e > 0 && e <= 6e4
 }
 
-function nF(e) {
+function nK(e) {
+    return e ? (((0, V.browserPerformanceTimeOrigin)() || performance.timeOrigin) + e) / 1e3 : e
+}
+
+function nZ(e) {
     let t = {};
     if (void 0 != e.nextHopProtocol) {
         let {
@@ -5506,133 +5634,138 @@ function nF(e) {
         }(e.nextHopProtocol);
         t["network.protocol.version"] = r, t["network.protocol.name"] = n
     }
-    return (0, q.browserPerformanceTimeOrigin)() || nC()?.timeOrigin ? Object.fromEntries(Object.entries({
+    return (0, V.browserPerformanceTimeOrigin)() || nB()?.timeOrigin ? Object.fromEntries(Object.entries({
         ...t,
-        "http.request.redirect_start": nB(e.redirectStart),
-        "http.request.redirect_end": nB(e.redirectEnd),
-        "http.request.worker_start": nB(e.workerStart),
-        "http.request.fetch_start": nB(e.fetchStart),
-        "http.request.domain_lookup_start": nB(e.domainLookupStart),
-        "http.request.domain_lookup_end": nB(e.domainLookupEnd),
-        "http.request.connect_start": nB(e.connectStart),
-        "http.request.secure_connection_start": nB(e.secureConnectionStart),
-        "http.request.connection_end": nB(e.connectEnd),
-        "http.request.request_start": nB(e.requestStart),
-        "http.request.response_start": nB(e.responseStart),
-        "http.request.response_end": nB(e.responseEnd),
+        "http.request.redirect_start": nK(e.redirectStart),
+        "http.request.redirect_end": nK(e.redirectEnd),
+        "http.request.worker_start": nK(e.workerStart),
+        "http.request.fetch_start": nK(e.fetchStart),
+        "http.request.domain_lookup_start": nK(e.domainLookupStart),
+        "http.request.domain_lookup_end": nK(e.domainLookupEnd),
+        "http.request.connect_start": nK(e.connectStart),
+        "http.request.secure_connection_start": nK(e.secureConnectionStart),
+        "http.request.connection_end": nK(e.connectEnd),
+        "http.request.request_start": nK(e.requestStart),
+        "http.request.response_start": nK(e.responseStart),
+        "http.request.response_end": nK(e.responseEnd),
         "http.request.time_to_first_byte": null != e.responseStart ? e.responseStart / 1e3 : void 0
     }).filter(([, e]) => null != e)) : t
 }
-let nH = 0,
-    nW = {};
+let n0 = 0,
+    n1 = {};
 
-function nq(e, t, n, r, a = n) {
+function n2(e, t, n, r, a = n) {
     var i;
     let o = t["secureConnection" === (i = n) ? "connectEnd" : "fetch" === i ? "domainLookupStart" : `${i}End`],
         l = t[`${n}Start`];
-    l && o && nN(e, r + nI(l), r + nI(o), {
+    l && o && nz(e, r + nF(l), r + nF(o), {
         op: `browser.${a}`,
         name: t.name,
         attributes: {
-            [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics",
+            [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics",
             ..."redirect" === n && null != t.redirectCount ? {
                 "http.redirect_count": t.redirectCount
             } : {}
         }
     })
 }
-let nV = ({
-        entries: e
-    }) => {
-        let t = (0, G.getActiveSpan)(),
-            n = t ? (0, G.getRootSpan)(t) : void 0,
-            r = n ? (0, G.spanToJSON)(n).description : (0, E.getCurrentScope)().getScopeData().transactionName;
-        e.forEach(e => {
-            if (!e.identifier) return;
-            let t = e.name,
-                n = e.renderTime,
-                a = e.loadTime,
-                [i, o] = a ? [nI(a), "load-time"] : n ? [nI(n), "render-time"] : [(0, q.timestampInSeconds)(), "entry-emission"],
-                l = "image-paint" === t ? nI(Math.max(0, (n ?? 0) - (a ?? 0))) : 0,
-                s = {
-                    [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.elementtiming",
-                    [es.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "ui.elementtiming",
-                    [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: "component",
-                    "sentry.span_start_time_source": o,
-                    "sentry.transaction_name": r,
-                    "element.id": e.id,
-                    "element.type": e.element?.tagName?.toLowerCase() || "unknown",
-                    "element.size": e.naturalWidth && e.naturalHeight ? `${e.naturalWidth}x${e.naturalHeight}` : void 0,
-                    "element.render_time": n,
-                    "element.load_time": a,
-                    "element.url": e.url || void 0,
-                    "element.identifier": e.identifier,
-                    "element.paint_type": t
-                };
-            (0, tF.startSpan)({
-                name: `element[${e.identifier}]`,
-                attributes: s,
-                startTime: i,
-                onlyIfParent: !0
-            }, e => {
-                e.end(i + l)
-            })
-        })
-    },
-    nG = "sentry_previous_trace";
 
-function nY(e) {
+function n3(e) {
+    let {
+        name: t,
+        op: n,
+        origin: r,
+        metricName: a,
+        value: i,
+        attributes: o,
+        parentSpan: l,
+        reportEvent: s,
+        startTime: u,
+        endTime: c
+    } = e, d = (0, E.getCurrentScope)().getScopeData().transactionName, f = {
+        [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: r,
+        [M.SEMANTIC_ATTRIBUTE_SENTRY_OP]: n,
+        [M.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME]: 0,
+        [`browser.web_vital.${a}.value`]: i,
+        "sentry.transaction": d,
+        "user_agent.original": ta.navigator?.userAgent,
+        ...o
+    };
+    l && (0, D.spanToStreamedSpanJSON)(l).attributes?.[M.SEMANTIC_ATTRIBUTE_SENTRY_OP] === "pageload" && (f["sentry.pageload.span_id"] = l.spanContext().spanId), s && (f[`browser.web_vital.${a}.report_event`] = s);
+    let p = (0, tQ.startInactiveSpan)({
+        name: t,
+        attributes: f,
+        startTime: u,
+        parentSpan: l
+    });
+    p && p.end(c ?? u)
+}
+let n4 = "sentry_previous_trace";
+
+function n5(e) {
     return 1 === e.traceFlags
 }
-var nX = e.i(403316),
-    nJ = e.i(434362);
+var n8 = e.i(593321),
+    n6 = e.i(867997);
 
-function nQ(e = {}) {
+function n9(e = {}) {
     let t = e.client || (0, E.getClient)();
     if (!(0, S.isEnabled)() || !t) return {};
-    let n = (0, F.getMainCarrier)(),
-        r = (0, nJ.getAsyncContextStrategy)(n);
+    let n = (0, W.getMainCarrier)(),
+        r = (0, n6.getAsyncContextStrategy)(n);
     if (r.getTraceData) return r.getTraceData(e);
     let a = e.scope || (0, E.getCurrentScope)(),
-        i = e.span || (0, G.getActiveSpan)(),
-        o = i ? (0, G.spanToTraceHeader)(i) : function(e) {
+        i = e.span || (0, D.getActiveSpan)();
+    if (!i && (0, E.hasExternalPropagationContext)()) return {};
+    let o = i ? (0, D.spanToTraceHeader)(i) : function(e) {
             let {
                 traceId: t,
                 sampled: n,
                 propagationSpanId: r
             } = e.getPropagationContext();
-            return (0, tG.generateSentryTraceHeader)(t, r, n)
+            return (0, t2.generateSentryTraceHeader)(t, r, n)
         }(a),
-        l = i ? (0, V.getDynamicSamplingContextFromSpan)(i) : (0, V.getDynamicSamplingContextFromScope)(t, a),
-        s = (0, nX.dynamicSamplingContextToSentryBaggageHeader)(l);
-    if (!tG.TRACEPARENT_REGEXP.test(o)) return v.debug.warn("Invalid sentry-trace data. Cannot generate trace data"), {};
+        l = i ? (0, Y.getDynamicSamplingContextFromSpan)(i) : (0, Y.getDynamicSamplingContextFromScope)(t, a),
+        s = (0, n8.dynamicSamplingContextToSentryBaggageHeader)(l);
+    if (!t2.TRACEPARENT_REGEXP.test(o)) return v.debug.warn("Invalid sentry-trace data. Cannot generate trace data"), {};
     let u = {
         "sentry-trace": o,
         baggage: s
     };
-    return e.propagateTraceparent && (u.traceparent = i ? (0, G.spanToTraceparentHeader)(i) : function(e) {
+    return e.propagateTraceparent && (u.traceparent = i ? (0, D.spanToTraceparentHeader)(i) : function(e) {
         let {
             traceId: t,
             sampled: n,
             propagationSpanId: r
         } = e.getPropagationContext();
-        return (0, tG.generateTraceparentHeader)(t, r, n)
+        return (0, t2.generateTraceparentHeader)(t, r, n)
     }(a)), u
 }
 
-function nK(e) {
-    return e.split(",").some(e => e.trim().startsWith(nX.SENTRY_BAGGAGE_KEY_PREFIX))
+function n7(e) {
+    return "string" == typeof e && e.split(",").some(e => e.trim().startsWith(n8.SENTRY_BAGGAGE_KEY_PREFIX))
 }
 
-function nZ(e) {
+function re(e, t, n, r) {
+    let a = {
+        url: tr(e),
+        type: "fetch",
+        "http.method": n,
+        [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: r,
+        [M.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "http.client"
+    };
+    return t && (e7(t) || (a["http.url"] = tr(t.href), a["server.address"] = t.host), t.search && (a["http.query"] = t.search), t.hash && (a["http.fragment"] = t.hash)), a
+}
+
+function rt(e) {
     try {
-        return new URL(e, ej.location.origin).href
+        return new URL(e, eB.location.origin).href
     } catch {
         return
     }
 }
 
-function n0(e) {
+function rn(e) {
     try {
         return new Headers(e)
     } catch {
@@ -5640,37 +5773,55 @@ function n0(e) {
     }
 }
 Symbol.for("sentry__originalRequestBody");
-let n1 = new WeakMap,
-    n2 = new Map,
-    n3 = {
+let rr = new WeakMap,
+    ra = new Map,
+    ri = {
         traceFetch: !0,
         traceXHR: !0,
         enableHTTPTimings: !0,
         trackFetchStreamPerformance: !1
     };
 
-function n4(e) {
+function ro(e, t) {
     let {
-        url: t
-    } = (0, G.spanToJSON)(e).data;
-    if (!t || "string" != typeof t) return;
-    let n = nb("resource", ({
-        entries: r
+        url: n
+    } = (0, D.spanToJSON)(e).data;
+    if (!n || "string" != typeof n) return;
+    let r = () => void setTimeout(a);
+    if ((0, er.hasSpanStreamingEnabled)(t)) {
+        let t = e.end.bind(e);
+        e.end = e => {
+            let n = e ?? (0, V.timestampInSeconds)(),
+                i = !1,
+                o = () => {
+                    i || (i = !0, setTimeout(a), t(n), clearTimeout(l))
+                };
+            r = o;
+            let l = setTimeout(o, 300)
+        }
+    }
+    let a = nN("resource", ({
+        entries: t
     }) => {
-        r.forEach(r => {
-            "resource" === r.entryType && "initiatorType" in r && "string" == typeof r.nextHopProtocol && ("fetch" === r.initiatorType || "xmlhttprequest" === r.initiatorType) && r.name.endsWith(t) && (e.setAttributes(nF(r)), setTimeout(n))
+        t.forEach(t => {
+            "resource" === t.entryType && "initiatorType" in t && "string" == typeof t.nextHopProtocol && ("fetch" === t.initiatorType || "xmlhttprequest" === t.initiatorType) && t.name.endsWith(n) && (e.setAttributes(nZ(t)), r())
         })
     })
 }
-let n5 = {
-    ...tH,
+let rl = /Googlebot|Google-InspectionTool|Storebot-Google|Bingbot|Slurp|DuckDuckBot|Baiduspider|YandexBot|Facebot|facebookexternalhit|LinkedInBot|Twitterbot|Applebot/i;
+
+function rs() {
+    let e = eB.navigator;
+    return !!e?.userAgent && rl.test(e.userAgent)
+}
+let ru = {
+    ...tK,
     instrumentNavigation: !0,
     instrumentPageLoad: !0,
     markBackgroundSpan: !0,
     enableLongTask: !0,
     enableLongAnimationFrame: !0,
     enableInp: !0,
-    enableElementTiming: !0,
     ignoreResourceSpans: [],
     ignorePerformanceApiSpans: [],
     detectRedirects: !0,
@@ -5678,16 +5829,16 @@ let n5 = {
     consistentTraceSampling: !1,
     enableReportPageLoaded: !1,
     _experiments: {},
-    ...n3
+    ...ri
 };
 
-function n8(e, t, n) {
+function rc(e, t, n) {
     e.emit("startPageLoadSpan", t, n), (0, E.getCurrentScope)().setTransactionName(t.name);
-    let r = e[n7];
+    let r = e[rh];
     return r && e.emit("afterStartPageLoadSpan", r), r
 }
 
-function n6(e, t, n) {
+function rd(e, t, n) {
     let {
         url: r,
         isRedirect: a
@@ -5700,28 +5851,34 @@ function n6(e, t, n) {
     let i = (0, E.getCurrentScope)();
     return i.setTransactionName(t.name), r && !a && i.setSDKProcessingMetadata({
         normalizedRequest: {
-            ...e$(),
+            ...eW(),
             url: r
         }
-    }), e[n7]
+    }), e[rh]
 }
 
-function n9(e) {
-    let t = ej.document,
+function rf(e) {
+    let t = eB.document,
         n = t?.querySelector(`meta[name=${e}]`);
     return n?.getAttribute("content") || void 0
 }
-let n7 = "_sentry_idleSpan";
 
-function re(e, t) {
-    (0, A.addNonEnumerableProperty)(e, n7, t)
+function rp(e) {
+    let t = eB.performance?.getEntriesByType?.("navigation")[0],
+        n = t?.serverTiming?.find(t => t.name === e);
+    return n?.description
 }
-let rt = y.GLOBAL_OBJ,
-    rn = null,
-    rr = new Map,
-    ra = new Map;
+let rh = "_sentry_idleSpan";
 
-function ri(e) {
+function rm(e, t) {
+    (0, A.addNonEnumerableProperty)(e, rh, t)
+}
+let rg = y.GLOBAL_OBJ,
+    rv = null,
+    ry = new Map,
+    rb = new Map;
+
+function r_(e) {
     let t = e.split("/").filter(Boolean),
         n = 0;
     for (let e of t)
@@ -5731,24 +5888,24 @@ function ri(e) {
         } return t.length > 0 && (n += 1 / t.length), n
 }
 
-function ro(e) {
-    if (rr.has(e)) return rr.get(e) ?? null;
+function rS(e) {
+    if (ry.has(e)) return ry.get(e) ?? null;
     try {
         let t = new RegExp(e);
-        return rr.set(e, t), t
+        return ry.set(e, t), t
     } catch (t) {
-        return tj && v.debug.warn("Could not compile regex", {
+        return tq && v.debug.warn("Could not compile regex", {
             regexString: e,
             error: t
         }), null
     }
 }
 
-function rl() {
-    if (!rt?._sentryRouteManifest || "string" != typeof rt._sentryRouteManifest) return null;
-    let e = rt._sentryRouteManifest;
-    if (rn && p === e) return rn;
-    rr.clear(), ra.clear();
+function rE() {
+    if (!rg?._sentryRouteManifest || "string" != typeof rg._sentryRouteManifest) return null;
+    let e = rg._sentryRouteManifest;
+    if (rv && p === e) return rv;
+    ry.clear(), rb.clear();
     let t = {
         staticRoutes: [],
         dynamicRoutes: [],
@@ -5756,88 +5913,93 @@ function rl() {
     };
     try {
         if (t = JSON.parse(e), !Array.isArray(t.staticRoutes) || !Array.isArray(t.dynamicRoutes)) return null;
-        return rn = t, p = e, t
+        return rv = t, p = e, t
     } catch {
-        return tj && v.debug.warn("Could not extract route manifest"), null
+        return tq && v.debug.warn("Could not extract route manifest"), null
     }
 }
-let rs = e => {
-        let t = rl();
-        if (!t) return;
-        if (ra.has(e)) return ra.get(e);
-        let {
-            staticRoutes: n,
-            dynamicRoutes: r
-        } = t;
-        if (!Array.isArray(n) || !Array.isArray(r)) return;
-        let a = (function(e, t, n) {
-            let r = [];
-            if (t.some(t => t.path === e)) return r;
+let rw = e => {
+    let t = rE();
+    if (!t) return;
+    let n = e.length > 1 && e.endsWith("/") ? e.slice(0, -1) : e;
+    if (rb.has(n)) return rb.get(n);
+    let {
+        staticRoutes: r,
+        dynamicRoutes: a
+    } = t;
+    if (!Array.isArray(r) || !Array.isArray(a)) return;
+    let i = (function(e, t, n) {
+        let r = [];
+        if (t.some(t => t.path === e)) return r;
+        for (let t of n)
+            if (t.regex) {
+                let n = rS(t.regex);
+                n?.test(e) && r.push(t.path)
+            } if (!e.startsWith("/:")) {
             for (let t of n)
-                if (t.regex) {
-                    let n = ro(t.regex);
-                    n?.test(e) && r.push(t.path)
-                } if (!e.startsWith("/:")) {
-                for (let t of n)
-                    if (t.hasOptionalPrefix && t.regex) {
-                        let n = "/" === e ? "/SENTRY_OPTIONAL_PREFIX" : `/SENTRY_OPTIONAL_PREFIX${e}`,
-                            a = ro(t.regex);
-                        a?.test(n) && r.push(t.path)
-                    }
-            }
-            return r
-        })(e, n, r).sort((e, t) => ri(e) - ri(t))[0];
-        return ra.set(e, a), a
-    },
-    ru = "incomplete-app-router-transaction",
-    rc = "router-patch",
-    rd = {
+                if (t.hasOptionalPrefix && t.regex) {
+                    let n = "/" === e ? "/SENTRY_OPTIONAL_PREFIX" : `/SENTRY_OPTIONAL_PREFIX${e}`,
+                        a = rS(t.regex);
+                    a?.test(n) && r.push(t.path)
+                }
+        }
+        return r
+    })(n, r, a).sort((e, t) => r_(e) - r_(t))[0];
+    return rb.set(n, i), i
+};
+
+function rT(e) {
+    return e.length > 1 && e.endsWith("/") ? e.slice(0, -1) : e
+}
+let rP = "incomplete-app-router-transaction",
+    rx = "router-patch",
+    rk = {
         current: void 0
     },
-    rf = y.GLOBAL_OBJ,
-    rp = y.GLOBAL_OBJ;
+    rR = y.GLOBAL_OBJ,
+    rN = y.GLOBAL_OBJ;
 
-function rh(e) {
+function rO(e) {
     try {
         return new URL(e, "http://example.com/").pathname
     } catch {
         return "/"
     }
 }
-let rm = new WeakSet;
+let rC = new WeakSet;
 
-function rg(e, t, n) {
-    rm.has(t) || (rm.add(t), ["back", "forward", "push", "replace"].forEach(r => {
+function rI(e, t, n) {
+    rC.has(t) || (rC.add(t), ["back", "forward", "push", "replace"].forEach(r => {
         t?.[r] && (t[r] = new Proxy(t[r], {
             apply(t, a, i) {
-                if ("router-patch" !== rc) return t.apply(a, i);
-                let o = ru,
+                if ("router-patch" !== rx) return t.apply(a, i);
+                let o = rP,
                     l = {
-                        [es.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "navigation",
-                        [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.navigation.nextjs.app_router_instrumentation",
-                        [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: "url"
+                        [M.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "navigation",
+                        [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.navigation.nextjs.app_router_instrumentation",
+                        [M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: "url"
                     },
                     s = i[0],
-                    u = g.default.env._sentryBasePath ?? rp._sentryBasePath,
+                    u = g.default.env._sentryBasePath ?? rN._sentryBasePath,
                     c = u && "string" == typeof s && !s.startsWith(u) ? `${u}${s}` : s;
-                "push" === r ? (o = rh(c), l["navigation.type"] = "router.push") : "replace" === r ? (o = rh(c), l["navigation.type"] = "router.replace") : "back" === r ? l["navigation.type"] = "router.back" : "forward" === r && (l["navigation.type"] = "router.forward");
-                let d = rs(o);
-                return n.current = n6(e, {
+                "push" === r ? (o = rT(rO(c)), l["navigation.type"] = "router.push") : "replace" === r ? (o = rT(rO(c)), l["navigation.type"] = "router.replace") : "back" === r ? l["navigation.type"] = "router.back" : "forward" === r && (l["navigation.type"] = "router.forward");
+                let d = rw(o);
+                return n.current = rd(e, {
                     name: d ?? o,
                     attributes: {
                         ...l,
-                        [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: d ? "route" : "url"
+                        [M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: d ? "route" : "url"
                     }
                 }), t.apply(a, i)
             }
         }))
     }))
 }
-var rv = e.i(936700);
-let ry = rv.default.events ? rv.default : rv.default.default,
-    rb = /^(\S+:\\|\/?)([\s\S]*?)((?:\.{1,2}|[^/\\]+?|)(\.[^./\\]*|))(?:[/\\]*)$/;
+var rA = e.i(113892);
+let rL = rA.default.events ? rA.default : rA.default.default,
+    rM = /^(\S+:\\|\/?)([\s\S]*?)((?:\.{1,2}|[^/\\]+?|)(\.[^./\\]*|))(?:[/\\]*)$/;
 
-function r_(...e) {
+function rD(...e) {
     let t = "",
         n = !1;
     for (let r = e.length - 1; r >= -1 && !n; r--) {
@@ -5856,14 +6018,14 @@ function r_(...e) {
     })(t.split("/").filter(e => !!e), !n).join("/"), (n ? "/" : "") + t || "."
 }
 
-function rS(e) {
+function rj(e) {
     let t = 0;
     for (; t < e.length && "" === e[t]; t++);
     let n = e.length - 1;
     for (; n >= 0 && "" === e[n]; n--);
     return t > n ? [] : e.slice(t, n - t + 1)
 }
-let rE = new class {
+let rU = new class {
         constructor(e) {
             this._maxSize = e, this._cache = new Map
         }
@@ -5896,48 +6058,48 @@ let rE = new class {
             return this._cache.forEach(t => e.push(t)), e
         }
     }(100),
-    rw = y.GLOBAL_OBJ,
-    rT = !1,
-    rP = y.GLOBAL_OBJ;
-var rx = e.i(94412);
-let rk = "window" in y.GLOBAL_OBJ && y.GLOBAL_OBJ.window === y.GLOBAL_OBJ && "u" < typeof importScripts,
-    rR = String(0),
-    rN = rk ? "main" : "worker",
-    rO = ej.navigator,
-    rC = "",
-    rI = "",
-    rA = "",
-    rL = rO?.userAgent || "",
-    rM = "",
-    rD = rO?.language || rO?.languages?.[0] || "",
-    rj = rO?.userAgentData;
+    rz = y.GLOBAL_OBJ,
+    r$ = !1,
+    rB = y.GLOBAL_OBJ;
+var rF = e.i(284591);
+let rH = "window" in y.GLOBAL_OBJ && y.GLOBAL_OBJ.window === y.GLOBAL_OBJ && "u" < typeof importScripts,
+    rW = String(0),
+    rG = rH ? "main" : "worker",
+    rq = eB.navigator,
+    rV = "",
+    rY = "",
+    rX = "",
+    rJ = rq?.userAgent || "",
+    rQ = "",
+    rK = rq?.language || rq?.languages?.[0] || "",
+    rZ = rq?.userAgentData;
 
-function rU(e) {
-    return "pageload" === (0, G.spanToJSON)(e).op
+function r0(e) {
+    return "pageload" === (0, D.spanToJSON)(e).op
 }
 
-function rz(e) {
+function r1(e) {
     let t = (0, E.getClient)(),
         n = t?.getOptions(),
         r = n?.stackParser;
-    return r ? (0, rx.getDebugImagesForResources)(r, e) : []
+    return r ? (0, rF.getDebugImagesForResources)(r, e) : []
 }
 
-function r$(e) {
-    return "number" != typeof e && "boolean" != typeof e || "number" == typeof e && isNaN(e) ? (to && v.debug.warn(`[Profiling] Invalid sample rate. Sample rate must be a boolean or a number between 0 and 1. Got ${JSON.stringify(e)} of type ${JSON.stringify(typeof e)}.`), !1) : !0 === e || !1 === e || !(e < 0) && !(e > 1) || (to && v.debug.warn(`[Profiling] Invalid sample rate. Sample rate must be between 0 and 1. Got ${e}.`), !1)
+function r2(e) {
+    return "number" != typeof e && "boolean" != typeof e || "number" == typeof e && isNaN(e) ? (tf && v.debug.warn(`[Profiling] Invalid sample rate. Sample rate must be a boolean or a number between 0 and 1. Got ${JSON.stringify(e)} of type ${JSON.stringify(typeof e)}.`), !1) : !0 === e || !1 === e || !(e < 0) && !(e > 1) || (tf && v.debug.warn(`[Profiling] Invalid sample rate. Sample rate must be between 0 and 1. Got ${e}.`), !1)
 }
-"object" == typeof rj && null !== rj && "getHighEntropyValues" in rj && rj.getHighEntropyValues(["architecture", "model", "platform", "platformVersion", "fullVersionList"]).then(e => {
-    if (rC = e.platform || "", rA = e.architecture || "", rM = e.model || "", rI = e.platformVersion || "", e.fullVersionList?.length) {
+"object" == typeof rZ && null !== rZ && "getHighEntropyValues" in rZ && rZ.getHighEntropyValues(["architecture", "model", "platform", "platformVersion", "fullVersionList"]).then(e => {
+    if (rV = e.platform || "", rX = e.architecture || "", rQ = e.model || "", rY = e.platformVersion || "", e.fullVersionList?.length) {
         let t = e.fullVersionList[e.fullVersionList.length - 1];
-        rL = `${t.brand} ${t.version}`
+        rJ = `${t.brand} ${t.version}`
     }
 }).catch(e => void 0);
-let rB = !1;
+let r3 = !1;
 
-function rF() {
-    let e = ej.Profiler;
+function r4() {
+    let e = eB.Profiler;
     if ("function" != typeof e) {
-        to && v.debug.log("[Profiling] Profiling is not supported by this browser, Profiler interface missing on window object.");
+        tf && v.debug.log("[Profiling] Profiling is not supported by this browser, Profiler interface missing on window object.");
         return
     }
     let t = Math.floor(3e3);
@@ -5947,59 +6109,64 @@ function rF() {
             maxBufferSize: t
         })
     } catch (e) {
-        to && (v.debug.log("[Profiling] Failed to initialize the Profiling constructor, this is likely due to a missing 'Document-Policy': 'js-profiling' header."), v.debug.log("[Profiling] Disabling profiling for current user session.")), rB = !0
+        tf && (v.debug.log("[Profiling] Failed to initialize the Profiling constructor, this is likely due to a missing 'Document-Policy': 'js-profiling' header."), v.debug.log("[Profiling] Disabling profiling for current user session.")), r3 = !0
     }
 }
 
-function rH(e) {
-    if (rB) return to && v.debug.log("[Profiling] Profiling has been disabled for the duration of the current user session."), !1;
-    if (!e.isRecording()) return to && v.debug.log("[Profiling] Discarding profile because root span was not sampled."), !1;
+function r5(e) {
+    if (r3) return tf && v.debug.log("[Profiling] Profiling has been disabled for the duration of the current user session."), !1;
+    if (!e.isRecording()) return tf && v.debug.log("[Profiling] Discarding profile because root span was not sampled."), !1;
     let t = (0, E.getClient)(),
         n = t?.getOptions();
-    if (!n) return to && v.debug.log("[Profiling] Profiling disabled, no options found."), !1;
+    if (!n) return tf && v.debug.log("[Profiling] Profiling disabled, no options found."), !1;
     let r = n.profilesSampleRate;
-    return r$(r) ? r ? !!(!0 === r || Math.random() < r) || (to && v.debug.log(`[Profiling] Discarding profile because it's not included in the random sample (sampling rate = ${Number(r)})`), !1) : (to && v.debug.log("[Profiling] Discarding profile because a negative sampling decision was inherited or profileSampleRate is set to 0"), !1) : (to && v.debug.warn("[Profiling] Discarding profile because of invalid sample rate."), !1)
+    return r2(r) ? r ? !!(!0 === r || Math.random() < r) || (tf && v.debug.log(`[Profiling] Discarding profile because it's not included in the random sample (sampling rate = ${Number(r)})`), !1) : (tf && v.debug.log("[Profiling] Discarding profile because a negative sampling decision was inherited or profileSampleRate is set to 0"), !1) : (tf && v.debug.warn("[Profiling] Discarding profile because of invalid sample rate."), !1)
 }
 
-function rW(e) {
+function r8(e) {
     return void 0 !== e.profilesSampleRate
 }
-let rq = new Map;
+let r6 = new Map,
+    r9 = new WeakSet;
 
-function rV(e) {
+function r7(e) {
+    e.setAttribute("thread.id", rW), e.setAttribute("thread.name", rG)
+}
+
+function ae(e) {
     let t;
-    rU(e) && (t = 1e3 * (0, q.timestampInSeconds)());
-    let n = rF();
+    r0(e) && (t = 1e3 * (0, V.timestampInSeconds)());
+    let n = r4();
     if (!n) return;
-    to && v.debug.log(`[Profiling] started profiling span: ${(0,G.spanToJSON)(e).description}`);
+    tf && v.debug.log(`[Profiling] started profiling span: ${(0,D.spanToJSON)(e).description}`);
     let r = (0, R.uuid4)(),
         a = null;
     async function i() {
         if (e && n) {
             if (a) {
-                to && v.debug.log("[Profiling] profile for:", (0, G.spanToJSON)(e).description, "already exists, returning early");
+                tf && v.debug.log("[Profiling] profile for:", (0, D.spanToJSON)(e).description, "already exists, returning early");
                 return
             }
             return n.stop().then(t => {
-                if (o && (ej.clearTimeout(o), o = void 0), to && v.debug.log(`[Profiling] stopped profiling of span: ${(0,G.spanToJSON)(e).description}`), !t) {
-                    to && v.debug.log(`[Profiling] profiler returned null profile for: ${(0,G.spanToJSON)(e).description}`, "this may indicate an overlapping span or a call to stopProfiling with a profile title that was never started");
+                if (o && (eB.clearTimeout(o), o = void 0), tf && v.debug.log(`[Profiling] stopped profiling of span: ${(0,D.spanToJSON)(e).description}`), !t) {
+                    tf && v.debug.log(`[Profiling] profiler returned null profile for: ${(0,D.spanToJSON)(e).description}`, "this may indicate an overlapping span or a call to stopProfiling with a profile title that was never started");
                     return
                 }
                 a = t;
-                if (rq.set(r, t), rq.size > 30) {
-                    let e = rq.keys().next().value;
-                    void 0 !== e && rq.delete(e)
+                if (r6.set(r, t), r6.size > 30) {
+                    let e = r6.keys().next().value;
+                    void 0 !== e && r6.delete(e)
                 }
             }).catch(e => {
-                to && v.debug.log("[Profiling] error while stopping profiler:", e)
+                tf && v.debug.log("[Profiling] error while stopping profiler:", e)
             })
         }
     }(0, E.getCurrentScope)().setContext("profile", {
         profile_id: r,
         start_timestamp: t
-    });
-    let o = ej.setTimeout(() => {
-            to && v.debug.log("[Profiling] max profile duration elapsed, stopping profiling for:", (0, G.spanToJSON)(e).description), i()
+    }), r9.add(e), r7(e);
+    let o = eB.setTimeout(() => {
+            tf && v.debug.log("[Profiling] max profile duration elapsed, stopping profiling for:", (0, D.spanToJSON)(e).description), i()
         }, 3e4),
         l = e.end.bind(e);
     e.end = function() {
@@ -6010,42 +6177,44 @@ function rV(e) {
         }), e) : l()
     }
 }
-class rG {
+class at {
     constructor() {
         this._client = void 0, this._profiler = void 0, this._chunkTimer = void 0, this._profilerId = void 0, this._isRunning = !1, this._sessionSampled = !1, this._lifecycleMode = void 0, this._activeRootSpanIds = new Set, this._rootSpanTimeouts = new Map
     }
     initialize(e) {
         let t = e.getOptions().profileLifecycle,
             n = function(e) {
-                if (rB) return to && v.debug.log("[Profiling] Profiling has been disabled for the duration of the current user session as the JS Profiler could not be started."), !1;
-                if ("trace" !== e.profileLifecycle && "manual" !== e.profileLifecycle) return to && v.debug.warn("[Profiling] Session not sampled. Invalid `profileLifecycle` option."), !1;
+                if (r3) return tf && v.debug.log("[Profiling] Profiling has been disabled for the duration of the current user session as the JS Profiler could not be started."), !1;
+                if ("trace" !== e.profileLifecycle && "manual" !== e.profileLifecycle) return tf && v.debug.warn("[Profiling] Session not sampled. Invalid `profileLifecycle` option."), !1;
                 let t = e.profileSessionSampleRate;
-                return r$(t) ? t ? Math.random() <= t : (to && v.debug.log("[Profiling] Discarding profile because profileSessionSampleRate is not defined or set to 0"), !1) : (to && v.debug.warn("[Profiling] Discarding profile because of invalid profileSessionSampleRate."), !1)
+                return r2(t) ? t ? Math.random() <= t : (tf && v.debug.log("[Profiling] Discarding profile because profileSessionSampleRate is not defined or set to 0"), !1) : (tf && v.debug.warn("[Profiling] Discarding profile because of invalid profileSessionSampleRate."), !1)
             }(e.getOptions());
-        to && v.debug.log(`[Profiling] Initializing profiler (lifecycle='${t}').`), !n && to && v.debug.log("[Profiling] Session not sampled. Skipping lifecycle profiler initialization."), this._profilerId = (0, R.uuid4)(), this._client = e, this._sessionSampled = n, this._lifecycleMode = t, "trace" === t && this._setupTraceLifecycleListeners(e)
+        tf && v.debug.log(`[Profiling] Initializing profiler (lifecycle='${t}').`), !n && tf && v.debug.log("[Profiling] Session not sampled. Skipping lifecycle profiler initialization."), this._profilerId = (0, R.uuid4)(), this._client = e, this._sessionSampled = n, this._lifecycleMode = t, "trace" === t && this._setupTraceLifecycleListeners(e), e.on("spanStart", e => {
+            this._isRunning && r7(e)
+        })
     }
     start() {
         if ("trace" === this._lifecycleMode) {
-            to && v.debug.warn('[Profiling] `profileLifecycle` is set to "trace". Calls to `uiProfiler.start()` are ignored in trace mode.');
+            tf && v.debug.warn('[Profiling] `profileLifecycle` is set to "trace". Calls to `uiProfiler.start()` are ignored in trace mode.');
             return
         }
         if (this._isRunning) {
-            to && v.debug.warn("[Profiling] Profile session is already running, `uiProfiler.start()` is a no-op.");
+            tf && v.debug.warn("[Profiling] Profile session is already running, `uiProfiler.start()` is a no-op.");
             return
         }
         if (!this._sessionSampled) {
-            to && v.debug.warn("[Profiling] Session is not sampled, `uiProfiler.start()` is a no-op.");
+            tf && v.debug.warn("[Profiling] Session is not sampled, `uiProfiler.start()` is a no-op.");
             return
         }
         this._beginProfiling()
     }
     stop() {
         if ("trace" === this._lifecycleMode) {
-            to && v.debug.warn('[Profiling] `profileLifecycle` is set to "trace". Calls to `uiProfiler.stop()` are ignored in trace mode.');
+            tf && v.debug.warn('[Profiling] `profileLifecycle` is set to "trace". Calls to `uiProfiler.stop()` are ignored in trace mode.');
             return
         }
         if (!this._isRunning) {
-            to && v.debug.warn("[Profiling] Profiler is not running, `uiProfiler.stop()` is a no-op.");
+            tf && v.debug.warn("[Profiling] Profiler is not running, `uiProfiler.stop()` is a no-op.");
             return
         }
         this._endProfiling()
@@ -6056,14 +6225,14 @@ class rG {
         if (!t || this._activeRootSpanIds.has(t)) return;
         this._registerTraceRootSpan(t);
         let n = this._activeRootSpanIds.size;
-        1 === n && (to && v.debug.log("[Profiling] Detected already active root span during setup. Active root spans now:", n), this._beginProfiling())
+        1 === n && (tf && v.debug.log("[Profiling] Detected already active root span during setup. Active root spans now:", n), this._beginProfiling()), this._isRunning && r7(e)
     }
     _beginProfiling() {
         if (!this._isRunning) {
-            if (this._isRunning = !0, to && v.debug.log("[Profiling] Started profiling with profiler ID:", this._profilerId), (0, E.getGlobalScope)().setContext("profile", {
+            if (this._isRunning = !0, tf && v.debug.log("[Profiling] Started profiling with profiler ID:", this._profilerId), (0, E.getGlobalScope)().setContext("profile", {
                     profiler_id: this._profilerId
                 }), this._startProfilerInstance(), !this._profiler) {
-                to && v.debug.log("[Profiling] Failed to start JS Profiler; stopping."), this._resetProfilerInfo();
+                tf && v.debug.log("[Profiling] Failed to start JS Profiler; stopping."), this._resetProfilerInfo();
                 return
             }
             this._startPeriodicChunking()
@@ -6071,33 +6240,33 @@ class rG {
     }
     _endProfiling() {
         this._isRunning && (this._isRunning = !1, this._chunkTimer && (clearTimeout(this._chunkTimer), this._chunkTimer = void 0), this._clearAllRootSpanTimeouts(), this._collectCurrentChunk().catch(e => {
-            to && v.debug.error("[Profiling] Failed to collect current profile chunk on `stop()`:", e)
+            tf && v.debug.error("[Profiling] Failed to collect current profile chunk on `stop()`:", e)
         }), "manual" === this._lifecycleMode && (0, E.getGlobalScope)().setContext("profile", {}))
     }
     _setupTraceLifecycleListeners(e) {
         e.on("spanStart", e => {
             if (!this._sessionSampled) {
-                to && v.debug.log("[Profiling] Span not profiled because of negative sampling decision for user session.");
+                tf && v.debug.log("[Profiling] Span not profiled because of negative sampling decision for user session.");
                 return
             }
-            if (e !== (0, G.getRootSpan)(e)) return;
+            if (e !== (0, D.getRootSpan)(e)) return;
             if (!e.isRecording()) {
-                to && v.debug.log("[Profiling] Discarding profile because root span was not sampled.");
+                tf && v.debug.log("[Profiling] Discarding profile because root span was not sampled.");
                 return
             }
             let t = e.spanContext().spanId;
             if (!t || this._activeRootSpanIds.has(t)) return;
             this._registerTraceRootSpan(t);
             let n = this._activeRootSpanIds.size;
-            1 === n && (to && v.debug.log(`[Profiling] Root span ${t} started. Profiling active while there are active root spans (count=${n}).`), this._beginProfiling())
+            1 === n && (tf && v.debug.log(`[Profiling] Root span ${t} started. Profiling active while there are active root spans (count=${n}).`), this._beginProfiling())
         }), e.on("spanEnd", e => {
             if (!this._sessionSampled) return;
             let t = e.spanContext().spanId;
             if (!t || !this._activeRootSpanIds.has(t)) return;
             this._activeRootSpanIds.delete(t);
             let n = this._activeRootSpanIds.size;
-            to && v.debug.log(`[Profiling] Root span with ID ${t} ended. Will continue profiling for as long as there are active root spans (currently: ${n}).`), 0 === n && (this._collectCurrentChunk().catch(e => {
-                to && v.debug.error("[Profiling] Failed to collect current profile chunk on last `spanEnd`:", e)
+            tf && v.debug.log(`[Profiling] Root span with ID ${t} ended. Will continue profiling for as long as there are active root spans (currently: ${n}).`), 0 === n && (this._collectCurrentChunk().catch(e => {
+                tf && v.debug.error("[Profiling] Failed to collect current profile chunk on last `spanEnd`:", e)
             }), this._endProfiling())
         })
     }
@@ -6114,9 +6283,9 @@ class rG {
     }
     _startProfilerInstance() {
         if (this._profiler?.stopped === !1) return;
-        let e = rF();
+        let e = r4();
         if (!e) {
-            to && v.debug.log("[Profiling] Failed to start JS Profiler.");
+            tf && v.debug.log("[Profiling] Failed to start JS Profiler.");
             return
         }
         this._profiler = e
@@ -6124,7 +6293,7 @@ class rG {
     _startPeriodicChunking() {
         this._isRunning && (this._chunkTimer = setTimeout(() => {
             if (this._collectCurrentChunk().catch(e => {
-                    to && v.debug.error("[Profiling] Failed to collect current profile chunk during periodic chunking:", e)
+                    tf && v.debug.error("[Profiling] Failed to collect current profile chunk during periodic chunking:", e)
                 }), this._isRunning) {
                 if (this._startProfilerInstance(), !this._profiler) return void this._resetProfilerInfo();
                 this._startPeriodicChunking()
@@ -6132,7 +6301,7 @@ class rG {
         }, 6e4))
     }
     _onRootSpanTimeout(e) {
-        !this._rootSpanTimeouts.has(e) || (this._rootSpanTimeouts.delete(e), this._activeRootSpanIds.has(e) && (to && v.debug.log(`[Profiling] Reached 5-minute timeout for root span ${e}. You likely started a manual root span that never called \`.end()\`.`), this._activeRootSpanIds.delete(e), 0 === this._activeRootSpanIds.size && this._endProfiling()))
+        !this._rootSpanTimeouts.has(e) || (this._rootSpanTimeouts.delete(e), this._activeRootSpanIds.has(e) && (tf && v.debug.log(`[Profiling] Reached 5-minute timeout for root span ${e}. You likely started a manual root span that never called \`.end()\`.`), this._activeRootSpanIds.delete(e), 0 === this._activeRootSpanIds.size && this._endProfiling()))
     }
     async _collectCurrentChunk() {
         let e = this._profiler;
@@ -6160,7 +6329,7 @@ class rG {
                                 for (; i;) a.push(i.frameId), i = void 0 === i.parentId ? void 0 : e.stacks[i.parentId];
                                 n[t] = a
                             }
-                            let r = (0, q.browserPerformanceTimeOrigin)(),
+                            let r = (0, V.browserPerformanceTimeOrigin)(),
                                 a = "number" == typeof performance.timeOrigin ? performance.timeOrigin : r || 0,
                                 i = a - (r || a),
                                 o = [];
@@ -6170,7 +6339,7 @@ class rG {
                                 let r = (a + (n.timestamp - i)) / 1e3;
                                 o[t] = {
                                     stack_id: n.stackId ?? 0,
-                                    thread_id: rR,
+                                    thread_id: rW,
                                     timestamp: r
                                 }
                             }
@@ -6179,8 +6348,8 @@ class rG {
                                 stacks: n,
                                 samples: o,
                                 thread_metadata: {
-                                    [rR]: {
-                                        name: rN
+                                    [rW]: {
+                                        name: rG
                                     }
                                 }
                             }
@@ -6199,7 +6368,7 @@ class rG {
                         release: a.release ?? "",
                         environment: a.environment ?? "production",
                         debug_meta: {
-                            images: rz(e.resources)
+                            images: r1(e.resources)
                         },
                         profile: r
                     }
@@ -6242,43 +6411,44 @@ class rG {
                     }
                 }(n);
             if ("reason" in r) {
-                to && v.debug.log("[Profiling] Discarding invalid profile chunk (this is probably a bug in the SDK):", r.reason);
+                tf && v.debug.log("[Profiling] Discarding invalid profile chunk (this is probably a bug in the SDK):", r.reason);
                 return
             }
-            this._sendProfileChunk(n), to && v.debug.log("[Profiling] Collected browser profile chunk.")
+            this._sendProfileChunk(n), tf && v.debug.log("[Profiling] Collected browser profile chunk.")
         } catch (e) {
-            to && v.debug.log("[Profiling] Error while stopping JS Profiler for chunk:", e)
+            tf && v.debug.log("[Profiling] Error while stopping JS Profiler for chunk:", e)
         }
     }
     _sendProfileChunk(e) {
         let t = this._client,
-            n = (0, Y.getSdkMetadataForEnvelopeHeader)(t.getSdkMetadata?.()),
+            n = (0, X.getSdkMetadataForEnvelopeHeader)(t.getSdkMetadata?.()),
             r = t.getDsn(),
             a = t.getOptions().tunnel,
-            i = (0, Y.createEnvelope)({
+            i = (0, X.createEnvelope)({
                 event_id: (0, R.uuid4)(),
                 sent_at: new Date().toISOString(),
                 ...n && {
                     sdk: n
                 },
                 ...!!a && r && {
-                    dsn: (0, z.dsnToString)(r)
+                    dsn: (0, B.dsnToString)(r)
                 }
             }, [
                 [{
-                    type: "profile_chunk"
+                    type: "profile_chunk",
+                    platform: "javascript"
                 }, e]
             ]);
         t.sendEnvelope(i).then(null, e => {
-            to && v.debug.error("Error while sending profile chunk envelope:", e)
+            tf && v.debug.error("Error while sending profile chunk envelope:", e)
         })
     }
 }
-let rY = new Map,
-    rX = new Set,
-    rJ = "_sentryBundlerPluginAppKey:";
+let an = new Map,
+    ar = new Set,
+    aa = "_sentryBundlerPluginAppKey:";
 
-function rQ(e) {
+function ai(e) {
     return {
         ...e,
         path: "path" in e && Array.isArray(e.path) ? e.path.join(".") : void 0,
@@ -6288,227 +6458,235 @@ function rQ(e) {
 }
 globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":"^/([^/]+)$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/:rest*","regex":"^/([^/]+)/(.+)$","paramNames":["locale","rest"],"hasOptionalPrefix":true},{"path":"/:locale/archive/blog/:slug*?","regex":"^/([^/]+)/archive/blog(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/archive/news/:slug*","regex":"^/([^/]+)/archive/news/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/archive/resources/:slug*","regex":"^/([^/]+)/archive/resources/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/blog/:slug*","regex":"^/([^/]+)/blog/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/careers","regex":"^/([^/]+)/careers$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/careers/positions","regex":"^/([^/]+)/careers/positions$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/contact-us","regex":"^/([^/]+)/contact-us$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/data-request","regex":"^/([^/]+)/data-request$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/download/:slug*?","regex":"^/([^/]+)/download(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/glossary","regex":"^/([^/]+)/glossary$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/glossary/:slug*","regex":"^/([^/]+)/glossary/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/home-experiment/:slug*","regex":"^/([^/]+)/home-experiment/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/legal/:slug*?","regex":"^/([^/]+)/legal(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/news","regex":"^/([^/]+)/news$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/oauth","regex":"^/([^/]+)/oauth$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/products","regex":"^/([^/]+)/products$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/products/unity-engine","regex":"^/([^/]+)/products/unity-engine$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor","regex":"^/([^/]+)/releases/editor$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/alpha","regex":"^/([^/]+)/releases/editor/alpha$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/alpha/:version","regex":"^/([^/]+)/releases/editor/alpha/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/archive","regex":"^/([^/]+)/releases/editor/archive$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta","regex":"^/([^/]+)/releases/editor/beta$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta/:version","regex":"^/([^/]+)/releases/editor/beta/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/beta/guide-beta-testing","regex":"^/([^/]+)/releases/editor/beta/guide-beta-testing$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/latest","regex":"^/([^/]+)/releases/editor/latest$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/whats-new","regex":"^/([^/]+)/releases/editor/whats-new$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/releases/editor/whats-new/:version","regex":"^/([^/]+)/releases/editor/whats-new/([^/]+)$","paramNames":["locale","version"],"hasOptionalPrefix":true},{"path":"/:locale/resources/:slug*","regex":"^/([^/]+)/resources/(.+)$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/roadmap","regex":"^/([^/]+)/roadmap$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/search","regex":"^/([^/]+)/search$","paramNames":["locale"],"hasOptionalPrefix":true},{"path":"/:locale/unity/:slug*?","regex":"^/([^/]+)/unity(?:/(.*))?$","paramNames":["locale","slug"],"hasOptionalPrefix":true},{"path":"/:locale/unity-release/latest","regex":"^/([^/]+)/unity-release/latest$","paramNames":["locale"],"hasOptionalPrefix":true}],"staticRoutes":[],"isrRoutes":["/:locale/:rest*","/:locale/archive/resources/:slug*","/:locale/blog/:slug*","/:locale/download/:slug*?","/:locale/glossary/:slug*","/:locale/home-experiment/:slug*","/:locale/legal/:slug*?","/:locale/releases/editor/whats-new/:version","/:locale/resources/:slug*","/:locale/unity/:slug*?"]}', globalThis._sentryNextJsVersion = "16.2.6", ! function(e) {
     let t, n, r, a, i, o, l;
-    rT && (0, v.consoleSandbox)(() => {
+    r$ && (0, v.consoleSandbox)(() => {
         console.warn("[@sentry/nextjs] You are calling `Sentry.init()` more than once on the client. This can happen if you have both a `sentry.client.config.ts` and a `instrumentation-client.ts` file with `Sentry.init()` calls. It is recommended to call `Sentry.init()` once in `instrumentation-client.ts`.")
-    }), rT = !0, !tj && e.debug && (0, v.consoleSandbox)(() => {
+    }), r$ = !0, !tq && e.debug && (0, v.consoleSandbox)(() => {
         console.warn("[@sentry/nextjs] You have enabled `debug: true`, but Sentry debug logging was removed from your bundle (likely via `withSentryConfig({ disableLogger: true })` / `webpack.treeshake.removeDebugLogging: true`). Set that option to `false` to see Sentry debug output.")
     }), ("u" < typeof __SENTRY_TRACING__ || __SENTRY_TRACING__) && function() {
-        ej.document && function(e) {
-            let t = rs(e) || e,
-                n = rE.get(t);
+        eB.document && function(e) {
+            let t = rw(e) || e,
+                n = rU.get(t);
             if (void 0 !== n) return n;
-            let r = rl();
-            if (!r?.isrRoutes || !Array.isArray(r.isrRoutes) || 0 === r.isrRoutes.length) return rE.set(t, !1), !1;
+            let r = rE();
+            if (!r?.isrRoutes || !Array.isArray(r.isrRoutes) || 0 === r.isrRoutes.length) return rU.set(t, !1), !1;
             let a = r.isrRoutes.includes(t);
-            return rE.set(t, a), a
-        }(ej.location.pathname) && (e("sentry-trace"), e("baggage"));
+            return rU.set(t, a), a
+        }(eB.location.pathname) && (e("sentry-trace"), e("baggage"));
 
         function e(e) {
             try {
-                let t = ej.document.querySelector(`meta[name="${e}"]`);
+                let t = eB.document.querySelector(`meta[name="${e}"]`);
                 t && t.remove()
             } catch {}
         }
     }();
     let s = {
-        environment: ((t = g.default.env.NEXT_PUBLIC_VERCEL_ENV) ? `vercel-${t}` : void 0) || "production",
-        defaultIntegrations: (r = tM(e), ("u" < typeof __SENTRY_TRACING__ || __SENTRY_TRACING__) && r.push(function(e = {}) {
+        environment: e.environment || g.default.env.SENTRY_ENVIRONMENT || ((t = g.default.env.NEXT_PUBLIC_VERCEL_ENV) ? `vercel-${t}` : void 0) || "production",
+        defaultIntegrations: (r = tW(e), ("u" < typeof __SENTRY_TRACING__ || __SENTRY_TRACING__) && r.push(function(e = {}) {
             let t = ((e = {}) => {
-                    let t, n, r, a = {
+                    let t, n, r;
+                    "enableElementTiming" in e && (0, v.consoleSandbox)(() => {
+                        console.warn("[Sentry] `enableElementTiming` is deprecated and no longer has any effect. Use the standalone `elementTimingIntegration` instead.")
+                    });
+                    let a = {
                             name: void 0,
                             source: void 0
                         },
-                        i = ej.document,
+                        i = eB.document,
                         {
                             enableInp: o,
-                            enableElementTiming: l,
-                            enableLongTask: s,
-                            enableLongAnimationFrame: p,
+                            enableLongTask: l,
+                            enableLongAnimationFrame: s,
                             _experiments: {
-                                enableInteractions: h,
-                                enableStandaloneClsSpans: m,
-                                enableStandaloneLcpSpans: b
+                                enableInteractions: c,
+                                enableStandaloneClsSpans: p,
+                                enableStandaloneLcpSpans: h
                             },
-                            beforeStartSpan: _,
-                            idleTimeout: S,
-                            finalTimeout: T,
-                            childSpanTimeout: P,
-                            markBackgroundSpan: x,
-                            traceFetch: k,
-                            traceXHR: R,
-                            trackFetchStreamPerformance: O,
-                            shouldCreateSpanForRequest: C,
-                            enableHTTPTimings: I,
-                            ignoreResourceSpans: A,
-                            ignorePerformanceApiSpans: L,
-                            instrumentPageLoad: M,
-                            instrumentNavigation: D,
-                            detectRedirects: j,
-                            linkPreviousTrace: U,
-                            consistentTraceSampling: z,
-                            enableReportPageLoaded: $,
-                            onRequestSpanStart: B,
-                            onRequestSpanEnd: F
+                            beforeStartSpan: m,
+                            idleTimeout: g,
+                            finalTimeout: b,
+                            childSpanTimeout: _,
+                            markBackgroundSpan: S,
+                            traceFetch: T,
+                            traceXHR: P,
+                            trackFetchStreamPerformance: x,
+                            shouldCreateSpanForRequest: k,
+                            enableHTTPTimings: R,
+                            ignoreResourceSpans: O,
+                            ignorePerformanceApiSpans: C,
+                            instrumentPageLoad: I,
+                            instrumentNavigation: A,
+                            detectRedirects: L,
+                            linkPreviousTrace: j,
+                            consistentTraceSampling: U,
+                            enableReportPageLoaded: z,
+                            onRequestSpanStart: $,
+                            onRequestSpanEnd: B
                         } = {
-                            ...n5,
+                            ...ru,
                             ...e
-                        };
+                        },
+                        F = rs();
 
-                    function W(e, n, o = !0) {
+                    function H(e, n, o = !0) {
                         let l = "pageload" === n.op,
                             s = n.name,
-                            u = _ ? _(n) : n,
+                            u = m ? m(n) : n,
                             c = u.attributes || {};
-                        if (s !== u.name && (c[es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE] = "custom", u.attributes = c), !o) {
-                            let e = (0, q.dateTimestampInSeconds)();
-                            (0, tF.startInactiveSpan)({
+                        if (s !== u.name && (c[M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE] = "custom", u.attributes = c), !o) {
+                            let e = (0, V.dateTimestampInSeconds)();
+                            (0, tQ.startInactiveSpan)({
                                 ...u,
                                 startTime: e
                             }).end(e);
                             return
                         }
-                        a.name = u.name, a.source = c[es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE];
-                        let p = tW(u, {
-                            idleTimeout: S,
-                            finalTimeout: T,
-                            childSpanTimeout: P,
+                        a.name = u.name, a.source = c[M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE];
+                        let y = tZ(u, {
+                            idleTimeout: g,
+                            finalTimeout: b,
+                            childSpanTimeout: _,
                             disableAutoFinish: l,
                             beforeSpanEnd: n => {
-                                t?.(),
-                                    function(e, t) {
-                                        var n, r;
-                                        let a = nC(),
-                                            i = (0, q.browserPerformanceTimeOrigin)();
-                                        if (!a?.getEntries || !i) return;
-                                        let o = nI(i),
-                                            l = a.getEntries(),
-                                            {
-                                                op: s,
-                                                start_timestamp: u
-                                            } = (0, G.spanToJSON)(e);
-                                        l.slice(nH).forEach(n => {
-                                                let r = nI(n.startTime),
-                                                    a = nI(Math.max(0, n.duration));
-                                                if ("navigation" !== s || !u || !(o + r < u)) switch (n.entryType) {
-                                                    case "navigation":
-                                                        var i, l, c, d, f, p;
-                                                        let h, m, g;
-                                                        i = e, l = n, c = o, ["unloadEvent", "redirect", "domContentLoadedEvent", "loadEvent", "connect"].forEach(e => {
-                                                            nq(i, l, e, c)
-                                                        }), nq(i, l, "secureConnection", c, "TLS/SSL"), nq(i, l, "fetch", c, "cache"), nq(i, l, "domainLookup", c, "DNS"), d = i, f = l, h = (p = c) + nI(f.requestStart), m = p + nI(f.responseEnd), g = p + nI(f.responseStart), f.responseEnd && (nN(d, h, m, {
-                                                            op: "browser.request",
-                                                            name: f.name,
-                                                            attributes: {
-                                                                [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics"
-                                                            }
-                                                        }), nN(d, g, m, {
-                                                            op: "browser.response",
-                                                            name: f.name,
-                                                            attributes: {
-                                                                [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics"
-                                                            }
-                                                        }));
-                                                        break;
-                                                    case "mark":
-                                                    case "paint":
-                                                    case "measure": {
-                                                        ! function(e, t, n, r, a, i) {
-                                                            if (function(e) {
-                                                                    if (e?.entryType === "measure") try {
-                                                                        return "Components ⚛" === e.detail.devtools.track
-                                                                    } catch {
+                                t?.();
+                                let a = (0, er.hasSpanStreamingEnabled)(e);
+                                ! function(e, t) {
+                                    let n = nB(),
+                                        r = (0, V.browserPerformanceTimeOrigin)();
+                                    if (!n?.getEntries || !r) return;
+                                    let {
+                                        spanStreamingEnabled: a,
+                                        ignorePerformanceApiSpans: i,
+                                        ignoreResourceSpans: o,
+                                        recordClsOnPageloadSpan: l,
+                                        recordLcpOnPageloadSpan: s
+                                    } = t, u = nF(r), c = n.getEntries(), {
+                                        op: p,
+                                        start_timestamp: h
+                                    } = (0, D.spanToJSON)(e);
+                                    if (c.slice(n0).forEach(t => {
+                                            let n = nF(t.startTime),
+                                                r = nF(Math.max(0, t.duration));
+                                            if ("navigation" !== p || !h || !(u + n < h)) switch (t.entryType) {
+                                                case "navigation":
+                                                    var a, l, s, c, d, f;
+                                                    let m, g, v;
+                                                    a = e, l = t, s = u, ["unloadEvent", "redirect", "domContentLoadedEvent", "loadEvent", "connect"].forEach(e => {
+                                                        n2(a, l, e, s)
+                                                    }), n2(a, l, "secureConnection", s, "TLS/SSL"), n2(a, l, "fetch", s, "cache"), n2(a, l, "domainLookup", s, "DNS"), c = a, d = l, m = (f = s) + nF(d.requestStart), g = f + nF(d.responseEnd), v = f + nF(d.responseStart), d.responseEnd && (nz(c, m, g, {
+                                                        op: "browser.request",
+                                                        name: d.name,
+                                                        attributes: {
+                                                            [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics"
+                                                        }
+                                                    }), nz(c, v, g, {
+                                                        op: "browser.response",
+                                                        name: d.name,
+                                                        attributes: {
+                                                            [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics"
+                                                        }
+                                                    }));
+                                                    break;
+                                                case "mark":
+                                                case "paint":
+                                                case "measure": {
+                                                    ! function(e, t, n, r, a, i) {
+                                                        if (function(e) {
+                                                                if (e?.entryType === "measure") try {
+                                                                    return "Components ⚛" === e.detail.devtools.track
+                                                                } catch {
+                                                                    return
+                                                                }
+                                                            }(t) || ["mark", "measure"].includes(t.entryType) && (0, N.stringMatchesSomePattern)(t.name, i)) return;
+                                                        let o = t4(!1),
+                                                            l = a + Math.max(n, nF(o ? o.requestStart : 0)),
+                                                            s = a + n,
+                                                            u = s + r,
+                                                            c = {
+                                                                [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.resource.browser.metrics"
+                                                            };
+                                                        l !== s && (c["sentry.browser.measure_happened_before_request"] = !0, c["sentry.browser.measure_start_time"] = l),
+                                                            function(e, t) {
+                                                                try {
+                                                                    let n = t.detail;
+                                                                    if (!n) return;
+                                                                    if ("object" == typeof n) {
+                                                                        for (let [t, r] of Object.entries(n))
+                                                                            if (r && (0, G.isPrimitive)(r)) e[`sentry.browser.measure.detail.${t}`] = r;
+                                                                            else if (void 0 !== r) try {
+                                                                            e[`sentry.browser.measure.detail.${t}`] = JSON.stringify(r)
+                                                                        } catch {}
                                                                         return
                                                                     }
-                                                                }(t) || ["mark", "measure"].includes(t.entryType) && (0, N.stringMatchesSomePattern)(t.name, i)) return;
-                                                            let o = tX(!1),
-                                                                l = a + Math.max(n, nI(o ? o.requestStart : 0)),
-                                                                s = a + n,
-                                                                u = s + r,
-                                                                c = {
-                                                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.resource.browser.metrics"
-                                                                };
-                                                            l !== s && (c["sentry.browser.measure_happened_before_request"] = !0, c["sentry.browser.measure_start_time"] = l),
-                                                                function(e, t) {
+                                                                    if ((0, G.isPrimitive)(n)) {
+                                                                        e["sentry.browser.measure.detail"] = n;
+                                                                        return
+                                                                    }
                                                                     try {
-                                                                        let n = t.detail;
-                                                                        if (!n) return;
-                                                                        if ("object" == typeof n) {
-                                                                            for (let [t, r] of Object.entries(n))
-                                                                                if (r && (0, H.isPrimitive)(r)) e[`sentry.browser.measure.detail.${t}`] = r;
-                                                                                else if (void 0 !== r) try {
-                                                                                e[`sentry.browser.measure.detail.${t}`] = JSON.stringify(r)
-                                                                            } catch {}
-                                                                            return
-                                                                        }
-                                                                        if ((0, H.isPrimitive)(n)) {
-                                                                            e["sentry.browser.measure.detail"] = n;
-                                                                            return
-                                                                        }
-                                                                        try {
-                                                                            e["sentry.browser.measure.detail"] = JSON.stringify(n)
-                                                                        } catch {}
+                                                                        e["sentry.browser.measure.detail"] = JSON.stringify(n)
                                                                     } catch {}
-                                                                }(c, t), l <= u && nN(e, l, u, {
-                                                                    name: t.name,
-                                                                    op: t.entryType,
-                                                                    attributes: c
-                                                                })
-                                                        }(e, n, r, a, o, t.ignorePerformanceApiSpans);
-                                                        let i = t2(),
-                                                            l = n.startTime < i.firstHiddenTime;
-                                                        "first-paint" === n.name && l && (nW.fp = {
-                                                            value: n.startTime,
-                                                            unit: "millisecond"
-                                                        }), "first-contentful-paint" === n.name && l && (nW.fcp = {
-                                                            value: n.startTime,
-                                                            unit: "millisecond"
-                                                        });
-                                                        break
-                                                    }
-                                                    case "resource":
-                                                        ! function(e, t, n, r, a, i, o) {
-                                                            var l, s;
-                                                            if ("xmlhttprequest" === t.initiatorType || "fetch" === t.initiatorType) return;
-                                                            let u = t.initiatorType ? `resource.${t.initiatorType}` : "resource.other";
-                                                            if (o?.includes(u)) return;
-                                                            let c = {
-                                                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.resource.browser.metrics"
-                                                                },
-                                                                d = e8(n);
-                                                            d.protocol && (c["url.scheme"] = d.protocol.split(":").pop()), d.host && (c["server.address"] = d.host), c["url.same_origin"] = n.includes(e9.location.origin), l = t, s = c, [
-                                                                ["responseStatus", "http.response.status_code"],
-                                                                ["transferSize", "http.response_transfer_size"],
-                                                                ["encodedBodySize", "http.response_content_length"],
-                                                                ["decodedBodySize", "http.decoded_response_content_length"],
-                                                                ["renderBlockingStatus", "resource.render_blocking_status"],
-                                                                ["deliveryType", "http.response_delivery_type"]
-                                                            ].forEach(([e, t]) => {
-                                                                let n = l[e];
-                                                                null != n && ("number" == typeof n && n < 0x7fffffff || "string" == typeof n) && (s[t] = n)
-                                                            });
-                                                            let f = {
-                                                                    ...c,
-                                                                    ...nF(t)
-                                                                },
-                                                                p = i + r;
-                                                            nN(e, p, p + a, {
-                                                                name: n.replace(e9.location.origin, ""),
-                                                                op: u,
-                                                                attributes: f
+                                                                } catch {}
+                                                            }(c, t), l <= u && nz(e, l, u, {
+                                                                name: t.name,
+                                                                op: t.entryType,
+                                                                attributes: c
                                                             })
-                                                        }(e, n, n.name, r, a, o, t.ignoreResourceSpans)
+                                                    }(e, t, n, r, u, i);
+                                                    let a = nt(),
+                                                        o = t.startTime < a.firstHiddenTime;
+                                                    "first-paint" === t.name && o && (n1.fp = {
+                                                        value: t.startTime,
+                                                        unit: "millisecond"
+                                                    }), "first-contentful-paint" === t.name && o && (n1.fcp = {
+                                                        value: t.startTime,
+                                                        unit: "millisecond"
+                                                    });
+                                                    break
                                                 }
-                                            }), nH = Math.max(l.length - 1, 0),
-                                            function(e) {
-                                                let t = e9.navigator;
-                                                if (!t) return;
-                                                let n = t.connection;
-                                                n && (n.effectiveType && e.setAttribute("effectiveConnectionType", n.effectiveType), n.type && e.setAttribute("connectionType", n.type), nR(n.rtt) && (nW["connection.rtt"] = {
-                                                    value: n.rtt,
-                                                    unit: "millisecond"
-                                                })), nR(t.deviceMemory) && e.setAttribute("deviceMemory", `${t.deviceMemory} GB`), nR(t.hardwareConcurrency) && e.setAttribute("hardwareConcurrency", String(t.hardwareConcurrency))
-                                            }(e), "pageload" === s && (function(e) {
-                                                let t = tX(!1);
+                                                case "resource":
+                                                    ! function(e, t, n, r, a, i, o) {
+                                                        var l, s;
+                                                        if ("xmlhttprequest" === t.initiatorType || "fetch" === t.initiatorType) return;
+                                                        let u = t.initiatorType ? `resource.${t.initiatorType}` : "resource.other";
+                                                        if (o?.includes(u)) return;
+                                                        let c = {
+                                                                [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.resource.browser.metrics"
+                                                            },
+                                                            d = tt(n);
+                                                        d.protocol && (c["url.scheme"] = d.protocol.split(":").pop()), d.host && (c["server.address"] = d.host), c["url.same_origin"] = n.includes(ta.location.origin), l = t, s = c, [
+                                                            ["responseStatus", "http.response.status_code"],
+                                                            ["transferSize", "http.response_transfer_size"],
+                                                            ["encodedBodySize", "http.response_content_length"],
+                                                            ["decodedBodySize", "http.decoded_response_content_length"],
+                                                            ["renderBlockingStatus", "resource.render_blocking_status"],
+                                                            ["deliveryType", "http.response_delivery_type"]
+                                                        ].forEach(([e, t]) => {
+                                                            let n = l[e];
+                                                            null != n && ("number" == typeof n && n < 0x7fffffff || "string" == typeof n) && (s[t] = n)
+                                                        });
+                                                        let f = {
+                                                                ...c,
+                                                                ...nZ(t)
+                                                            },
+                                                            p = i + r;
+                                                        nz(e, p, p + a, {
+                                                            name: n.replace(ta.location.origin, ""),
+                                                            op: u,
+                                                            attributes: f
+                                                        })
+                                                    }(e, t, t.name, n, r, u, o)
+                                            }
+                                        }), n0 = Math.max(c.length - 1, 0), function(e, t) {
+                                            let n = ta.navigator;
+                                            if (!n) return;
+                                            let r = n.connection;
+                                            r && (r.effectiveType && e.setAttribute(t ? "network.connection.effective_type" : "effectiveConnectionType", r.effectiveType), r.type && e.setAttribute(t ? "network.connection.type" : "connectionType", r.type), nU(r.rtt) && (n1["connection.rtt"] = {
+                                                value: r.rtt,
+                                                unit: "millisecond"
+                                            }, t && e.setAttribute("network.connection.rtt", r.rtt))), nU(n.deviceMemory) && (t ? e.setAttribute("device.memory.estimated_capacity", n.deviceMemory) : e.setAttribute("deviceMemory", `${n.deviceMemory} GB`)), nU(n.hardwareConcurrency) && (t ? e.setAttribute("device.processor_count", n.hardwareConcurrency) : e.setAttribute("hardwareConcurrency", String(n.hardwareConcurrency)))
+                                        }(e, a), "pageload" === p) {
+                                        if (function(e) {
+                                                let t = t4(!1);
                                                 if (!t) return;
                                                 let {
                                                     responseStart: n,
@@ -6518,170 +6696,281 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                                     value: n - r,
                                                     unit: "millisecond"
                                                 })
-                                            }(nW), t.recordClsOnPageloadSpan || delete nW.cls, t.recordLcpOnPageloadSpan || delete nW.lcp, Object.entries(nW).forEach(([e, t]) => {
-                                                (0, n$.setMeasurement)(e, t.value, t.unit)
-                                            }), e.setAttribute("performance.timeOrigin", o), e.setAttribute("performance.activationStart", tJ()), n = e, r = t, d && r.recordLcpOnPageloadSpan && (d.element && n.setAttribute("lcp.element", (0, eD.htmlTreeAsString)(d.element)), d.id && n.setAttribute("lcp.id", d.id), d.url && n.setAttribute("lcp.url", d.url.trim().slice(0, 200)), null != d.loadTime && n.setAttribute("lcp.loadTime", d.loadTime), null != d.renderTime && n.setAttribute("lcp.renderTime", d.renderTime), n.setAttribute("lcp.size", d.size)), f?.sources && r.recordClsOnPageloadSpan && f.sources.forEach((e, t) => n.setAttribute(`cls.source.${t+1}`, (0, eD.htmlTreeAsString)(e.node)))), d = void 0, f = void 0, nW = {}
-                                    }(n, {
-                                        recordClsOnPageloadSpan: !m,
-                                        recordLcpOnPageloadSpan: !b,
-                                        ignoreResourceSpans: A,
-                                        ignorePerformanceApiSpans: L
-                                    }), re(e, void 0);
-                                let a = (0, E.getCurrentScope)(),
-                                    i = a.getPropagationContext();
-                                a.setPropagationContext({
-                                    ...i,
-                                    traceId: p.spanContext().traceId,
-                                    sampled: (0, G.spanIsSampled)(p),
-                                    dsc: (0, V.getDynamicSamplingContextFromSpan)(n)
+                                            }(n1), a) {
+                                            let t = (t, n, r) => {
+                                                let a = r ?? `browser.web_vital.${t}.value`;
+                                                e.setAttribute(a, n), tB && v.debug.log("Setting web vital attribute", {
+                                                    [a]: n
+                                                }, "on pageload span")
+                                            };
+                                            ["ttfb", "fp", "fcp"].forEach(e => {
+                                                n1[e] && t(e, n1[e].value)
+                                            }), n1["ttfb.requestTime"] && t("ttfb.requestTime", n1["ttfb.requestTime"].value, "browser.web_vital.ttfb.request_time")
+                                        } else {
+                                            var m, g;
+                                            l || delete n1.cls, s || delete n1.lcp, Object.entries(n1).forEach(([e, t]) => {
+                                                (0, nJ.setMeasurement)(e, t.value, t.unit)
+                                            }), m = e, g = t, d && g.recordLcpOnPageloadSpan && (d.element && m.setAttribute("lcp.element", (0, e$.htmlTreeAsString)(d.element)), d.id && m.setAttribute("lcp.id", d.id), d.url && m.setAttribute("lcp.url", d.url.trim().slice(0, 200)), null != d.loadTime && m.setAttribute("lcp.loadTime", d.loadTime), null != d.renderTime && m.setAttribute("lcp.renderTime", d.renderTime), m.setAttribute("lcp.size", d.size)), f?.sources && g.recordClsOnPageloadSpan && f.sources.forEach((e, t) => m.setAttribute(`cls.source.${t+1}`, (0, e$.htmlTreeAsString)(e.node)))
+                                        }
+                                        e.setAttribute(a ? "browser.performance.time_origin" : "performance.timeOrigin", u), e.setAttribute(a ? "browser.performance.navigation.activation_start" : "performance.activationStart", t5())
+                                    }
+                                    d = void 0, f = void 0, n1 = {}
+                                }(n, {
+                                    recordClsOnPageloadSpan: !a && !p,
+                                    recordLcpOnPageloadSpan: !a && !h,
+                                    ignoreResourceSpans: O,
+                                    ignorePerformanceApiSpans: C,
+                                    spanStreamingEnabled: a
+                                }), rm(e, void 0);
+                                let i = (0, E.getCurrentScope)(),
+                                    o = i.getPropagationContext();
+                                i.setPropagationContext({
+                                    ...o,
+                                    traceId: y.spanContext().traceId,
+                                    sampled: (0, D.spanIsSampled)(y),
+                                    dsc: (0, Y.getDynamicSamplingContextFromSpan)(n)
                                 }), l && (r = void 0)
                             },
-                            trimIdleSpanEndTimestamp: !$
+                            trimIdleSpanEndTimestamp: !z
                         });
 
-                        function h() {
-                            i && ["interactive", "complete"].includes(i.readyState) && e.emit("idleSpanEnableAutoFinish", p)
+                        function S() {
+                            i && ["interactive", "complete"].includes(i.readyState) && e.emit("idleSpanEnableAutoFinish", y)
                         }
-                        l && $ && (r = p), re(e, p), l && !$ && i && (i.addEventListener("readystatechange", () => {
-                            h()
-                        }), h())
+                        l && z && (r = y), rm(e, y), l && !z && i && (i.addEventListener("readystatechange", () => {
+                            S()
+                        }), S())
                     }
                     return {
                         name: "BrowserTracing",
                         setup(e) {
+                            if (F) {
+                                tf && v.debug.log("[Tracing] Skipping browserTracingIntegration setup for bot user agent.");
+                                return
+                            }
+
                             function a() {
-                                let e = (0, G.getActiveSpan)(),
-                                    t = e && (0, G.getRootSpan)(e);
+                                let e = (0, D.getActiveSpan)(),
+                                    t = e && (0, D.getRootSpan)(e);
                                 if (t) {
                                     let e = "internal_error";
                                     w.DEBUG_BUILD && v.debug.log(`[Tracing] Root span: ${e} -> Global error occurred`), t.setStatus({
-                                        code: tB.SPAN_STATUS_ERROR,
+                                        code: tJ.SPAN_STATUS_ERROR,
                                         message: e
                                     })
                                 }
                             }
-                            if (tq || (a.tag = "sentry_tracingErrorCallback", tq = !0, tf(a), tm(a)), t = function({
+                            t0 || (a.tag = "sentry_tracingErrorCallback", t0 = !0, t_(a), tw(a));
+                            let m = (0, er.hasSpanStreamingEnabled)(e);
+                            if (t = function({
                                     recordClsStandaloneSpans: e,
                                     recordLcpStandaloneSpans: t,
                                     client: n
                                 }) {
-                                    let r = nC();
-                                    if (r && (0, q.browserPerformanceTimeOrigin)()) {
-                                        r.mark && e9.performance.mark("sentry-tracing-init");
+                                    let r = nB();
+                                    if (r && (0, V.browserPerformanceTimeOrigin)()) {
+                                        r.mark && ta.performance.mark("sentry-tracing-init");
                                         let a = t ? function(e) {
                                                 let t, n = 0;
-                                                if (!nA("largest-contentful-paint")) return;
-                                                let r = ny(({
+                                                if (!nH("largest-contentful-paint")) return;
+                                                let r = nk(({
                                                     metric: e
                                                 }) => {
                                                     let r = e.entries[e.entries.length - 1];
-                                                    r && (n = e.value, t = r)
+                                                    r && nQ(e.value) && (n = e.value, t = r)
                                                 }, !0);
-                                                nL(e, (e, a) => {
-                                                    var i, o, l, s;
-                                                    let u, c, d, f, p;
-                                                    i = n, o = t, l = a, s = e, tI && v.debug.log(`Sending LCP span (${i})`), u = nI(((0, q.browserPerformanceTimeOrigin)() || 0) + (o?.startTime || 0)), c = (0, E.getCurrentScope)().getScopeData().transactionName, d = o ? (0, eD.htmlTreeAsString)(o.element) : "Largest contentful paint", f = {
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.http.browser.lcp",
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "ui.webvital.lcp",
-                                                        [es.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME]: 0,
-                                                        "sentry.pageload.span_id": l,
-                                                        "sentry.report_event": s
-                                                    }, o && (o.element && (f["lcp.element"] = (0, eD.htmlTreeAsString)(o.element)), o.id && (f["lcp.id"] = o.id), o.url && (f["lcp.url"] = o.url), null != o.loadTime && (f["lcp.loadTime"] = o.loadTime), null != o.renderTime && (f["lcp.renderTime"] = o.renderTime), null != o.size && (f["lcp.size"] = o.size)), (p = nO({
-                                                        name: d,
-                                                        transaction: c,
-                                                        attributes: f,
-                                                        startTime: u
-                                                    })) && (p.addEvent("lcp", {
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_UNIT]: "millisecond",
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_VALUE]: i
-                                                    }), p.end(u)), r()
+                                                nW(e, (e, a) => {
+                                                    (function(e, t, n, r) {
+                                                        if (!nQ(e)) return;
+                                                        tB && v.debug.log(`Sending LCP span (${e})`);
+                                                        let a = nF(((0, V.browserPerformanceTimeOrigin)() || 0) + (t?.startTime || 0)),
+                                                            i = (0, E.getCurrentScope)().getScopeData().transactionName,
+                                                            o = t ? (0, e$.htmlTreeAsString)(t.element) : "Largest contentful paint",
+                                                            l = {
+                                                                [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.http.browser.lcp",
+                                                                [M.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "ui.webvital.lcp",
+                                                                [M.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME]: 0,
+                                                                "sentry.pageload.span_id": n,
+                                                                "sentry.report_event": r
+                                                            };
+                                                        t && (t.element && (l["lcp.element"] = (0, e$.htmlTreeAsString)(t.element)), t.id && (l["lcp.id"] = t.id), t.url && (l["lcp.url"] = t.url), null != t.loadTime && (l["lcp.loadTime"] = t.loadTime), null != t.renderTime && (l["lcp.renderTime"] = t.renderTime), null != t.size && (l["lcp.size"] = t.size));
+                                                        let s = n$({
+                                                            name: o,
+                                                            transaction: i,
+                                                            attributes: l,
+                                                            startTime: a
+                                                        });
+                                                        s && (s.addEvent("lcp", {
+                                                            [M.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_UNIT]: "millisecond",
+                                                            [M.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_VALUE]: e
+                                                        }), s.end(a))
+                                                    })(n, t, a, e), r()
                                                 })
-                                            }(n) : ny(({
+                                            }(n) : !1 === t ? nk(({
                                                 metric: e
                                             }) => {
                                                 let t = e.entries[e.entries.length - 1];
-                                                t && (nW.lcp = {
+                                                t && nQ(e.value) && (n1.lcp = {
                                                     value: e.value,
                                                     unit: "millisecond"
                                                 }, d = t)
-                                            }, !0),
-                                            i = nP("ttfb", ({
-                                                metric: e
-                                            }) => {
-                                                e.entries[e.entries.length - 1] && (nW.ttfb = {
-                                                    value: e.value,
-                                                    unit: "millisecond"
-                                                })
-                                            }, nw, u),
-                                            o = e ? function(e) {
+                                            }, !0) : void 0,
+                                            i = e ? function(e) {
                                                 let t, n = 0;
-                                                if (!nA("layout-shift")) return;
-                                                let r = nv(({
+                                                if (!nH("layout-shift")) return;
+                                                let r = nx(({
                                                     metric: e
                                                 }) => {
                                                     let r = e.entries[e.entries.length - 1];
                                                     r && (n = e.value, t = r)
                                                 }, !0);
-                                                nL(e, (e, a) => {
+                                                nW(e, (e, a) => {
                                                     var i, o, l, s;
                                                     let u, c, d, f, p;
-                                                    i = n, o = t, l = a, s = e, tI && v.debug.log(`Sending CLS span (${i})`), u = o ? nI(((0, q.browserPerformanceTimeOrigin)() || 0) + o.startTime) : (0, q.timestampInSeconds)(), c = (0, E.getCurrentScope)().getScopeData().transactionName, d = o ? (0, eD.htmlTreeAsString)(o.sources[0]?.node) : "Layout shift", f = {
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.http.browser.cls",
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "ui.webvital.cls",
-                                                        [es.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME]: 0,
+                                                    i = n, o = t, l = a, s = e, tB && v.debug.log(`Sending CLS span (${i})`), u = o ? nF(((0, V.browserPerformanceTimeOrigin)() || 0) + o.startTime) : (0, V.timestampInSeconds)(), c = (0, E.getCurrentScope)().getScopeData().transactionName, d = o ? (0, e$.htmlTreeAsString)(o.sources[0]?.node) : "Layout shift", f = {
+                                                        [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.http.browser.cls",
+                                                        [M.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "ui.webvital.cls",
+                                                        [M.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME]: 0,
                                                         "sentry.pageload.span_id": l,
                                                         "sentry.report_event": s
                                                     }, o?.sources && o.sources.forEach((e, t) => {
-                                                        f[`cls.source.${t+1}`] = (0, eD.htmlTreeAsString)(e.node)
-                                                    }), (p = nO({
+                                                        f[`cls.source.${t+1}`] = (0, e$.htmlTreeAsString)(e.node)
+                                                    }), (p = n$({
                                                         name: d,
                                                         transaction: c,
                                                         attributes: f,
                                                         startTime: u
                                                     })) && (p.addEvent("cls", {
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_UNIT]: "",
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_VALUE]: i
+                                                        [M.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_UNIT]: "",
+                                                        [M.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_VALUE]: i
                                                     }), p.end(u)), r()
                                                 })
-                                            }(n) : nv(({
+                                            }(n) : !1 === e ? nx(({
                                                 metric: e
                                             }) => {
                                                 let t = e.entries[e.entries.length - 1];
-                                                t && (nW.cls = {
+                                                t && (n1.cls = {
                                                     value: e.value,
                                                     unit: ""
                                                 }, f = t)
-                                            }, !0);
+                                            }, !0) : void 0,
+                                            o = nM("ttfb", ({
+                                                metric: e
+                                            }) => {
+                                                e.entries[e.entries.length - 1] && (n1.ttfb = {
+                                                    value: e.value,
+                                                    unit: "millisecond"
+                                                })
+                                            }, nA, u);
                                         return () => {
-                                            a?.(), i(), o?.()
+                                            o(), a?.(), i?.()
                                         }
                                     }
                                     return () => void 0
                                 }({
-                                    recordClsStandaloneSpans: m || !1,
-                                    recordLcpStandaloneSpans: b || !1,
+                                    recordClsStandaloneSpans: m ? void 0 : p || !1,
+                                    recordLcpStandaloneSpans: m ? void 0 : h || !1,
                                     client: e
-                                }), o && function() {
-                                    if (nC() && (0, q.browserPerformanceTimeOrigin)()) {
-                                        let e = nP("inp", nz, nT, c);
+                                }), m ? (! function(e) {
+                                    let t, n = 0;
+                                    if (!nH("largest-contentful-paint")) return;
+                                    let r = nk(({
+                                        metric: e
+                                    }) => {
+                                        let r = e.entries[e.entries.length - 1];
+                                        r && nQ(e.value) && (n = e.value, t = r)
+                                    }, !0);
+                                    nW(e, (e, a, i) => {
+                                        (function(e, t, n, r) {
+                                            if (!nQ(e)) return;
+                                            tB && v.debug.log(`Sending LCP span (${e})`);
+                                            let a = (0, V.browserPerformanceTimeOrigin)() || 0,
+                                                i = nF(a),
+                                                o = nF(a + (t?.startTime || 0)),
+                                                l = t ? (0, e$.htmlTreeAsString)(t.element) : "Largest contentful paint",
+                                                s = {};
+                                            t?.element && (s["browser.web_vital.lcp.element"] = (0, e$.htmlTreeAsString)(t.element)), t?.id && (s["browser.web_vital.lcp.id"] = t.id), t?.url && (s["browser.web_vital.lcp.url"] = t.url), t?.loadTime != null && (s["browser.web_vital.lcp.load_time"] = t.loadTime), t?.renderTime != null && (s["browser.web_vital.lcp.render_time"] = t.renderTime), t?.size != null && (s["browser.web_vital.lcp.size"] = t.size), n3({
+                                                name: l,
+                                                op: "ui.webvital.lcp",
+                                                origin: "auto.http.browser.lcp",
+                                                metricName: "lcp",
+                                                value: e,
+                                                attributes: s,
+                                                parentSpan: n,
+                                                reportEvent: r,
+                                                startTime: i,
+                                                endTime: o
+                                            })
+                                        })(n, t, i, e), r()
+                                    })
+                                }(e), ! function(e) {
+                                    let t, n = 0;
+                                    if (!nH("layout-shift")) return;
+                                    let r = nx(({
+                                        metric: e
+                                    }) => {
+                                        let r = e.entries[e.entries.length - 1];
+                                        r && (n = e.value, t = r)
+                                    }, !0);
+                                    nW(e, (e, a, i) => {
+                                        var o, l, s, u;
+                                        let c, d, f;
+                                        o = n, l = t, s = i, u = e, tB && v.debug.log(`Sending CLS span (${o})`), c = l ? nF(((0, V.browserPerformanceTimeOrigin)() || 0) + l.startTime) : (0, V.timestampInSeconds)(), d = l ? (0, e$.htmlTreeAsString)(l.sources[0]?.node) : "Layout shift", f = {}, l?.sources && l.sources.forEach((e, t) => {
+                                            f[`browser.web_vital.cls.source.${t+1}`] = (0, e$.htmlTreeAsString)(e.node)
+                                        }), n3({
+                                            name: d,
+                                            op: "ui.webvital.cls",
+                                            origin: "auto.http.browser.cls",
+                                            metricName: "cls",
+                                            value: o,
+                                            attributes: f,
+                                            parentSpan: s,
+                                            reportEvent: u,
+                                            startTime: c
+                                        }), r()
+                                    })
+                                }(e), o && nB() && (0, V.browserPerformanceTimeOrigin)() && nR(({
+                                    metric: e
+                                }) => {
+                                    var t, n, r;
+                                    let a, i, o, l, s, u, c, d;
+                                    if (null == e.value || nF(e.value) > 60) return;
+                                    let f = e.entries.find(t => t.duration === e.value && nY[t.name]);
+                                    f && (t = e.value, n = f, tB && v.debug.log(`Sending INP span (${t})`), a = nF((0, V.browserPerformanceTimeOrigin)() + n.startTime), i = nF(t), o = nY[n.name], l = null != (r = n.interactionId) ? nq.get(r) : void 0, u = (s = (0, D.getActiveSpan)()) ? (0, D.getRootSpan)(s) : void 0, d = (c = l?.span || u) ? (0, D.spanToStreamedSpanJSON)(c).name : (0, E.getCurrentScope)().getScopeData().transactionName, n3({
+                                        name: l?.elementName || (0, e$.htmlTreeAsString)(n.target),
+                                        op: `ui.interaction.${o}`,
+                                        origin: "auto.http.browser.inp",
+                                        metricName: "inp",
+                                        value: t,
+                                        attributes: {
+                                            [M.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME]: n.duration,
+                                            "sentry.transaction": d
+                                        },
+                                        startTime: a,
+                                        endTime: a + i,
+                                        parentSpan: c
+                                    }))
+                                })) : o && function() {
+                                    if (nB() && (0, V.browserPerformanceTimeOrigin)()) {
+                                        let e = nR(nX);
                                         () => {
                                             e()
                                         }
                                     }
-                                }(), l && nC() && (0, q.browserPerformanceTimeOrigin)() && nb("element", nV), p && y.GLOBAL_OBJ.PerformanceObserver && PerformanceObserver.supportedEntryTypes && PerformanceObserver.supportedEntryTypes.includes("long-animation-frame") ? new PerformanceObserver(e => {
-                                    let t = (0, G.getActiveSpan)();
+                                }(), s && y.GLOBAL_OBJ.PerformanceObserver && PerformanceObserver.supportedEntryTypes?.includes("long-animation-frame") ? new PerformanceObserver(e => {
+                                    let t = (0, D.getActiveSpan)();
                                     if (t)
                                         for (let n of e.getEntries()) {
                                             if (!n.scripts[0]) continue;
-                                            let e = nI((0, q.browserPerformanceTimeOrigin)() + n.startTime),
+                                            let e = nF((0, V.browserPerformanceTimeOrigin)() + n.startTime),
                                                 {
                                                     start_timestamp: r,
                                                     op: a
-                                                } = (0, G.spanToJSON)(t);
+                                                } = (0, D.spanToJSON)(t);
                                             if ("navigation" === a && r && e < r) continue;
-                                            let i = nI(n.duration),
+                                            let i = nF(n.duration),
                                                 o = {
-                                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics"
+                                                    [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics"
                                                 },
                                                 {
                                                     invoker: l,
@@ -6690,7 +6979,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                                     sourceFunctionName: c,
                                                     sourceCharPosition: d
                                                 } = n.scripts[0];
-                                            o["browser.script.invoker"] = l, o["browser.script.invoker_type"] = s, u && (o["code.filepath"] = u), c && (o["code.function"] = c), -1 !== d && (o["browser.script.source_char_position"] = d), nN(t, e, e + i, {
+                                            o["browser.script.invoker"] = l, o["browser.script.invoker_type"] = s, u && (o["code.filepath"] = u), c && (o["code.function"] = c), -1 !== d && (o["browser.script.source_char_position"] = d), nz(t, e, e + i, {
                                                 name: "Main UI thread blocked",
                                                 op: "ui.long-animation-frame",
                                                 attributes: o
@@ -6699,50 +6988,50 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                 }).observe({
                                     type: "long-animation-frame",
                                     buffered: !0
-                                }) : s && nb("longtask", ({
+                                }) : l && nN("longtask", ({
                                     entries: e
                                 }) => {
-                                    let t = (0, G.getActiveSpan)();
+                                    let t = (0, D.getActiveSpan)();
                                     if (!t) return;
                                     let {
                                         op: n,
                                         start_timestamp: r
-                                    } = (0, G.spanToJSON)(t);
+                                    } = (0, D.spanToJSON)(t);
                                     for (let a of e) {
-                                        let e = nI((0, q.browserPerformanceTimeOrigin)() + a.startTime),
-                                            i = nI(a.duration);
-                                        "navigation" === n && r && e < r || nN(t, e, e + i, {
+                                        let e = nF((0, V.browserPerformanceTimeOrigin)() + a.startTime),
+                                            i = nF(a.duration);
+                                        "navigation" === n && r && e < r || nz(t, e, e + i, {
                                             name: "Main UI thread blocked",
                                             op: "ui.long-task",
                                             attributes: {
-                                                [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics"
+                                                [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics"
                                             }
                                         })
                                     }
-                                }), h && nb("event", ({
+                                }), c && nN("event", ({
                                     entries: e
                                 }) => {
-                                    let t = (0, G.getActiveSpan)();
+                                    let t = (0, D.getActiveSpan)();
                                     if (t) {
                                         for (let n of e)
                                             if ("click" === n.name) {
-                                                let e = nI((0, q.browserPerformanceTimeOrigin)() + n.startTime),
-                                                    r = nI(n.duration),
+                                                let e = nF((0, V.browserPerformanceTimeOrigin)() + n.startTime),
+                                                    r = nF(n.duration),
                                                     a = {
-                                                        name: (0, eD.htmlTreeAsString)(n.target),
+                                                        name: (0, e$.htmlTreeAsString)(n.target),
                                                         op: `ui.interaction.${n.name}`,
                                                         startTime: e,
                                                         attributes: {
-                                                            [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics"
+                                                            [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.ui.browser.metrics"
                                                         }
                                                     },
-                                                    i = (0, eD.getComponentName)(n.target);
-                                                i && (a.attributes["ui.component_name"] = i), nN(t, e, e + r, a)
+                                                    i = (0, e$.getComponentName)(n.target);
+                                                i && (a.attributes["ui.component_name"] = i), nz(t, e, e + r, a)
                                             }
                                     }
-                                }), j && i) {
+                                }), L && i) {
                                 let e = () => {
-                                    n = (0, q.timestampInSeconds)()
+                                    n = (0, V.timestampInSeconds)()
                                 };
                                 addEventListener("click", e, {
                                     capture: !0
@@ -6753,31 +7042,31 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                             }
 
                             function g() {
-                                let t = e[n7];
-                                t && !(0, G.spanToJSON)(t).timestamp && (to && v.debug.log(`[Tracing] Finishing current active span with op: ${(0,G.spanToJSON)(t).op}`), t.setAttribute(es.SEMANTIC_ATTRIBUTE_SENTRY_IDLE_SPAN_FINISH_REASON, "cancelled"), t.end())
+                                let t = e[rh];
+                                t && !(0, D.spanToJSON)(t).timestamp && (tf && v.debug.log(`[Tracing] Finishing current active span with op: ${(0,D.spanToJSON)(t).op}`), t.setAttribute(M.SEMANTIC_ATTRIBUTE_SENTRY_IDLE_SPAN_FINISH_REASON, "cancelled"), t.end())
                             }
                             e.on("startNavigationSpan", (t, r) => {
                                 if ((0, E.getClient)() !== e) return;
                                 if (r?.isRedirect) {
-                                    to && v.debug.warn("[Tracing] Detected redirect, navigation span will not be the root span, but a child span."), W(e, {
+                                    tf && v.debug.warn("[Tracing] Detected redirect, navigation span will not be the root span, but a child span."), H(e, {
                                         op: "navigation.redirect",
                                         ...t
                                     }, !1);
                                     return
                                 }
                                 n = void 0, g(), (0, E.getIsolationScope)().setPropagationContext({
-                                    traceId: (0, tV.generateTraceId)(),
+                                    traceId: (0, t1.generateTraceId)(),
                                     sampleRand: Math.random(),
-                                    propagationSpanId: (0, tU.hasSpansEnabled)() ? void 0 : (0, tV.generateSpanId)()
+                                    propagationSpanId: (0, tV.hasSpansEnabled)() ? void 0 : (0, t1.generateSpanId)()
                                 });
                                 let a = (0, E.getCurrentScope)();
                                 a.setPropagationContext({
-                                    traceId: (0, tV.generateTraceId)(),
+                                    traceId: (0, t1.generateTraceId)(),
                                     sampleRand: Math.random(),
-                                    propagationSpanId: (0, tU.hasSpansEnabled)() ? void 0 : (0, tV.generateSpanId)()
+                                    propagationSpanId: (0, tV.hasSpansEnabled)() ? void 0 : (0, t1.generateSpanId)()
                                 }), a.setSDKProcessingMetadata({
                                     normalizedRequest: void 0
-                                }), W(e, {
+                                }), H(e, {
                                     op: "navigation",
                                     ...t,
                                     parentSpan: null,
@@ -6786,47 +7075,49 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                             }), e.on("startPageLoadSpan", (t, n = {}) => {
                                 if ((0, E.getClient)() !== e) return;
                                 g();
-                                let r = n.sentryTrace || n9("sentry-trace"),
-                                    a = n.baggage || n9("baggage"),
-                                    i = (0, tG.propagationContextFromHeaders)(r, a),
+                                let r = n.sentryTrace || rf("sentry-trace") || rp("sentry-trace"),
+                                    a = n.baggage || rf("baggage") || rp("baggage"),
+                                    i = (0, t2.propagationContextFromHeaders)(r, a),
                                     o = (0, E.getCurrentScope)();
-                                o.setPropagationContext(i), (0, tU.hasSpansEnabled)() || (o.getPropagationContext().propagationSpanId = (0, tV.generateSpanId)()), o.setSDKProcessingMetadata({
-                                    normalizedRequest: e$()
-                                }), W(e, {
+                                o.setPropagationContext(i), (0, tV.hasSpansEnabled)() || (o.getPropagationContext().propagationSpanId = (0, t1.generateSpanId)()), o.setSDKProcessingMetadata({
+                                    normalizedRequest: eW()
+                                }), H(e, {
                                     op: "pageload",
                                     ...t
                                 })
                             }), e.on("endPageloadSpan", () => {
-                                $ && r && (r.setAttribute(es.SEMANTIC_ATTRIBUTE_SENTRY_IDLE_SPAN_FINISH_REASON, "reportPageLoaded"), r.end())
+                                z && r && (r.setAttribute(M.SEMANTIC_ATTRIBUTE_SENTRY_IDLE_SPAN_FINISH_REASON, "reportPageLoaded"), r.end())
                             })
                         },
                         afterAllSetup(e) {
                             var t, r, i, l, s;
-                            let u, c = (0, eD.getLocationHref)();
-                            if ("off" !== U && function(e, {
+                            let u;
+                            if (F) return;
+                            let d = (0, e$.getLocationHref)();
+                            if ("off" !== j && function(e, {
                                     linkPreviousTrace: t,
                                     consistentTraceSampling: n
                                 }) {
                                     let r = "session-storage" === t,
                                         a = r ? function() {
                                             try {
-                                                let e = ej.sessionStorage?.getItem(nG);
+                                                let e = eB.sessionStorage?.getItem(n4);
                                                 return JSON.parse(e)
                                             } catch {
                                                 return
                                             }
                                         }() : void 0;
                                     e.on("spanStart", e => {
-                                        if ((0, G.getRootSpan)(e) !== e) return;
+                                        if ((0, D.getRootSpan)(e) !== e) return;
                                         let t = (0, E.getCurrentScope)().getPropagationContext();
                                         a = function(e, t, n) {
-                                            let r = (0, G.spanToJSON)(t),
+                                            let r = (0, D.spanToJSON)(t),
                                                 a = {
                                                     spanContext: t.spanContext(),
                                                     startTimestamp: r.start_timestamp,
                                                     sampleRate: function() {
                                                         try {
-                                                            return Number(n.dsc?.sample_rate) ?? Number(r.data?.[es.SEMANTIC_ATTRIBUTE_SENTRY_SAMPLE_RATE])
+                                                            return Number(n.dsc?.sample_rate) ?? Number(r.data?.[M.SEMANTIC_ATTRIBUTE_SENTRY_SAMPLE_RATE])
                                                         } catch {
                                                             return 0
                                                         }
@@ -6835,17 +7126,17 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                                 };
                                             if (!e) return a;
                                             let i = e.spanContext;
-                                            return i.traceId === r.trace_id ? e : (Date.now() / 1e3 - e.startTimestamp <= 3600 && (to && v.debug.log(`Adding previous_trace \`${JSON.stringify(i)}\` link to span \`${JSON.stringify({op:r.op,...t.spanContext()})}\``), t.addLink({
+                                            return i.traceId === r.trace_id ? e : (Date.now() / 1e3 - e.startTimestamp <= 3600 && (tf && v.debug.log(`Adding previous_trace \`${JSON.stringify(i)}\` link to span \`${JSON.stringify({op:r.op,...t.spanContext()})}\``), t.addLink({
                                                 context: i,
                                                 attributes: {
-                                                    [es.SEMANTIC_LINK_ATTRIBUTE_LINK_TYPE]: "previous_trace"
+                                                    [M.SEMANTIC_LINK_ATTRIBUTE_LINK_TYPE]: "previous_trace"
                                                 }
-                                            }), t.setAttribute("sentry.previous_trace", `${i.traceId}-${i.spanId}-${+!!nY(i)}`)), a)
+                                            }), t.setAttribute("sentry.previous_trace", `${i.traceId}-${i.spanId}-${+!!n5(i)}`)), a)
                                         }(a, e, t), r && function(e) {
                                             try {
-                                                ej.sessionStorage.setItem(nG, JSON.stringify(e))
+                                                eB.sessionStorage.setItem(n4, JSON.stringify(e))
                                             } catch (e) {
-                                                to && v.debug.warn("Could not store previous trace in sessionStorage", e)
+                                                tf && v.debug.warn("Could not store previous trace in sessionStorage", e)
                                             }
                                         }(a)
                                     });
@@ -6863,86 +7154,86 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                             dsc: {
                                                 ...n.dsc,
                                                 sample_rate: String(a.sampleRate),
-                                                sampled: String(nY(a.spanContext))
+                                                sampled: String(n5(a.spanContext))
                                             },
                                             sampleRand: a.sampleRand
-                                        }), e.parentSampled = nY(a.spanContext), e.parentSampleRate = a.sampleRate, e.spanAttributes = {
+                                        }), e.parentSampled = n5(a.spanContext), e.parentSampleRate = a.sampleRate, e.spanAttributes = {
                                             ...e.spanAttributes,
-                                            [es.SEMANTIC_ATTRIBUTE_SENTRY_PREVIOUS_TRACE_SAMPLE_RATE]: a.sampleRate
+                                            [M.SEMANTIC_ATTRIBUTE_SENTRY_PREVIOUS_TRACE_SAMPLE_RATE]: a.sampleRate
                                         }
                                     })
                                 }(e, {
-                                    linkPreviousTrace: U,
-                                    consistentTraceSampling: z
-                                }), ej.location) {
-                                if (M) {
-                                    let t = (0, q.browserPerformanceTimeOrigin)();
-                                    n8(e, {
-                                        name: ej.location.pathname,
+                                    linkPreviousTrace: j,
+                                    consistentTraceSampling: U
+                                }), eB.location) {
+                                if (I) {
+                                    let t = (0, V.browserPerformanceTimeOrigin)();
+                                    rc(e, {
+                                        name: eB.location.pathname,
                                         startTime: t ? t / 1e3 : void 0,
                                         attributes: {
-                                            [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: "url",
-                                            [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.pageload.browser"
+                                            [M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: "url",
+                                            [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.pageload.browser"
                                         }
                                     })
                                 }
-                                D && ta(({
+                                A && tc(({
                                     to: t,
                                     from: r
                                 }) => {
                                     var a, i;
                                     let o, l;
-                                    if (void 0 === r && c?.indexOf(t) !== -1) {
-                                        c = void 0;
+                                    if (void 0 === r && d?.indexOf(t) !== -1) {
+                                        d = void 0;
                                         return
                                     }
-                                    c = void 0;
-                                    let s = e5(t),
-                                        u = e[n7],
-                                        d = u && j && (a = u, i = n, o = (0, G.spanToJSON)(a), !((l = (0, q.dateTimestampInSeconds)()) - o.start_timestamp > 1.5) && (!i || !(l - i <= 1.5)));
-                                    n6(e, {
-                                        name: s?.pathname || ej.location.pathname,
+                                    d = void 0;
+                                    let s = te(t),
+                                        u = e[rh],
+                                        c = u && L && (a = u, i = n, o = (0, D.spanToJSON)(a), !((l = (0, V.dateTimestampInSeconds)()) - o.start_timestamp > 1.5) && (!i || !(l - i <= 1.5)));
+                                    rd(e, {
+                                        name: s?.pathname || eB.location.pathname,
                                         attributes: {
-                                            [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: "url",
-                                            [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.navigation.browser"
+                                            [M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: "url",
+                                            [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.navigation.browser"
                                         }
                                     }, {
                                         url: t,
-                                        isRedirect: d
+                                        isRedirect: c
                                     })
                                 })
                             }
-                            x && (ej.document ? ej.document.addEventListener("visibilitychange", () => {
-                                    let e = (0, G.getActiveSpan)();
+                            S && (eB.document ? eB.document.addEventListener("visibilitychange", () => {
+                                    let e = (0, D.getActiveSpan)();
                                     if (!e) return;
-                                    let t = (0, G.getRootSpan)(e);
-                                    if (ej.document.hidden && t) {
+                                    let t = (0, D.getRootSpan)(e);
+                                    if (eB.document.hidden && t) {
                                         let e = "cancelled",
                                             {
                                                 op: n,
                                                 status: r
-                                            } = (0, G.spanToJSON)(t);
-                                        to && v.debug.log(`[Tracing] Transaction: ${e} -> since tab moved to the background, op: ${n}`), r || t.setStatus({
-                                            code: tB.SPAN_STATUS_ERROR,
+                                            } = (0, D.spanToJSON)(t);
+                                        tf && v.debug.log(`[Tracing] Transaction: ${e} -> since tab moved to the background, op: ${n}`), r || t.setStatus({
+                                            code: tJ.SPAN_STATUS_ERROR,
                                             message: e
                                         }), t.setAttribute("sentry.cancellation_reason", "document.hidden"), t.end()
                                     }
-                                }) : to && v.debug.warn("[Tracing] Could not set up background tab detection due to lack of global document")), h && (t = e, r = S, i = T, l = P, s = a, ej.document && addEventListener("click", () => {
+                                }) : tf && v.debug.warn("[Tracing] Could not set up background tab detection due to lack of global document")), c && (t = e, r = g, i = b, l = _, s = a, eB.document && addEventListener("click", () => {
                                     let e = "ui.action.click",
-                                        n = t[n7];
-                                    if (n && ["navigation", "pageload"].includes((0, G.spanToJSON)(n).op)) {
-                                        to && v.debug.warn(`[Tracing] Did not create ${e} span because a pageload or navigation span is in progress.`);
+                                        n = t[rh];
+                                    if (n && ["navigation", "pageload"].includes((0, D.spanToJSON)(n).op)) {
+                                        tf && v.debug.warn(`[Tracing] Did not create ${e} span because a pageload or navigation span is in progress.`);
                                         return
                                     }
-                                    if (u && (u.setAttribute(es.SEMANTIC_ATTRIBUTE_SENTRY_IDLE_SPAN_FINISH_REASON, "interactionInterrupted"), u.end(), u = void 0), !s.name) {
-                                        to && v.debug.warn(`[Tracing] Did not create ${e} transaction because _latestRouteName is missing.`);
+                                    if (u && (u.setAttribute(M.SEMANTIC_ATTRIBUTE_SENTRY_IDLE_SPAN_FINISH_REASON, "interactionInterrupted"), u.end(), u = void 0), !s.name) {
+                                        tf && v.debug.warn(`[Tracing] Did not create ${e} transaction because _latestRouteName is missing.`);
                                         return
                                     }
-                                    u = tW({
+                                    u = tZ({
                                         name: s.name,
                                         op: e,
                                         attributes: {
-                                            [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: s.source || "url"
+                                            [M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: s.source || "url"
                                         }
                                     }, {
                                         idleTimeout: r,
@@ -6952,39 +7243,39 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                 }, {
                                     capture: !0
                                 })), o && function() {
-                                    let e, t = Object.keys(nU);
+                                    let e = Object.keys(nY);
 
-                                    function n(e) {
+                                    function t(e) {
                                         let t = e.target;
                                         if (!t) return;
-                                        let n = (0, eD.htmlTreeAsString)(t),
+                                        let n = (0, e$.htmlTreeAsString)(t),
                                             r = Math.round(e.timeStamp);
-                                        if (nj.set(r, n), nj.size > 50) {
-                                            let e = nj.keys().next().value;
-                                            void 0 !== e && nj.delete(e)
+                                        if (nV.set(r, n), nV.size > 50) {
+                                            let e = nV.keys().next().value;
+                                            void 0 !== e && nV.delete(e)
                                         }
                                     }
-                                    "u" > typeof window && (!(!("u" > typeof __SENTRY_BROWSER_BUNDLE__ && __SENTRY_BROWSER_BUNDLE__) && "[object process]" === Object.prototype.toString.call(void 0 !== g.default ? g.default : 0)) || (e = y.GLOBAL_OBJ.process, e?.type === "renderer")) && t.forEach(e => {
-                                        e9.addEventListener(e, n, {
+                                    J() && e.forEach(e => {
+                                        ta.addEventListener(e, t, {
                                             capture: !0,
                                             passive: !0
                                         })
                                     });
-                                    let r = ({
+                                    let n = ({
                                         entries: e
                                     }) => {
-                                        let t = (0, G.getActiveSpan)(),
-                                            n = t && (0, G.getRootSpan)(t);
+                                        let t = (0, D.getActiveSpan)(),
+                                            n = t && (0, D.getRootSpan)(t);
                                         e.forEach(e => {
                                             if (!("duration" in e)) return;
                                             let t = e.interactionId;
-                                            if (null == t || nD.has(t)) return;
-                                            let r = e.target ? (0, eD.htmlTreeAsString)(e.target) : function(e) {
+                                            if (null == t || nq.has(t)) return;
+                                            let r = e.target ? (0, e$.htmlTreeAsString)(e.target) : function(e) {
                                                 let t = Math.round(e.startTime),
-                                                    n = nj.get(t);
+                                                    n = nV.get(t);
                                                 if (!n)
                                                     for (let e = -5; e <= 5; e++) {
-                                                        let r = nj.get(t + e);
+                                                        let r = nV.get(t + e);
                                                         if (r) {
                                                             n = r;
                                                             break
@@ -6992,17 +7283,17 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                                     }
                                                 return n || "<unknown>"
                                             }(e);
-                                            if (nM.length > 10) {
-                                                let e = nM.shift();
-                                                nD.delete(e)
+                                            if (nG.length > 10) {
+                                                let e = nG.shift();
+                                                nq.delete(e)
                                             }
-                                            nM.push(t), nD.set(t, {
+                                            nG.push(t), nq.set(t, {
                                                 span: n,
                                                 elementName: r
                                             })
                                         })
                                     };
-                                    nb("event", r), nb("first-input", r)
+                                    nN("event", n), nN("first-input", n)
                                 }(),
                                 function(e, t) {
                                     let {
@@ -7015,10 +7306,10 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                         onRequestSpanStart: s,
                                         onRequestSpanEnd: u
                                     } = {
-                                        ...n3,
+                                        ...ri,
                                         ...t
                                     }, c = "function" == typeof i ? i : e => !0, d = e => (function(e, t) {
-                                        let n = (0, eD.getLocationHref)();
+                                        let n = (0, e$.getLocationHref)();
                                         if (n) {
                                             let r, a;
                                             try {
@@ -7037,155 +7328,163 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                         let t;
                                         e.addEventProcessor(e => ("transaction" === e.type && e.spans && e.spans.forEach(e => {
                                             if ("http.client" === e.op) {
-                                                let t = n2.get(e.span_id);
-                                                t && (e.timestamp = t / 1e3, n2.delete(e.span_id))
+                                                let t = ra.get(e.span_id);
+                                                t && (e.timestamp = t / 1e3, ra.delete(e.span_id))
                                             }
-                                        }), e)), a && (eW(t = "fetch-body-resolved", e => {
+                                        }), e)), a && (eY(t = "fetch-body-resolved", e => {
                                             if (e.response) {
-                                                let t = n1.get(e.response);
-                                                t && e.endTimestamp && n2.set(t, e.endTimestamp)
+                                                let t = rr.get(e.response);
+                                                t && e.endTimestamp && ra.set(t, e.endTimestamp)
                                             }
-                                        }), eq(t, () => eQ(eZ))), eJ(e => {
-                                            let t = function(e, t, n, r, a) {
-                                                var i, o, l, s, u, c, d, f, p, h;
-                                                let m, g;
+                                        }), eX(t, () => e2(e4))), e1(t => {
+                                            let n = function(e, t, n, r, a) {
                                                 if (!e.fetchData) return;
                                                 let {
-                                                    method: v,
-                                                    url: y
-                                                } = e.fetchData, b = (0, tU.hasSpansEnabled)() && t(y);
-                                                if (e.endTimestamp && b) {
+                                                    method: i,
+                                                    url: o
+                                                } = e.fetchData, l = (0, tV.hasSpansEnabled)() && t(o);
+                                                if (e.endTimestamp) {
+                                                    var s, u, c;
                                                     let t, n = e.fetchData.__span;
                                                     if (!n) return;
-                                                    let s = r[n];
-                                                    s && (function(e, t) {
+                                                    let i = r[n];
+                                                    i && (l && (function(e, t) {
                                                         if (t.response) {
-                                                            (0, tB.setHttpStatus)(e, t.response.status);
+                                                            (0, tJ.setHttpStatus)(e, t.response.status);
                                                             let n = t.response?.headers?.get("content-length");
                                                             if (n) {
                                                                 let t = parseInt(n);
                                                                 t > 0 && e.setAttribute("http.response_content_length", t)
                                                             }
                                                         } else t.error && e.setStatus({
-                                                            code: tB.SPAN_STATUS_ERROR,
+                                                            code: tJ.SPAN_STATUS_ERROR,
                                                             message: "internal_error"
                                                         });
                                                         e.end()
-                                                    }(s, e), i = s, o = e, t = "object" == typeof(l = a) && null !== l ? l.onRequestSpanEnd : void 0, t?.(i, {
-                                                        headers: o.response?.headers,
-                                                        error: o.error
-                                                    }), delete r[n]);
+                                                    }(i, e), s = i, u = e, t = "object" == typeof(c = a) && null !== c ? c.onRequestSpanEnd : void 0, t?.(s, {
+                                                        headers: u.response?.headers,
+                                                        error: u.error
+                                                    })), delete r[n]);
                                                     return
                                                 }
                                                 let {
-                                                    spanOrigin: _ = "auto.http.browser",
-                                                    propagateTraceparent: S = !1
+                                                    spanOrigin: d = "auto.http.browser",
+                                                    propagateTraceparent: f = !1
                                                 } = "object" == typeof a ? a : {
                                                     spanOrigin: a
-                                                }, w = !!(0, G.getActiveSpan)(), T = b && w ? (0, tF.startInactiveSpan)((s = y, u = v, c = _, {
-                                                    name: (m = e5(s)) ? `${u} ${function(e){if(e4(e))return e.pathname;let t=new URL(e);return t.search="",t.hash="",["80","443"].includes(t.port)&&(t.port=""),t.password&&(t.password="%filtered%"),t.username&&(t.username="%filtered%"),t.toString()}(m)}` : u,
-                                                    attributes: (d = s, f = m, p = u, h = c, g = {
-                                                        url: d,
-                                                        type: "fetch",
-                                                        "http.method": p,
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: h,
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "http.client"
-                                                    }, f && (e4(f) || (g["http.url"] = f.href, g["server.address"] = f.host), f.search && (g["http.query"] = f.search), f.hash && (g["http.fragment"] = f.hash)), g)
-                                                })) : new tz.SentryNonRecordingSpan;
-                                                if (e.fetchData.__span = T.spanContext().spanId, r[T.spanContext().spanId] = T, n(e.fetchData.url)) {
+                                                }, p = (0, E.getClient)(), h = !!(0, D.getActiveSpan)() || !!p && (0, er.hasSpanStreamingEnabled)(p), m = l && h ? (0, tQ.startInactiveSpan)(function(e, t, n) {
+                                                    if (e.startsWith("data:")) {
+                                                        let r = tr(e);
+                                                        return {
+                                                            name: `${t} ${r}`,
+                                                            attributes: re(e, void 0, t, n)
+                                                        }
+                                                    }
+                                                    let r = te(e),
+                                                        a = r ? function(e) {
+                                                            if (e7(e)) return e.pathname;
+                                                            let t = new URL(e);
+                                                            return t.search = "", t.hash = "", ["80", "443"].includes(t.port) && (t.port = ""), t.password && (t.password = "%filtered%"), t.username && (t.username = "%filtered%"), t.toString()
+                                                        }(r) : e;
+                                                    return {
+                                                        name: `${t} ${a}`,
+                                                        attributes: re(e, r, t, n)
+                                                    }
+                                                }(o, i, d)) : new tY.SentryNonRecordingSpan;
+                                                if (l && !h && p?.recordDroppedEvent("no_parent_span", "span"), e.fetchData.__span = m.spanContext().spanId, r[m.spanContext().spanId] = m, n(e.fetchData.url)) {
                                                     let t = e.args[0],
-                                                        n = e.args[1] || {},
+                                                        n = {
+                                                            ...e.args[1] || {}
+                                                        },
                                                         r = function(e, t, n, r) {
-                                                            var a;
-                                                            let i = nQ({
+                                                            var a, i;
+                                                            let o = n9({
                                                                     span: n,
                                                                     propagateTraceparent: r
                                                                 }),
-                                                                o = i["sentry-trace"],
-                                                                l = i.baggage,
-                                                                s = i.traceparent;
-                                                            if (!o) return;
-                                                            let u = t.headers || ((0, H.isRequest)(e) ? e.headers : void 0);
-                                                            if (!u) return {
-                                                                ...i
+                                                                l = o["sentry-trace"],
+                                                                s = o.baggage,
+                                                                u = o.traceparent;
+                                                            if (!l) return;
+                                                            let c = t.headers || ((0, G.isRequest)(e) ? e.headers : void 0);
+                                                            if (!c) return {
+                                                                ...o
                                                             };
-                                                            if (a = u, "u" > typeof Headers && (0, H.isInstanceOf)(a, Headers)) {
-                                                                let e = new Headers(u);
-                                                                if (e.get("sentry-trace") || e.set("sentry-trace", o), r && s && !e.get("traceparent") && e.set("traceparent", s), l) {
+                                                            if (a = c, "u" > typeof Headers && (0, G.isInstanceOf)(a, Headers)) {
+                                                                let e = new Headers(c);
+                                                                if (e.get("sentry-trace") || e.set("sentry-trace", l), r && u && !e.get("traceparent") && e.set("traceparent", u), s) {
                                                                     let t = e.get("baggage");
-                                                                    t ? nK(t) || e.set("baggage", `${t},${l}`) : e.set("baggage", l)
+                                                                    t ? n7(t) || e.set("baggage", `${t},${s}`) : e.set("baggage", s)
                                                                 }
                                                                 return e
                                                             }
-                                                            if (Array.isArray(u)) {
-                                                                let e = [...u];
-                                                                u.find(e => "sentry-trace" === e[0]) || e.push(["sentry-trace", o]), r && s && !u.find(e => "traceparent" === e[0]) && e.push(["traceparent", s]);
-                                                                let t = u.find(e => "baggage" === e[0] && nK(e[1]));
-                                                                return l && !t && e.push(["baggage", l]), e
+                                                            if (Array.isArray(i = c) && i.every(e => Array.isArray(e) && 2 === e.length && "string" == typeof e[0])) {
+                                                                let e = [...c];
+                                                                e.find(e => "sentry-trace" === e[0]) || e.push(["sentry-trace", l]), r && u && !e.find(e => "traceparent" === e[0]) && e.push(["traceparent", u]);
+                                                                let t = c.find(e => "baggage" === e[0] && "string" == typeof e[1] && n7(e[1]));
+                                                                return s && !t && e.push(["baggage", s]), e
                                                             } {
-                                                                let e = "sentry-trace" in u ? u["sentry-trace"] : void 0,
-                                                                    t = "traceparent" in u ? u.traceparent : void 0,
-                                                                    n = "baggage" in u ? u.baggage : void 0,
+                                                                let e = "sentry-trace" in c ? c["sentry-trace"] : void 0,
+                                                                    t = "traceparent" in c ? c.traceparent : void 0,
+                                                                    n = "baggage" in c ? c.baggage : void 0,
                                                                     a = n ? Array.isArray(n) ? [...n] : [n] : [],
-                                                                    i = n && (Array.isArray(n) ? n.find(e => nK(e)) : nK(n));
-                                                                l && !i && a.push(l);
-                                                                let c = {
-                                                                    ...u,
-                                                                    "sentry-trace": e ?? o,
+                                                                    i = n && (Array.isArray(n) ? n.find(e => n7(e)) : n7(n));
+                                                                s && !i && a.push(s);
+                                                                let o = Object.assign({}, c, {
+                                                                    "sentry-trace": e ?? l,
                                                                     baggage: a.length > 0 ? a.join(",") : void 0
-                                                                };
-                                                                return r && s && !t && (c.traceparent = s), c
+                                                                });
+                                                                return r && u && !t && (o.traceparent = u), o
                                                             }
-                                                        }(t, n, (0, tU.hasSpansEnabled)() && w ? T : void 0, S);
+                                                        }(t, n, (0, tV.hasSpansEnabled)() && h ? m : void 0, f);
                                                     r && (e.args[1] = n, n.headers = r)
                                                 }
-                                                let P = (0, E.getClient)();
-                                                if (P) {
+                                                if (p) {
                                                     let t = {
                                                         input: e.args,
                                                         response: e.response,
                                                         startTimestamp: e.startTimestamp,
                                                         endTimestamp: e.endTimestamp
                                                     };
-                                                    P.emit("beforeOutgoingRequestSpan", T, t)
+                                                    p.emit("beforeOutgoingRequestSpan", m, t)
                                                 }
-                                                return T
-                                            }(e, c, d, f, {
+                                                return m
+                                            }(t, c, d, f, {
                                                 propagateTraceparent: p,
                                                 onRequestSpanEnd: u
                                             });
-                                            if (e.response && e.fetchData.__span && n1.set(e.response, e.fetchData.__span), t) {
-                                                let n = nZ(e.fetchData.url),
-                                                    r = n ? e8(n).host : void 0;
-                                                t.setAttributes({
-                                                    "http.url": n,
-                                                    "server.address": r
-                                                }), o && n4(t), s?.(t, {
-                                                    headers: e.headers
+                                            if (t.response && t.fetchData.__span && rr.set(t.response, t.fetchData.__span), n) {
+                                                let r = rt(t.fetchData.url),
+                                                    a = r ? tt(r).host : void 0;
+                                                n.setAttributes({
+                                                    "http.url": r ? tr(r) : void 0,
+                                                    "server.address": a
+                                                }), o && ro(n, e), s?.(n, {
+                                                    headers: t.headers
                                                 })
                                             }
                                         })
                                     }
-                                    r && tn(e => {
-                                        let t = function(e, t, n, r, a, i) {
+                                    r && ts(t => {
+                                        let n = function(e, t, n, r, a, i) {
                                             let o = e.xhr,
-                                                l = o?.[tt];
+                                                l = o?.[tl];
                                             if (!o || o.__sentry_own_request__ || !l) return;
                                             let {
                                                 url: s,
                                                 method: u
-                                            } = l, c = (0, tU.hasSpansEnabled)() && t(s);
-                                            if (e.endTimestamp && c) {
+                                            } = l, c = (0, tV.hasSpansEnabled)() && t(s);
+                                            if (e.endTimestamp) {
                                                 let t = o.__sentry_xhr_span_id__;
                                                 if (!t) return;
                                                 let n = r[t];
-                                                n && void 0 !== l.status_code && ((0, tB.setHttpStatus)(n, l.status_code), n.end(), i?.(n, {
-                                                    headers: n0(function(e) {
+                                                n && (c && void 0 !== l.status_code && ((0, tJ.setHttpStatus)(n, l.status_code), n.end(), i?.(n, {
+                                                    headers: rn(function(e) {
                                                         let t;
                                                         try {
                                                             t = e.getAllResponseHeaders()
                                                         } catch (t) {
-                                                            return tI && v.debug.error(t, "Failed to get xhr response headers", e), {}
+                                                            return tB && v.debug.error(t, "Failed to get xhr response headers", e), {}
                                                         }
                                                         return t ? t.split("\r\n").reduce((e, t) => {
                                                             let [n, r] = t.split(": ");
@@ -7193,23 +7492,24 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                                         }, {}) : {}
                                                     }(o)),
                                                     error: e.error
-                                                }), delete r[t]);
+                                                })), delete r[t]);
                                                 return
                                             }
-                                            let d = nZ(s),
-                                                f = d ? e8(d) : e8(s),
-                                                p = e6(s),
-                                                h = !!(0, G.getActiveSpan)(),
-                                                m = c && h ? (0, tF.startInactiveSpan)({
+                                            let d = rt(s),
+                                                f = d ? tt(d) : tt(s),
+                                                p = tr(tn(s)),
+                                                h = (0, E.getClient)(),
+                                                m = !!(0, D.getActiveSpan)() || !!h && (0, er.hasSpanStreamingEnabled)(h),
+                                                g = c && m ? (0, tQ.startInactiveSpan)({
                                                     name: `${u} ${p}`,
                                                     attributes: {
-                                                        url: s,
+                                                        url: tr(s),
                                                         type: "xhr",
                                                         "http.method": u,
-                                                        "http.url": d,
+                                                        "http.url": d ? tr(d) : void 0,
                                                         "server.address": f?.host,
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.http.browser",
-                                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "http.client",
+                                                        [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.http.browser",
+                                                        [M.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "http.client",
                                                         ...f?.search && {
                                                             "http.query": f?.search
                                                         },
@@ -7217,13 +7517,13 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                                             "http.fragment": f?.hash
                                                         }
                                                     }
-                                                }) : new tz.SentryNonRecordingSpan;
-                                            o.__sentry_xhr_span_id__ = m.spanContext().spanId, r[o.__sentry_xhr_span_id__] = m, n(s) && function(e, t, n) {
+                                                }) : new tY.SentryNonRecordingSpan;
+                                            return c && !m && h?.recordDroppedEvent("no_parent_span", "span"), o.__sentry_xhr_span_id__ = g.spanContext().spanId, r[o.__sentry_xhr_span_id__] = g, n(s) && function(e, t, n) {
                                                 let {
                                                     "sentry-trace": r,
                                                     baggage: a,
                                                     traceparent: i
-                                                } = nQ({
+                                                } = n9({
                                                     span: t,
                                                     propagateTraceparent: n
                                                 });
@@ -7236,23 +7536,21 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                                         }
                                                     } catch {}
                                                 }(e, r, a, i)
-                                            }(o, (0, tU.hasSpansEnabled)() && h ? m : void 0, a);
-                                            let g = (0, E.getClient)();
-                                            return g && g.emit("beforeOutgoingRequestSpan", m, e), m
-                                        }(e, c, d, f, p, u);
-                                        t && (o && n4(t), s?.(t, {
-                                            headers: n0(e.xhr.__sentry_xhr_v3__?.request_headers)
+                                            }(o, (0, tV.hasSpansEnabled)() && m ? g : void 0, a), h && h.emit("beforeOutgoingRequestSpan", g, e), g
+                                        }(t, c, d, f, p, u);
+                                        n && (o && ro(n, e), s?.(n, {
+                                            headers: rn(t.xhr.__sentry_xhr_v3__?.request_headers)
                                         }))
                                     })
                                 }(e, {
-                                    traceFetch: k,
-                                    traceXHR: R,
-                                    trackFetchStreamPerformance: O,
+                                    traceFetch: T,
+                                    traceXHR: P,
+                                    trackFetchStreamPerformance: x,
                                     tracePropagationTargets: e.getOptions().tracePropagationTargets,
-                                    shouldCreateSpanForRequest: C,
-                                    enableHTTPTimings: I,
-                                    onRequestSpanStart: B,
-                                    onRequestSpanEnd: F
+                                    shouldCreateSpanForRequest: k,
+                                    enableHTTPTimings: R,
+                                    onRequestSpanStart: $,
+                                    onRequestSpanEnd: B
                                 })
                         }
                     }
@@ -7274,80 +7572,81 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
             return {
                 ...t,
                 afterAllSetup(e) {
-                    r && function(e) {
-                        if (ej.document.getElementById("__NEXT_DATA__")) ry.events.on("routeChangeStart", t => {
-                            let n, r, a = e6(t),
+                    !rs() && (r && function(e) {
+                        if (eB.document.getElementById("__NEXT_DATA__")) rL.events.on("routeChangeStart", t => {
+                            let n, r, a = tn(t),
                                 i = function(e) {
-                                    let t = ej.__BUILD_MANIFEST?.sortedPages;
+                                    let t = eB.__BUILD_MANIFEST?.sortedPages;
                                     if (t) return t.find(t => {
                                         let n, r, a, i = (n = t.split("/"), r = "", n[n.length - 1]?.match(/^\[\[\.\.\..+\]\]$/) && (n.pop(), r = "(?:/(.+?))?"), a = n.map(e => e.replace(/^\[\.\.\..+\]$/, "(.+?)").replace(/^\[.*\]$/, "([^/]+?)")).join("/"), RegExp(`^${a}${r}(?:/)?$`));
                                         return e.match(i)
                                     })
                                 }(a);
-                            i ? (n = i, r = "route") : (n = a, r = "url"), n6(e, {
+                            i ? (n = i, r = "route") : (n = a, r = "url"), rd(e, {
                                 name: n,
                                 attributes: {
-                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "navigation",
-                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.navigation.nextjs.pages_router_instrumentation",
-                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: r
+                                    [M.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "navigation",
+                                    [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.navigation.nextjs.pages_router_instrumentation",
+                                    [M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: r
                                 }
                             })
                         });
                         else {
                             let t, n, r;
                             h = (t, n) => {
-                                let r = g.default.env._sentryBasePath ?? rp._sentryBasePath,
-                                    a = new URL(r && !t.startsWith(r) ? `${r}${t}` : t, ej.location.href).pathname,
-                                    i = rs(a),
+                                let r = g.default.env._sentryBasePath ?? rN._sentryBasePath,
+                                    a = rT(new URL(r && !t.startsWith(r) ? `${r}${t}` : t, eB.location.href).pathname),
+                                    i = rw(a),
                                     o = i ?? a;
-                                "router-patch" === rc && (rc = "transition-start-hook");
-                                let l = rd.current;
+                                "router-patch" === rx && (rx = "transition-start-hook");
+                                let l = rk.current;
                                 l ? (l.updateName(o), l.setAttributes({
                                     "navigation.type": `router.${n}`,
-                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: i ? "route" : "url"
-                                }), rd.current = void 0) : n6(e, {
+                                    [M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: i ? "route" : "url"
+                                }), rk.current = void 0) : rd(e, {
                                     name: o,
                                     attributes: {
-                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "navigation",
-                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.navigation.nextjs.app_router_instrumentation",
-                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: i ? "route" : "url",
+                                        [M.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "navigation",
+                                        [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.navigation.nextjs.app_router_instrumentation",
+                                        [M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: i ? "route" : "url",
                                         "navigation.type": `router.${n}`
                                     }
                                 })
-                            }, ej.addEventListener("popstate", () => {
-                                let t = rs(ej.location.pathname);
-                                rd.current?.isRecording() ? (rd.current.updateName(t ?? ej.location.pathname), rd.current.setAttribute(es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE, t ? "route" : "url")) : rd.current = n6(e, {
-                                    name: t ?? ej.location.pathname,
+                            }, eB.addEventListener("popstate", () => {
+                                let t = rT(eB.location.pathname),
+                                    n = rw(t);
+                                rk.current?.isRecording() ? (rk.current.updateName(n ?? t), rk.current.setAttribute(M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE, n ? "route" : "url")) : rk.current = rd(e, {
+                                    name: n ?? t,
                                     attributes: {
-                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.navigation.nextjs.app_router_instrumentation",
-                                        [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: t ? "route" : "url",
+                                        [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.navigation.nextjs.app_router_instrumentation",
+                                        [M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: n ? "route" : "url",
                                         "navigation.type": "browser.popstate"
                                     }
                                 })
                             }), t = !1, n = 0, r = setInterval(() => {
                                 n++;
-                                let a = rf?.next?.router ?? rf?.nd?.router;
-                                t || n > 500 ? clearInterval(r) : a && (clearInterval(r), t = !0, rg(e, a, rd), ["nd", "next"].forEach(t => {
-                                    let n = rf[t];
-                                    n && (rf[t] = new Proxy(n, {
-                                        set: (t, n, r) => ("router" === n && "object" == typeof r && null !== r && rg(e, r, rd), t[n] = r, !0)
+                                let a = rR?.next?.router ?? rR?.nd?.router;
+                                t || n > 500 ? clearInterval(r) : a && (clearInterval(r), t = !0, rI(e, a, rk), ["nd", "next"].forEach(t => {
+                                    let n = rR[t];
+                                    n && (rR[t] = new Proxy(n, {
+                                        set: (t, n, r) => ("router" === n && "object" == typeof r && null !== r && rI(e, r, rk), t[n] = r, !0)
                                     }))
                                 }))
                             }, 20)
                         }
                     }(e), t.afterAllSetup(e), n && function(e) {
-                        if (ej.document.getElementById("__NEXT_DATA__")) ! function(e) {
+                        if (eB.document.getElementById("__NEXT_DATA__")) ! function(e) {
                             let {
                                 route: t,
                                 params: n,
                                 sentryTrace: r,
                                 baggage: a
                             } = function() {
-                                let e, t = ej.document.getElementById("__NEXT_DATA__");
+                                let e, t = eB.document.getElementById("__NEXT_DATA__");
                                 if (t?.innerHTML) try {
                                     e = JSON.parse(t.innerHTML)
                                 } catch {
-                                    tj && v.debug.warn("Could not extract __NEXT_DATA__")
+                                    tq && v.debug.warn("Could not extract __NEXT_DATA__")
                                 }
                                 if (!e) return {};
                                 let n = {},
@@ -7357,16 +7656,16 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                         props: i
                                     } = e;
                                 return n.route = r, n.params = a, i?.pageProps && (n.sentryTrace = i.pageProps._sentryTraceData, n.baggage = i.pageProps._sentryBaggage), n
-                            }(), i = (0, nX.parseBaggageHeader)(a), o = t || ej.location.pathname;
+                            }(), i = (0, n8.parseBaggageHeader)(a), o = t || eB.location.pathname;
                             i?.["sentry-transaction"] && "/_error" === o && (o = (o = i["sentry-transaction"]).replace(/^(GET|POST|PUT|DELETE|PATCH|HEAD|OPTIONS|TRACE|CONNECT)\s+/i, ""));
-                            let l = (0, q.browserPerformanceTimeOrigin)();
-                            n8(e, {
+                            let l = (0, V.browserPerformanceTimeOrigin)();
+                            rc(e, {
                                 name: o,
                                 startTime: l ? l / 1e3 : void 0,
                                 attributes: {
-                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "pageload",
-                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.pageload.nextjs.pages_router_instrumentation",
-                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: t ? "route" : "url",
+                                    [M.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "pageload",
+                                    [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.pageload.nextjs.pages_router_instrumentation",
+                                    [M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: t ? "route" : "url",
                                     ...n && e.getOptions().sendDefaultPii && {
                                         ...n
                                     }
@@ -7377,21 +7676,21 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                             })
                         }(e);
                         else {
-                            let t, n;
-                            t = rs(ej.location.pathname), n = (0, q.browserPerformanceTimeOrigin)(), n8(e, {
-                                name: t ?? ej.location.pathname,
-                                startTime: n ? n / 1e3 : void 0,
+                            let t, n, r;
+                            n = rw(t = rT(eB.location.pathname)), rc(e, {
+                                name: n ?? t,
+                                startTime: (r = (0, V.browserPerformanceTimeOrigin)()) ? r / 1e3 : void 0,
                                 attributes: {
-                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "pageload",
-                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.pageload.nextjs.app_router_instrumentation",
-                                    [es.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: t ? "route" : "url"
+                                    [M.SEMANTIC_ATTRIBUTE_SENTRY_OP]: "pageload",
+                                    [M.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN]: "auto.pageload.nextjs.app_router_instrumentation",
+                                    [M.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]: n ? "route" : "url"
                                 }
                             })
                         }
-                    }(e)
+                    }(e))
                 }
             }
-        }()), a = rP._sentryRewriteFramesAssetPrefixPath || "", i = g.default.env._sentryAssetPrefix || rP._sentryAssetPrefix, o = g.default.env._sentryBasePath || rP._sentryBasePath, l = "true" === g.default.env._experimentalThirdPartyOriginStackFrames || "true" === rP._experimentalThirdPartyOriginStackFrames, r.push((({
+        }()), a = rB._sentryRewriteFramesAssetPrefixPath || "", i = g.default.env._sentryAssetPrefix || rB._sentryAssetPrefix, o = g.default.env._sentryBasePath || rB._sentryBasePath, l = "true" === g.default.env._experimentalThirdPartyOriginStackFrames || "true" === rB._experimentalThirdPartyOriginStackFrames, r.push((({
             assetPrefix: e,
             basePath: t,
             rewriteFramesAssetPrefixPath: n,
@@ -7418,9 +7717,9 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                             } else if (a || i) {
                                 let e, i, o = a ? r.filename.replace(/^[a-zA-Z]:/, "").replace(/\\/g, "/") : r.filename,
                                     l = t ? function(e, t) {
-                                        e = r_(e).slice(1), t = r_(t).slice(1);
-                                        let n = rS(e.split("/")),
-                                            r = rS(t.split("/")),
+                                        e = rD(e).slice(1), t = rD(t).slice(1);
+                                        let n = rj(e.split("/")),
+                                            r = rj(t.split("/")),
                                             a = Math.min(n.length, r.length),
                                             i = a;
                                         for (let e = 0; e < a; e++)
@@ -7430,7 +7729,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                             } let o = [];
                                         for (let e = i; e < n.length; e++) o.push("..");
                                         return (o = o.concat(r.slice(i))).join("/")
-                                    }(t, o) : (e = o.length > 1024 ? `<truncated>${o.slice(-1024)}` : o, (i = rb.exec(e)) ? i.slice(1) : [])[2] || "";
+                                    }(t, o) : (e = o.length > 1024 ? `<truncated>${o.slice(-1024)}` : o, (i = rM.exec(e)) ? i.slice(1) : [])[2] || "";
                                 r.filename = `${n}${l}`
                             }
                             return r
@@ -7498,43 +7797,43 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
             rewriteFramesAssetPrefixPath: a,
             experimentalThirdPartyOriginStackFrames: l
         })), r),
-        release: "df914599921ea911c6b498f114f37e67f25b22ee",
+        release: "1ea330d0eba462b0943388a365120a9e475d2123",
         ...e
     };
     ! function(e) {
-        let t = g.default.env._sentryRewritesTunnelPath || rw._sentryRewritesTunnelPath;
+        let t = g.default.env._sentryRewritesTunnelPath || rz._sentryRewritesTunnelPath;
         if (t && e.dsn) {
-            let n = (0, z.dsnFromString)(e.dsn);
+            let n = (0, B.dsnFromString)(e.dsn);
             if (!n) return;
             let r = n.host.match(/^o(\d+)\.ingest(?:\.([a-z]{2}))?\.sentry\.io$/);
             if (r) {
                 let a = r[1],
                     i = r[2],
                     o = `${t}?o=${a}&p=${n.projectId}`;
-                i && (o += `&r=${i}`), e.tunnel = o, tj && v.debug.log(`Tunneling events to "${o}"`)
-            } else tj && v.debug.warn("Provided DSN is not a Sentry SaaS DSN. Will not tunnel events.")
+                i && (o += `&r=${i}`), e.tunnel = o, tq && v.debug.log(`Tunneling events to "${o}"`)
+            } else tq && v.debug.warn("Provided DSN is not a Sentry SaaS DSN. Will not tunnel events.")
         }
-    }(s), _(s, "nextjs", ["nextjs", "react"]), _(n = {
+    }(s), _(s, "nextjs", ["nextjs", "react"]), s.ignoreSpans = [...s.ignoreSpans || [], /^\/404$/, RegExp(`^${rP}$`)], _(n = {
             ...s
         }, "react"), (0, S.setContext)("react", {
-            version: tD.version
+            version: tG.version
         }),
         function(e = {}) {
             var t;
             let n, r = !e.skipBrowserExtensionCheck && !! function() {
-                    if (void 0 === ej.window || ej.nw) return !1;
-                    let e = ej.chrome || ej.browser;
+                    if (void 0 === eB.window || eB.nw) return !1;
+                    let e = eB.chrome || eB.browser;
                     if (!e?.runtime?.id) return !1;
-                    let t = (0, eD.getLocationHref)();
-                    return !(ej === ej.top && ["chrome-extension", "moz-extension", "ms-browser-extension", "safari-web-extension"].some(e => t.startsWith(`${e}://`)))
-                }() && (to && (0, v.consoleSandbox)(() => {
+                    let t = (0, e$.getLocationHref)();
+                    return !(eB === eB.top && /^(?:chrome-extension|moz-extension|ms-browser-extension|safari-web-extension):\/\//.test(t))
+                }() && (tf && (0, v.consoleSandbox)(() => {
                     console.error("[Sentry] You cannot use Sentry.init() in a browser extension, see: https://docs.sentry.io/platforms/javascript/best-practices/browser-extensions/")
                 }), !0),
-                a = null == e.defaultIntegrations ? tM() : e.defaultIntegrations,
+                a = null == e.defaultIntegrations ? tW() : e.defaultIntegrations,
                 i = {
                     ...e,
                     enabled: !r && e.enabled,
-                    stackParser: (0, M.stackParserFromStackParserOptions)(e.stackParser || tO),
+                    stackParser: (0, j.stackParserFromStackParserOptions)(e.stackParser || tz),
                     integrations: function(e) {
                         let t, n, r = e.defaultIntegrations || [],
                             a = e.integrations;
@@ -7555,21 +7854,17 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                         integrations: e.integrations,
                         defaultIntegrations: a
                     }),
-                    transport: e.transport || tL
+                    transport: e.transport || tH
                 };
             !0 === i.debug && (w.DEBUG_BUILD ? v.debug.enable() : (0, v.consoleSandbox)(() => {
                 console.warn("[Sentry] Cannot initialize SDK with `debug` option using a non-debug bundle.")
-            })), (0, E.getCurrentScope)().update(i.initialScope), t = n = new eB(i), (0, E.getCurrentScope)().setClient(t), n.init()
+            })), (0, E.getCurrentScope)().update(i.initialScope), t = n = new eG(i), (0, E.getCurrentScope)().setClient(t), n.init()
         }(n);
-    let p = e => "transaction" === e.type && "/404" === e.transaction ? null : e;
-    p.id = "NextClient404Filter", (0, S.addEventProcessor)(p);
-    let m = e => "transaction" === e.type && e.transaction === ru ? null : e;
-    m.id = "IncompleteTransactionFilter", (0, S.addEventProcessor)(m);
-    let b = (e, t) => {
+    let c = (e, t) => {
         var n;
-        return (n = t?.originalException, (0, H.isError)(n) && "string" == typeof n.digest && n.digest.startsWith("NEXT_REDIRECT;") || e.exception?.values?.[0]?.value === "NEXT_REDIRECT") ? null : e
+        return (n = t?.originalException, (0, G.isError)(n) && "string" == typeof n.digest && n.digest.startsWith("NEXT_REDIRECT;") || e.exception?.values?.[0]?.value === "NEXT_REDIRECT") ? null : e
     };
-    b.id = "NextRedirectErrorFilter", (0, S.addEventProcessor)(b);
+    c.id = "NextRedirectErrorFilter", (0, S.addEventProcessor)(c);
     try {
         (0, E.getGlobalScope)().setTag("turbopack", !0)
     } catch {}
@@ -7580,19 +7875,20 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
         name: "BrowserProfiling",
         setup(e) {
             let t = e.getOptions(),
-                n = new rG;
-            if (rW(t) || t.profileLifecycle || (t.profileLifecycle = "manual"), rW(t) && !t.profilesSampleRate) {
-                to && v.debug.log("[Profiling] Profiling disabled, no profiling options found.");
+                n = new at;
+            if (r8(t) || t.profileLifecycle || (t.profileLifecycle = "manual"), r8(t) && !t.profilesSampleRate) {
+                tf && v.debug.log("[Profiling] Profiling disabled, no profiling options found.");
                 return
             }
-            let r = (0, G.getActiveSpan)(),
-                a = r && (0, G.getRootSpan)(r);
-            if (rW(t) && void 0 !== t.profileSessionSampleRate && to && v.debug.warn("[Profiling] Both legacy profiling (`profilesSampleRate`) and UI profiling settings are defined. `profileSessionSampleRate` has no effect when legacy profiling is enabled."), rW(t)) a && rU(a) && rH(a) && rV(a), e.on("spanStart", e => {
-                e === (0, G.getRootSpan)(e) && rH(e) && rV(e)
+            let r = (0, D.getActiveSpan)(),
+                a = r && (0, D.getRootSpan)(r);
+            if (r8(t) && void 0 !== t.profileSessionSampleRate && tf && v.debug.warn("[Profiling] Both legacy profiling (`profilesSampleRate`) and UI profiling settings are defined. `profileSessionSampleRate` has no effect when legacy profiling is enabled."), r8(t)) a && r0(a) && r5(a) && ae(a), e.on("spanStart", e => {
+                let t = (0, D.getRootSpan)(e);
+                e === t ? r5(e) && ae(e) : r9.has(t) && r7(e)
             }), e.on("beforeEnvelope", e => {
                 let t;
-                if (!rq.size) return;
-                let n = (t = [], (0, Y.forEachEnvelopeItem)(e, (e, n) => {
+                if (!r6.size) return;
+                let n = (t = [], (0, X.forEachEnvelopeItem)(e, (e, n) => {
                     if ("transaction" === n)
                         for (let n = 1; n < e.length; n++) {
                             let r = e[n];
@@ -7606,24 +7902,24 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                         n = t?.profile?.profile_id,
                         a = t?.profile?.start_timestamp;
                     if ("string" != typeof n || !n) {
-                        to && v.debug.log("[Profiling] cannot find profile for a span without a profile context");
+                        tf && v.debug.log("[Profiling] cannot find profile for a span without a profile context");
                         continue
                     }
                     t?.profile && delete t.profile;
                     let i = function(e) {
-                        let t = rq.get(e);
-                        return t && rq.delete(e), t
+                        let t = r6.get(e);
+                        return t && r6.delete(e), t
                     }(n);
                     if (!i) {
-                        to && v.debug.log(`[Profiling] Could not retrieve profile for span: ${n}`);
+                        tf && v.debug.log(`[Profiling] Could not retrieve profile for span: ${n}`);
                         continue
                     }
                     let o = function(e, t, n, r) {
-                        return (n.samples.length < 2 ? (to && v.debug.log("[Profiling] Discarding profile because it contains less than 2 samples"), 1) : !n.frames.length && (to && v.debug.log("[Profiling] Discarding profile because it contains no frames"), 1)) ? null : function(e, t, n, r) {
+                        return (n.samples.length < 2 ? (tf && v.debug.log("[Profiling] Discarding profile because it contains less than 2 samples"), 1) : !n.frames.length && (tf && v.debug.log("[Profiling] Discarding profile because it contains no frames"), 1)) ? null : function(e, t, n, r) {
                             let a;
                             if ("transaction" !== r.type) throw TypeError("Profiling events may only be attached to transactions, this should never occur.");
                             if (null == n) throw TypeError(`Cannot construct profiling event envelope without a valid profile. Got ${n} instead.`);
-                            let i = ("string" == typeof(a = r.contexts?.trace?.trace_id) && 32 !== a.length && to && v.debug.log(`[Profiling] Invalid traceId: ${a} on profiled event`), "string" != typeof a) ? "" : a,
+                            let i = ("string" == typeof(a = r.contexts?.trace?.trace_id) && 32 !== a.length && tf && v.debug.log(`[Profiling] Invalid traceId: ${a} on profiled event`), "string" != typeof a) ? "" : a,
                                 o = "thread_metadata" in n ? n : function(e) {
                                     let t, n = 0,
                                         r = {
@@ -7631,15 +7927,15 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                             stacks: [],
                                             frames: [],
                                             thread_metadata: {
-                                                [rR]: {
-                                                    name: rN
+                                                [rW]: {
+                                                    name: rG
                                                 }
                                             }
                                         },
                                         a = e.samples[0];
                                     if (!a) return r;
                                     let i = a.timestamp,
-                                        o = (0, q.browserPerformanceTimeOrigin)(),
+                                        o = (0, V.browserPerformanceTimeOrigin)(),
                                         l = "number" == typeof performance.timeOrigin ? performance.timeOrigin : o || 0,
                                         s = l - (o || l);
                                     return e.samples.forEach((a, o) => {
@@ -7647,7 +7943,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                             void 0 === t && (t = n, r.stacks[t] = [], n++), r.samples[o] = {
                                                 elapsed_since_start_ns: ((a.timestamp + s - i) * 1e6).toFixed(0),
                                                 stack_id: t,
-                                                thread_id: rR
+                                                thread_id: rW
                                             };
                                             return
                                         }
@@ -7666,45 +7962,45 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                                         let c = {
                                             elapsed_since_start_ns: ((a.timestamp + s - i) * 1e6).toFixed(0),
                                             stack_id: n,
-                                            thread_id: rR
+                                            thread_id: rW
                                         };
                                         r.stacks[n] = u, r.samples[o] = c, n++
                                     }), r
                                 }(n),
-                                l = t || ("number" == typeof r.start_timestamp ? 1e3 * r.start_timestamp : 1e3 * (0, q.timestampInSeconds)()),
-                                s = "number" == typeof r.timestamp ? 1e3 * r.timestamp : 1e3 * (0, q.timestampInSeconds)();
+                                l = t || ("number" == typeof r.start_timestamp ? 1e3 * r.start_timestamp : 1e3 * (0, V.timestampInSeconds)()),
+                                s = "number" == typeof r.timestamp ? 1e3 * r.timestamp : 1e3 * (0, V.timestampInSeconds)();
                             return {
                                 event_id: e,
                                 timestamp: new Date(l).toISOString(),
                                 platform: "javascript",
                                 version: "1",
                                 release: r.release || "",
-                                environment: r.environment || $.DEFAULT_ENVIRONMENT,
+                                environment: r.environment || F.DEFAULT_ENVIRONMENT,
                                 runtime: {
                                     name: "javascript",
-                                    version: ej.navigator.userAgent
+                                    version: eB.navigator.userAgent
                                 },
                                 os: {
-                                    name: rC,
-                                    version: rI,
-                                    build_number: rL
+                                    name: rV,
+                                    version: rY,
+                                    build_number: rJ
                                 },
                                 device: {
-                                    locale: rD,
-                                    model: rM,
-                                    manufacturer: rL,
-                                    architecture: rA,
+                                    locale: rK,
+                                    model: rQ,
+                                    manufacturer: rJ,
+                                    architecture: rX,
                                     is_emulator: !1
                                 },
                                 debug_meta: {
-                                    images: rz(n.resources)
+                                    images: r1(n.resources)
                                 },
                                 profile: o,
                                 transactions: [{
                                     name: r.transaction || "",
                                     id: r.event_id || (0, R.uuid4)(),
                                     trace_id: i,
-                                    active_thread_id: rR,
+                                    active_thread_id: rW,
                                     relative_start_ns: "0",
                                     relative_end_ns: ((s - l) * 1e6).toFixed(0)
                                 }]
@@ -7723,32 +8019,18 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                 let r = t.profileLifecycle;
                 if (e.on("startUIProfiler", () => n.start()), e.on("stopUIProfiler", () => n.stop()), "manual" === r) n.initialize(e);
                 else if ("trace" === r) {
-                    if (!(0, tU.hasSpansEnabled)(t)) {
-                        to && v.debug.warn("[Profiling] `profileLifecycle` is 'trace' but tracing is disabled. Set a `tracesSampleRate` or `tracesSampler` to enable span tracing.");
+                    if (!(0, tV.hasSpansEnabled)(t)) {
+                        tf && v.debug.warn("[Profiling] `profileLifecycle` is 'trace' but tracing is disabled. Set a `tracesSampleRate` or `tracesSampler` to enable span tracing.");
                         return
                     }
-                    n.initialize(e), a && n.notifyRootSpanActive(a), ej.setTimeout(() => {
-                        let e = (0, G.getActiveSpan)(),
-                            t = e && (0, G.getRootSpan)(e);
+                    n.initialize(e), a && n.notifyRootSpanActive(a), eB.setTimeout(() => {
+                        let e = (0, D.getActiveSpan)(),
+                            t = e && (0, D.getRootSpan)(e);
                         t && n.notifyRootSpanActive(t)
                     }, 0)
                 }
             }
-        },
-        processEvent: e => (e?.contexts?.profile && e.contexts && (e.contexts.trace = {
-            ...e.contexts?.trace ?? {},
-            data: {
-                ...e.contexts?.trace?.data ?? {},
-                "thread.id": rR,
-                "thread.name": rN
-            }
-        }, e.spans?.forEach(e => {
-            e.data = {
-                ...e.data || {},
-                "thread.id": rR,
-                "thread.name": rN
-            }
-        })), e)
+        }
     }, (m = {
         filterKeys: ["hexagon-web"],
         behaviour: "apply-tag-if-exclusively-contains-third-party-frames"
@@ -7756,7 +8038,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
         name: "ThirdPartyErrorsFilter",
         setup(e) {
             e.on("beforeEnvelope", e => {
-                (0, Y.forEachEnvelopeItem)(e, (e, t) => {
+                (0, X.forEachEnvelopeItem)(e, (e, t) => {
                     if ("event" === t) {
                         let t = Array.isArray(e) ? e[1] : void 0;
                         t && (t.exception?.values?.forEach(e => {
@@ -7775,15 +8057,15 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                             if (y.GLOBAL_OBJ._sentryModuleMetadata)
                                 for (let t of Object.keys(y.GLOBAL_OBJ._sentryModuleMetadata)) {
                                     let n = y.GLOBAL_OBJ._sentryModuleMetadata[t];
-                                    if (!rX.has(t)) {
-                                        for (let r of (rX.add(t), e(t).reverse()))
+                                    if (!ar.has(t)) {
+                                        for (let r of (ar.add(t), e(t).reverse()))
                                             if (r.filename) {
-                                                rY.set(r.filename, n);
+                                                an.set(r.filename, n);
                                                 break
                                             }
                                     }
                                 }
-                            return rY.get(t)
+                            return an.get(t)
                         }(n, e.filename);
                         t && (e.module_metadata = t)
                     })
@@ -7792,7 +8074,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
         },
         processEvent(e) {
             let t = function(e, t) {
-                let n = (0, M.getFramesFromEvent)(e);
+                let n = (0, j.getFramesFromEvent)(e);
                 if (n) return n.filter((e, n) => !!e.filename && (null != e.lineno || null != e.colno || null != e.instruction_addr) && (!t || ! function(e, t) {
                     if (0 !== t || !e.context_line || !e.filename || !e.filename.includes("sentry") || !e.filename.includes("helpers") || !e.context_line.includes("fn.apply(this, wrappedArguments)")) return !1;
                     if (e.pre_context) {
@@ -7801,7 +8083,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
                             if (e.pre_context[n]?.includes("Attempt to invoke user-land function")) return !0
                     }
                     return !1
-                }(e, n))).map(e => e.module_metadata ? Object.keys(e.module_metadata).filter(e => e.startsWith(rJ)).map(e => e.slice(rJ.length)) : [])
+                }(e, n))).map(e => e.module_metadata ? Object.keys(e.module_metadata).filter(e => e.startsWith(aa)).map(e => e.slice(aa.length)) : [])
             }(e, m.ignoreSentryInternalFrames);
             if (t && t["drop-error-if-contains-third-party-frames" === m.behaviour || "apply-tag-if-contains-third-party-frames" === m.behaviour ? "some" : "every"](e => !e.some(e => m.filterKeys.includes(e)))) {
                 if ("drop-error-if-contains-third-party-frames" === m.behaviour || "drop-error-if-exclusively-contains-third-party-frames" === m.behaviour) return null;
@@ -7818,9 +8100,9 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
             name: "ZodErrors",
             processEvent: (n, r) => (function(e, t = !1, n, r) {
                 var a;
-                if (!n.exception?.values || !r.originalException || (a = r.originalException, !((0, H.isError)(a) && "ZodError" === a.name && Array.isArray(a.issues))) || 0 === r.originalException.issues.length) return n;
+                if (!n.exception?.values || !r.originalException || (a = r.originalException, !((0, G.isError)(a) && "ZodError" === a.name && Array.isArray(a.issues))) || 0 === r.originalException.issues.length) return n;
                 try {
-                    let a = (t ? r.originalException.issues : r.originalException.issues.slice(0, e)).map(rQ);
+                    let a = (t ? r.originalException.issues : r.originalException.issues.slice(0, e)).map(ai);
                     return t && (Array.isArray(r.attachments) || (r.attachments = []), r.attachments.push({
                         filename: "zod_issues.json",
                         data: JSON.stringify({
@@ -7878,7 +8160,7 @@ ${e.stack}` : "unknown"
 }), e.s(["onRouterTransitionStart", 0, function(e, t) {
     h && h(e, t)
 }], 427075)
-}, 509141, (e, t, n) => {
+}, 348312, (e, t, n) => {
     "use strict";
     t.exports = e.f({
         "private-next-instrumentation-client": {
@@ -7886,7 +8168,7 @@ ${e.stack}` : "unknown"
             module: () => e.r(427075)
         }
     })("private-next-instrumentation-client")
-}, 212690, (e, t, n) => {
+}, 782989, (e, t, n) => {
     "trimStart" in String.prototype || (String.prototype.trimStart = String.prototype.trimLeft), "trimEnd" in String.prototype || (String.prototype.trimEnd = String.prototype.trimRight), "description" in Symbol.prototype || Object.defineProperty(Symbol.prototype, "description", {
         configurable: !0,
         get: function() {
@@ -7926,14 +8208,14 @@ ${e.stack}` : "unknown"
             return !1
         }
     })
-}, 336355, (e, t, n) => {
+}, 714132, (e, t, n) => {
     "use strict";
     Object.defineProperty(n, "__esModule", {
         value: !0
-    }), e.r(212690), ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
+    }), e.r(782989), ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
-}, 263502, (e, t, n) => {
+}, 207666, (e, t, n) => {
     "use strict";
 
     function r(e, t) {
@@ -8167,15 +8449,15 @@ ${e.stack}` : "unknown"
             }
         }
     }
-}, 728067, (e, t, n) => {
+}, 762905, (e, t, n) => {
     "use strict";
-    t.exports = e.r(263502)
-}, 132321, (e, t, n) => {
+    t.exports = e.r(207666)
+}, 629943, (e, t, n) => {
     "use strict";
-    var r, a = e.i(788727),
-        i = e.r(728067),
-        o = e.r(3931),
-        l = e.r(973914);
+    var r, a = e.i(203217),
+        i = e.r(762905),
+        o = e.r(499531),
+        l = e.r(320666);
 
     function s(e) {
         var t = "https://react.dev/errors/" + e;
@@ -8301,9 +8583,9 @@ ${e.stack}` : "unknown"
         return null === e || "object" != typeof e ? null : "function" == typeof(e = F && e[F] || e["@@iterator"]) ? e : null
     }
     var W = Symbol.for("react.client.reference"),
-        q = Array.isArray,
-        V = o.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
-        G = l.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
+        G = Array.isArray,
+        q = o.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
+        V = l.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,
         Y = {
             pending: !1,
             data: null,
@@ -8663,40 +8945,40 @@ ${e.stack}` : "unknown"
     }
 
     function eH() {
-        var e = G.p;
+        var e = V.p;
         return 0 !== e ? e : void 0 === (e = window.event) ? 32 : dD(e.type)
     }
 
     function eW(e, t) {
-        var n = G.p;
+        var n = V.p;
         try {
-            return G.p = e, t()
+            return V.p = e, t()
         } finally {
-            G.p = n
+            V.p = n
         }
     }
-    var eq = Math.random().toString(36).slice(2),
-        eV = "__reactFiber$" + eq,
-        eG = "__reactProps$" + eq,
-        eY = "__reactContainer$" + eq,
-        eX = "__reactEvents$" + eq,
-        eJ = "__reactListeners$" + eq,
-        eQ = "__reactHandles$" + eq,
-        eK = "__reactResources$" + eq,
-        eZ = "__reactMarker$" + eq;
+    var eG = Math.random().toString(36).slice(2),
+        eq = "__reactFiber$" + eG,
+        eV = "__reactProps$" + eG,
+        eY = "__reactContainer$" + eG,
+        eX = "__reactEvents$" + eG,
+        eJ = "__reactListeners$" + eG,
+        eQ = "__reactHandles$" + eG,
+        eK = "__reactResources$" + eG,
+        eZ = "__reactMarker$" + eG;
 
     function e0(e) {
-        delete e[eV], delete e[eG], delete e[eX], delete e[eJ], delete e[eQ]
+        delete e[eq], delete e[eV], delete e[eX], delete e[eJ], delete e[eQ]
     }
 
     function e1(e) {
         var t;
-        if (t = e[eV]) return t;
+        if (t = e[eq]) return t;
         for (var n = e.parentNode; n;) {
-            if (t = n[eY] || n[eV]) {
+            if (t = n[eY] || n[eq]) {
                 if (n = t.alternate, null !== t.child || null !== n && null !== n.child)
                     for (e = cQ(e); null !== e;) {
-                        if (n = e[eV]) return n;
+                        if (n = e[eq]) return n;
                         e = cQ(e)
                     }
                 return t
@@ -8707,7 +8989,7 @@ ${e.stack}` : "unknown"
     }
 
     function e2(e) {
-        if (e = e[eV] || e[eY]) {
+        if (e = e[eq] || e[eY]) {
             var t = e.tag;
             if (5 === t || 6 === t || 13 === t || 31 === t || 26 === t || 27 === t || 3 === t) return e
         }
@@ -8922,7 +9204,7 @@ ${e.stack}` : "unknown"
         if (null == t) {
             if (null != r) {
                 if (null != n) throw Error(s(92));
-                if (q(r)) {
+                if (G(r)) {
                     if (1 < r.length) throw Error(s(93));
                     r = r[0]
                 }
@@ -9074,7 +9356,7 @@ ${e.stack}` : "unknown"
     function tL(e) {
         var t = e2(e);
         if (t && (e = t.stateNode)) {
-            var n = e[eG] || null;
+            var n = e[eV] || null;
             switch (e = t.stateNode, t.type) {
                 case "input":
                     if (tm(e, n.value, n.defaultValue, n.defaultValue, n.checked, n.defaultChecked, n.type, n.name), t = n.name, "radio" === n.type && null != t) {
@@ -9082,7 +9364,7 @@ ${e.stack}` : "unknown"
                         for (n = n.querySelectorAll('input[name="' + th("" + t) + '"][type="radio"]'), t = 0; t < n.length; t++) {
                             var r = n[t];
                             if (r !== e && r.form === e.form) {
-                                var a = r[eG] || null;
+                                var a = r[eV] || null;
                                 if (!a) throw Error(s(90));
                                 tm(r, a.value, a.defaultValue, a.defaultValue, a.checked, a.defaultChecked, a.type, a.name)
                             }
@@ -9114,7 +9396,7 @@ ${e.stack}` : "unknown"
     function tj(e, t) {
         var n = e.stateNode;
         if (null === n) return null;
-        var r = n[eG] || null;
+        var r = n[eV] || null;
         if (null === r) return null;
         switch (n = r[t], t) {
             case "onClick":
@@ -9165,36 +9447,36 @@ ${e.stack}` : "unknown"
         return tH = a.slice(e, 1 < t ? 1 - t : void 0)
     }
 
-    function tq(e) {
+    function tG(e) {
         var t = e.keyCode;
         return "charCode" in e ? 0 === (e = e.charCode) && 13 === t && (e = 13) : e = t, 10 === e && (e = 13), 32 <= e || 13 === e ? e : 0
     }
 
-    function tV() {
+    function tq() {
         return !0
     }
 
-    function tG() {
+    function tV() {
         return !1
     }
 
     function tY(e) {
         function t(t, n, r, a, i) {
             for (var o in this._reactName = t, this._targetInst = r, this.type = n, this.nativeEvent = a, this.target = i, this.currentTarget = null, e) e.hasOwnProperty(o) && (t = e[o], this[o] = t ? t(a) : a[o]);
-            return this.isDefaultPrevented = (null != a.defaultPrevented ? a.defaultPrevented : !1 === a.returnValue) ? tV : tG, this.isPropagationStopped = tG, this
+            return this.isDefaultPrevented = (null != a.defaultPrevented ? a.defaultPrevented : !1 === a.returnValue) ? tq : tV, this.isPropagationStopped = tV, this
         }
         return T(t.prototype, {
             preventDefault: function() {
                 this.defaultPrevented = !0;
                 var e = this.nativeEvent;
-                e && (e.preventDefault ? e.preventDefault() : "unknown" != typeof e.returnValue && (e.returnValue = !1), this.isDefaultPrevented = tV)
+                e && (e.preventDefault ? e.preventDefault() : "unknown" != typeof e.returnValue && (e.returnValue = !1), this.isDefaultPrevented = tq)
             },
             stopPropagation: function() {
                 var e = this.nativeEvent;
-                e && (e.stopPropagation ? e.stopPropagation() : "unknown" != typeof e.cancelBubble && (e.cancelBubble = !0), this.isPropagationStopped = tV)
+                e && (e.stopPropagation ? e.stopPropagation() : "unknown" != typeof e.cancelBubble && (e.cancelBubble = !0), this.isPropagationStopped = tq)
             },
             persist: function() {},
-            isPersistent: tV
+            isPersistent: tq
         }), t
     }
     var tX, tJ, tQ, tK, tZ, t0 = {
@@ -9330,7 +9612,7 @@ ${e.stack}` : "unknown"
                     var t = nt[e.key] || e.key;
                     if ("Unidentified" !== t) return t
                 }
-                return "keypress" === e.type ? 13 === (e = tq(e)) ? "Enter" : String.fromCharCode(e) : "keydown" === e.type || "keyup" === e.type ? nn[e.keyCode] || "Unidentified" : ""
+                return "keypress" === e.type ? 13 === (e = tG(e)) ? "Enter" : String.fromCharCode(e) : "keydown" === e.type || "keyup" === e.type ? nn[e.keyCode] || "Unidentified" : ""
             },
             code: 0,
             location: 0,
@@ -9342,13 +9624,13 @@ ${e.stack}` : "unknown"
             locale: 0,
             getModifierState: ni,
             charCode: function(e) {
-                return "keypress" === e.type ? tq(e) : 0
+                return "keypress" === e.type ? tG(e) : 0
             },
             keyCode: function(e) {
                 return "keydown" === e.type || "keyup" === e.type ? e.keyCode : 0
             },
             which: function(e) {
-                return "keypress" === e.type ? tq(e) : "keydown" === e.type || "keyup" === e.type ? e.keyCode : 0
+                return "keypress" === e.type ? tG(e) : "keydown" === e.type || "keyup" === e.type ? e.keyCode : 0
             }
         })),
         nl = tY(T({}, t4, {
@@ -9569,15 +9851,15 @@ ${e.stack}` : "unknown"
         var t = e && e.nodeName && e.nodeName.toLowerCase();
         return t && ("input" === t && ("text" === e.type || "search" === e.type || "tel" === e.type || "url" === e.type || "password" === e.type) || "textarea" === t || "true" === e.contentEditable)
     }
-    var nq = tU && "documentMode" in document && 11 >= document.documentMode,
+    var nG = tU && "documentMode" in document && 11 >= document.documentMode,
+        nq = null,
         nV = null,
-        nG = null,
         nY = null,
         nX = !1;
 
     function nJ(e, t, n) {
         var r = n.window === n ? n.document : 9 === n.nodeType ? n : n.ownerDocument;
-        nX || null == nV || nV !== tf(r) || (r = "selectionStart" in (r = nV) && nW(r) ? {
+        nX || null == nq || nq !== tf(r) || (r = "selectionStart" in (r = nq) && nW(r) ? {
             start: r.selectionStart,
             end: r.selectionEnd
         } : {
@@ -9585,10 +9867,10 @@ ${e.stack}` : "unknown"
             anchorOffset: r.anchorOffset,
             focusNode: r.focusNode,
             focusOffset: r.focusOffset
-        }, nY && n$(nY, r) || (nY = r, 0 < (r = u8(nG, "onSelect")).length && (t = new t1("onSelect", "select", null, t, n), e.push({
+        }, nY && n$(nY, r) || (nY = r, 0 < (r = u8(nV, "onSelect")).length && (t = new t1("onSelect", "select", null, t, n), e.push({
             event: t,
             listeners: r
-        }), t.target = nV)))
+        }), t.target = nq)))
     }
 
     function nQ(e, t) {
@@ -9887,9 +10169,9 @@ ${e.stack}` : "unknown"
     }
     var rH = null,
         rW = null,
-        rq = !1,
-        rV = null,
         rG = !1,
+        rq = null,
+        rV = !1,
         rY = Error(s(519));
 
     function rX(e) {
@@ -9901,7 +10183,7 @@ ${e.stack}` : "unknown"
         var t = e.stateNode,
             n = e.type,
             r = e.memoizedProps;
-        switch (t[eV] = e, t[eG] = r, n) {
+        switch (t[eq] = e, t[eV] = r, n) {
             case "dialog":
                 uZ("cancel", t), uZ("close", t);
                 break;
@@ -9942,11 +10224,11 @@ ${e.stack}` : "unknown"
             case 5:
             case 31:
             case 13:
-                rG = !1;
+                rV = !1;
                 return;
             case 27:
             case 3:
-                rG = !0;
+                rV = !0;
                 return;
             default:
                 rH = rH.return
@@ -9955,7 +10237,7 @@ ${e.stack}` : "unknown"
 
     function rK(e) {
         if (e !== rH) return !1;
-        if (!rq) return rQ(e), rq = !0, !1;
+        if (!rG) return rQ(e), rG = !0, !1;
         var t, n = e.tag;
         if ((t = 3 !== n && 27 !== n) && ((t = 5 === n) && (t = "form" === (t = e.type) || "button" === t || cf(e.type, e.memoizedProps)), t = !t), t && rW && rX(e), rQ(e), 13 === n) {
             if (!(e = null !== (e = e.memoizedState) ? e.dehydrated : null)) throw Error(s(317));
@@ -9968,16 +10250,16 @@ ${e.stack}` : "unknown"
     }
 
     function rZ() {
-        rW = rH = null, rq = !1
+        rW = rH = null, rG = !1
     }
 
     function r0() {
-        var e = rV;
-        return null !== e && (null === sB ? sB = e : sB.push.apply(sB, e), rV = null), e
+        var e = rq;
+        return null !== e && (null === sB ? sB = e : sB.push.apply(sB, e), rq = null), e
     }
 
     function r1(e) {
-        null === rV ? rV = [e] : rV.push(e)
+        null === rq ? rq = [e] : rq.push(e)
     }
     var r2 = Q(null),
         r3 = null,
@@ -10155,12 +10437,12 @@ ${e.stack}` : "unknown"
             for (var t = 0; t < e.length; t++)(0, e[t])()
         }
     }
-    var ay = V.S;
-    V.S = function(e, t) {
+    var ay = q.S;
+    q.S = function(e, t) {
         if (sW = ev(), "object" == typeof t && null !== t && "function" == typeof t.then && function(e) {
                 if (null === ap) {
                     var t = ap = [];
-                    ah = 0, am = uV(), ag = {
+                    ah = 0, am = uq(), ag = {
                         status: "pending",
                         value: void 0,
                         then: function(e) {
@@ -10338,7 +10620,7 @@ ${e.stack}` : "unknown"
                     case j:
                         return f(e, t = aN(t), n)
                 }
-                if (q(t) || H(t)) return (t = rw(t, e.mode, n, null)).return = e, t;
+                if (G(t) || H(t)) return (t = rw(t, e.mode, n, null)).return = e, t;
                 if ("function" == typeof t.then) return f(e, aM(t), n);
                 if (t.$$typeof === I) return f(e, ar(e, t), n);
                 aj(e, t)
@@ -10358,7 +10640,7 @@ ${e.stack}` : "unknown"
                     case j:
                         return p(e, t, n = aN(n), r)
                 }
-                if (q(n) || H(n)) return null !== a ? null : d(e, t, n, r, null);
+                if (G(n) || H(n)) return null !== a ? null : d(e, t, n, r, null);
                 if ("function" == typeof n.then) return p(e, t, aM(n), r);
                 if (n.$$typeof === I) return p(e, t, ar(e, n), r);
                 aj(e, n)
@@ -10377,7 +10659,7 @@ ${e.stack}` : "unknown"
                     case j:
                         return h(e, t, n, r = aN(r), a)
                 }
-                if (q(r) || H(r)) return d(t, e = e.get(n) || null, r, a, null);
+                if (G(r) || H(r)) return d(t, e = e.get(n) || null, r, a, null);
                 if ("function" == typeof r.then) return h(e, t, n, aM(r), a);
                 if (r.$$typeof === I) return h(e, t, n, ar(t, r), a);
                 aj(t, r)
@@ -10431,7 +10713,7 @@ ${e.stack}` : "unknown"
                             case j:
                                 return l(u, c, d = aN(d), m)
                         }
-                        if (q(d)) return function(a, o, l, s) {
+                        if (G(d)) return function(a, o, l, s) {
                             for (var u = null, c = null, d = o, m = o = 0, g = null; null !== d && m < l.length; m++) {
                                 d.index > m ? (g = d, d = null) : g = d.sibling;
                                 var v = p(a, d, l[m], s);
@@ -10441,15 +10723,15 @@ ${e.stack}` : "unknown"
                                 }
                                 e && d && null === v.alternate && t(a, d), o = i(v, o, m), null === c ? u = v : c.sibling = v, c = v, d = g
                             }
-                            if (m === l.length) return n(a, d), rq && rU(a, m), u;
+                            if (m === l.length) return n(a, d), rG && rU(a, m), u;
                             if (null === d) {
                                 for (; m < l.length; m++) null !== (d = f(a, l[m], s)) && (o = i(d, o, m), null === c ? u = d : c.sibling = d, c = d);
-                                return rq && rU(a, m), u
+                                return rG && rU(a, m), u
                             }
                             for (d = r(d); m < l.length; m++) null !== (g = h(d, a, m, l[m], s)) && (e && null !== (v = g.alternate) && d.delete(null === v.key ? m : v.key), o = i(g, o, m), null === c ? u = g : c.sibling = g, c = g);
                             return e && d.forEach(function(e) {
                                 return t(a, e)
-                            }), rq && rU(a, m), u
+                            }), rG && rU(a, m), u
                         }(u, c, d, m);
                         if (H(d)) {
                             if ("function" != typeof(g = H(d))) throw Error(s(150));
@@ -10464,15 +10746,15 @@ ${e.stack}` : "unknown"
                                     }
                                     e && m && null === b.alternate && t(a, m), o = i(b, o, g), null === d ? c = b : d.sibling = b, d = b, m = v
                                 }
-                                if (y.done) return n(a, m), rq && rU(a, g), c;
+                                if (y.done) return n(a, m), rG && rU(a, g), c;
                                 if (null === m) {
                                     for (; !y.done; g++, y = l.next()) null !== (y = f(a, y.value, u)) && (o = i(y, o, g), null === d ? c = y : d.sibling = y, d = y);
-                                    return rq && rU(a, g), c
+                                    return rG && rU(a, g), c
                                 }
                                 for (m = r(m); !y.done; g++, y = l.next()) null !== (y = h(m, a, g, y.value, u)) && (e && null !== (v = y.alternate) && m.delete(null === v.key ? g : v.key), o = i(y, o, g), null === d ? c = y : d.sibling = y, d = y);
                                 return e && m.forEach(function(e) {
                                     return t(a, e)
-                                }), rq && rU(a, g), c
+                                }), rG && rU(a, g), c
                             }(u, c, d = g.call(d), m)
                         }
                         if ("function" == typeof d.then) return l(u, c, aM(d), m);
@@ -10527,7 +10809,7 @@ ${e.stack}` : "unknown"
         }
     }
 
-    function aq(e, t, n) {
+    function aG(e, t, n) {
         var r = e.updateQueue;
         if (null === r) return null;
         if (r = r.shared, 0 != (2 & sT)) {
@@ -10537,14 +10819,14 @@ ${e.stack}` : "unknown"
         return rd(e, r, t, n), rm(e)
     }
 
-    function aV(e, t, n) {
+    function aq(e, t, n) {
         if (null !== (t = t.updateQueue) && (t = t.shared, 0 != (4194048 & n))) {
             var r = t.lanes;
             r &= e.pendingLanes, n |= r, t.lanes = n, ez(e, n)
         }
     }
 
-    function aG(e, t) {
+    function aV(e, t) {
         var n = e.updateQueue,
             r = e.alternate;
         if (null !== r && n === (r = r.updateQueue)) {
@@ -10708,7 +10990,7 @@ ${e.stack}` : "unknown"
         for (var t = e; null !== t;) {
             if (13 === t.tag) {
                 var n = t.memoizedState;
-                if (null !== n && (null === (n = n.dehydrated) || cV(n) || cG(n))) return t
+                if (null !== n && (null === (n = n.dehydrated) || cq(n) || cV(n))) return t
             } else if (19 === t.tag && "independent" !== t.memoizedProps.revealOrder) {
                 if (0 != (128 & t.flags)) return t
             } else if (null !== t.child) {
@@ -10748,11 +11030,11 @@ ${e.stack}` : "unknown"
     }
 
     function i_(e, t, n, r, a, i) {
-        return io = i, il = t, t.memoizedState = null, t.updateQueue = null, t.lanes = 0, V.H = null === e || null === e.memoizedState ? ox : ok, ip = !1, i = n(r, a), ip = !1, id && (i = iE(t, n, r, a)), iS(e), i
+        return io = i, il = t, t.memoizedState = null, t.updateQueue = null, t.lanes = 0, q.H = null === e || null === e.memoizedState ? ox : ok, ip = !1, i = n(r, a), ip = !1, id && (i = iE(t, n, r, a)), iS(e), i
     }
 
     function iS(e) {
-        V.H = oP;
+        q.H = oP;
         var t = null !== is && null !== is.next;
         if (io = 0, iu = is = il = null, ic = !1, im = 0, ig = null, t) throw Error(s(300));
         null === e || oH || null !== (e = e.dependencies) && ae(e) && (oH = !0)
@@ -10767,12 +11049,12 @@ ${e.stack}` : "unknown"
                 var i = e.updateQueue;
                 i.lastEffect = null, i.events = null, i.stores = null, null != i.memoCache && (i.memoCache.index = 0)
             }
-            V.H = oR, i = t(n, r)
+            q.H = oR, i = t(n, r)
         } while (id) return i
     }
 
     function iw() {
-        var e = V.H,
+        var e = q.H,
             t = e.useState()[0];
         return t = "function" == typeof t.then ? iO(t) : t, e = e.useState()[0], (null !== is ? is.memoizedState : null) !== e && (il.flags |= 1024), t
     }
@@ -10842,7 +11124,7 @@ ${e.stack}` : "unknown"
 
     function iO(e) {
         var t = im;
-        return im += 1, null === ig && (ig = []), e = aR(ig, e, t), t = il, null === (null === iu ? t.memoizedState : iu.next) && (V.H = null === (t = t.alternate) || null === t.memoizedState ? ox : ok), e
+        return im += 1, null === ig && (ig = []), e = aR(ig, e, t), t = il, null === (null === iu ? t.memoizedState : iu.next) && (q.H = null === (t = t.alternate) || null === t.memoizedState ? ox : ok), e
     }
 
     function iC(e) {
@@ -10962,7 +11244,7 @@ ${e.stack}` : "unknown"
     function ij(e, t, n) {
         var r = il,
             a = iR(),
-            i = rq;
+            i = rG;
         if (i) {
             if (void 0 === n) throw Error(s(407));
             n = n()
@@ -11025,7 +11307,7 @@ ${e.stack}` : "unknown"
         return e.baseState = n, iM(e, is, "function" == typeof r ? r : iA)
     }
 
-    function iq(e, t, n, r, a) {
+    function iG(e, t, n, r, a) {
         if (oE(e)) throw Error(s(485));
         if (null !== (e = t.action)) {
             var i = {
@@ -11041,35 +11323,35 @@ ${e.stack}` : "unknown"
                     i.listeners.push(e)
                 }
             };
-            null !== V.T ? n(!0) : i.isTransition = !1, r(i), null === (n = t.pending) ? (i.next = t.pending = i, iV(t, i)) : (i.next = n.next, t.pending = n.next = i)
+            null !== q.T ? n(!0) : i.isTransition = !1, r(i), null === (n = t.pending) ? (i.next = t.pending = i, iq(t, i)) : (i.next = n.next, t.pending = n.next = i)
         }
     }
 
-    function iV(e, t) {
+    function iq(e, t) {
         var n = t.action,
             r = t.payload,
             a = e.state;
         if (t.isTransition) {
-            var i = V.T,
+            var i = q.T,
                 o = {};
-            o.types = null !== i ? i.types : null, V.T = o;
+            o.types = null !== i ? i.types : null, q.T = o;
             try {
                 var l = n(a, r),
-                    s = V.S;
-                null !== s && s(o, l), iG(e, t, l)
+                    s = q.S;
+                null !== s && s(o, l), iV(e, t, l)
             } catch (n) {
                 iX(e, t, n)
             } finally {
-                null !== i && null !== o.types && (i.types = o.types), V.T = i
+                null !== i && null !== o.types && (i.types = o.types), q.T = i
             }
         } else try {
-            i = n(a, r), iG(e, t, i)
+            i = n(a, r), iV(e, t, i)
         } catch (n) {
             iX(e, t, n)
         }
     }
 
-    function iG(e, t, n) {
+    function iV(e, t, n) {
         null !== n && "object" == typeof n && "function" == typeof n.then ? n.then(function(n) {
             iY(e, t, n)
         }, function(n) {
@@ -11078,7 +11360,7 @@ ${e.stack}` : "unknown"
     }
 
     function iY(e, t, n) {
-        t.status = "fulfilled", t.value = n, iJ(t), e.state = n, null !== (t = e.pending) && ((n = t.next) === t ? e.pending = null : (n = n.next, t.next = n, iV(e, n)))
+        t.status = "fulfilled", t.value = n, iJ(t), e.state = n, null !== (t = e.pending) && ((n = t.next) === t ? e.pending = null : (n = n.next, t.next = n, iq(e, n)))
     }
 
     function iX(e, t, n) {
@@ -11100,15 +11382,15 @@ ${e.stack}` : "unknown"
     }
 
     function iK(e, t) {
-        if (rq) {
+        if (rG) {
             var n = sP.formState;
             if (null !== n) {
                 e: {
                     var r = il;
-                    if (rq) {
+                    if (rG) {
                         if (rW) {
                             t: {
-                                for (var a = rW, i = rG; 8 !== a.nodeType;)
+                                for (var a = rW, i = rV; 8 !== a.nodeType;)
                                     if (!i || null === (a = cY(a.nextSibling))) {
                                         a = null;
                                         break t
@@ -11137,7 +11419,7 @@ ${e.stack}` : "unknown"
             dispatch: null,
             action: e,
             pending: null
-        }, r.queue = a, n = iq.bind(null, il, a, i, n), a.dispatch = n, r.memoizedState = e, [t, n, !1]
+        }, r.queue = a, n = iG.bind(null, il, a, i, n), a.dispatch = n, r.memoizedState = e, [t, n, !1]
     }
 
     function iZ(e) {
@@ -11276,14 +11558,14 @@ ${e.stack}` : "unknown"
     }
 
     function ou(e, t, n, r, a) {
-        var i = G.p;
-        G.p = 0 !== i && 8 > i ? i : 8;
-        var o = V.T,
+        var i = V.p;
+        V.p = 0 !== i && 8 > i ? i : 8;
+        var o = q.T,
             l = {};
-        l.types = null !== o ? o.types : null, V.T = l, oS(e, !1, t, n);
+        l.types = null !== o ? o.types : null, q.T = l, oS(e, !1, t, n);
         try {
             var s = a(),
-                u = V.S;
+                u = q.S;
             if (null !== u && u(l, s), null !== s && "object" == typeof s && "function" == typeof s.then) {
                 var c, d, f = (c = [], d = {
                     status: "pending",
@@ -11307,7 +11589,7 @@ ${e.stack}` : "unknown"
                 reason: n
             }, s8())
         } finally {
-            G.p = i, null !== o && null !== l.types && (o.types = l.types), V.T = o
+            V.p = i, null !== o && null !== l.types && (o.types = l.types), q.T = o
         }
     }
 
@@ -11375,8 +11657,8 @@ ${e.stack}` : "unknown"
                 case 24:
                 case 3:
                     var n = s8(),
-                        r = aq(t, e = aW(n), n);
-                    null !== r && (s7(r, t, n), aV(r, t, n)), t = {
+                        r = aG(t, e = aW(n), n);
+                    null !== r && (s7(r, t, n), aq(r, t, n)), t = {
                         cache: au()
                     }, e.payload = t;
                     return
@@ -11428,7 +11710,7 @@ ${e.stack}` : "unknown"
     function oS(e, t, n, r) {
         if (r = {
                 lane: 2,
-                revertLane: uV(),
+                revertLane: uq(),
                 gesture: null,
                 action: r,
                 hasEagerState: !1,
@@ -11538,7 +11820,7 @@ ${e.stack}` : "unknown"
             useSyncExternalStore: function(e, t, n) {
                 var r = il,
                     a = ik();
-                if (rq) {
+                if (rG) {
                     if (void 0 === n) throw Error(s(407));
                     n = n()
                 } else {
@@ -11557,7 +11839,7 @@ ${e.stack}` : "unknown"
             useId: function() {
                 var e = ik(),
                     t = sP.identifierPrefix;
-                if (rq) {
+                if (rG) {
                     var n = rj,
                         r = rD;
                     t = "_" + t + "R_" + (n = (r & ~(1 << 32 - ex(r) - 1)).toString(32) + n), 0 < (n = ih++) && (t += "H" + n.toString(32)), t += "_"
@@ -11678,19 +11960,19 @@ ${e.stack}` : "unknown"
             e = e._reactInternals;
             var r = s8(),
                 a = aW(r);
-            a.payload = t, null != n && (a.callback = n), null !== (t = aq(e, a, r)) && (s7(t, e, r), aV(t, e, r))
+            a.payload = t, null != n && (a.callback = n), null !== (t = aG(e, a, r)) && (s7(t, e, r), aq(t, e, r))
         },
         enqueueReplaceState: function(e, t, n) {
             e = e._reactInternals;
             var r = s8(),
                 a = aW(r);
-            a.tag = 1, a.payload = t, null != n && (a.callback = n), null !== (t = aq(e, a, r)) && (s7(t, e, r), aV(t, e, r))
+            a.tag = 1, a.payload = t, null != n && (a.callback = n), null !== (t = aG(e, a, r)) && (s7(t, e, r), aq(t, e, r))
         },
         enqueueForceUpdate: function(e, t) {
             e = e._reactInternals;
             var n = s8(),
                 r = aW(n);
-            r.tag = 2, null != t && (r.callback = t), null !== (t = aq(e, r, n)) && (s7(t, e, n), aV(t, e, n))
+            r.tag = 2, null != t && (r.callback = t), null !== (t = aG(e, r, n)) && (s7(t, e, n), aq(t, e, n))
         }
     };
 
@@ -11772,7 +12054,7 @@ ${e.stack}` : "unknown"
         }
         var o = n.stateNode;
         null !== o && "function" == typeof o.componentDidCatch && (e.callback = function() {
-            oU(t, n, r), "function" != typeof a && (null === sG ? sG = new Set([this]) : sG.add(this));
+            oU(t, n, r), "function" != typeof a && (null === sV ? sV = new Set([this]) : sV.add(this));
             var e = r.stack;
             this.componentDidCatch(r.value, {
                 componentStack: null !== e ? e : ""
@@ -11786,20 +12068,20 @@ ${e.stack}` : "unknown"
         t.child = null === e ? a$(t, null, n, r) : az(t, e.child, n, r)
     }
 
-    function oq(e, t, n, r, a) {
+    function oG(e, t, n, r, a) {
         n = n.render;
         var i = t.ref;
         if ("ref" in r) {
             var o = {};
             for (var l in r) "ref" !== l && (o[l] = r[l])
         } else o = r;
-        return (at(t), r = i_(e, t, n, o, i, a), l = iT(), null === e || oH) ? (rq && l && r$(t), t.flags |= 1, oW(e, t, r, a), t.child) : (iP(e, t, a), ll(e, t, a))
+        return (at(t), r = i_(e, t, n, o, i, a), l = iT(), null === e || oH) ? (rG && l && r$(t), t.flags |= 1, oW(e, t, r, a), t.child) : (iP(e, t, a), ll(e, t, a))
     }
 
-    function oV(e, t, n, r, a) {
+    function oq(e, t, n, r, a) {
         if (null === e) {
             var i = n.type;
-            return "function" != typeof i || rb(i) || void 0 !== i.defaultProps || null !== n.compare ? ((e = rE(n.type, null, r, t, t.mode, a)).ref = t.ref, e.return = t, t.child = e) : (t.tag = 15, t.type = i, oG(e, t, i, r, a))
+            return "function" != typeof i || rb(i) || void 0 !== i.defaultProps || null !== n.compare ? ((e = rE(n.type, null, r, t, t.mode, a)).ref = t.ref, e.return = t, t.child = e) : (t.tag = 15, t.type = i, oV(e, t, i, r, a))
         }
         if (i = e.child, !ls(e, a)) {
             var o = i.memoizedProps;
@@ -11808,7 +12090,7 @@ ${e.stack}` : "unknown"
         return t.flags |= 1, (e = r_(i, r)).ref = t.ref, e.return = t, t.child = e
     }
 
-    function oG(e, t, n, r, a) {
+    function oV(e, t, n, r, a) {
         if (null !== e) {
             var i = e.memoizedProps;
             if (n$(i, r) && e.ref === t.ref)
@@ -11884,11 +12166,11 @@ ${e.stack}` : "unknown"
     }
 
     function o0(e, t, n, r, a) {
-        return (at(t), n = i_(e, t, n, r, void 0, a), r = iT(), null === e || oH) ? (rq && r && r$(t), t.flags |= 1, oW(e, t, n, a), t.child) : (iP(e, t, a), ll(e, t, a))
+        return (at(t), n = i_(e, t, n, r, void 0, a), r = iT(), null === e || oH) ? (rG && r && r$(t), t.flags |= 1, oW(e, t, n, a), t.child) : (iP(e, t, a), ll(e, t, a))
     }
 
     function o1(e, t, n, r, a, i) {
-        return (at(t), t.updateQueue = null, n = iE(t, r, n, a), iS(e), r = iT(), null === e || oH) ? (rq && r && r$(t), t.flags |= 1, oW(e, t, n, i), t.child) : (iP(e, t, i), ll(e, t, i))
+        return (at(t), t.updateQueue = null, n = iE(t, r, n, a), iS(e), r = iT(), null === e || oH) ? (rG && r && r$(t), t.flags |= 1, oW(e, t, n, i), t.child) : (iP(e, t, i), ll(e, t, i))
     }
 
     function o2(e, t, n, r, a) {
@@ -11942,8 +12224,8 @@ ${e.stack}` : "unknown"
             i = !1,
             o = 0 != (128 & t.flags);
         if ((r = o) || (r = (null === e || null !== e.memoizedState) && 0 != (2 & it.current)), r && (i = !0, t.flags &= -129), r = 0 != (32 & t.flags), t.flags &= -33, null === e) {
-            if (rq) {
-                if (i ? a8(t) : a7(), (e = rW) ? null !== (e = null !== (e = cq(e, rG)) && "&" !== e.data ? e : null) && (t.memoizedState = {
+            if (rG) {
+                if (i ? a8(t) : a7(), (e = rW) ? null !== (e = null !== (e = cG(e, rV)) && "&" !== e.data ? e : null) && (t.memoizedState = {
                         dehydrated: e,
                         treeContext: null !== rM ? {
                             id: rD,
@@ -11952,7 +12234,7 @@ ${e.stack}` : "unknown"
                         retryLane: 0x20000000,
                         hydrationErrors: null
                     }, (n = rP(e)).return = t, t.child = n, rH = t, rW = null) : e = null, null === e) throw rX(t);
-                return cG(e) ? t.lanes = 32 : t.lanes = 0x20000000, null
+                return cV(e) ? t.lanes = 32 : t.lanes = 0x20000000, null
             }
             var l = a.children;
             return (a = a.fallback, i) ? (a7(), l = o7({
@@ -11966,7 +12248,7 @@ ${e.stack}` : "unknown"
                 mode: "visible",
                 children: a.children
             }, i), l = rw(l, i, n, null), l.flags |= 2, a.return = t, l.return = t, a.sibling = l, t.child = a, az(t, e.child, null, n), (a = t.child).memoizedState = o5(n), a.childLanes = o8(e, r, n), t.memoizedState = o4, t = oX(null, a));
-            else if (a8(t), cG(l)) {
+            else if (a8(t), cV(l)) {
                 if (r = l.nextSibling && l.nextSibling.dataset) var c = r.dgst;
                 r = c, (a = Error(s(419))).stack = "", a.digest = r, r1({
                     value: a,
@@ -11975,8 +12257,8 @@ ${e.stack}` : "unknown"
                 }), t = le(e, t, n)
             } else if (oH || r7(e, t, n, !1), r = 0 != (n & e.childLanes), oH || r) {
                 if (null !== (r = sP) && 0 !== (a = e$(r, n)) && a !== u.retryLane) throw u.retryLane = a, rp(e, a), s7(r, e, a), oF;
-                cV(l) || uc(), t = le(e, t, n)
-            } else cV(l) ? (t.flags |= 192, t.child = e.child, t = null) : (e = u.treeContext, rW = cY(l.nextSibling), rH = t, rq = !0, rV = null, rG = !1, null !== e && rF(t, e), t = o9(t, a.children), t.flags |= 4096);
+                cq(l) || uc(), t = le(e, t, n)
+            } else cq(l) ? (t.flags |= 192, t.child = e.child, t = null) : (e = u.treeContext, rW = cY(l.nextSibling), rH = t, rG = !0, rq = null, rV = !1, null !== e && rF(t, e), t = o9(t, a.children), t.flags |= 4096);
             return t
         }
         return i ? (a7(), l = a.fallback, i = t.mode, c = (u = e.child).sibling, (a = r_(u, {
@@ -12052,7 +12334,7 @@ ${e.stack}` : "unknown"
         var o = it.current;
         if (128 & t.flags) return ir(t, o), null;
         var l = 0 != (2 & o);
-        if (l ? (o = 1 & o | 2, t.flags |= 128) : o &= 1, ir(t, o), "backwards" === a && null !== e ? (la(e), oW(e, t, r, n), la(e)) : oW(e, t, r, n), r = rq ? rI : 0, !l && null !== e && 0 != (128 & e.flags)) e: for (e = t.child; null !== e;) {
+        if (l ? (o = 1 & o | 2, t.flags |= 128) : o &= 1, ir(t, o), "backwards" === a && null !== e ? (la(e), oW(e, t, r, n), la(e)) : oW(e, t, r, n), r = rG ? rI : 0, !l && null !== e && 0 != (128 & e.flags)) e: for (e = t.child; null !== e;) {
             if (13 === e.tag) null !== e.memoizedState && lt(e, n, t);
             else if (19 === e.tag) lt(e, n, t);
             else if (null !== e.child) {
@@ -12165,7 +12447,7 @@ ${e.stack}` : "unknown"
                     }(e, t, n);
                 oH = 0 != (131072 & e.flags)
             }
-        else oH = !1, rq && 0 != (1048576 & t.flags) && rz(t, rI, t.index);
+        else oH = !1, rG && 0 != (1048576 & t.flags) && rz(t, rI, t.index);
         switch (t.lanes = 0, t.tag) {
             case 16:
                 e: {
@@ -12175,11 +12457,11 @@ ${e.stack}` : "unknown"
                         if (null != e) {
                             var a = e.$$typeof;
                             if (a === A) {
-                                t.tag = 11, t = oq(null, t, e, r, n);
+                                t.tag = 11, t = oG(null, t, e, r, n);
                                 break e
                             }
                             if (a === D) {
-                                t.tag = 14, t = oV(null, t, e, r, n);
+                                t.tag = 14, t = oq(null, t, e, r, n);
                                 break e
                             }
                             if (a === I) {
@@ -12253,7 +12535,7 @@ ${e.stack}` : "unknown"
                         r1(a = rR(Error(s(424)), t)), t = o3(e, t, r, n);
                         break e
                     } else
-                        for (rW = cY((e = 9 === (e = t.stateNode.containerInfo).nodeType ? e.body : "HTML" === e.nodeName ? e.ownerDocument.body : e).firstChild), rH = t, rq = !0, rV = null, rG = !0, n = a$(t, null, r, n), t.child = n; n;) n.flags = -3 & n.flags | 4096, n = n.sibling;
+                        for (rW = cY((e = 9 === (e = t.stateNode.containerInfo).nodeType ? e.body : "HTML" === e.nodeName ? e.ownerDocument.body : e).firstChild), rH = t, rG = !0, rq = null, rV = !0, n = a$(t, null, r, n), t.child = n; n;) n.flags = -3 & n.flags | 4096, n = n.sibling;
                     else {
                         if (rZ(), r === a) {
                             t = ll(e, t, n);
@@ -12265,11 +12547,11 @@ ${e.stack}` : "unknown"
                 }
                 return t;
             case 26:
-                return oZ(e, t), null === e ? (n = c8(t.type, null, t.pendingProps, null)) ? t.memoizedState = n : rq || (n = t.type, e = t.pendingProps, (r = cu(en.current).createElement(n))[eV] = t, r[eG] = e, ci(r, n, e), e5(r), t.stateNode = r) : t.memoizedState = c8(t.type, e.memoizedProps, t.pendingProps, e.memoizedState), null;
+                return oZ(e, t), null === e ? (n = c8(t.type, null, t.pendingProps, null)) ? t.memoizedState = n : rG || (n = t.type, e = t.pendingProps, (r = cu(en.current).createElement(n))[eq] = t, r[eV] = e, ci(r, n, e), e5(r), t.stateNode = r) : t.memoizedState = c8(t.type, e.memoizedProps, t.pendingProps, e.memoizedState), null;
             case 27:
-                return eo(t), null === e && rq && (r = t.stateNode = cK(t.type, t.pendingProps, en.current), rH = t, rG = !0, a = rW, cb(t.type) ? (cX = a, rW = cY(r.firstChild)) : rW = a), oW(e, t, t.pendingProps.children, n), oZ(e, t), null === e && (t.flags |= 4194304), t.child;
+                return eo(t), null === e && rG && (r = t.stateNode = cK(t.type, t.pendingProps, en.current), rH = t, rV = !0, a = rW, cb(t.type) ? (cX = a, rW = cY(r.firstChild)) : rW = a), oW(e, t, t.pendingProps.children, n), oZ(e, t), null === e && (t.flags |= 4194304), t.child;
             case 5:
-                return null === e && rq && ((a = r = rW) && (null !== (r = function(e, t, n, r) {
+                return null === e && rG && ((a = r = rW) && (null !== (r = function(e, t, n, r) {
                     for (; 1 === e.nodeType;) {
                         if (e.nodeName.toLowerCase() !== t.toLowerCase()) {
                             if (!r && ("INPUT" !== e.nodeName || "hidden" !== e.type)) break
@@ -12298,20 +12580,20 @@ ${e.stack}` : "unknown"
                         if (null === (e = cY(e.nextSibling))) break
                     }
                     return null
-                }(r, t.type, t.pendingProps, rG)) ? (t.stateNode = r, rH = t, rW = cY(r.firstChild), rG = !1, a = !0) : a = !1), a || rX(t)), eo(t), a = t.type, i = t.pendingProps, o = null !== e ? e.memoizedProps : null, r = i.children, cf(a, i) ? r = null : null !== o && cf(a, o) && (t.flags |= 32), null !== t.memoizedState && (dS._currentValue = a = i_(e, t, iw, null, null, n)), oZ(e, t), oW(e, t, r, n), t.child;
+                }(r, t.type, t.pendingProps, rV)) ? (t.stateNode = r, rH = t, rW = cY(r.firstChild), rV = !1, a = !0) : a = !1), a || rX(t)), eo(t), a = t.type, i = t.pendingProps, o = null !== e ? e.memoizedProps : null, r = i.children, cf(a, i) ? r = null : null !== o && cf(a, o) && (t.flags |= 32), null !== t.memoizedState && (dS._currentValue = a = i_(e, t, iw, null, null, n)), oZ(e, t), oW(e, t, r, n), t.child;
             case 6:
-                return null === e && rq && ((e = n = rW) && (null !== (n = function(e, t, n) {
+                return null === e && rG && ((e = n = rW) && (null !== (n = function(e, t, n) {
                     if ("" === t) return null;
                     for (; 3 !== e.nodeType;)
                         if ((1 !== e.nodeType || "INPUT" !== e.nodeName || "hidden" !== e.type) && !n || null === (e = cY(e.nextSibling))) return null;
                     return e
-                }(n, t.pendingProps, rG)) ? (t.stateNode = n, rH = t, rW = null, e = !0) : e = !1), e || rX(t)), null;
+                }(n, t.pendingProps, rV)) ? (t.stateNode = n, rH = t, rW = null, e = !0) : e = !1), e || rX(t)), null;
             case 13:
                 return o6(e, t, n);
             case 4:
                 return ea(t, t.stateNode.containerInfo), r = t.pendingProps, null === e ? t.child = az(t, null, r, n) : oW(e, t, r, n), t.child;
             case 11:
-                return oq(e, t, t.type, t.pendingProps, n);
+                return oG(e, t, t.type, t.pendingProps, n);
             case 7:
                 return r = t.pendingProps, oZ(e, t), oW(e, t, r, n), t.child;
             case 8:
@@ -12322,9 +12604,9 @@ ${e.stack}` : "unknown"
             case 9:
                 return a = t.type._context, r = t.pendingProps.children, at(t), r = r(a = an(a)), t.flags |= 1, oW(e, t, r, n), t.child;
             case 14:
-                return oV(e, t, t.type, t.pendingProps, n);
+                return oq(e, t, t.type, t.pendingProps, n);
             case 15:
-                return oG(e, t, t.type, t.pendingProps, n);
+                return oV(e, t, t.type, t.pendingProps, n);
             case 19:
                 return li(e, t, n);
             case 31:
@@ -12334,9 +12616,9 @@ ${e.stack}` : "unknown"
                     d = u.pendingProps,
                     f = 0 != (128 & u.flags);
                 if (u.flags &= -129, null === l) {
-                    if (rq) {
+                    if (rG) {
                         if ("hidden" === d.mode) return l = oQ(u, d), u.lanes = 0x20000000, oX(null, l);
-                        if (a6(u), (l = rW) ? null !== (l = null !== (l = cq(l, rG)) && "&" === l.data ? l : null) && (u.memoizedState = {
+                        if (a6(u), (l = rW) ? null !== (l = null !== (l = cG(l, rV)) && "&" === l.data ? l : null) && (u.memoizedState = {
                                 dehydrated: l,
                                 treeContext: null !== rM ? {
                                     id: rD,
@@ -12359,7 +12641,7 @@ ${e.stack}` : "unknown"
                     else if (oH || r7(l, u, c, !1), f = 0 != (c & l.childLanes), oH || f) {
                         if (null !== (d = sP) && 0 !== (h = e$(d, c)) && h !== p.retryLane) throw p.retryLane = h, rp(l, h), s7(d, l, h), oF;
                         uc(), u = oK(l, u, c)
-                    } else l = p.treeContext, rW = cY(h.nextSibling), rH = u, rq = !0, rV = null, rG = !1, null !== l && rF(u, l), u = oQ(u, d), u.flags |= 4096;
+                    } else l = p.treeContext, rW = cY(h.nextSibling), rH = u, rG = !0, rq = null, rV = !1, null !== l && rF(u, l), u = oQ(u, d), u.flags |= 4096;
                     return u
                 }
                 return (l = r_(l.child, {
@@ -12382,7 +12664,7 @@ ${e.stack}` : "unknown"
                     paired: null,
                     clones: null,
                     ref: null
-                }), null != (r = t.pendingProps).name && "auto" !== r.name ? t.flags |= null === e ? 0x1202000 : 0x1200000 : rq && r$(t), null !== e && e.memoizedProps.name !== r.name ? t.flags |= 4194816 : oZ(e, t), oW(e, t, r.children, n), t.child;
+                }), null != (r = t.pendingProps).name && "auto" !== r.name ? t.flags |= null === e ? 0x1202000 : 0x1200000 : rG && r$(t), null !== e && e.memoizedProps.name !== r.name ? t.flags |= 4194816 : oZ(e, t), oW(e, t, r.children, n), t.child;
             case 29:
                 throw t.pendingProps
         }
@@ -12415,7 +12697,7 @@ ${e.stack}` : "unknown"
     }
 
     function lh(e, t) {
-        if (!rq) switch (e.tailMode) {
+        if (!rG) switch (e.tailMode) {
             case "visible":
                 break;
             case "collapsed":
@@ -12768,7 +13050,7 @@ ${e.stack}` : "unknown"
                 }
                 for (var y in n) p = n[y], n.hasOwnProperty(y) && null != p && !r.hasOwnProperty(y) && cr(e, t, y, null, r, p);
                 for (f in r) p = r[f], h = n[f], r.hasOwnProperty(f) && p !== h && (null != p || null != h) && cr(e, t, f, p, r, h)
-            })(r, e.type, n, t), r[eG] = t
+            })(r, e.type, n, t), r[eV] = t
         } catch (t) {
             uk(e, e.return, t)
         }
@@ -12833,7 +13115,7 @@ ${e.stack}` : "unknown"
             n = e.memoizedProps;
         try {
             for (var r = e.type, a = t.attributes; a.length;) t.removeAttributeNode(a[0]);
-            ci(t, r, n), t[eV] = e, t[eG] = n
+            ci(t, r, n), t[eq] = e, t[eV] = n
         } catch (t) {
             uk(e, e.return, t)
         }
@@ -12949,14 +13231,14 @@ ${e.stack}` : "unknown"
             }
     }
 
-    function lq(e) {
+    function lG(e) {
         if (30 === e.tag) e.stateNode.paired = null, lz(e.child, !1), lW(e);
         else if (0 != (0x2000000 & e.subtreeFlags))
-            for (e = e.child; null !== e;) lq(e), e = e.sibling;
+            for (e = e.child; null !== e;) lG(e), e = e.sibling;
         else lW(e)
     }
 
-    function lV(e, t, n, r, a, i, o) {
+    function lq(e, t, n, r, a, i, o) {
         for (var l = !1; null !== t;) {
             if (5 === t.tag) {
                 var s = t.stateNode;
@@ -12972,12 +13254,12 @@ ${e.stack}` : "unknown"
                         } u && (e.flags |= 4), d.abs ? d = !c.abs : (c = c.rect, d = d.rect, d = c.height !== d.height || c.width !== d.width), d && (e.flags |= 32)
                 } else e.flags |= 32;
                 0 != (4 & e.flags) && cE(s, 0 === lj ? n : n + "_" + lj, a), l && 0 != (4 & e.flags) || (null === lM && (lM = []), lM.push(s, 0 === lj ? r : r + "_" + lj, t.memoizedProps)), lj++
-            } else(22 !== t.tag || null === t.memoizedState) && (30 === t.tag && o ? e.flags |= 32 & t.flags : lV(e, t.child, n, r, a, i, o) && (l = !0));
+            } else(22 !== t.tag || null === t.memoizedState) && (30 === t.tag && o ? e.flags |= 32 & t.flags : lq(e, t.child, n, r, a, i, o) && (l = !0));
             t = t.sibling
         }
         return l
     }
-    var lG = !1,
+    var lV = !1,
         lY = !1,
         lX = !1,
         lJ = !1,
@@ -13114,10 +13396,10 @@ ${e.stack}` : "unknown"
                 }(e, n = uC.bind(null, n));
                 break;
             case 22:
-                if (!(r = null !== n.memoizedState || lG)) {
-                    t = null !== t && null !== t.memoizedState || lY, a = lG;
+                if (!(r = null !== n.memoizedState || lV)) {
+                    t = null !== t && null !== t.memoizedState || lY, a = lV;
                     var i = lY;
-                    lG = r, (lY = t) && !i ? function e(t, n, r) {
+                    lV = r, (lY = t) && !i ? function e(t, n, r) {
                         for (r = r && 0 != (8772 & n.subtreeFlags), n = n.child; null !== n;) {
                             var a = n.alternate,
                                 i = t,
@@ -13179,7 +13461,7 @@ ${e.stack}` : "unknown"
                             }
                             n = n.sibling
                         }
-                    }(e, n, 0 != (8772 & n.subtreeFlags)) : su(e, n), lG = a, lY = i
+                    }(e, n, 0 != (8772 & n.subtreeFlags)) : su(e, n), lV = a, lY = i
                 }
                 break;
             case 30:
@@ -13406,7 +13688,7 @@ ${e.stack}` : "unknown"
                 sr(t, e, n), so(e), 4 & a && (ly(3, e, e.return), lv(3, e), ly(5, e, e.return));
                 break;
             case 1:
-                sr(t, e, n), so(e), 512 & a && (lY || null === r || lE(r, r.return)), 64 & a && lG && null !== (e = e.updateQueue) && null !== (r = e.callbacks) && (t = e.shared.hiddenCallbacks, e.shared.hiddenCallbacks = null === t ? r : t.concat(r));
+                sr(t, e, n), so(e), 512 & a && (lY || null === r || lE(r, r.return)), 64 & a && lV && null !== (e = e.updateQueue) && null !== (r = e.callbacks) && (t = e.shared.hiddenCallbacks, e.shared.hiddenCallbacks = null === t ? r : t.concat(r));
                 break;
             case 26:
                 var i = sa;
@@ -13419,7 +13701,7 @@ ${e.stack}` : "unknown"
                                     t = e.memoizedProps,
                                     n = i.ownerDocument || i;t: switch (r) {
                                         case "title":
-                                            (!(a = n.getElementsByTagName("title")[0]) || a[eZ] || a[eV] || "http://www.w3.org/2000/svg" === a.namespaceURI || a.hasAttribute("itemprop")) && (a = n.createElement(r), n.head.insertBefore(a, n.querySelector("head > title"))), ci(a, r, t), a[eV] = e, e5(a), r = a;
+                                            (!(a = n.getElementsByTagName("title")[0]) || a[eZ] || a[eq] || "http://www.w3.org/2000/svg" === a.namespaceURI || a.hasAttribute("itemprop")) && (a = n.createElement(r), n.head.insertBefore(a, n.querySelector("head > title"))), ci(a, r, t), a[eq] = e, e5(a), r = a;
                                             break e;
                                         case "link":
                                             if (i = ds("link", "href", n).get(r + (t.href || ""))) {
@@ -13444,7 +13726,7 @@ ${e.stack}` : "unknown"
                                         default:
                                             throw Error(s(468, r))
                                     }
-                                    a[eV] = e,
+                                    a[eq] = e,
                                     e5(a),
                                     r = a
                                 }
@@ -13494,7 +13776,7 @@ ${e.stack}` : "unknown"
                 }(e)), tr = !1;
                 break;
             case 4:
-                r = lX, lX = lG, a = ta(), i = sa, sa = c2(e.stateNode.containerInfo), sr(t, e, n), so(e), sa = i, tr && l0 && (l1 = !0), tr = a, lX = r;
+                r = lX, lX = lV, a = ta(), i = sa, sa = c2(e.stateNode.containerInfo), sr(t, e, n), so(e), sa = i, tr && l0 && (l1 = !0), tr = a, lX = r;
                 break;
             case 12:
                 sr(t, e, n), so(e);
@@ -13508,10 +13790,10 @@ ${e.stack}` : "unknown"
                 break;
             case 22:
                 i = null !== e.memoizedState, o = null !== r && null !== r.memoizedState;
-                var l = lG,
+                var l = lV,
                     u = lY,
                     c = lX;
-                lG = l || i, lX = c || i, lY = u || o, sr(t, e, n), lY = u, lX = c, lG = l, so(e), 8192 & a && ((t = e.stateNode)._visibility = i ? -2 & t._visibility : 1 | t._visibility, i && (null === r || o || lG || lY || function e(t) {
+                lV = l || i, lX = c || i, lY = u || o, sr(t, e, n), lY = u, lX = c, lV = l, so(e), 8192 & a && ((t = e.stateNode)._visibility = i ? -2 & t._visibility : 1 | t._visibility, i && (null === r || o || lV || lY || function e(t) {
                     for (t = t.child; null !== t;) {
                         var n = t;
                         switch (n.tag) {
@@ -13623,7 +13905,7 @@ ${e.stack}` : "unknown"
                     else l = t.memoizedState, t.memoizedState = null;
                     a = t;
                     var s = t.child;
-                    lj = 0, i = lV(a, s, i, i, o, l, !1), 0 != (4 & t.flags) && i && (n || s9(t, r.onUpdate))
+                    lj = 0, i = lq(a, s, i, i, o, l, !1), 0 != (4 & t.flags) && i && (n || s9(t, r.onUpdate))
                 } else 0 != (0x2000000 & t.subtreeFlags) && e(t, n);
                 t = t.sibling
             }
@@ -13683,7 +13965,7 @@ ${e.stack}` : "unknown"
                     o = e.stateNode;
                 t = rr(i, o), o = rr(n.memoizedProps, o);
                 var l = ri(i.default, i.update);
-                "none" === l ? t = !1 : (i = n.memoizedState, n.memoizedState = null, n = e.child, lj = 0, t = lV(e, n, t, o, l, i, !0), lj !== (null === i ? 0 : i.length) && (e.flags |= 32)), 0 != (4 & e.flags) && t ? (s9(e, e.memoizedProps.onUpdate), lM = a) : null !== a && (a.push.apply(a, lM), lM = a), lZ = 0 != (32 & e.flags) || r
+                "none" === l ? t = !1 : (i = n.memoizedState, n.memoizedState = null, n = e.child, lj = 0, t = lq(e, n, t, o, l, i, !0), lj !== (null === i ? 0 : i.length) && (e.flags |= 32)), 0 != (4 & e.flags) && t ? (s9(e, e.memoizedProps.onUpdate), lM = a) : null !== a && (a.push.apply(a, lM), lM = a), lZ = 0 != (32 & e.flags) || r
         }
     }
 
@@ -13712,7 +13994,7 @@ ${e.stack}` : "unknown"
 
     function sp(e, t, n, r) {
         var a = (0x13ffff00 & n) === n;
-        a && null === t.alternate && null !== t.return && null !== t.return.alternate && lq(t);
+        a && null === t.alternate && null !== t.return && null !== t.return.alternate && lG(t);
         var i = t.flags;
         switch (t.tag) {
             case 0:
@@ -13745,7 +14027,7 @@ ${e.stack}` : "unknown"
             case 23:
                 break;
             case 22:
-                o = t.stateNode, l = t.alternate, null !== t.memoizedState ? (a && null !== l && null === l.memoizedState && lq(l), 2 & o._visibility ? sf(e, t, n, r) : sh(e, t)) : (a && null !== l && null !== l.memoizedState && lq(t), 2 & o._visibility ? sf(e, t, n, r) : (o._visibility |= 2, function e(t, n, r, a, i) {
+                o = t.stateNode, l = t.alternate, null !== t.memoizedState ? (a && null !== l && null === l.memoizedState && lG(l), 2 & o._visibility ? sf(e, t, n, r) : sh(e, t)) : (a && null !== l && null !== l.memoizedState && lG(t), 2 & o._visibility ? sf(e, t, n, r) : (o._visibility |= 2, function e(t, n, r, a, i) {
                     for (i = i && 0 != (10256 & n.subtreeFlags), n = n.child; null !== n;) {
                         var o = n,
                             l = o.flags;
@@ -13985,9 +14267,9 @@ ${e.stack}` : "unknown"
         sF = !1,
         sH = 0,
         sW = 0,
-        sq = 1 / 0,
+        sG = 1 / 0,
+        sq = null,
         sV = null,
-        sG = null,
         sY = 0,
         sX = null,
         sJ = null,
@@ -14002,12 +14284,12 @@ ${e.stack}` : "unknown"
         s5 = null;
 
     function s8() {
-        return 0 != (2 & sT) && 0 !== sk ? sk & -sk : null !== V.T ? uV() : eH()
+        return 0 != (2 & sT) && 0 !== sk ? sk & -sk : null !== q.T ? uq() : eH()
     }
 
     function s6() {
         if (0 === sU)
-            if (0 == (0x20000000 & sk) || rq) {
+            if (0 == (0x20000000 & sk) || rG) {
                 var e = eO;
                 0 == (3932160 & (eO <<= 1)) && (eO = 262144), sU = e
             } else sU = 0x20000000;
@@ -14033,7 +14315,7 @@ ${e.stack}` : "unknown"
                 sT |= 2;
                 var r = us(),
                     a = uu();
-                sP !== e || sk !== t ? (sV = null, sq = ev() + 500, ui(e, t)) : sC = eL(e, t);
+                sP !== e || sk !== t ? (sq = null, sG = ev() + 500, ui(e, t)) : sC = eL(e, t);
                 e: for (;;) try {
                     if (0 !== sR && null !== sx) {
                         t = sx;
@@ -14097,7 +14379,7 @@ ${e.stack}` : "unknown"
                 } catch (t) {
                     uo(e, t)
                 }
-                return (r4 = r3 = null, V.H = r, V.A = a, sT = n, null !== sx) ? 0 : (sP = null, sk = 0, rc(), sL)
+                return (r4 = r3 = null, q.H = r, q.A = a, sT = n, null !== sx) ? 0 : (sP = null, sk = 0, rc(), sL)
             }(e, t) : ud(e, t, !0), i = r;;) {
             if (0 === a) sC && !r && un(e, t, 0, !1);
             else {
@@ -14175,10 +14457,10 @@ ${e.stack}` : "unknown"
                     }
                     if ((0x3c00000 & t) === t && 10 < (a = sH + 300 - ev())) {
                         if (un(r, t, sU, !sO), 0 !== eA(r, 0, !0)) break e;
-                        sQ = t, r.timeoutHandle = ch(ut.bind(null, r, n, sB, sV, sF, t, sU, sD, sz, sO, i, "Throttled", -0, 0), a);
+                        sQ = t, r.timeoutHandle = ch(ut.bind(null, r, n, sB, sq, sF, t, sU, sD, sz, sO, i, "Throttled", -0, 0), a);
                         break e
                     }
-                    ut(r, n, sB, sV, sF, t, sU, sD, sz, sO, i, null, -0, 0)
+                    ut(r, n, sB, sq, sF, t, sU, sD, sz, sO, i, null, -0, 0)
                 }
             }
             break
@@ -14282,7 +14564,7 @@ ${e.stack}` : "unknown"
     }
 
     function uo(e, t) {
-        il = null, V.H = oP, t === aw || t === aP ? (t = aC(), sR = 3) : t === aT ? (t = aC(), sR = 4) : sR = t === oF ? 8 : null !== t && "object" == typeof t && "function" == typeof t.then ? 6 : 1, sN = t, null === sx && (sL = 1, oj(e, rR(t, e.current)))
+        il = null, q.H = oP, t === aw || t === aP ? (t = aC(), sR = 3) : t === aT ? (t = aC(), sR = 4) : sR = t === oF ? 8 : null !== t && "object" == typeof t && "function" == typeof t.then ? 6 : 1, sN = t, null === sx && (sL = 1, oj(e, rR(t, e.current)))
     }
 
     function ul() {
@@ -14291,13 +14573,13 @@ ${e.stack}` : "unknown"
     }
 
     function us() {
-        var e = V.H;
-        return V.H = oP, null === e ? oP : e
+        var e = q.H;
+        return q.H = oP, null === e ? oP : e
     }
 
     function uu() {
-        var e = V.A;
-        return V.A = sE, e
+        var e = q.A;
+        return q.A = sE, e
     }
 
     function uc() {
@@ -14309,7 +14591,7 @@ ${e.stack}` : "unknown"
         sT |= 2;
         var a = us(),
             i = uu();
-        (sP !== e || sk !== t) && (sV = null, ui(e, t)), t = !1;
+        (sP !== e || sk !== t) && (sq = null, ui(e, t)), t = !1;
         var o = sL;
         e: for (;;) try {
             if (0 !== sR && null !== sx) {
@@ -14340,7 +14622,7 @@ ${e.stack}` : "unknown"
         } catch (t) {
             uo(e, t)
         }
-        return t && e.shellSuspendCounter++, r4 = r3 = null, sT = r, V.H = a, V.A = i, null === sx && (sP = null, sk = 0, rc()), o
+        return t && e.shellSuspendCounter++, r4 = r3 = null, sT = r, q.H = a, q.A = i, null === sx && (sP = null, sk = 0, rc()), o
     }
 
     function uf(e) {
@@ -14362,7 +14644,7 @@ ${e.stack}` : "unknown"
             case 5:
                 ix(t);
                 var r = t;
-                r === rH && (rq ? (rQ(r), 5 === r.tag && null != r.stateNode && (rW = r.stateNode)) : (rQ(r), rq = !0));
+                r === rH && (rG ? (rQ(r), 5 === r.tag && null != r.stateNode && (rW = r.stateNode)) : (rQ(r), rG = !0));
             default:
                 lg(n, t), t = lu(n, t = sx = rS(t, sA), sA)
         }
@@ -14392,11 +14674,11 @@ ${e.stack}` : "unknown"
                         }
                         return uR(e, r, a), uc(), !1
                     }
-                    if (rq) return null !== (t = a4.current) ? (0 == (65536 & t.flags) && (t.flags |= 256), t.flags |= 65536, t.lanes = a, r !== rY && r1(rR(e = Error(s(422), {
+                    if (rG) return null !== (t = a4.current) ? (0 == (65536 & t.flags) && (t.flags |= 256), t.flags |= 65536, t.lanes = a, r !== rY && r1(rR(e = Error(s(422), {
                         cause: r
                     }), n))) : (r !== rY && r1(rR(t = Error(s(423), {
                         cause: r
-                    }), n)), e = e.current.alternate, e.flags |= 65536, a &= -a, e.lanes |= a, r = rR(r, n), a = oz(e.stateNode, r, a), aG(e, a), 4 !== sL && (sL = 2)), !1;
+                    }), n)), e = e.current.alternate, e.flags |= 65536, a &= -a, e.lanes |= a, r = rR(r, n), a = oz(e.stateNode, r, a), aV(e, a), 4 !== sL && (sL = 2)), !1;
                     var i = Error(s(520), {
                         cause: r
                     });
@@ -14405,9 +14687,9 @@ ${e.stack}` : "unknown"
                     do {
                         switch (n.tag) {
                             case 3:
-                                return n.flags |= 65536, e = a & -a, n.lanes |= e, e = oz(n.stateNode, r, e), aG(n, e), !1;
+                                return n.flags |= 65536, e = a & -a, n.lanes |= e, e = oz(n.stateNode, r, e), aV(n, e), !1;
                             case 1:
-                                if (t = n.type, i = n.stateNode, 0 == (128 & n.flags) && ("function" == typeof t.getDerivedStateFromError || null !== i && "function" == typeof i.componentDidCatch && (null === sG || !sG.has(i)))) return n.flags |= 65536, a &= -a, n.lanes |= a, oB(a = o$(a), e, n, r), aG(n, a), !1;
+                                if (t = n.type, i = n.stateNode, 0 == (128 & n.flags) && ("function" == typeof t.getDerivedStateFromError || null !== i && "function" == typeof i.componentDidCatch && (null === sV || !sV.has(i)))) return n.flags |= 65536, a &= -a, n.lanes |= a, oB(a = o$(a), e, n, r), aV(n, a), !1;
                                 break;
                             case 22:
                                 if (null !== n.memoizedState) return n.flags |= 65536, !1
@@ -14423,7 +14705,7 @@ ${e.stack}` : "unknown"
             sL = 1, oj(e, rR(n, e.current)), sx = null;
             return
         }
-        32768 & t.flags ? (rq || 1 === r ? e = !0 : sC || 0 != (0x20000000 & sk) ? e = !1 : (sO = e = !0, (2 === r || 9 === r || 3 === r || 6 === r) && null !== (r = a4.current) && 13 === r.tag && (r.flags |= 16384)), ug(t, e)) : um(t)
+        32768 & t.flags ? (rG || 1 === r ? e = !0 : sC || 0 != (0x20000000 & sk) ? e = !1 : (sO = e = !0, (2 === r || 9 === r || 3 === r || 6 === r) && null !== (r = a4.current) && 13 === r.tag && (r.flags |= 16384)), ug(t, e)) : um(t)
     }
 
     function um(e) {
@@ -14500,7 +14782,7 @@ ${e.stack}` : "unknown"
                                                 }) : o.createElement(a)
                                         }
                                 }
-                                i[eV] = t, i[eG] = r;
+                                i[eq] = t, i[eV] = r;
                                 e: for (o = t.child; null !== o;) {
                                     if (5 === o.tag || 6 === o.tag) i.appendChild(o.stateNode);
                                     else if (4 !== o.tag && 27 !== o.tag && null !== o.child) {
@@ -14541,8 +14823,8 @@ ${e.stack}` : "unknown"
                                     case 5:
                                         r = a.memoizedProps
                                 }
-                                e[eV] = t, (e = !!(e.nodeValue === n || null !== r && !0 === r.suppressHydrationWarning || cn(e.nodeValue, n))) || rX(t, !0)
-                            } else(e = cu(e).createTextNode(r))[eV] = t, t.stateNode = e
+                                e[eq] = t, (e = !!(e.nodeValue === n || null !== r && !0 === r.suppressHydrationWarning || cn(e.nodeValue, n))) || rX(t, !0)
+                            } else(e = cu(e).createTextNode(r))[eq] = t, t.stateNode = e
                         }
                         return lm(t), null;
                     case 31:
@@ -14551,7 +14833,7 @@ ${e.stack}` : "unknown"
                                 if (null === e) {
                                     if (!r) throw Error(s(318));
                                     if (!(e = null !== (e = t.memoizedState) ? e.dehydrated : null)) throw Error(s(557));
-                                    e[eV] = t
+                                    e[eq] = t
                                 } else rZ(), 0 == (128 & t.flags) && (t.memoizedState = null), t.flags |= 4;
                                 lm(t), e = !1
                             } else n = r0(), null !== e && null !== e.memoizedState && (e.memoizedState.hydrationErrors = n), e = !0;
@@ -14568,7 +14850,7 @@ ${e.stack}` : "unknown"
                                 if (null === e) {
                                     if (!a) throw Error(s(318));
                                     if (!(a = null !== (a = t.memoizedState) ? a.dehydrated : null)) throw Error(s(317));
-                                    a[eV] = t
+                                    a[eq] = t
                                 } else rZ(), 0 == (128 & t.flags) && (t.memoizedState = null), t.flags |= 4;
                                 lm(t), a = !1
                             } else a = r0(), null !== e && null !== e.memoizedState && (e.memoizedState.hydrationErrors = a), a = !0;
@@ -14592,17 +14874,17 @@ ${e.stack}` : "unknown"
                                     for (e = t.child; null !== e;) {
                                         if (null !== (i = ii(e))) {
                                             for (t.flags |= 128, lh(r, !1), t.updateQueue = e = i.updateQueue, lp(t, e), t.subtreeFlags = 0, e = n, n = t.child; null !== n;) rS(n, e), n = n.sibling;
-                                            return ir(t, 1 & it.current | 2), rq && rU(t, r.treeForkCount), t.child
+                                            return ir(t, 1 & it.current | 2), rG && rU(t, r.treeForkCount), t.child
                                         }
                                         e = e.sibling
                                     }
-                                null !== r.tail && ev() > sq && (t.flags |= 128, a = !0, lh(r, !1), t.lanes = 4194304)
+                                null !== r.tail && ev() > sG && (t.flags |= 128, a = !0, lh(r, !1), t.lanes = 4194304)
                             }
                         else {
                             if (!a)
                                 if (null !== (e = ii(i))) {
-                                    if (t.flags |= 128, a = !0, t.updateQueue = e = e.updateQueue, lp(t, e), lh(r, !0), null === r.tail && "collapsed" !== r.tailMode && "visible" !== r.tailMode && !i.alternate && !rq) return lm(t), null
-                                } else 2 * ev() - r.renderingStartTime > sq && 0x20000000 !== n && (t.flags |= 128, a = !0, lh(r, !1), t.lanes = 4194304);
+                                    if (t.flags |= 128, a = !0, t.updateQueue = e = e.updateQueue, lp(t, e), lh(r, !0), null === r.tail && "collapsed" !== r.tailMode && "visible" !== r.tailMode && !i.alternate && !rG) return lm(t), null
+                                } else 2 * ev() - r.renderingStartTime > sG && 0x20000000 !== n && (t.flags |= 128, a = !0, lh(r, !1), t.lanes = 4194304);
                             r.isBackwards ? (i.sibling = t.child, t.child = i) : (null !== (e = r.last) ? e.sibling = i : t.child = i, r.last = i)
                         }
                         if (null !== r.tail) {
@@ -14617,7 +14899,7 @@ ${e.stack}` : "unknown"
                                 }
                                 n = !0
                             }
-                            return r.rendering = e, r.tail = e.sibling, r.renderingStartTime = ev(), e.sibling = null, i = it.current, i = a ? 1 & i | 2 : 1 & i, "visible" === r.tailMode || "collapsed" === r.tailMode || !n || rq ? ir(t, i) : (n = i, Z(a4, t), Z(it, n), null === a5 && (a5 = t)), rq && rU(t, r.treeForkCount), e
+                            return r.rendering = e, r.tail = e.sibling, r.renderingStartTime = ev(), e.sibling = null, i = it.current, i = a ? 1 & i | 2 : 1 & i, "visible" === r.tailMode || "collapsed" === r.tailMode || !n || rG ? ir(t, i) : (n = i, Z(a4, t), Z(it, n), null === a5 && (a5 = t)), rG && rU(t, r.treeForkCount), e
                         }
                         return lm(t), null;
                     case 22:
@@ -14725,7 +15007,7 @@ ${e.stack}` : "unknown"
                         }(e, n, s |= ru, r, a, i), s2 = null, (0x13ffff00 & n) === n ? (l = e.transitionTypes, e.transitionTypes = null, s3 = l, r = 10262) : (s3 = null, r = 10256), 0 != (t.subtreeFlags & r) || 0 != (t.flags & r) ? (e.callbackNode = null, e.callbackPriority = 0, ep(eS, function() {
                             return uP(), null
                         })) : (e.callbackNode = null, e.callbackPriority = 0), lI = !1, r = 0 != (13878 & t.flags), 0 != (13878 & t.subtreeFlags) || r) {
-                        r = V.T, V.T = null, a = G.p, G.p = 2, i = sT, sT |= 4;
+                        r = q.T, q.T = null, a = V.p, V.p = 2, i = sT, sT |= 4;
                         try {
                             ! function(e, t, n) {
                                 if (e = e.containerInfo, cl = dN, nW(e = nH(e))) {
@@ -14805,7 +15087,7 @@ ${e.stack}` : "unknown"
                                 lA = null
                             }(e, t, n)
                         } finally {
-                            sT = i, G.p = a, V.T = r
+                            sT = i, V.p = a, q.T = r
                         }
                     }
                     sY = 1, lI ? s1 = function(e, t, n, r, a, i, o, l, s) {
@@ -14905,9 +15187,9 @@ ${e.stack}` : "unknown"
                 n = sQ,
                 r = 0 != (13878 & t.flags);
             if (0 != (13878 & t.subtreeFlags) || r) {
-                r = V.T, V.T = null;
-                var a = G.p;
-                G.p = 2;
+                r = q.T, q.T = null;
+                var a = V.p;
+                V.p = 2;
                 var i = sT;
                 sT |= 4;
                 try {
@@ -14952,7 +15234,7 @@ ${e.stack}` : "unknown"
                     }
                     dN = !!cl, cs = cl = null
                 } finally {
-                    sT = i, G.p = a, V.T = r
+                    sT = i, V.p = a, q.T = r
                 }
             }
             e.current = t, sY = 2
@@ -14966,15 +15248,15 @@ ${e.stack}` : "unknown"
                 t = sJ,
                 n = 0 != (8772 & t.flags);
             if (0 != (8772 & t.subtreeFlags) || n) {
-                n = V.T, V.T = null;
-                var r = G.p;
-                G.p = 2;
+                n = q.T, q.T = null;
+                var r = V.p;
+                V.p = 2;
                 var a = sT;
                 sT |= 4;
                 try {
                     l4(e, t.alternate, t)
                 } finally {
-                    sT = a, G.p = r, V.T = n
+                    sT = a, V.p = r, q.T = n
                 }
             }
             sY = 3
@@ -14991,11 +15273,11 @@ ${e.stack}` : "unknown"
                 r = sQ,
                 a = s0,
                 i = (0x13ffff00 & r) === r ? 10262 : 10256;
-            if (0 != (n.subtreeFlags & i) || 0 != (n.flags & i) ? sY = 5 : (sY = 0, sJ = sX = null, uw(t, t.pendingLanes)), 0 === (i = t.pendingLanes) && (sG = null), eF(r), n = n.stateNode, eP && "function" == typeof eP.onCommitFiberRoot) try {
+            if (0 != (n.subtreeFlags & i) || 0 != (n.flags & i) ? sY = 5 : (sY = 0, sJ = sX = null, uw(t, t.pendingLanes)), 0 === (i = t.pendingLanes) && (sV = null), eF(r), n = n.stateNode, eP && "function" == typeof eP.onCommitFiberRoot) try {
                 eP.onCommitFiberRoot(eT, n, void 0, 128 == (128 & n.current.flags))
             } catch (e) {}
             if (null !== a) {
-                n = V.T, i = G.p, G.p = 2, V.T = null;
+                n = q.T, i = V.p, V.p = 2, q.T = null;
                 try {
                     for (var o = t.onRecoverableError, l = 0; l < a.length; l++) {
                         var s = a[l];
@@ -15004,7 +15286,7 @@ ${e.stack}` : "unknown"
                         })
                     }
                 } finally {
-                    V.T = n, G.p = i
+                    q.T = n, V.p = i
                 }
             }
             if (a = s2, o = s3, s3 = null, null !== a && (s2 = null, null === o && (o = []), null !== e))
@@ -15027,10 +15309,10 @@ ${e.stack}` : "unknown"
             t = sK;
         sK = 0;
         var n = eF(sQ),
-            r = V.T,
-            a = G.p;
+            r = q.T,
+            a = V.p;
         try {
-            G.p = 32 > n ? 32 : n, V.T = null, n = sZ, sZ = null;
+            V.p = 32 > n ? 32 : n, q.T = null, n = sZ, sZ = null;
             var i = sX,
                 o = sQ;
             if (sY = 0, sJ = sX = null, sQ = 0, 0 != (6 & sT)) throw Error(s(331));
@@ -15040,12 +15322,12 @@ ${e.stack}` : "unknown"
             } catch (e) {}
             return !0
         } finally {
-            G.p = a, V.T = r, uw(e, t)
+            V.p = a, q.T = r, uw(e, t)
         }
     }
 
     function ux(e, t, n) {
-        t = rR(n, t), t = oz(e.stateNode, t, 2), null !== (e = aq(e, t, 2)) && (ej(e, 2), uz(e))
+        t = rR(n, t), t = oz(e.stateNode, t, 2), null !== (e = aG(e, t, 2)) && (ej(e, 2), uz(e))
     }
 
     function uk(e, t, n) {
@@ -15058,8 +15340,8 @@ ${e.stack}` : "unknown"
                 }
                 if (1 === t.tag) {
                     var r = t.stateNode;
-                    if ("function" == typeof t.type.getDerivedStateFromError || "function" == typeof r.componentDidCatch && (null === sG || !sG.has(r))) {
-                        e = rR(n, e), null !== (r = aq(t, n = o$(2), 2)) && (oB(n, r, t, e), ej(r, 2), uz(r));
+                    if ("function" == typeof t.type.getDerivedStateFromError || "function" == typeof r.componentDidCatch && (null === sV || !sV.has(r))) {
+                        e = rR(n, e), null !== (r = aG(t, n = o$(2), 2)) && (oB(n, r, t, e), ej(r, 2), uz(r));
                         break
                     }
                 }
@@ -15139,8 +15421,8 @@ ${e.stack}` : "unknown"
                                     l = r.pingedLanes;
                                 i = 0xc000095 & (i = (1 << 31 - ex(42 | e) + 1) - 1 & (a & ~(o & ~l))) ? 0xc000095 & i | 1 : i ? 2 | i : 0
                             }
-                            0 !== i && (n = !0, uq(r, i))
-                        } else i = sk, 0 == (3 & (i = eA(r, r === sP ? i : 0, null !== r.cancelPendingCommit || -1 !== r.timeoutHandle))) || eL(r, i) || (n = !0, uq(r, i));
+                            0 !== i && (n = !0, uG(r, i))
+                        } else i = sk, 0 == (3 & (i = eA(r, r === sP ? i : 0, null !== r.cancelPendingCommit || -1 !== r.timeoutHandle))) || eL(r, i) || (n = !0, uG(r, i));
                     r = r.next
                 }
             while (n) uj = !1
@@ -15226,12 +15508,12 @@ ${e.stack}` : "unknown"
         return 0 === (r = eA(e, e === sP ? r : 0, null !== e.cancelPendingCommit || -1 !== e.timeoutHandle)) ? null : (ue(e, r, t), uH(e, ev()), null != e.callbackNode && e.callbackNode === n ? uW.bind(null, e) : null)
     }
 
-    function uq(e, t) {
+    function uG(e, t) {
         if (uT()) return null;
         ue(e, t, !0)
     }
 
-    function uV() {
+    function uq() {
         if (0 === uU) {
             var e = am;
             0 === e && (e = eN, 0 == (261888 & (eN <<= 1)) && (eN = 256)), uU = e
@@ -15239,7 +15521,7 @@ ${e.stack}` : "unknown"
         return uU
     }
 
-    function uG(e) {
+    function uV(e) {
         return null == e || "symbol" == typeof e || "boolean" == typeof e ? null : "function" == typeof e ? e : tR(e)
     }
     for (var uY = 0; uY < re.length; uY++) {
@@ -15364,7 +15646,7 @@ ${e.stack}` : "unknown"
                         u = e;
                     switch (e) {
                         case "keypress":
-                            if (0 === tq(n)) break e;
+                            if (0 === tG(n)) break e;
                         case "keydown":
                         case "keyup":
                             s = no;
@@ -15479,10 +15761,10 @@ ${e.stack}` : "unknown"
                 }
                 switch (b = r ? e3(r) : window, e) {
                     case "focusin":
-                        (nw(b) || "true" === b.contentEditable) && (nV = b, nG = r, nY = null);
+                        (nw(b) || "true" === b.contentEditable) && (nq = b, nV = r, nY = null);
                         break;
                     case "focusout":
-                        nY = nG = nV = null;
+                        nY = nV = nq = null;
                         break;
                     case "mousedown":
                         nX = !0;
@@ -15493,7 +15775,7 @@ ${e.stack}` : "unknown"
                         nX = !1, nJ(o, n, a);
                         break;
                     case "selectionchange":
-                        if (nq) break;
+                        if (nG) break;
                     case "keydown":
                     case "keyup":
                         nJ(o, n, a)
@@ -15549,9 +15831,9 @@ ${e.stack}` : "unknown"
                 }), b.data = v);
                 var S = e;
                 if ("submit" === S && r && r.stateNode === a) {
-                    var E = uG((a[eG] || null).action),
+                    var E = uV((a[eV] || null).action),
                         T = n.submitter;
-                    T && null !== (S = (S = T[eG] || null) ? uG(S.formAction) : T.getAttribute("formAction")) && (E = S, T = null);
+                    T && null !== (S = (S = T[eV] || null) ? uV(S.formAction) : T.getAttribute("formAction")) && (E = S, T = null);
                     var P = new t1("action", "action", null, n, a);
                     o.push({
                         event: P,
@@ -15851,7 +16133,7 @@ ${e.stack}` : "unknown"
                 return;
             default:
                 if (!e6.hasOwnProperty(n)) e: {
-                    if ("o" === n[0] && "n" === n[1] && (a = n.endsWith("Capture"), t = n.slice(2, a ? n.length - 7 : void 0), "function" == typeof(i = null != (i = e[eG] || null) ? i[n] : null) && e.removeEventListener(t, i, a), "function" == typeof r)) {
+                    if ("o" === n[0] && "n" === n[1] && (a = n.endsWith("Capture"), t = n.slice(2, a ? n.length - 7 : void 0), "function" == typeof(i = null != (i = e[eV] || null) ? i[n] : null) && e.removeEventListener(t, i, a), "function" == typeof r)) {
                         "function" != typeof i && null !== i && (n in e ? e[n] = null : e.hasAttribute(n) && e.removeAttribute(n)), e.addEventListener(t, r, a);
                         break e
                     }
@@ -16288,17 +16570,17 @@ ${e.stack}` : "unknown"
         }
     }
 
-    function cq(e, t) {
+    function cG(e, t) {
         for (; 8 !== e.nodeType;)
             if ((1 !== e.nodeType || "INPUT" !== e.nodeName || "hidden" !== e.type) && !t || null === (e = cY(e.nextSibling))) return null;
         return e
     }
 
-    function cV(e) {
+    function cq(e) {
         return "$?" === e.data || "$~" === e.data
     }
 
-    function cG(e) {
+    function cV(e) {
         return "$!" === e.data || "$?" === e.data && "loading" !== e.ownerDocument.readyState
     }
 
@@ -16514,8 +16796,8 @@ ${e.stack}` : "unknown"
     function c2(e) {
         return "function" == typeof e.getRootNode ? e.getRootNode() : 9 === e.nodeType ? e : e.ownerDocument
     }
-    var c3 = G.d;
-    G.d = {
+    var c3 = V.d;
+    V.d = {
         f: function() {
             var e = c3.f(),
                 t = ur();
@@ -16813,7 +17095,7 @@ ${e.stack}` : "unknown"
         if (r.has(e)) return r;
         for (r.set(e, null), n = n.getElementsByTagName(e), a = 0; a < n.length; a++) {
             var i = n[a];
-            if (!(i[eZ] || i[eV] || "link" === e && "stylesheet" === i.getAttribute("rel")) && "http://www.w3.org/2000/svg" !== i.namespaceURI) {
+            if (!(i[eZ] || i[eq] || "link" === e && "stylesheet" === i.getAttribute("rel")) && "http://www.w3.org/2000/svg" !== i.namespaceURI) {
                 var o = i.getAttribute(t) || "";
                 o = e + o;
                 var l = r.get(o);
@@ -16906,7 +17188,7 @@ ${e.stack}` : "unknown"
     function dT(e, t, n, r, a, i) {
         a = a ? rg : rg, null === r.context ? r.context = a : r.pendingContext = a, (r = aW(t)).payload = {
             element: n
-        }, null !== (i = void 0 === i ? null : i) && (r.callback = i), null !== (n = aq(e, r, t)) && (s7(n, e, t), aV(n, e, t))
+        }, null !== (i = void 0 === i ? null : i) && (r.callback = i), null !== (n = aG(e, r, t)) && (s7(n, e, t), aq(n, e, t))
     }
 
     function dP(e, t) {
@@ -16937,48 +17219,48 @@ ${e.stack}` : "unknown"
     var dN = !0;
 
     function dO(e, t, n, r) {
-        var a = V.T;
-        V.T = null;
-        var i = G.p;
+        var a = q.T;
+        q.T = null;
+        var i = V.p;
         try {
-            G.p = 2, dI(e, t, n, r)
+            V.p = 2, dI(e, t, n, r)
         } finally {
-            G.p = i, V.T = a
+            V.p = i, q.T = a
         }
     }
 
     function dC(e, t, n, r) {
-        var a = V.T;
-        V.T = null;
-        var i = G.p;
+        var a = q.T;
+        q.T = null;
+        var i = V.p;
         try {
-            G.p = 8, dI(e, t, n, r)
+            V.p = 8, dI(e, t, n, r)
         } finally {
-            G.p = i, V.T = a
+            V.p = i, q.T = a
         }
     }
 
     function dI(e, t, n, r) {
         if (dN) {
             var a = dA(r);
-            if (null === a) u4(e, t, r, dL, n), dq(e, r);
+            if (null === a) u4(e, t, r, dL, n), dG(e, r);
             else if (function(e, t, n, r, a) {
                     switch (t) {
                         case "focusin":
-                            return dU = dV(dU, e, t, n, r, a), !0;
+                            return dU = dq(dU, e, t, n, r, a), !0;
                         case "dragenter":
-                            return dz = dV(dz, e, t, n, r, a), !0;
+                            return dz = dq(dz, e, t, n, r, a), !0;
                         case "mouseover":
-                            return d$ = dV(d$, e, t, n, r, a), !0;
+                            return d$ = dq(d$, e, t, n, r, a), !0;
                         case "pointerover":
                             var i = a.pointerId;
-                            return dB.set(i, dV(dB.get(i) || null, e, t, n, r, a)), !0;
+                            return dB.set(i, dq(dB.get(i) || null, e, t, n, r, a)), !0;
                         case "gotpointercapture":
-                            return i = a.pointerId, dF.set(i, dV(dF.get(i) || null, e, t, n, r, a)), !0
+                            return i = a.pointerId, dF.set(i, dq(dF.get(i) || null, e, t, n, r, a)), !0
                     }
                     return !1
                 }(a, e, t, n, r)) r.stopPropagation();
-            else if (dq(e, r), 4 & t && -1 < dW.indexOf(e)) {
+            else if (dG(e, r), 4 & t && -1 < dW.indexOf(e)) {
                 for (; null !== a;) {
                     var i = e2(a);
                     if (null !== i) switch (i.tag) {
@@ -16991,7 +17273,7 @@ ${e.stack}` : "unknown"
                                         var s = 1 << 31 - ex(o);
                                         l.entanglements[1] |= s, o &= ~s
                                     }
-                                    uz(i), 0 == (6 & sT) && (sq = ev() + 500, u$(0, !1))
+                                    uz(i), 0 == (6 & sT) && (sG = ev() + 500, u$(0, !1))
                                 }
                             }
                             break;
@@ -17136,7 +17418,7 @@ ${e.stack}` : "unknown"
         dH = [],
         dW = "mousedown mouseup touchcancel touchend touchstart auxclick dblclick pointercancel pointerdown pointerup dragend dragstart drop compositionend compositionstart keydown keypress keyup input textInput copy cut paste click change contextmenu reset".split(" ");
 
-    function dq(e, t) {
+    function dG(e, t) {
         switch (e) {
             case "focusin":
             case "focusout":
@@ -17160,7 +17442,7 @@ ${e.stack}` : "unknown"
         }
     }
 
-    function dV(e, t, n, r, a, i) {
+    function dq(e, t, n, r, a, i) {
         return null === e || e.nativeEvent !== i ? (e = {
             blockedOn: t,
             domEventName: n,
@@ -17170,7 +17452,7 @@ ${e.stack}` : "unknown"
         }, null !== t && null !== (t = e2(t)) && dk(t)) : (e.eventSystemFlags |= r, t = e.targetContainers, null !== a && -1 === t.indexOf(a) && t.push(a)), e
     }
 
-    function dG(e) {
+    function dV(e) {
         var t = e1(e.target);
         if (null !== t) {
             var n = c(t);
@@ -17252,17 +17534,17 @@ ${e.stack}` : "unknown"
             var r = dH[n];
             r.blockedOn === e && (r.blockedOn = null)
         }
-        for (; 0 < dH.length && null === (n = dH[0]).blockedOn;) dG(n), null === n.blockedOn && dH.shift();
+        for (; 0 < dH.length && null === (n = dH[0]).blockedOn;) dV(n), null === n.blockedOn && dH.shift();
         if (null != (n = (e.ownerDocument || e).$$reactFormReplay))
             for (r = 0; r < n.length; r += 3) {
                 var a = n[r],
                     i = n[r + 1],
-                    o = a[eG] || null;
+                    o = a[eV] || null;
                 if ("function" == typeof i) o || dZ(n);
                 else if (o) {
                     var l = null;
                     if (i && i.hasAttribute("formAction")) {
-                        if (a = i, o = i[eG] || null) l = o.formAction;
+                        if (a = i, o = i[eV] || null) l = o.formAction;
                         else if (null !== dM(a)) continue
                     } else l = o.action;
                     "function" == typeof l ? n[r + 1] = l : (n.splice(r, 3), r -= 3), dZ(n)
@@ -17334,12 +17616,12 @@ ${e.stack}` : "unknown"
                 priority: t
             };
             for (var n = 0; n < dH.length && 0 !== t && t < dH[n].priority; n++);
-            dH.splice(n, 0, e), 0 === n && dG(e)
+            dH.splice(n, 0, e), 0 === n && dV(e)
         }
     };
     var d4 = o.version;
     if ("19.3.0-canary-3f0b9e61-20260317" !== d4) throw Error(s(527, d4, "19.3.0-canary-3f0b9e61-20260317"));
-    if (G.findDOMNode = function(e) {
+    if (V.findDOMNode = function(e) {
             var t = e._reactInternals;
             if (void 0 === t) {
                 if ("function" == typeof e.render) throw Error(s(188));
@@ -17418,7 +17700,7 @@ ${e.stack}` : "unknown"
                 bundleType: 0,
                 version: "19.3.0-canary-3f0b9e61-20260317",
                 rendererPackageName: "react-dom",
-                currentDispatcherRef: V,
+                currentDispatcherRef: q,
                 reconcilerVersion: "19.3.0-canary-3f0b9e61-20260317"
             }), eP = d5
         } catch (e) {}
@@ -17439,9 +17721,9 @@ ${e.stack}` : "unknown"
             l = oM,
             c = oD,
             d = null;
-        return null != n && (!0 === n.unstable_strictMode && (a = !0), void 0 !== n.identifierPrefix && (i = n.identifierPrefix), void 0 !== n.onUncaughtError && (o = n.onUncaughtError), void 0 !== n.onCaughtError && (l = n.onCaughtError), void 0 !== n.onRecoverableError && (c = n.onRecoverableError), void 0 !== n.formState && (d = n.formState)), (t = dw(e, 1, !0, t, null != n ? n : null, a, i, d, o, l, c, d1)).context = (r = null, rg), n = t.current, (i = aW(a = eB(a = s8()))).callback = null, aq(n, i, a), n = a, t.current.lanes = n, ej(t, n), uz(t), e[eY] = t.current, u2(e), new d3(t)
+        return null != n && (!0 === n.unstable_strictMode && (a = !0), void 0 !== n.identifierPrefix && (i = n.identifierPrefix), void 0 !== n.onUncaughtError && (o = n.onUncaughtError), void 0 !== n.onCaughtError && (l = n.onCaughtError), void 0 !== n.onRecoverableError && (c = n.onRecoverableError), void 0 !== n.formState && (d = n.formState)), (t = dw(e, 1, !0, t, null != n ? n : null, a, i, d, o, l, c, d1)).context = (r = null, rg), n = t.current, (i = aW(a = eB(a = s8()))).callback = null, aG(n, i, a), n = a, t.current.lanes = n, ej(t, n), uz(t), e[eY] = t.current, u2(e), new d3(t)
     }, n.version = "19.3.0-canary-3f0b9e61-20260317"
-}, 504816, (e, t, n) => {
+}, 465105, (e, t, n) => {
     "use strict";
     ! function e() {
         if ("u" > typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" == typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE) try {
@@ -17449,8 +17731,8 @@ ${e.stack}` : "unknown"
         } catch (e) {
             console.error(e)
         }
-    }(), t.exports = e.r(132321)
-}, 844122, (e, t, n) => {
+    }(), t.exports = e.r(629943)
+}, 856299, (e, t, n) => {
     "use strict";
     Object.defineProperty(n, "__esModule", {
         value: !0
@@ -17471,8 +17753,8 @@ ${e.stack}` : "unknown"
         get: r[a]
     });
     e.r(481258);
-    let i = e.r(500783);
-    e.r(3931);
+    let i = e.r(14666);
+    e.r(499531);
     let o = {
             container: {
                 fontFamily: 'system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"',
@@ -17604,7 +17886,7 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
-}, 171720, (e, t, n) => {
+}, 999889, (e, t, n) => {
     "use strict";
     Object.defineProperty(n, "__esModule", {
         value: !0
@@ -17614,10 +17896,10 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
             return o
         }
     }), e.r(481258);
-    let r = e.r(500783);
-    e.r(3931);
-    let a = e.r(131382),
-        i = e.r(844122),
+    let r = e.r(14666);
+    e.r(499531);
+    let a = e.r(596618),
+        i = e.r(856299),
         o = function({
             error: e
         }) {
@@ -17673,7 +17955,7 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
-}, 326179, (e, t, n) => {
+}, 307615, (e, t, n) => {
     "use strict";
     Object.defineProperty(n, "__esModule", {
         value: !0
@@ -17691,11 +17973,11 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
         get: r[a]
     });
     let i = e.r(481258),
-        o = e.r(774533),
-        l = e.r(768205),
-        s = e.r(793127),
-        u = e.r(400970),
-        c = i._(e.r(171720)),
+        o = e.r(285018),
+        l = e.r(723221),
+        s = e.r(891938),
+        u = e.r(607273),
+        c = i._(e.r(999889)),
         d = {
             decorateDevError: e => e,
             handleClientError: () => {},
@@ -17713,7 +17995,7 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
-}, 824695, (e, t, n) => {
+}, 8703, (e, t, n) => {
     "use strict";
     Object.defineProperty(n, "__esModule", {
         value: !0
@@ -17723,8 +18005,8 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
             return o
         }
     });
-    let r = e.r(3931),
-        a = e.r(973914),
+    let r = e.r(499531),
+        a = e.r(320666),
         i = "next-route-announcer";
 
     function o({
@@ -17759,7 +18041,7 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
-}, 233499, (e, t, n) => {
+}, 555287, (e, t, n) => {
     "use strict";
     Object.defineProperty(n, "__esModule", {
         value: !0
@@ -17769,8 +18051,8 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
             return i
         }
     });
-    let r = e.r(114065),
-        a = e.r(220359);
+    let r = e.r(650999),
+        a = e.r(616619);
 
     function i(e, t) {
         return function e(t, n, i, o) {
@@ -17792,7 +18074,7 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
-}, 539016, (e, t, n) => {
+}, 115372, (e, t, n) => {
     "use strict";
     Object.defineProperty(n, "__esModule", {
         value: !0
@@ -17809,8 +18091,8 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
         enumerable: !0,
         get: r[a]
     });
-    let i = e.r(500783),
-        o = e.r(3931);
+    let i = e.r(14666),
+        o = e.r(499531);
     class l extends o.Component {
         constructor(e) {
             super(e), this.state = {
@@ -17852,7 +18134,7 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
-}, 441133, (e, t, n) => {
+}, 444413, (e, t, n) => {
     "use strict";
     Object.defineProperty(n, "__esModule", {
         value: !0
@@ -17863,11 +18145,11 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
         }
     });
     let r = e.r(481258),
-        a = e.r(500783);
-    e.r(3931);
-    let i = r._(e.r(539016)),
-        o = e.r(400970),
-        l = e.r(807707),
+        a = e.r(14666);
+    e.r(499531);
+    let i = r._(e.r(115372)),
+        o = e.r(607273),
+        l = e.r(786551),
         s = "u" > typeof window && (0, l.isBot)(window.navigator.userAgent);
 
     function u({
@@ -17887,7 +18169,7 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
-}, 671595, (e, t, n) => {
+}, 454142, (e, t, n) => {
     "use strict";
     Object.defineProperty(n, "__esModule", {
         value: !0
@@ -17899,30 +18181,30 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     });
     let r = e.r(481258),
         a = e.r(744066),
-        i = e.r(500783),
-        o = a._(e.r(3931)),
-        l = e.r(49548),
-        s = e.r(346954),
-        u = e.r(132411),
-        c = e.r(806471),
-        d = e.r(451553),
-        f = e.r(758018),
-        p = e.r(824695),
-        h = e.r(97966),
-        m = e.r(233499),
-        g = e.r(581304),
-        v = e.r(235688),
-        y = e.r(292628),
-        b = e.r(935924),
-        _ = e.r(705785),
-        S = e.r(256998),
-        E = e.r(694533),
-        w = e.r(591597),
-        T = e.r(427034),
-        P = r._(e.r(441133)),
-        x = r._(e.r(171720)),
-        k = e.r(245614);
-    e.r(705027);
+        i = e.r(14666),
+        o = a._(e.r(499531)),
+        l = e.r(550909),
+        s = e.r(335055),
+        u = e.r(489897),
+        c = e.r(777796),
+        d = e.r(854094),
+        f = e.r(837184),
+        p = e.r(8703),
+        h = e.r(786190),
+        m = e.r(555287),
+        g = e.r(977988),
+        v = e.r(313592),
+        y = e.r(3251),
+        b = e.r(818630),
+        _ = e.r(919672),
+        S = e.r(819114),
+        E = e.r(335045),
+        w = e.r(644646),
+        T = e.r(633781),
+        P = r._(e.r(444413)),
+        x = r._(e.r(999889)),
+        k = e.r(551274);
+    e.r(61222);
     let R = {};
 
     function N({
@@ -18139,7 +18421,7 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
-}, 675409, (e, t, n) => {
+}, 306898, (e, t, n) => {
     "use strict";
     Object.defineProperty(n, "__esModule", {
         value: !0
@@ -18149,15 +18431,15 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
             return f
         }
     });
-    let r = e.r(132411),
-        a = e.r(935924),
-        i = e.r(569894),
-        o = e.r(493716),
-        l = e.r(436774),
-        s = e.r(980127),
-        u = e.r(837631),
-        c = e.r(556681),
-        d = e.r(787695);
+    let r = e.r(489897),
+        a = e.r(818630),
+        i = e.r(835396),
+        o = e.r(139747),
+        l = e.r(811411),
+        s = e.r(562715),
+        u = e.r(624750),
+        c = e.r(311382),
+        d = e.r(859024);
 
     function f({
         navigatedAt: e,
@@ -18224,7 +18506,7 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
-}, 889397, (e, t, n) => {
+}, 175418, (e, t, n) => {
     "use strict";
     let r, a, i, o;
     Object.defineProperty(n, "__esModule", {
@@ -18236,23 +18518,23 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
         }
     });
     let l = e.r(481258),
-        s = e.r(500783);
-    e.r(336355);
-    let u = l._(e.r(504816)),
-        c = l._(e.r(3931)),
-        d = e.r(393161),
-        f = e.r(398481),
-        p = e.r(511864),
-        h = e.r(326179),
-        m = e.r(101348),
-        g = e.r(473477),
-        v = e.r(256998),
-        y = l._(e.r(671595)),
-        b = e.r(675409);
-    e.r(49548);
-    let _ = e.r(569894),
-        S = e.r(705027),
-        E = e.r(171383),
+        s = e.r(14666);
+    e.r(714132);
+    let u = l._(e.r(465105)),
+        c = l._(e.r(499531)),
+        d = e.r(539891),
+        f = e.r(885025),
+        p = e.r(26135),
+        h = e.r(307615),
+        m = e.r(544013),
+        g = e.r(814484),
+        v = e.r(819114),
+        y = l._(e.r(454142)),
+        b = e.r(306898);
+    e.r(550909);
+    let _ = e.r(835396),
+        S = e.r(61222),
+        E = e.r(184536),
         w = d.createFromReadableStream,
         T = d.createFromFetch,
         P = document,
@@ -18383,28 +18665,20 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     }("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
-}, 339743, (e, t, n) => {
+}, 532294, (e, t, n) => {
     "use strict";
     Object.defineProperty(n, "__esModule", {
         value: !0
-    }), e.r(314759);
-    let r = e.r(209735);
-    e.r(511864), window.next.turbopack = !0, self.__webpack_hash__ = "";
-    let a = e.r(509141);
+    }), e.r(439390);
+    let r = e.r(685700);
+    e.r(26135), window.next.turbopack = !0, self.__webpack_hash__ = "";
+    let a = e.r(348312);
     (0, r.appBootstrap)(t => {
         let {
             hydrate: n
-        } = e.r(889397);
+        } = e.r(175418);
         n(a, t)
     }), ("function" == typeof n.default || "object" == typeof n.default && null !== n.default) && void 0 === n.default.__esModule && (Object.defineProperty(n.default, "__esModule", {
         value: !0
     }), Object.assign(n.default, n), t.exports = n.default)
 }]);
-! function() {
-    try {
-        var e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof globalThis ? globalThis : "undefined" != typeof self ? self : {},
-            n = (new e.Error).stack;
-        n && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[n] = "7dbfb293-0d5c-5a32-b8ef-e37e9e161691")
-    } catch (e) {}
-}();
-//# debugId=7dbfb293-0d5c-5a32-b8ef-e37e9e161691
