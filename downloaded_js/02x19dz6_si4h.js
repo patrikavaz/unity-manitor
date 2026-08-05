@@ -2176,7 +2176,6 @@
             if (!await $(e) || !e.fetchData) return null;
             let t = await e.fetchData(),
                 n = await
-
             function(e, t, n) {
                 let r = {
                         basePath: n.router.basePath,
@@ -7798,7 +7797,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
             rewriteFramesAssetPrefixPath: a,
             experimentalThirdPartyOriginStackFrames: l
         })), r),
-        release: "ba6ea6bcd9f58551ba0ac8b2b0284d9895c0359c",
+        release: "06effa55fe2ec67da9056b623de6912861c37a4b",
         ...e
     };
     ! function(e) {
