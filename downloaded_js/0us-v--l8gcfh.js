@@ -2176,7 +2176,6 @@
             if (!await $(e) || !e.fetchData) return null;
             let t = await e.fetchData(),
                 n = await
-
             function(e, t, n) {
                 let r = {
                         basePath: n.router.basePath,
@@ -2554,11 +2553,11 @@
                         };
                         !n && l && (n = l || void 0);
                         let u = {
-                            numItems: 2,
+                            numItems: 1,
                             errorRate: 1e-4,
-                            numBits: 39,
+                            numBits: 20,
                             numHashes: 14,
-                            bitArray: [0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1]
+                            bitArray: [1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1]
                         };
                         !i && u && (i = u), n?.numHashes && (this._bfl_s = new o(n.numItems, n.errorRate), this._bfl_s.import(n)), i?.numHashes && (this._bfl_d = new o(i.numItems, i.errorRate), this._bfl_d.import(i))
                     }
@@ -7798,7 +7797,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
             rewriteFramesAssetPrefixPath: a,
             experimentalThirdPartyOriginStackFrames: l
         })), r),
-        release: "29cdcb4460eade12d633da543436304f0cb31f91",
+        release: "826c01e601841e6150eb90b8ef8e1dc22683851a",
         ...e
     };
     ! function(e) {
