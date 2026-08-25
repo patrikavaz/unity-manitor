@@ -16211,6 +16211,7 @@ ${e.stack}` : e + "")
         if (!await B(e) || !e.fetchData) return null;
         let t = await e.fetchData(),
             n = await
+
         function(e, t, n) {
             let r = {
                     basePath: n.router.basePath,
