@@ -4500,7 +4500,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
             rewriteFramesAssetPrefixPath: a,
             experimentalThirdPartyOriginStackFrames: l
         })), r),
-        release: "a9a54c0e5838c08a9e94e2586ec904e49c214f53",
+        release: "250606f9aa44a2e21f2fbfbd4a9809298f90df3b",
         ...e
     };
     ! function(e) {
@@ -16211,7 +16211,6 @@ ${e.stack}` : e + "")
         if (!await B(e) || !e.fetchData) return null;
         let t = await e.fetchData(),
             n = await
-
         function(e, t, n) {
             let r = {
                     basePath: n.router.basePath,
