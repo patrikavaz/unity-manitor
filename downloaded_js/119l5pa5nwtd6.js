@@ -3,7 +3,7 @@
     try {
         var e = "undefined" != typeof globalThis ? globalThis : "undefined" != typeof global ? global : "undefined" != typeof window ? window : "undefined" != typeof self ? self : {},
             n = (new e.Error).stack;
-        n && ((e._debugIds || (e._debugIds = {}))[n] = "c07f928b-a351-67cf-e774-e9d982955157")
+        n && ((e._debugIds || (e._debugIds = {}))[n] = "5dea7972-9ccf-659b-38b2-cda80e30a47f")
     } catch (e) {}
 }();
 (globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push(["object" == typeof document ? document.currentScript : void 0, 427075, e => {
@@ -2318,7 +2318,6 @@ class nj {
     _onSpanEnded() {
         let e = (0, x.getClient)();
         if (e?.emit("spanEnd", this), this._isStandaloneSpan) return e ? this._sampled ? void
-
         function(e, t) {
             let {
                 beforeSendSpan: n,
@@ -5674,7 +5673,7 @@ globalThis._sentryRouteManifest = '{"dynamicRoutes":[{"path":"/:locale","regex":
             rewriteFramesAssetPrefixPath: a,
             experimentalThirdPartyOriginStackFrames: l
         })), r),
-        release: "2232af18ab2280a88f74f26e2375ecc4dac4d8e4",
+        release: "39079823469f305d19d5284eb6bf1c5d788df307",
         ...e
     };
     ! function(e) {
@@ -16621,4 +16620,4 @@ body { margin: 0; color: var(--next-error-text); background: var(--next-error-bg
     }), Object.assign(n.default, n), t.exports = n.default)
 }]);
 
-//# debugId=c07f928b-a351-67cf-e774-e9d982955157
+//# debugId=5dea7972-9ccf-659b-38b2-cda80e30a47f
