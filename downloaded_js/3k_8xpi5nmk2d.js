@@ -2318,6 +2318,7 @@ class nj {
     _onSpanEnded() {
         let e = (0, x.getClient)();
         if (e?.emit("spanEnd", this), this._isStandaloneSpan) return e ? this._sampled ? void
+
         function(e, t) {
             let {
                 beforeSendSpan: n,
