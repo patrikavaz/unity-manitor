@@ -2288,6 +2288,7 @@ class nU {
     _onSpanEnded() {
         let e = (0, P.l)();
         if (e?.emit("spanEnd", this), this._isStandaloneSpan) return e ? this._sampled ? void
+
         function(e, t) {
             let {
                 beforeSendSpan: n,
